@@ -8,6 +8,6 @@ build:
   dockerfile: Dockerfile
   skip: false
 run:
-  persistenceMount: /data
-  containerPort: 5159
+  containerPort: 80
   servicePort: 80
+  persistenceMount: /data
