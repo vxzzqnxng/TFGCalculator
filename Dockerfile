@@ -4,7 +4,7 @@ EXPOSE 5159
 
 ENV ASPNETCORE_URLS=http://+:5159
 
-# USER app
+USER app
 FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG configuration=Release
 WORKDIR /src
@@ -21,5 +21,4 @@ RUN dotnet publish "TFGCalculator.csproj" -c $configuration -o /app/publish /p:U
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-RUN ls -la /app
-ENTRYPOINT ["dotnet", "TFGCalculator.dll"]
+ENTRYPOINT ["dotnet", "bin/Release/net8.0/TFGCalculator.dll"]
