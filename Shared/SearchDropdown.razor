@@ -1,0 +1,20 @@
+﻿@if (_isOpen)
+{
+    <div class="search-dropdown-overlay" @onclick="Close"></div>
+}
+<div class="search-container" @onclick:stopPropagation="true">
+    <label class="search-label">@Label</label>
+    <input class="search-input"
+           type="text"
+           placeholder="@Placeholder"
+           @onfocus="Open"
+           @oninput="OnInput"
+           value="@_searchText" />
+
+    @if (_isOpen)
+    {
+        <div class="dropdown-panel">
+            @ChildContent
+        </div>
+    }
+</div>

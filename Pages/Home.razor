@@ -1,0 +1,29 @@
+﻿@page "/"
+
+<PageTitle>TFG Calculator</PageTitle>
+
+<div class="home-page">
+    <SearchDropdown Label="@Loc.Get("SelectModpack")" Placeholder="@Loc.Get("SearchModpack")"
+                    OnSearch="OnSearch" @ref="_dd">
+        <table class="dropdown-table">
+            <thead><tr><th>@Loc.Get("Name")</th></tr></thead>
+            <tbody>
+                @foreach (var m in _filtered)
+                {
+                    <tr class="clickable-row" @onclick="() => Select(m)"><td>@m.Name</td></tr>
+                }
+                @if (!_filtered.Any())
+                {
+                    <tr><td style="color:var(--muted)">@Loc.Get("NothingFound")</td></tr>
+                }
+            </tbody>
+        </table>
+    </SearchDropdown>
+</div>
+
+<div class="bottom-bar">
+    <a href="https://terrafirmagreg.team" target="_blank" class="btn-main">@Loc.Get("SiteTFG")</a>
+    <a href="https://github.com/TerraFirmaGreg-Team/Modpack-Modern/releases" target="_blank" class="btn-main">@Loc.Get("GitHubTFG")</a>
+    <a href="https://github.com/example/tfg-calculator" target="_blank" class="btn-main">@Loc.Get("GitHubProject")</a>
+    <a href="https://discordapp.com/users/505270818779955202" target="_blank" class="btn-main">@Loc.Get("ReportBug")</a>
+</div>

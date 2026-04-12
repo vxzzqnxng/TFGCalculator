@@ -1,0 +1,114 @@
+﻿@page "/result"
+
+<PageTitle>TFG Calculator</PageTitle>
+
+@if (_result == null)
+{
+    <p>@Loc.Get("NoData") <a href="/" class="back-link">@Loc.Get("ReturnHome")</a></p>
+}
+else
+{
+    <a href="@($"/modpack/{_modpackId}")" class="back-link">@Loc.Get("BackToItems")</a>
+    <div class="calc-result-page">
+        <RecipeTree Nodes="@_result.RootNodes" ModpackId="@_modpackId" OnTreeChanged="HandleChanged" />
+
+        <div class="side-panel">
+            @* Energy *@
+            <div class="side-section">
+                <div class="side-section-header" @onclick="() => _energyOpen = !_energyOpen">
+                    <span>@Loc.Get("TotalEnergy")</span>
+                    <span class="side-section-toggle">@(_energyOpen ? "▲" : "▼")</span>
+                </div>
+                <div class="side-section-body @(_energyOpen ? "open" : "")">
+                    <table class="side-table">
+                        <thead><tr><th>@Loc.Get("Type")</th><th>@Loc.Get("EnergyPerTick")</th><th>@Loc.Get("Amps")</th></tr></thead>
+                        <tbody>
+                            @foreach (var es in _result.EnergySummaries)
+                            {
+                                <tr>
+                                    <td>@es.Type</td>
+                                    <td>@($"{es.TotalPerTick:F2}")</td>
+                                    <td>
+                                        @if (es.Type == EnergyType.EUt)
+                                        {
+                                            <span>@($"{CalcAmps(es.TotalPerTick):F2}")A</span>
+                                            <select class="amp-select interactive" value="@_ampTierLevel"
+                                                    @onchange="e => { if (int.TryParse(e.Value?.ToString(), out var v)) _ampTierLevel = v; }">
+                                                @foreach (var t in VoltageTier.AllTiers.Where(t => t.Level >= 2))
+                                                {
+                                                    <option value="@t.Level">@t.Name</option>
+                                                }
+                                            </select>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            @* Machines *@
+            <div class="side-section">
+                <div class="side-section-header" @onclick="() => _machOpen = !_machOpen">
+                    <span>@Loc.Get("Machines")</span>
+                    <span class="side-section-toggle">@(_machOpen ? "▲" : "▼")</span>
+                </div>
+                <div class="side-section-body @(_machOpen ? "open" : "")">
+                    <table class="side-table">
+                        <thead><tr><th style="width:32px"></th><th>@Loc.Get("Machine")</th><th>@Loc.Get("Level")</th><th>@Loc.Get("Quantity")</th></tr></thead>
+                        <tbody>
+                            @foreach (var m in _result.Machines)
+                            {
+                                <tr>
+                                    <td><img class="machine-icon" src="@m.MachineIconUrl" onerror="this.style.background='#ccc'" /></td>
+                                    <td>@m.MachineName</td>
+                                    <td>
+                                        @if (!string.IsNullOrEmpty(m.TierName))
+                                        {
+                                            <img class="tier-icon" src="@m.TierIconPath" alt="@m.TierName"
+                                                 onerror="this.style.display='none'" />
+                                            <span class="@m.TierCssClass">@m.TierName</span>
+                                        }
+                                    </td>
+                                <td>@Math.Ceiling(m.TotalCount)</td>
+                            </tr>
+                        }
+                        @if (!_result.Machines.Any())
+                        {
+                            <tr><td colspan="4" style="color:var(--muted)">@Loc.Get("NoMachines")</td></tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        @* Raw Resources *@
+        <div class="side-section">
+            <div class="side-section-header" @onclick="() => _rawOpen = !_rawOpen">
+                <span>@Loc.Get("RawResources")</span>
+                <span class="side-section-toggle">@(_rawOpen ? "▲" : "▼")</span>
+            </div>
+            <div class="side-section-body @(_rawOpen ? "open" : "")">
+                <table class="side-table">
+                    <thead><tr><th style="width:32px"></th><th>@Loc.Get("Resource")</th><th>@Loc.Get("PerSec")</th></tr></thead>
+                    <tbody>
+                        @foreach (var r in _result.RawResources)
+                        {
+                            <tr>
+                                <td><img class="item-icon" src="@r.ItemIconUrl" onerror="this.style.background='#ccc'" /></td>
+                                <td>@r.ItemName</td>
+                                <td>@($"{r.TotalPerSecond:F2}")</td>
+                            </tr>
+                        }
+                        @if (!_result.RawResources.Any())
+                        {
+                            <tr><td colspan="3" style="color:var(--muted)">@Loc.Get("NoResources")</td></tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+}

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TFG Calculator</title>
+    <base href="/" />
+    <link href="css/app.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="app"><div style="display:flex;align-items:center;justify-content:center;height:100vh"><p>Loading...</p></div></div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>
+        (function () {
+            "use strict";
+
+            const GRID = 20;
+            let IW = 32000, IH = 32000;
+            let scale = 1, panning = false, psx = 0, psy = 0, ssx = 0, ssy = 0;
+            let nodePos = {}, arrows = [], sideOv = {};
+            let drag = { on: false, id: null, ox: 0, oy: 0 };
+            let arrDrag = { on: false, key: null, end: null, nid: null };
+            let blazorRef = null;
+            let panZoomInitialized = false;
+
+            function m2i(e) {
+                const c = document.getElementById('tree-pan-container'); if (!c) return { x: 0, y: 0 };
+                const r = c.getBoundingClientRect();
+                return { x: (e.clientX - r.left + c.scrollLeft) / scale, y: (e.clientY - r.top + c.scrollTop) / scale };
+            }
+
+            // Delayed init to ensure DOM is ready
+            window.initTreePanZoomDelayed = function (cid) {
+                setTimeout(function () { initTreePanZoomReal(cid); }, 50);
+            };
+
+            // Also keep direct init for backward compat
+            window.initTreePanZoom = function (cid) {
+                initTreePanZoomReal(cid);
+            };
+
+            function initTreePanZoomReal(cid) {
+                const c = document.getElementById(cid); if (!c) return;
+                const inner = c.querySelector('.tree-inner'); if (!inner) return;
+
+                // Remove old listeners by cloning (clean slate)
+                // Not needed if we guard with panZoomInitialized
+                if (panZoomInitialized) return;
+                panZoomInitialized = true;
+
+                inner.style.width = IW + 'px';
+                inner.style.height = IH + 'px';
+
+                // Middle mouse button panning
+                c.addEventListener('mousedown', function (e) {
+                    if (e.button !== 1) return;
+                    e.preventDefault();
+                    panning = true; c.style.cursor = 'grabbing';
+                    psx = e.clientX; psy = e.clientY; ssx = c.scrollLeft; ssy = c.scrollTop;
+                });
+
+                c.addEventListener('mouseup', function (e) {
+                    if (e.button === 1) { panning = false; c.style.cursor = 'default'; }
+                });
+
+                c.addEventListener('mouseleave', function () {
+                    panning = false; c.style.cursor = 'default';
+                });
+
+                c.addEventListener('mousemove', function (e) {
+                    if (!panning) return;
+                    e.preventDefault();
+                    c.scrollLeft = ssx - (e.clientX - psx);
+                    c.scrollTop = ssy - (e.clientY - psy);
+                });
+
+                // Prevent middle click default (auto-scroll icon)
+                c.addEventListener('auxclick', function (e) {
+                    if (e.button === 1) e.preventDefault();
+                });
+
+                // Zoom only with Ctrl + wheel; allow dropdown scroll without Ctrl
+                c.addEventListener('wheel', function (e) {
+                    var dd = e.target.closest('.recipe-selector-dropdown') ||
+                        e.target.closest('.custom-tier-options') ||
+                        e.target.closest('.dropdown-panel') ||
+                        e.target.closest('.recipe-selector-scroll');
+                    if (dd) return; // let dropdown scroll normally
+
+                    if (!e.ctrlKey) {
+                        // Normal scroll without ctrl - just scroll the panel
+                        return;
+                    }
+
+                    e.preventDefault();
+                    var old = scale;
+                    scale = Math.min(3, Math.max(0.15, scale + (e.deltaY > 0 ? -0.08 : 0.08)));
+                    var cx = c.scrollLeft + c.clientWidth / 2;
+                    var cy = c.scrollTop + c.clientHeight / 2;
+                    inner.style.transform = 'scale(' + scale + ')';
+                    inner.style.transformOrigin = '0 0';
+                    c.scrollLeft = cx * (scale / old) - c.clientWidth / 2;
+                    c.scrollTop = cy * (scale / old) - c.clientHeight / 2;
+                    redraw();
+                }, { passive: false });
+
+                setTimeout(function () {
+                    c.scrollLeft = 0;
+                    c.scrollTop = 0;
+                }, 100);
+            }
+
+            function showGrid() {
+                var inner = document.getElementById('tree-inner'); if (!inner) return;
+                var g = inner.querySelector('.snap-grid-overlay');
+                if (!g) {
+                    g = document.createElement('div'); g.className = 'snap-grid-overlay';
+                    g.style.cssText = 'position:absolute;top:0;left:0;pointer-events:none;z-index:0;';
+                    inner.insertBefore(g, inner.firstChild);
+                }
+                g.style.width = IW + 'px'; g.style.height = IH + 'px'; g.style.display = 'block';
+                g.style.backgroundImage = 'radial-gradient(circle,rgba(255,255,255,0.5) 1.5px,transparent 1.5px)';
+                g.style.backgroundSize = GRID + 'px ' + GRID + 'px';
+            }
+
+            function hideGrid() {
+                var inner = document.getElementById('tree-inner'); if (!inner) return;
+                var g = inner.querySelector('.snap-grid-overlay'); if (g) g.style.display = 'none';
+            }
+
+            window.initNodeDrag = function (nid) {
+                var el = document.getElementById('node-' + nid); if (!el) return;
+                if (nodePos[nid]) { el.style.left = nodePos[nid].x + 'px'; el.style.top = nodePos[nid].y + 'px'; }
+
+                el.onmousedown = function (e) {
+                    if (e.target.closest('.interactive') || e.target.closest('select') ||
+                        e.target.closest('input') || e.target.closest('button') ||
+                        e.target.closest('.recipe-selector-dropdown') ||
+                        e.target.closest('.recipe-selector-scroll') ||
+                        e.target.closest('.custom-tier-options') ||
+                        e.button !== 0) return;
+                    e.stopPropagation(); e.preventDefault();
+                    var pos = m2i(e);
+                    var nx = parseFloat(el.style.left) || 0, ny = parseFloat(el.style.top) || 0;
+                    drag = { on: true, id: nid, ox: pos.x - nx, oy: pos.y - ny };
+                    el.style.zIndex = '50'; showGrid();
+                };
+            };
+
+            window.setInitialNodePosition = function (nid, x, y) {
+                var el = document.getElementById('node-' + nid); if (!el) return;
+                x = Math.round(x / GRID) * GRID; y = Math.round(y / GRID) * GRID;
+                if (nodePos[nid]) {
+                    el.style.left = nodePos[nid].x + 'px'; el.style.top = nodePos[nid].y + 'px';
+                } else {
+                    el.style.left = x + 'px'; el.style.top = y + 'px'; nodePos[nid] = { x: x, y: y };
+                }
+            };
+
+            document.addEventListener('mousemove', function (e) {
+                if (drag.on) {
+                    var el = document.getElementById('node-' + drag.id); if (!el) return;
+                    var pos = m2i(e);
+                    var x = Math.round((pos.x - drag.ox) / GRID) * GRID;
+                    var y = Math.round((pos.y - drag.oy) / GRID) * GRID;
+                    x = Math.max(0, Math.min(IW - 100, x));
+                    y = Math.max(0, Math.min(IH - 100, y));
+                    el.style.left = x + 'px'; el.style.top = y + 'px';
+                    nodePos[drag.id] = { x: x, y: y }; redraw();
+                }
+                if (arrDrag.on) redraw();
+            });
+
+            // Close all dropdowns on click outside
+            document.addEventListener('mousedown', function (e) {
+                if (!e.target.closest('.recipe-selector') &&
+                    !e.target.closest('.recipe-selector-dropdown') &&
+                    !e.target.closest('.custom-tier-dropdown') &&
+                    !e.target.closest('.custom-tier-options')) {
+                    if (blazorRef) blazorRef.invokeMethodAsync('CloseDropdowns');
+                }
+            });
+
+            document.addEventListener('mouseup', function () {
+                if (drag.on) {
+                    var el = document.getElementById('node-' + drag.id); if (el) el.style.zIndex = '';
+                    drag.on = false; hideGrid(); redraw();
+                    if (blazorRef) blazorRef.invokeMethodAsync('SaveNodePositions', JSON.stringify(nodePos));
+                }
+                if (arrDrag.on) { arrDrag.on = false; redraw(); }
+            });
+
+            window.setBlazorTreeRef = function (r) { blazorRef = r; panZoomInitialized = false; };
+            window.loadNodePositions = function (j) { if (j) try { nodePos = JSON.parse(j); } catch (e) { } };
+            window.loadArrowOverrides = function (j) { if (j) try { sideOv = JSON.parse(j); } catch (e) { } };
+            window.setArrowConnections = function (c) { arrows = c || []; redraw(); };
+
+            function nr(nid) {
+                var el = document.getElementById('node-' + nid); if (!el) return null;
+                return { x: parseFloat(el.style.left) || 0, y: parseFloat(el.style.top) || 0, w: el.offsetWidth, h: el.offsetHeight };
+            }
+
+            function getSide(conn, end) {
+                var k = conn.fromNode + '-' + conn.toNode, ov = sideOv[k];
+                return end === 'from' ? (ov && ov.fromSide || conn.fromSide || 'top') : (ov && ov.toSide || conn.toSide || 'bottom');
+            }
+
+            function countOnSide(nid, side, end) {
+                var c = 0;
+                arrows.forEach(function (a) {
+                    if (end === 'from' && a.fromNode === nid && getSide(a, 'from') === side) c++;
+                    if (end === 'to' && a.toNode === nid && getSide(a, 'to') === side) c++;
+                }); return c;
+            }
+
+            function indexOnSide(conn, end) {
+                var nid = end === 'from' ? conn.fromNode : conn.toNode;
+                var side = getSide(conn, end);
+                var idx = 0;
+                for (var i = 0; i < arrows.length; i++) {
+                    if (arrows[i] === conn) break;
+                    if (end === 'from' && arrows[i].fromNode === nid && getSide(arrows[i], 'from') === side) idx++;
+                    if (end === 'to' && arrows[i].toNode === nid && getSide(arrows[i], 'to') === side) idx++;
+                } return idx;
+            }
+
+            function edgePt(nid, side, idx, total) {
+                var r = nr(nid); if (!r) return null;
+                var isH = side === 'top' || side === 'bottom';
+                var sp = (isH ? r.w : r.h) / (total + 1), off = sp * (idx + 1);
+                switch (side) {
+                    case 'top': return { x: r.x + off, y: r.y };
+                    case 'bottom': return { x: r.x + off, y: r.y + r.h };
+                    case 'left': return { x: r.x, y: r.y + off };
+                    case 'right': return { x: r.x + r.w, y: r.y + off };
+                } return null;
+            }
+
+            function edgeCtr(nid, side) {
+                var r = nr(nid); if (!r) return null;
+                switch (side) {
+                    case 'top': return { x: r.x + r.w / 2, y: r.y };
+                    case 'bottom': return { x: r.x + r.w / 2, y: r.y + r.h };
+                    case 'left': return { x: r.x, y: r.y + r.h / 2 };
+                    case 'right': return { x: r.x + r.w, y: r.y + r.h / 2 };
+                } return null;
+            }
+
+            function sDir(s) {
+                switch (s) {
+                    case 'top': return { dx: 0, dy: -1 }; case 'bottom': return { dx: 0, dy: 1 };
+                    case 'left': return { dx: -1, dy: 0 }; case 'right': return { dx: 1, dy: 0 };
+                } return { dx: 0, dy: -1 };
+            }
+
+            function buildPath(f, t, fs, ts, fromNid, toNid) {
+                var R = 12, ext = 40;
+                var fd = sDir(fs), td = sDir(ts);
+                var f2 = { x: f.x + fd.dx * ext, y: f.y + fd.dy * ext };
+                var t2 = { x: t.x + td.dx * ext, y: t.y + td.dy * ext };
+                var isV = function (s) { return s === 'top' || s === 'bottom'; };
+                var pts = [f, f2];
+                var fr = nr(fromNid), tr = nr(toNid);
+                if (fs === ts && fr && tr) {
+                    var allLeft = Math.min(fr.x, tr.x) - 80;
+                    var allRight = Math.max(fr.x + fr.w, tr.x + tr.w) + 80;
+                    var allTop = Math.min(fr.y, tr.y) - 80;
+                    var allBot = Math.max(fr.y + fr.h, tr.y + tr.h) + 80;
+                    if (isV(fs)) {
+                        var goY = fs === 'top' ? allTop : allBot;
+                        pts.push({ x: f2.x, y: goY }, { x: t2.x, y: goY });
+                    } else {
+                        var goX = fs === 'left' ? allLeft : allRight;
+                        pts.push({ x: goX, y: f2.y }, { x: goX, y: t2.y });
+                    }
+                } else if (isV(fs) && isV(ts)) {
+                    var my = (f2.y + t2.y) / 2;
+                    pts.push({ x: f2.x, y: my }, { x: t2.x, y: my });
+                } else if (!isV(fs) && !isV(ts)) {
+                    var mx = (f2.x + t2.x) / 2;
+                    pts.push({ x: mx, y: f2.y }, { x: mx, y: t2.y });
+                } else {
+                    pts.push({ x: f2.x, y: t2.y });
+                }
+                pts.push(t2, t);
+                var d = 'M' + pts[0].x + ' ' + pts[0].y;
+                for (var i = 1; i < pts.length - 1; i++) {
+                    var prev = pts[i - 1], cur = pts[i], next = pts[i + 1];
+                    var d1x = cur.x - prev.x, d1y = cur.y - prev.y;
+                    var d2x = next.x - cur.x, d2y = next.y - cur.y;
+                    var l1 = Math.sqrt(d1x * d1x + d1y * d1y), l2 = Math.sqrt(d2x * d2x + d2y * d2y);
+                    var mr = Math.min(R, l1 / 2, l2 / 2);
+                    if (mr < 1) { d += 'L' + cur.x + ' ' + cur.y; continue; }
+                    d += 'L' + (cur.x - d1x / l1 * mr) + ' ' + (cur.y - d1y / l1 * mr);
+                    d += 'Q' + cur.x + ' ' + cur.y + ' ' + (cur.x + d2x / l2 * mr) + ' ' + (cur.y + d2y / l2 * mr);
+                }
+                d += 'L' + pts[pts.length - 1].x + ' ' + pts[pts.length - 1].y;
+                return { d: d, pts: pts };
+            }
+
+            function pathMidpoint(pts) {
+                var totalLen = 0;
+                for (var i = 1; i < pts.length; i++) {
+                    var dx = pts[i].x - pts[i - 1].x, dy = pts[i].y - pts[i - 1].y;
+                    totalLen += Math.sqrt(dx * dx + dy * dy);
+                }
+                var half = totalLen / 2, acc = 0;
+                for (var i = 1; i < pts.length; i++) {
+                    var dx = pts[i].x - pts[i - 1].x, dy = pts[i].y - pts[i - 1].y;
+                    var seg = Math.sqrt(dx * dx + dy * dy);
+                    if (acc + seg >= half) {
+                        var t = (half - acc) / seg;
+                        return { x: pts[i - 1].x + dx * t, y: pts[i - 1].y + dy * t };
+                    }
+                    acc += seg;
+                }
+                return { x: (pts[0].x + pts[pts.length - 1].x) / 2, y: (pts[0].y + pts[pts.length - 1].y) / 2 };
+            }
+
+            function redraw() {
+                var svg = document.getElementById('tree-arrows-svg'); if (!svg) return;
+                svg.innerHTML = '';
+                var defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+                var mk = document.createElementNS('http://www.w3.org/2000/svg', 'marker');
+                mk.setAttribute('id', 'ah'); mk.setAttribute('markerWidth', '10'); mk.setAttribute('markerHeight', '7');
+                mk.setAttribute('refX', '9'); mk.setAttribute('refY', '3.5'); mk.setAttribute('orient', 'auto');
+                var pg = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+                pg.setAttribute('points', '0 0,10 3.5,0 7'); pg.setAttribute('fill', 'white');
+                pg.setAttribute('stroke', 'black'); pg.setAttribute('stroke-width', '0.5');
+                mk.appendChild(pg); defs.appendChild(mk); svg.appendChild(defs);
+
+                arrows.forEach(function (conn) {
+                    var fS = getSide(conn, 'from'), tS = getSide(conn, 'to');
+                    var fT = countOnSide(conn.fromNode, fS, 'from'), fI = indexOnSide(conn, 'from');
+                    var tT = countOnSide(conn.toNode, tS, 'to'), tI = indexOnSide(conn, 'to');
+                    var fp = edgePt(conn.fromNode, fS, fI, fT);
+                    var tp = edgePt(conn.toNode, tS, tI, tT);
+                    if (!fp || !tp) return;
+
+                    var result = buildPath(fp, tp, fS, tS, conn.fromNode, conn.toNode);
+                    var pathD = result.d, pts = result.pts;
+
+                    var po = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                    po.setAttribute('d', pathD); po.setAttribute('fill', 'none'); po.setAttribute('stroke', 'black');
+                    po.setAttribute('stroke-width', '4'); po.setAttribute('stroke-linejoin', 'round'); po.setAttribute('stroke-linecap', 'round');
+                    svg.appendChild(po);
+
+                    var pi = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                    pi.setAttribute('d', pathD); pi.setAttribute('fill', 'none'); pi.setAttribute('stroke', 'white');
+                    pi.setAttribute('stroke-width', '2'); pi.setAttribute('stroke-linejoin', 'round'); pi.setAttribute('stroke-linecap', 'round');
+                    pi.setAttribute('marker-end', 'url(#ah)'); svg.appendChild(pi);
+
+                    if (conn.items && conn.items.length > 0) {
+                        var mid = pathMidpoint(pts);
+                        var bh = conn.items.length * 24;
+                        var bg = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+                        bg.setAttribute('x', mid.x - 14); bg.setAttribute('y', mid.y - bh / 2);
+                        bg.setAttribute('width', 28); bg.setAttribute('height', bh);
+                        bg.setAttribute('fill', 'rgba(255,255,255,0.92)'); bg.setAttribute('stroke', '#999');
+                        bg.setAttribute('stroke-width', '0.5'); bg.setAttribute('rx', '3'); svg.appendChild(bg);
+                        conn.items.forEach(function (item, idx) {
+                            var img = document.createElementNS('http://www.w3.org/2000/svg', 'image');
+                            img.setAttribute('href', item.iconUrl || ''); img.setAttribute('x', mid.x - 10);
+                            img.setAttribute('y', mid.y - bh / 2 + idx * 24 + 2);
+                            img.setAttribute('width', 20); img.setAttribute('height', 20);
+                            svg.appendChild(img);
+                        });
+                    }
+                    addHandle(svg, fp, conn, 'from');
+                    addHandle(svg, tp, conn, 'to');
+                });
+                if (arrDrag.on) showSnap(svg, arrDrag.nid);
+            }
+            window.redrawArrows = redraw;
+
+            function addHandle(svg, pt, conn, end) {
+                var c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+                c.setAttribute('cx', pt.x); c.setAttribute('cy', pt.y); c.setAttribute('r', '8');
+                c.setAttribute('fill', 'transparent'); c.setAttribute('stroke', 'transparent');
+                c.setAttribute('stroke-width', '2'); c.style.cursor = 'pointer'; c.style.pointerEvents = 'all';
+                var nid = end === 'from' ? conn.fromNode : conn.toNode;
+                var key = conn.fromNode + '-' + conn.toNode;
+                c.addEventListener('mouseenter', function () { c.setAttribute('fill', 'rgba(200,150,255,0.5)'); c.setAttribute('stroke', '#333'); });
+                c.addEventListener('mouseleave', function () { if (!arrDrag.on) { c.setAttribute('fill', 'transparent'); c.setAttribute('stroke', 'transparent'); } });
+                c.addEventListener('mousedown', function (e) {
+                    e.stopPropagation(); e.preventDefault();
+                    arrDrag = { on: true, key: key, end: end, nid: nid }; redraw();
+                });
+                svg.appendChild(c);
+            }
+
+            function showSnap(svg, nid) {
+                ['top', 'bottom', 'left', 'right'].forEach(function (side) {
+                    var pt = edgeCtr(nid, side); if (!pt) return;
+                    var c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+                    c.setAttribute('cx', pt.x); c.setAttribute('cy', pt.y); c.setAttribute('r', '7');
+                    c.setAttribute('fill', 'rgba(200,150,255,0.6)'); c.setAttribute('stroke', '#333');
+                    c.setAttribute('stroke-width', '1.5'); c.style.cursor = 'pointer'; c.style.pointerEvents = 'all';
+                    c.addEventListener('mouseup', function () {
+                        if (!arrDrag.on) return;
+                        if (!sideOv[arrDrag.key]) sideOv[arrDrag.key] = {};
+                        if (arrDrag.end === 'from') sideOv[arrDrag.key].fromSide = side;
+                        else sideOv[arrDrag.key].toSide = side;
+                        arrDrag.on = false; redraw();
+                        if (blazorRef) blazorRef.invokeMethodAsync('SaveArrowOverrides', JSON.stringify(sideOv));
+                    });
+                    svg.appendChild(c);
+                });
+            }
+
+            window.lsSave = function (k, v) { try { localStorage.setItem(k, v); } catch (e) { } };
+            window.lsLoad = function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } };
+            window.lsRemove = function (k) { try { localStorage.removeItem(k); } catch (e) { } };
+        })();
+    </script>
+</body>
+</html>

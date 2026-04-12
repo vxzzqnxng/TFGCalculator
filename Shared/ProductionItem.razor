@@ -1,0 +1,17 @@
+﻿@inject LocalizationService Loc
+
+<div class="production-item">
+    <img class="item-icon" src="@Request.Item.GetIconUrl()" alt="@Request.Item.GetName(Loc.CurrentLanguage)"
+         onerror="this.style.background='#ccc'" />
+
+    <div class="production-item-info">
+        <span class="production-item-name">@Request.Item.GetName(Loc.CurrentLanguage)</span>
+        <div class="production-item-rate">
+            <span>@Loc.Get("AmountPerSec")</span>
+            <input class="rate-input interactive" type="number" step="0.01" min="0.01"
+                   value="@Request.AmountPerSecond" @onchange="OnRateChanged" />
+        </div>
+    </div>
+
+    <button class="btn-danger" @onclick="OnRemoveClicked">&#x2715;</button>
+</div>

@@ -1,0 +1,36 @@
+﻿@inherits LayoutComponentBase
+
+<div class="layout @Theme.BodyClass">
+    <header class="top-bar">
+        <div class="top-bar-left">
+            <a href="/" class="site-title-link">
+                <span class="site-title">TFG Calculator</span>
+                <img src="images/logo.gif" alt="Logo" class="site-logo" />
+            </a>
+        </div>
+        <div class="top-bar-right">
+            <button class="btn-icon interactive" @onclick="ToggleTheme">@(Theme.IsDark ? "☀" : "🌙")</button>
+            <button class="btn-lang interactive" @onclick="ToggleLang">@(Loc.CurrentLanguage == "ru" ? "EN" : "RU")</button>
+            <a href="https://www.donationalerts.com/r/vxzzqnxng" target="_blank" class="btn-main">@Loc.Get("SupportCreator")</a>
+        </div>
+    </header>
+    <main class="main-content">@Body</main>
+</div>
+
+@code {
+    [Inject] private LocalizationService Loc { get; set; } = default!;
+    [Inject] private ThemeService Theme { get; set; } = default!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Loc.OnLanguageChanged += StateHasChanged;
+        Theme.OnThemeChanged += StateHasChanged;
+        await Loc.InitAsync();
+        await Theme.InitAsync();
+    }
+
+    private async Task ToggleLang() => await Loc.ToggleLanguageAsync();
+    private async Task ToggleTheme() => await Theme.ToggleAsync();
+
+    public void Dispose() { Loc.OnLanguageChanged -= StateHasChanged; Theme.OnThemeChanged -= StateHasChanged; }
+}

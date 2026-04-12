@@ -1,0 +1,115 @@
+﻿@page "/modpack/{ModpackId}"
+
+<PageTitle>TFG Calculator</PageTitle>
+
+<div class="modpack-page">
+    <a href="/" class="back-link">@Loc.Get("BackToModpacks")</a>
+
+    <div class="tree-configs">
+        @for (int ti = 0; ti < _trees.Count; ti++)
+        {
+            var idx = ti; var tree = _trees[idx];
+            <div class="tree-config-block">
+                <div class="tree-config-header">
+                    @if (_editIdx == idx)
+                    {
+                        <input class="tree-config-name-input interactive" value="@tree.Name"
+                               style="color:#fff !important; -webkit-text-fill-color:#fff;"
+                               @onchange="e => FinishRename(idx, e)" @onblur="() => _editIdx = -1" />
+                    }
+                    else
+                    {
+                        <span class="tree-config-name">@tree.Name</span>
+                        <button class="btn-small interactive" @onclick="() => _editIdx = idx">@Loc.Get("Rename")</button>
+                    }
+                    <div class="tree-config-header-right">
+                        @if (_trees.Count > 1)
+                        {
+                            <button class="btn-danger-small interactive" @onclick="() => RemoveTree(idx)">&#x2715;</button>
+                        }
+                    </div>
+                </div>
+
+                <div class="tree-config-items">
+                    @for (int ii = 0; ii < tree.Requests.Count; ii++)
+                    {
+                        var iIdx = ii; var req = tree.Requests[iIdx];
+                        <div class="tree-config-item">
+                            <img class="item-icon" src="@req.Item.GetIconUrl()" onerror="this.style.background='#ccc'" />
+                            <span class="tree-config-item-name">@req.Item.GetName(Loc.CurrentLanguage)</span>
+
+                            <select class="interactive" value="@((int)req.RateType)"
+                                    @onchange="e => ChangeRateType(idx, iIdx, e)">
+                                <option value="0">@Loc.Get("RatePerSecond")</option>
+                                <option value="1">@Loc.Get("RateMachines")</option>
+                                <option value="2">@Loc.Get("RateViewOnly")</option>
+                            </select>
+
+                            @if (req.RateType == RateType.PerSecond)
+                            {
+                                <span class="rate-label">@Loc.Get("AmountPerSec")</span>
+                                <input class="rate-input interactive" type="number" step="0.01" min="0.01"
+                                       value="@req.AmountPerSecond" @onchange="e => UpdateRate(idx, iIdx, e)" />
+                            }
+                            else if (req.RateType == RateType.MachineCount)
+                            {
+                                <span class="rate-label">@Loc.Get("RateMachines")</span>
+                                <input class="rate-input interactive" type="number" step="1" min="1"
+                                       value="@req.MachineCountValue" @onchange="e => UpdateMachines(idx, iIdx, e)" />
+                            }
+                            else if (req.RateType == RateType.ViewOnly)
+                            {
+                                <span class="rate-label">@Loc.Get("RateViewOnly")</span>
+                            }
+
+                            <button class="btn-danger-small interactive" @onclick="() => RemoveItem(idx, iIdx)">&#x2715;</button>
+                        </div>
+                    }
+                </div>
+
+                @if (_addIdx == idx)
+                {
+                    <div style="margin-top:12px">
+                        <SearchDropdown Label="" Placeholder="@Loc.Get("SearchItem")" OnSearch="q => SearchItem(q)" @ref="_dd">
+                            <table class="dropdown-table">
+                                <thead><tr><th style="width:36px"></th><th>@Loc.Get("Name")</th><th>@Loc.Get("Type")</th><th>@Loc.Get("Tag")</th></tr></thead>
+                                <tbody>
+                                    @foreach (var item in _filtered)
+                                    {
+                                        <tr class="clickable-row" @onclick="() => AddItem(idx, item)">
+                                            <td><img class="item-icon" src="@item.GetIconUrl()" onerror="this.style.background='#ccc'" /></td>
+                                            <td>@item.GetName(Loc.CurrentLanguage)</td>
+                                            <td>@item.Type</td>
+                                            <td>@item.Tag</td>
+                                        </tr>
+                                    }
+                                    @if (!_filtered.Any())
+                                    {
+                                        <tr><td colspan="4" style="color:var(--muted)">@Loc.Get("NothingFound")</td></tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </SearchDropdown>
+                    </div>
+                }
+                else
+                {
+                    <div style="margin-top:12px"><button class="btn-small interactive" @onclick="() => StartAdd(idx)">+ @Loc.Get("AddItem")</button></div>
+                }
+
+                <div class="tree-config-footer">
+                    <button class="btn-main interactive" @onclick="() => GoToTree(idx)">@Loc.Get("GoToTree")</button>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="add-tree-btn-wrap"><button class="btn-main interactive" @onclick="AddTree">+ @Loc.Get("AddTree")</button></div>
+</div>
+
+<div class="bottom-bar">
+    <a href="https://terrafirmagreg.team" target="_blank" class="btn-main">@Loc.Get("SiteTFG")</a>
+    <a href="https://github.com/TerraFirmaGreg-Team/Modpack-Modern/releases" target="_blank" class="btn-main">@Loc.Get("GitHubTFG")</a>
+    <a href="https://github.com/example/tfg-calculator" target="_blank" class="btn-main">@Loc.Get("GitHubProject")</a>
+    <a href="https://discordapp.com/users/505270818779955202" target="_blank" class="btn-main">@Loc.Get("ReportBug")</a>
+</div>
