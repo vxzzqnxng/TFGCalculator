@@ -4,6917 +4,6917 @@ using TFGCalculator.Models;
 
 public class ItemService
 {
-    /// Все предметы, сгруппированные по модпаку.
-    /// Добавляйте новые предметы в соответствующий список.
+    /// Р’СЃРµ РїСЂРµРґРјРµС‚С‹, СЃРіСЂСѓРїРїРёСЂРѕРІР°РЅРЅС‹Рµ РїРѕ РјРѕРґРїР°РєСѓ.
+    /// Р”РѕР±Р°РІР»СЏР№С‚Рµ РЅРѕРІС‹Рµ РїСЂРµРґРјРµС‚С‹ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёР№ СЃРїРёСЃРѕРє.
     private readonly Dictionary<string, List<GameItem>> _items = new()
     {
-        ["tfg-0.12.0"] = new List<GameItem>
+        ["tfg-0.12.3"] = new List<GameItem>
         {
             new GameItem
             {
                 Id = "planks",
-                NameRu = "Любые доски",
+                NameRu = "Р›СЋР±С‹Рµ РґРѕСЃРєРё",
                 NameEn = "Any planks",
-                Type = "Дерево",
+                Type = "Р”РµСЂРµРІРѕ",
                 Tag = "#minecraft:planks",
                 IconPath = "images/items/planks.png"
             },
             new GameItem
             {
                 Id = "wooden_slabs",
-                NameRu = "Любые деревянные полублоки",
+                NameRu = "Р›СЋР±С‹Рµ РґРµСЂРµРІСЏРЅРЅС‹Рµ РїРѕР»СѓР±Р»РѕРєРё",
                 NameEn = "Any wooden slabs",
-                Type = "Дерево",
+                Type = "Р”РµСЂРµРІРѕ",
                 Tag = "#minecraft:wooden_slabs",
                 IconPath = "images/items/wooden_slabs.png"
             },
             new GameItem
             {
                 Id = "wooden_stairs",
-                NameRu = "Любые деревянные ступеньки",
+                NameRu = "Р›СЋР±С‹Рµ РґРµСЂРµРІСЏРЅРЅС‹Рµ СЃС‚СѓРїРµРЅСЊРєРё",
                 NameEn = "Any wooden stairs",
-                Type = "Дерево",
+                Type = "Р”РµСЂРµРІРѕ",
                 Tag = "#minecraft:wooden_stairs",
                 IconPath = "images/items/wooden_stairs.png"
             },
             new GameItem
             {
                 Id = "wooden_fences",
-                NameRu = "Любые деревянные заборы",
+                NameRu = "Р›СЋР±С‹Рµ РґРµСЂРµРІСЏРЅРЅС‹Рµ Р·Р°Р±РѕСЂС‹",
                 NameEn = "Any wooden fences",
-                Type = "Дерево",
+                Type = "Р”РµСЂРµРІРѕ",
                 Tag = "#minecraft:wooden_fences",
                 IconPath = "images/items/wooden_fences.png"
             },
             new GameItem
             {
                 Id = "wooden_fence_gates",
-                NameRu = "Любые деревянные калитки",
+                NameRu = "Р›СЋР±С‹Рµ РґРµСЂРµРІСЏРЅРЅС‹Рµ РєР°Р»РёС‚РєРё",
                 NameEn = "Any wooden fence gates",
-                Type = "Дерево",
+                Type = "Р”РµСЂРµРІРѕ",
                 Tag = "#minecraft:wooden_fence_gates",
                 IconPath = "images/items/wooden_fence_gates.png"
             },
             new GameItem
             {
                 Id = "wooden_doors",
-                NameRu = "Любые деревянные двери",
+                NameRu = "Р›СЋР±С‹Рµ РґРµСЂРµРІСЏРЅРЅС‹Рµ РґРІРµСЂРё",
                 NameEn = "Any wooden doors",
-                Type = "Дерево",
+                Type = "Р”РµСЂРµРІРѕ",
                 Tag = "#minecraft:wooden_doors",
                 IconPath = "images/items/wooden_doors.png"
             },
             new GameItem
             {
                 Id = "wooden_trapdoors",
-                NameRu = "Любые деревянные люки",
+                NameRu = "Р›СЋР±С‹Рµ РґРµСЂРµРІСЏРЅРЅС‹Рµ Р»СЋРєРё",
                 NameEn = "Any wooden trapdoors",
-                Type = "Дерево",
+                Type = "Р”РµСЂРµРІРѕ",
                 Tag = "#minecraft:wooden_trapdoors",
                 IconPath = "images/items/wooden_trapdoors.png"
             },
             new GameItem
             {
                 Id = "wooden_pressure_plates",
-                NameRu = "Любые деревянные нажимные пластины",
+                NameRu = "Р›СЋР±С‹Рµ РґРµСЂРµРІСЏРЅРЅС‹Рµ РЅР°Р¶РёРјРЅС‹Рµ РїР»Р°СЃС‚РёРЅС‹",
                 NameEn = "Any wooden pressure plates",
-                Type = "Дерево",
+                Type = "Р”РµСЂРµРІРѕ",
                 Tag = "#minecraft:wooden_pressure_plates",
                 IconPath = "images/items/wooden_pressure_plates.png"
             },
             new GameItem
             {
                 Id = "wooden_buttons",
-                NameRu = "Любые деревянные ступеньки",
+                NameRu = "Р›СЋР±С‹Рµ РґРµСЂРµРІСЏРЅРЅС‹Рµ СЃС‚СѓРїРµРЅСЊРєРё",
                 NameEn = "Any wooden buttons",
-                Type = "Дерево",
+                Type = "Р”РµСЂРµРІРѕ",
                 Tag = "#minecraft:wooden_buttons",
                 IconPath = "images/items/wooden_buttons.png"
             },
             new GameItem
             {
                 Id = "stone",
-                NameRu = "Любой камень",
+                NameRu = "Р›СЋР±РѕР№ РєР°РјРµРЅСЊ",
                 NameEn = "Any stone",
-                Type = "Камень",
+                Type = "РљР°РјРµРЅСЊ",
                 Tag = "forge:stone",
                 IconPath = "images/items/stone.png"
             },
             new GameItem
             {
                 Id = "cobblestone",
-                NameRu = "Любой булыжник",
+                NameRu = "Р›СЋР±РѕР№ Р±СѓР»С‹Р¶РЅРёРє",
                 NameEn = "Any cobblestone",
-                Type = "Камень",
+                Type = "РљР°РјРµРЅСЊ",
                 Tag = "forge:cobblestone",
                 IconPath = "images/items/cobblestone.png"
             },
             new GameItem
             {
                 Id = "gravel",
-                NameRu = "Любой гравий",
+                NameRu = "Р›СЋР±РѕР№ РіСЂР°РІРёР№",
                 NameEn = "Any gravel",
-                Type = "Камень",
+                Type = "РљР°РјРµРЅСЊ",
                 Tag = "forge:gravel",
                 IconPath = "images/items/gravel.png"
             },
             new GameItem
             {
                 Id = "sand",
-                NameRu = "Любой песок",
+                NameRu = "Р›СЋР±РѕР№ РїРµСЃРѕРє",
                 NameEn = "Any sand",
-                Type = "Песок",
+                Type = "РџРµСЃРѕРє",
                 Tag = "forge:sand",
                 IconPath = "images/items/sand.png"
             },
             new GameItem
             {
                 Id = "glass",
-                NameRu = "Любое стекло",
+                NameRu = "Р›СЋР±РѕРµ СЃС‚РµРєР»Рѕ",
                 NameEn = "Any glass",
-                Type = "Стекло",
+                Type = "РЎС‚РµРєР»Рѕ",
                 Tag = "#forge:glass",
                 IconPath = "images/items/glass.png"
             },
             new GameItem
             {
                 Id = "glass_panes",
-                NameRu = "Любые стеклянные панели",
+                NameRu = "Р›СЋР±С‹Рµ СЃС‚РµРєР»СЏРЅРЅС‹Рµ РїР°РЅРµР»Рё",
                 NameEn = "Any glass panes",
-                Type = "Стекло",
+                Type = "РЎС‚РµРєР»Рѕ",
                 Tag = "#forge:glass_panes",
                 IconPath = "images/items/glass_panes.png"
             },
             // ==========================================
-            //                    ПЫЛЬ
+            //                    РџР«Р›Р¬
             // ==========================================
             new GameItem
             {
                 Id = "redstone",
-                NameRu = "Редстоуновая пыль",
+                NameRu = "Р РµРґСЃС‚РѕСѓРЅРѕРІР°СЏ РїС‹Р»СЊ",
                 NameEn = "Redstone dust",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "bone_meal",
-                NameRu = "Костная мука",
+                NameRu = "РљРѕСЃС‚РЅР°СЏ РјСѓРєР°",
                 NameEn = "Bone meal",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "glowstone_dust",
-                NameRu = "Светокаменная пыль",
+                NameRu = "РЎРІРµС‚РѕРєР°РјРµРЅРЅР°СЏ РїС‹Р»СЊ",
                 NameEn = "Glowstone dust",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "gunpowder",
-                NameRu = "Порох",
+                NameRu = "РџРѕСЂРѕС…",
                 NameEn = "Gunpowder",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sugar",
-                NameRu = "Сахар",
+                NameRu = "РЎР°С…Р°СЂ",
                 NameEn = "Sugar",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "kaolinite_powder",
-                NameRu = "Каолинитовый порошок",
+                NameRu = "РљР°РѕР»РёРЅРёС‚РѕРІС‹Р№ РїРѕСЂРѕС€РѕРє",
                 NameEn = "Kaolinite powder",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "yellow_garnet_dust",
-                NameRu = "Жёлтый гранат (Пыль)",
+                NameRu = "Р–С‘Р»С‚С‹Р№ РіСЂР°РЅР°С‚ (РџС‹Р»СЊ)",
                 NameEn = "Yellow garnet dust",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "polycaprolactam_dust",
-                NameRu = "Поликапролактам (Пыль)",
+                NameRu = "РџРѕР»РёРєР°РїСЂРѕР»Р°РєС‚Р°Рј (РџС‹Р»СЊ)",
                 NameEn = "Polycaprolactam (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "red_alloy_dust",
-                NameRu = "Красный сплав (Пыль)",
+                NameRu = "РљСЂР°СЃРЅС‹Р№ СЃРїР»Р°РІ (РџС‹Р»СЊ)",
                 NameEn = "Red alloy (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "tetrahedrite_dust",
-                NameRu = "Тетраэдрит (Пыль)",
+                NameRu = "РўРµС‚СЂР°СЌРґСЂРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Tetrahedrite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "asurine_dust",
-                NameRu = "Азурин (Пыль)",
+                NameRu = "РђР·СѓСЂРёРЅ (РџС‹Р»СЊ)",
                 NameEn = "Asurine (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sulfur_dust",
-                NameRu = "Сера (Пыль)",
+                NameRu = "РЎРµСЂР° (РџС‹Р»СЊ)",
                 NameEn = "Sulfur (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "neutronium_dust",
-                NameRu = "Нейтроний (Пыль)",
+                NameRu = "РќРµР№С‚СЂРѕРЅРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Neutronium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "ash_dust",
-                NameRu = "Зола",
+                NameRu = "Р—РѕР»Р°",
                 NameEn = "Ash",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "cobaltite_dust",
-                NameRu = "Кобальтит (Пыль)",
+                NameRu = "РљРѕР±Р°Р»СЊС‚РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Cobaltite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "potassium_cyanide_dust",
-                NameRu = "Цианистый калий (Пыль)",
+                NameRu = "Р¦РёР°РЅРёСЃС‚С‹Р№ РєР°Р»РёР№ (РџС‹Р»СЊ)",
                 NameEn = "Potassium cyanide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "platinum_sludge_residue_dust",
-                NameRu = "Остаток платинового шлама",
+                NameRu = "РћСЃС‚Р°С‚РѕРє РїР»Р°С‚РёРЅРѕРІРѕРіРѕ С€Р»Р°РјР°",
                 NameEn = "Platinum sludge residue",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "raw_rubber_dust",
-                NameRu = "Необработанная резина (Пыль)",
+                NameRu = "РќРµРѕР±СЂР°Р±РѕС‚Р°РЅРЅР°СЏ СЂРµР·РёРЅР° (РџС‹Р»СЊ)",
                 NameEn = "Raw rubber (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "uranium_dust",
-                NameRu = "Уран 238 (Пыль)",
+                NameRu = "РЈСЂР°РЅ 238 (РџС‹Р»СЊ)",
                 NameEn = "Uranium 238 (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "chromite_dust",
-                NameRu = "Хромит (Пыль)",
+                NameRu = "РҐСЂРѕРјРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Chromite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "thermochemically_treated_hardwood_dust",
-                NameRu = "Обработанная масса из твёрдого дерева",
+                NameRu = "РћР±СЂР°Р±РѕС‚Р°РЅРЅР°СЏ РјР°СЃСЃР° РёР· С‚РІС‘СЂРґРѕРіРѕ РґРµСЂРµРІР°",
                 NameEn = "Thermochemically treated hardwood dust",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "bauxite_slag_dust",
-                NameRu = "Бокситовый шлак (Пыль)",
+                NameRu = "Р‘РѕРєСЃРёС‚РѕРІС‹Р№ С€Р»Р°Рє (РџС‹Р»СЊ)",
                 NameEn = "Bauxite slag (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts",
             },
             new GameItem
             {
                 Id = "ruthenium_tetroxide_dust",
-                NameRu = "Тетраоксид рутения (Пыль)",
+                NameRu = "РўРµС‚СЂР°РѕРєСЃРёРґ СЂСѓС‚РµРЅРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Ruthenium tetroxide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "plutonium_241_dust",
-                NameRu = "Плутоний-241 (Пыль)",
+                NameRu = "РџР»СѓС‚РѕРЅРёР№-241 (РџС‹Р»СЊ)",
                 NameEn = "Plutonium-241 (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "dark_ash_dust",
-                NameRu = "Пепел",
+                NameRu = "РџРµРїРµР»",
                 NameEn = "Dark ash",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "wood_dust",
-                NameRu = "Масса из мягкого дерева",
+                NameRu = "РњР°СЃСЃР° РёР· РјСЏРіРєРѕРіРѕ РґРµСЂРµРІР°",
                 NameEn = "Wood dust",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "phosphate_dust",
-                NameRu = "Фосфат (Пыль)",
+                NameRu = "Р¤РѕСЃС„Р°С‚ (РџС‹Р»СЊ)",
                 NameEn = "Phosphate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "armalcolite_dust",
-                NameRu = "Армалколит (Пыль)",
+                NameRu = "РђСЂРјР°Р»РєРѕР»РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Armalcolite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "osmium_tetroxide_dust",
-                NameRu = "Тетраоксид осмия (Пыль)",
+                NameRu = "РўРµС‚СЂР°РѕРєСЃРёРґ РѕСЃРјРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Osmium tetroxide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "platinum_dust",
-                NameRu = "Платина (Пыль)",
+                NameRu = "РџР»Р°С‚РёРЅР° (РџС‹Р»СЊ)",
                 NameEn = "Platinum (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "calcium_ferrocyanide_dust",
-                NameRu = "Ферроцианид кальция (Пыль)",
+                NameRu = "Р¤РµСЂСЂРѕС†РёР°РЅРёРґ РєР°Р»СЊС†РёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Calcium ferrocyanide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "enriched_naquadah_dust",
-                NameRu = "Обогащённыя наквада (Пыль)",
+                NameRu = "РћР±РѕРіР°С‰С‘РЅРЅС‹СЏ РЅР°РєРІР°РґР° (РџС‹Р»СЊ)",
                 NameEn = "Enriched naquadah (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "uraninite_dust",
-                NameRu = "Уранинит (Пыль)",
+                NameRu = "РЈСЂР°РЅРёРЅРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Uraninite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "scheelite_dust",
-                NameRu = "Шеелит (Пыль)",
+                NameRu = "РЁРµРµР»РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Scheelite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "mirabilite_dust",
-                NameRu = "Мирабилит (Пыль)",
+                NameRu = "РњРёСЂР°Р±РёР»РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Mirabilite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "aluminium_dust",
-                NameRu = "Алюминий (Пыль)",
+                NameRu = "РђР»СЋРјРёРЅРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Aluminium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "spodumene_dust",
-                NameRu = "Сподумен (Пыль)",
+                NameRu = "РЎРїРѕРґСѓРјРµРЅ (РџС‹Р»СЊ)",
                 NameEn = "Spodumene (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "ruthenium_dust",
-                NameRu = "Рутений (Пыль)",
+                NameRu = "Р СѓС‚РµРЅРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Ruthenium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "green_sapphire_dust",
-                NameRu = "Зелёный сапфир (Пыль)",
+                NameRu = "Р—РµР»С‘РЅС‹Р№ СЃР°РїС„РёСЂ (РџС‹Р»СЊ)",
                 NameEn = "Green sapphire (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "magnetic_iron_dust",
-                NameRu = "Магнитное железо (Пыль)",
+                NameRu = "РњР°РіРЅРёС‚РЅРѕРµ Р¶РµР»РµР·Рѕ (РџС‹Р»СЊ)",
                 NameEn = "Magnetic iron (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "cassiterite_dust",
-                NameRu = "Касситерит (Пыль)",
+                NameRu = "РљР°СЃСЃРёС‚РµСЂРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Cassiterite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "invar_dust",
-                NameRu = "Инвар (Пыль)",
+                NameRu = "РРЅРІР°СЂ (РџС‹Р»СЊ)",
                 NameEn = "Invar (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "rhenium_dust",
-                NameRu = "Рений (Пыль)",
+                NameRu = "Р РµРЅРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Rhenium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "duranium_dust",
-                NameRu = "Дюраний (Пыль)",
+                NameRu = "Р”СЋСЂР°РЅРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Duranium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "phosphorus_pentoxide_dust",
-                NameRu = "Пятиокись фосфора (Пыль)",
+                NameRu = "РџСЏС‚РёРѕРєРёСЃСЊ С„РѕСЃС„РѕСЂР° (РџС‹Р»СЊ)",
                 NameEn = "Phosphorus pentoxide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "nickel_dust",
-                NameRu = "Никель (Пыль)",
+                NameRu = "РќРёРєРµР»СЊ (РџС‹Р»СЊ)",
                 NameEn = "Nickel (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "zinc_dust",
-                NameRu = "Цинк (Пыль)",
+                NameRu = "Р¦РёРЅРє (РџС‹Р»СЊ)",
                 NameEn = "Zinc (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "watertight_steel_dust",
-                NameRu = "Водостойкая сталь (Пыль)",
+                NameRu = "Р’РѕРґРѕСЃС‚РѕР№РєР°СЏ СЃС‚Р°Р»СЊ (РџС‹Р»СЊ)",
                 NameEn = "Watertight steel (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "quicklime_dust",
-                NameRu = "Негашеная известь (Пыль)",
+                NameRu = "РќРµРіР°С€РµРЅР°СЏ РёР·РІРµСЃС‚СЊ (РџС‹Р»СЊ)",
                 NameEn = "Quicklime (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "clay_dust",
-                NameRu = "Глина (Пыль)",
+                NameRu = "Р“Р»РёРЅР° (РџС‹Р»СЊ)",
                 NameEn = "Clay (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "thorium_232_dust",
-                NameRu = "Торий 232 (Пыль)",
+                NameRu = "РўРѕСЂРёР№ 232 (РџС‹Р»СЊ)",
                 NameEn = "Thorium 232 (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "iron_dust",
-                NameRu = "Железо (Пыль)",
+                NameRu = "Р–РµР»РµР·Рѕ (РџС‹Р»СЊ)",
                 NameEn = "Iron (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "fullers_earth_dust",
-                NameRu = "Смектическая глина",
+                NameRu = "РЎРјРµРєС‚РёС‡РµСЃРєР°СЏ РіР»РёРЅР°",
                 NameEn = "Fullers earth (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "osmiridium_dust",
-                NameRu = "Осмистый иридий (Пыль)",
+                NameRu = "РћСЃРјРёСЃС‚С‹Р№ РёСЂРёРґРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Osmiridium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts",
             },
             new GameItem
             {
                 Id = "wulfenite_dust",
-                NameRu = "Вульфенит (Пыль)",
+                NameRu = "Р’СѓР»СЊС„РµРЅРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Wulfenite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "cobalt_dust",
-                NameRu = "Кобальт (Пыль)",
+                NameRu = "РљРѕР±Р°Р»СЊС‚ (РџС‹Р»СЊ)",
                 NameEn = "Cobalt (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "hsla_steel_dust",
-                NameRu = "HSLA сталь (Пыль)",
+                NameRu = "HSLA СЃС‚Р°Р»СЊ (РџС‹Р»СЊ)",
                 NameEn = "HSLA steel (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "calcite_dust",
-                NameRu = "Кальцит (Пыль)",
+                NameRu = "РљР°Р»СЊС†РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Calcite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "prussian_blue_dust",
-                NameRu = "Берлинская лазурь (Пыль)",
+                NameRu = "Р‘РµСЂР»РёРЅСЃРєР°СЏ Р»Р°Р·СѓСЂСЊ (РџС‹Р»СЊ)",
                 NameEn = "Prussian blue (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "titanium_tungsten_carbide_dust",
-                NameRu = "Вольфрам-титанановый карбид (Пыль)",
+                NameRu = "Р’РѕР»СЊС„СЂР°Рј-С‚РёС‚Р°РЅР°РЅРѕРІС‹Р№ РєР°СЂР±РёРґ (РџС‹Р»СЊ)",
                 NameEn = "Titanium tungsten carbide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "arsenic_trioxide_dust",
-                NameRu = "Триоксид мышьяка (Пыль)",
+                NameRu = "РўСЂРёРѕРєСЃРёРґ РјС‹С€СЊСЏРєР° (РџС‹Р»СЊ)",
                 NameEn = "Arsenic trioxide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "magnesium_dust",
-                NameRu = "Магний (Пыль)",
+                NameRu = "РњР°РіРЅРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Magnesium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "salt_dust",
-                NameRu = "Соль (Пыль)",
+                NameRu = "РЎРѕР»СЊ (РџС‹Р»СЊ)",
                 NameEn = "Salt (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "bornite_dust",
-                NameRu = "Борнит (Пыль)",
+                NameRu = "Р‘РѕСЂРЅРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Bornite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "bauxite_dust",
-                NameRu = "Боксит (Пыль)",
+                NameRu = "Р‘РѕРєСЃРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Bauxite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "polyvinyl_butyral_dust",
-                NameRu = "Поливинилбутираль (Пыль)",
+                NameRu = "РџРѕР»РёРІРёРЅРёР»Р±СѓС‚РёСЂР°Р»СЊ (РџС‹Р»СЊ)",
                 NameEn = "Polyvinyl butyral (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "emerald_dust",
-                NameRu = "Изумруд (Пыль)",
+                NameRu = "РР·СѓРјСЂСѓРґ (РџС‹Р»СЊ)",
                 NameEn = "Emerald (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "borosilicate_glass_dust",
-                NameRu = "Боросиликатное стекло (Пыль)",
+                NameRu = "Р‘РѕСЂРѕСЃРёР»РёРєР°С‚РЅРѕРµ СЃС‚РµРєР»Рѕ (РџС‹Р»СЊ)",
                 NameEn = "Borosilicate glass (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "soda_ash_dust",
-                NameRu = "Сода (Пыль)",
+                NameRu = "РЎРѕРґР° (РџС‹Р»СЊ)",
                 NameEn = "Soda ash (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "manganese_dust",
-                NameRu = "Марганец (Пыль)",
+                NameRu = "РњР°СЂРіР°РЅРµС† (РџС‹Р»СЊ)",
                 NameEn = "Manganese (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "magnesite_dust",
-                NameRu = "Магнезит (Пыль)",
+                NameRu = "РњР°РіРЅРµР·РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Magnesite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "potassium_dichromate_dust",
-                NameRu = "Дихромат калия (Пыль)",
+                NameRu = "Р”РёС…СЂРѕРјР°С‚ РєР°Р»РёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Potassium dichromate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "niobium_titanium_dust",
-                NameRu = "Ниобий-титан (Пыль)",
+                NameRu = "РќРёРѕР±РёР№-С‚РёС‚Р°РЅ (РџС‹Р»СЊ)",
                 NameEn = "Niobium titanium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "ferrosilite_dust",
-                NameRu = "Ферросилит (Пыль)",
+                NameRu = "Р¤РµСЂСЂРѕСЃРёР»РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Ferrosilite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "silver_dust",
-                NameRu = "Серебро (Пыль)",
+                NameRu = "РЎРµСЂРµР±СЂРѕ (РџС‹Р»СЊ)",
                 NameEn = "Silver (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "soapstone_dust",
-                NameRu = "Мыльный камень (Пыль)",
+                NameRu = "РњС‹Р»СЊРЅС‹Р№ РєР°РјРµРЅСЊ (РџС‹Р»СЊ)",
                 NameEn = "Soapstone (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "diatomite_dust",
-                NameRu = "Диатомовый пилит (Пыль)",
+                NameRu = "Р”РёР°С‚РѕРјРѕРІС‹Р№ РїРёР»РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Diatomite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "olivine_dust",
-                NameRu = "Оливин (Пыль)",
+                NameRu = "РћР»РёРІРёРЅ (РџС‹Р»СЊ)",
                 NameEn = "Olivine (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "rhodium_dust",
-                NameRu = "Родий (Пыль)",
+                NameRu = "Р РѕРґРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Rhodium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "hsss_dust",
-                NameRu = "HSS-S (Пыль)",
+                NameRu = "HSS-S (РџС‹Р»СЊ)",
                 NameEn = "HSS-S (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "molybdenum_dust",
-                NameRu = "Молибден (Пыль)",
+                NameRu = "РњРѕР»РёР±РґРµРЅ (РџС‹Р»СЊ)",
                 NameEn = "molybdenum (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "quartzite_dust",
-                NameRu = "Кварц (Пыль)",
+                NameRu = "РљРІР°СЂС† (РџС‹Р»СЊ)",
                 NameEn = "Quartzite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "polyphenylene_sulfide_dust",
-                NameRu = "Полифениленсульфид (Пыль)",
+                NameRu = "РџРѕР»РёС„РµРЅРёР»РµРЅСЃСѓР»СЊС„РёРґ (РџС‹Р»СЊ)",
                 NameEn = "Polyphenylene sulfide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "raw_styrene_butadiene_rubber_dust",
-                NameRu = "Стирол-бутадиеновый каучук (Пыль)",
+                NameRu = "РЎС‚РёСЂРѕР»-Р±СѓС‚Р°РґРёРµРЅРѕРІС‹Р№ РєР°СѓС‡СѓРє (РџС‹Р»СЊ)",
                 NameEn = "Raw styrene butadiene rubber (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "tin_dust",
-                NameRu = "Олово (Пыль)",
+                NameRu = "РћР»РѕРІРѕ (РџС‹Р»СЊ)",
                 NameEn = "Tin (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "rocket_alloy_t1_dust",
-                NameRu = "Красный алюминиево-стальной ракетный сплав (Пыль)",
+                NameRu = "РљСЂР°СЃРЅС‹Р№ Р°Р»СЋРјРёРЅРёРµРІРѕ-СЃС‚Р°Р»СЊРЅРѕР№ СЂР°РєРµС‚РЅС‹Р№ СЃРїР»Р°РІ (РџС‹Р»СЊ)",
                 NameEn = "Rocket alloy t1 (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "vanadium_magnetite_dust",
-                NameRu = "ванадий магнетит (Пыль)",
+                NameRu = "РІР°РЅР°РґРёР№ РјР°РіРЅРµС‚РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Vanadium magnetite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "metal_mixture_dust",
-                NameRu = "Металлическая смесь (Пыль)",
+                NameRu = "РњРµС‚Р°Р»Р»РёС‡РµСЃРєР°СЏ СЃРјРµСЃСЊ (РџС‹Р»СЊ)",
                 NameEn = "Metal mixture (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "hastelloy_x_dust",
-                NameRu = "Хастеллой-X (Пыль)",
+                NameRu = "РҐР°СЃС‚РµР»Р»РѕР№-X (РџС‹Р»СЊ)",
                 NameEn = "Hastelloy-X (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "niobium_nitride_dust",
-                NameRu = "Нитрид ниобия (Пыль)",
+                NameRu = "РќРёС‚СЂРёРґ РЅРёРѕР±РёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Niobium nitride (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "magnesia_dust",
-                NameRu = "Магнезия (Пыль)",
+                NameRu = "РњР°РіРЅРµР·РёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Magnesia (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "titanium_trifluoride_dust",
-                NameRu = "Трифторид титана (Пыль)",
+                NameRu = "РўСЂРёС„С‚РѕСЂРёРґ С‚РёС‚Р°РЅР° (РџС‹Р»СЊ)",
                 NameEn = "Titanium trifluoride (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "zeolite_dust",
-                NameRu = "Цеолит (Пыль)",
+                NameRu = "Р¦РµРѕР»РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Zeolite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "powellite_dust",
-                NameRu = "Повеллит (Пыль)",
+                NameRu = "РџРѕРІРµР»Р»РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Powellite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "pyrochlore_dust",
-                NameRu = "Пирохлор (Пыль)",
+                NameRu = "РџРёСЂРѕС…Р»РѕСЂ (РџС‹Р»СЊ)",
                 NameEn = "Pyrochlore (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "lanthanum_dust",
-                NameRu = "Лантан (Пыль)",
+                NameRu = "Р›Р°РЅС‚Р°РЅ (РџС‹Р»СЊ)",
                 NameEn = "Lanthanum (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "cupronickel_dust",
-                NameRu = "Купроникель (Пыль)",
+                NameRu = "РљСѓРїСЂРѕРЅРёРєРµР»СЊ (РџС‹Р»СЊ)",
                 NameEn = "Cupronickel (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "trona_dust",
-                NameRu = "Трона (Пыль)",
+                NameRu = "РўСЂРѕРЅР° (РџС‹Р»СЊ)",
                 NameEn = "Trona (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "barite_dust",
-                NameRu = "Барит (Пыль)",
+                NameRu = "Р‘Р°СЂРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Barite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "zirconium_dust",
-                NameRu = "Цирконий (Пыль)",
+                NameRu = "Р¦РёСЂРєРѕРЅРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Zirconium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "agar_dust",
-                NameRu = "Агар (Пыль)",
+                NameRu = "РђРіР°СЂ (РџС‹Р»СЊ)",
                 NameEn = "Agar (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "titanium_dust",
-                NameRu = "Титан (Пыль)",
+                NameRu = "РўРёС‚Р°РЅ (РџС‹Р»СЊ)",
                 NameEn = "Titanium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "potassium_dust",
-                NameRu = "Калий (Пыль)",
+                NameRu = "РљР°Р»РёР№ (РџС‹Р»СЊ)",
                 NameEn = "Potassiumn (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "almandine_dust",
-                NameRu = "Альмандин (Пыль)",
+                NameRu = "РђР»СЊРјР°РЅРґРёРЅ (РџС‹Р»СЊ)",
                 NameEn = "Almandine (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "ice_dust",
-                NameRu = "Колотый лёд (Пыль)",
+                NameRu = "РљРѕР»РѕС‚С‹Р№ Р»С‘Рґ (РџС‹Р»СЊ)",
                 NameEn = "Ice (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "americium_dust",
-                NameRu = "Америций 243 (Пыль)",
+                NameRu = "РђРјРµСЂРёС†РёР№ 243 (РџС‹Р»СЊ)",
                 NameEn = "Americium 243 (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "uranium_235_dust",
-                NameRu = "Уран-245 (Пыль)",
+                NameRu = "РЈСЂР°РЅ-245 (РџС‹Р»СЊ)",
                 NameEn = "Uranium-235 (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "galena_dust",
-                NameRu = "Галена (Пыль)",
+                NameRu = "Р“Р°Р»РµРЅР° (РџС‹Р»СЊ)",
                 NameEn = "Galena (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "antimony_trifluoride_dust",
-                NameRu = "Трифторид сурьмы (Пыль)",
+                NameRu = "РўСЂРёС„С‚РѕСЂРёРґ СЃСѓСЂСЊРјС‹ (РџС‹Р»СЊ)",
                 NameEn = "Antimony trifluoride (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "gallium_dust",
-                NameRu = "Галлий (Пыль)",
+                NameRu = "Р“Р°Р»Р»РёР№ (РџС‹Р»СЊ)",
                 NameEn = "Gallium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "californium_252_dust",
-                NameRu = "Калифорний 252 (Пыль)",
+                NameRu = "РљР°Р»РёС„РѕСЂРЅРёР№ 252 (РџС‹Р»СЊ)",
                 NameEn = "Californium 252 (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "uranium_triplatinum_dust",
-                NameRu = "Триплатина уран (Пыль)",
+                NameRu = "РўСЂРёРїР»Р°С‚РёРЅР° СѓСЂР°РЅ (РџС‹Р»СЊ)",
                 NameEn = "Uranium triplatinum (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "ultimet_dust",
-                NameRu = "Ультимет (Пыль)",
+                NameRu = "РЈР»СЊС‚РёРјРµС‚ (РџС‹Р»СЊ)",
                 NameEn = "Ultimet (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "naquadria_sulfate_dust",
-                NameRu = "Сульфат наквадрии (Пыль)",
+                NameRu = "РЎСѓР»СЊС„Р°С‚ РЅР°РєРІР°РґСЂРёРё (РџС‹Р»СЊ)",
                 NameEn = "Naquadria sulfate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "barium_dust",
-                NameRu = "Барий (Пыль)",
+                NameRu = "Р‘Р°СЂРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Barium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "chromium_trioxide_dust",
-                NameRu = "Триоксид хрома (Пыль)",
+                NameRu = "РўСЂРёРѕРєСЃРёРґ С…СЂРѕРјР° (РџС‹Р»СЊ)",
                 NameEn = "Chromium trioxide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "hssg_dust",
-                NameRu = "HSS-G (Пыль)",
+                NameRu = "HSS-G (РџС‹Р»СЊ)",
                 NameEn = "HSS-G (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "desh_dust",
-                NameRu = "Деш (Пыль)",
+                NameRu = "Р”РµС€ (РџС‹Р»СЊ)",
                 NameEn = "desh (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "rad_away_dust",
-                NameRu = "Антирадин (Пыль)",
+                NameRu = "РђРЅС‚РёСЂР°РґРёРЅ (РџС‹Р»СЊ)",
                 NameEn = "Rad away (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "tungsten_carbide_dust",
-                NameRu = "Карбид вольфрама (Пыль)",
+                NameRu = "РљР°СЂР±РёРґ РІРѕР»СЊС„СЂР°РјР° (РџС‹Р»СЊ)",
                 NameEn = "Tungsten carbide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "platinum_group_sludge_dust",
-                NameRu = "Шлам платиновой группы",
+                NameRu = "РЁР»Р°Рј РїР»Р°С‚РёРЅРѕРІРѕР№ РіСЂСѓРїРїС‹",
                 NameEn = "Platinum group sludge",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "aluminium_sulfite_dust",
-                NameRu = "Сульфат алюминия (Пыль)",
+                NameRu = "РЎСѓР»СЊС„Р°С‚ Р°Р»СЋРјРёРЅРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Aluminium sulfite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "paper_dust",
-                NameRu = "Целлюлоза",
+                NameRu = "Р¦РµР»Р»СЋР»РѕР·Р°",
                 NameEn = "Paper (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "trinium_dust",
-                NameRu = "Триниум (Пыль)",
+                NameRu = "РўСЂРёРЅРёСѓРј (РџС‹Р»СЊ)",
                 NameEn = "Trinium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "brick_dust",
-                NameRu = "Кирпич (Пыль)",
+                NameRu = "РљРёСЂРїРёС‡ (РџС‹Р»СЊ)",
                 NameEn = "Brick (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "obsidian_dust",
-                NameRu = "Обсидиан (Пыль)",
+                NameRu = "РћР±СЃРёРґРёР°РЅ (РџС‹Р»СЊ)",
                 NameEn = "Obsidian (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "neptunium_237_dust",
-                NameRu = "Нептуний 237 (Пыль)",
+                NameRu = "РќРµРїС‚СѓРЅРёР№ 237 (РџС‹Р»СЊ)",
                 NameEn = "Neptunium 237 (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "molybdenite_dust",
-                NameRu = "Молибденит (Пыль)",
+                NameRu = "РњРѕР»РёР±РґРµРЅРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Molybdenite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "rhodium_plated_palladium_dust",
-                NameRu = "Палладий с родиевым покрытием (Пыль)",
+                NameRu = "РџР°Р»Р»Р°РґРёР№ СЃ СЂРѕРґРёРµРІС‹Рј РїРѕРєСЂС‹С‚РёРµРј (РџС‹Р»СЊ)",
                 NameEn = "Rhodium plated palladium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "chromium_dust",
-                NameRu = "Хром (Пыль)",
+                NameRu = "РҐСЂРѕРј (РџС‹Р»СЊ)",
                 NameEn = "Chromium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "cerium_dust",
-                NameRu = "Церий (Пыль)",
+                NameRu = "Р¦РµСЂРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Cerium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "ostrum_iodide_dust",
-                NameRu = "Йодид острума (Пыль)",
+                NameRu = "Р™РѕРґРёРґ РѕСЃС‚СЂСѓРјР° (РџС‹Р»СЊ)",
                 NameEn = "ostrum_iodide_dust (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "gypsum_dust",
-                NameRu = "Гипс (Пыль)",
+                NameRu = "Р“РёРїСЃ (РџС‹Р»СЊ)",
                 NameEn = "Gypsum (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "concrete_dust",
-                NameRu = "Бетон (Пыль)",
+                NameRu = "Р‘РµС‚РѕРЅ (РџС‹Р»СЊ)",
                 NameEn = "Concrete (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "nether_star_dust",
-                NameRu = "Звезда незера (Пыль)",
+                NameRu = "Р—РІРµР·РґР° РЅРµР·РµСЂР° (РџС‹Р»СЊ)",
                 NameEn = "Nether star (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "nickel_zinc_ferrite_dust",
-                NameRu = "Никель цинк феррит (Пыль)",
+                NameRu = "РќРёРєРµР»СЊ С†РёРЅРє С„РµСЂСЂРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Nickel zinc ferrite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "borax_dust",
-                NameRu = "Бура (Пыль)",
+                NameRu = "Р‘СѓСЂР° (РџС‹Р»СЊ)",
                 NameEn = "Borax (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "lapis_dust",
-                NameRu = "Лазуритит (Пыль)",
+                NameRu = "Р›Р°Р·СѓСЂРёС‚РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Lapis (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "hardwood_dust",
-                NameRu = "Масса из твёрдого дерева",
+                NameRu = "РњР°СЃСЃР° РёР· С‚РІС‘СЂРґРѕРіРѕ РґРµСЂРµРІР°",
                 NameEn = "Hardwood dust",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "yellow_limonite_dust",
-                NameRu = "Лимонит (Пыль)",
+                NameRu = "Р›РёРјРѕРЅРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Limonite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "silicon_dioxide_dust",
-                NameRu = "Диоксид кремния (Пыль)",
+                NameRu = "Р”РёРѕРєСЃРёРґ РєСЂРµРјРЅРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Silicon dioxide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "apatite_dust",
-                NameRu = "Апатит (Пыль)",
+                NameRu = "РђРїР°С‚РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Apatite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "asbestos_dust",
-                NameRu = "Асбест (Пыль)",
+                NameRu = "РђСЃР±РµСЃС‚ (РџС‹Р»СЊ)",
                 NameEn = "Asbestos (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "titanium_carbide_dust",
-                NameRu = "Карбид титана (Пыль)",
+                NameRu = "РљР°СЂР±РёРґ С‚РёС‚Р°РЅР° (РџС‹Р»СЊ)",
                 NameEn = "Titanium carbide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "bastnasite_dust",
-                NameRu = "Бастнезит (Пыль)",
+                NameRu = "Р‘Р°СЃС‚РЅРµР·РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Bastnasite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "pollucite_dust",
-                NameRu = "Поллуцит (Пыль)",
+                NameRu = "РџРѕР»Р»СѓС†РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Pollucite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "samarium_dust",
-                NameRu = "Самарий (Пыль)",
+                NameRu = "РЎР°РјР°СЂРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Samarium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sodium_bisulfate_dust",
-                NameRu = "Бисульфат натрия (Пыль)",
+                NameRu = "Р‘РёСЃСѓР»СЊС„Р°С‚ РЅР°С‚СЂРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Sodium bisulfate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "zincite_dust",
-                NameRu = "Цинкит (Пыль)",
+                NameRu = "Р¦РёРЅРєРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Zincite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "stainless_steel_dust",
-                NameRu = "Нержавеющая сталь (Пыль)",
+                NameRu = "РќРµСЂР¶Р°РІРµСЋС‰Р°СЏ СЃС‚Р°Р»СЊ (РџС‹Р»СЊ)",
                 NameEn = "Stainless steel (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "bismuth_dust",
-                NameRu = "Висмут (Пыль)",
+                NameRu = "Р’РёСЃРјСѓС‚ (РџС‹Р»СЊ)",
                 NameEn = "Bismuth (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "carbon_dust",
-                NameRu = "Углерод (Пыль)",
+                NameRu = "РЈРіР»РµСЂРѕРґ (РџС‹Р»СЊ)",
                 NameEn = "Carbon (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sodium_dust",
-                NameRu = "Натрий (Пыль)",
+                NameRu = "РќР°С‚СЂРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Sodium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "bronze_dust",
-                NameRu = "Бронза (Пыль)",
+                NameRu = "Р‘СЂРѕРЅР·Р° (РџС‹Р»СЊ)",
                 NameEn = "Bronze (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "cupric_oxide_dust",
-                NameRu = "Оксид меди (Пыль)",
+                NameRu = "РћРєСЃРёРґ РјРµРґРё (РџС‹Р»СЊ)",
                 NameEn = "Cupric oxide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "iridium_chloride_dust",
-                NameRu = "Хлорид иридия (Пыль)",
+                NameRu = "РҐР»РѕСЂРёРґ РёСЂРёРґРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Iridium chloride (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "ruthenium_trinium_americium_neutronate_dust",
-                NameRu = "Нейтронат рутения триния америция (Пыль)",
+                NameRu = "РќРµР№С‚СЂРѕРЅР°С‚ СЂСѓС‚РµРЅРёСЏ С‚СЂРёРЅРёСЏ Р°РјРµСЂРёС†РёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Ruthenium trinium americium neutronate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "thorium_dust",
-                NameRu = "Торианит (Пыль)",
+                NameRu = "РўРѕСЂРёР°РЅРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Thorium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "tricalcium_phosphate_dust",
-                NameRu = "Трикальцийфосфат (Пыль)",
+                NameRu = "РўСЂРёРєР°Р»СЊС†РёР№С„РѕСЃС„Р°С‚ (РџС‹Р»СЊ)",
                 NameEn = "Tricalcium phosphate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "incoloy_ma_956_dust",
-                NameRu = "Инколой MA-956 (Пыль)",
+                NameRu = "РРЅРєРѕР»РѕР№ MA-956 (РџС‹Р»СЊ)",
                 NameEn = "Incoloy MA-956 (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "cinnabar_dust",
-                NameRu = "Киноварь (Пыль)",
+                NameRu = "РљРёРЅРѕРІР°СЂСЊ (РџС‹Р»СЊ)",
                 NameEn = "Cinnabar (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "brass_dust",
-                NameRu = "Латунь (Пыль)",
+                NameRu = "Р›Р°С‚СѓРЅСЊ (РџС‹Р»СЊ)",
                 NameEn = "Brass (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "nether_quartz_dust",
-                NameRu = "Незер-кварц (Пыль)",
+                NameRu = "РќРµР·РµСЂ-РєРІР°СЂС† (РџС‹Р»СЊ)",
                 NameEn = "nether_quartz_dust (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "pyrolusite_dust",
-                NameRu = "Пиролюзит (Пыль)",
+                NameRu = "РџРёСЂРѕР»СЋР·РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Pyrolusite_ (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "rtm_alloy_dust",
-                NameRu = "РВМ сплав (Пыль)",
+                NameRu = "Р Р’Рњ СЃРїР»Р°РІ (РџС‹Р»СЊ)",
                 NameEn = "RTM alloy (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "bentonite_dust",
-                NameRu = "Бентонит (Пыль)",
+                NameRu = "Р‘РµРЅС‚РѕРЅРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Bentonite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "redrock_dust",
-                NameRu = "Красная скала (Пыль)",
+                NameRu = "РљСЂР°СЃРЅР°СЏ СЃРєР°Р»Р° (РџС‹Р»СЊ)",
                 NameEn = "Redrock (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "topaz_dust",
-                NameRu = "Топаз (Пыль)",
+                NameRu = "РўРѕРїР°Р· (РџС‹Р»СЊ)",
                 NameEn = "Topaz (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "diethylenetriaminepentaacetic_acid_dust",
-                NameRu = "Диэтилентриаминпентауксусная кислота (Пыль)",
+                NameRu = "Р”РёСЌС‚РёР»РµРЅС‚СЂРёР°РјРёРЅРїРµРЅС‚Р°СѓРєСЃСѓСЃРЅР°СЏ РєРёСЃР»РѕС‚Р° (РџС‹Р»СЊ)",
                 NameEn = "Diethylenetriaminepentaacetic acid (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "cobalt_brass_dust",
-                NameRu = "Кобальтовая латунь (Пыль)",
+                NameRu = "РљРѕР±Р°Р»СЊС‚РѕРІР°СЏ Р»Р°С‚СѓРЅСЊ (РџС‹Р»СЊ)",
                 NameEn = "Cobalt brass (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "neodymium_dust",
-                NameRu = "Неодим (Пыль)",
+                NameRu = "РќРµРѕРґРёРј (РџС‹Р»СЊ)",
                 NameEn = "Neodymium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "silicone_rubber_dust",
-                NameRu = "Силиконовая резина (Пыль)",
+                NameRu = "РЎРёР»РёРєРѕРЅРѕРІР°СЏ СЂРµР·РёРЅР° (РџС‹Р»СЊ)",
                 NameEn = "Silicone rubber (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "biphenyl_dust",
-                NameRu = "Дифенил (Пыль)",
+                NameRu = "Р”РёС„РµРЅРёР» (РџС‹Р»СЊ)",
                 NameEn = "Biphenyl (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "rubber_dust",
-                NameRu = "Резина (Пыль)",
+                NameRu = "Р РµР·РёРЅР° (РџС‹Р»СЊ)",
                 NameEn = "Rubber (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "tungstate_dust",
-                NameRu = "Вольфрамат (Пыль)",
+                NameRu = "Р’РѕР»СЊС„СЂР°РјР°С‚ (РџС‹Р»СЊ)",
                 NameEn = "Tungstate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "black_steel_dust",
-                NameRu = "Черная сталь (Пыль)",
+                NameRu = "Р§РµСЂРЅР°СЏ СЃС‚Р°Р»СЊ (РџС‹Р»СЊ)",
                 NameEn = "Black steel (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "rarest_metal_mixture_dust",
-                NameRu = "Смесь редких металлов",
+                NameRu = "РЎРјРµСЃСЊ СЂРµРґРєРёС… РјРµС‚Р°Р»Р»РѕРІ",
                 NameEn = "Rarest metal mixture (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "black_bronze_dust",
-                NameRu = "Черная бронза (Пыль)",
+                NameRu = "Р§РµСЂРЅР°СЏ Р±СЂРѕРЅР·Р° (РџС‹Р»СЊ)",
                 NameEn = "Black bronze (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "zeron_100_dust",
-                NameRu = "Зерон-100 (Пыль)",
+                NameRu = "Р—РµСЂРѕРЅ-100 (РџС‹Р»СЊ)",
                 NameEn = "Zeron-100 (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "magnetic_samarium_dust",
-                NameRu = "Магнитный самарий (Пыль)",
+                NameRu = "РњР°РіРЅРёС‚РЅС‹Р№ СЃР°РјР°СЂРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Magnetic samarium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "samarium_iron_arsenic_oxide_dust",
-                NameRu = "Оксид самария железа мышьяка (Пыль)",
+                NameRu = "РћРєСЃРёРґ СЃР°РјР°СЂРёСЏ Р¶РµР»РµР·Р° РјС‹С€СЊСЏРєР° (РџС‹Р»СЊ)",
                 NameEn = "Samarium iron arsenic oxide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "blue_steel_dust",
-                NameRu = "Синяя сталь (Пыль)",
+                NameRu = "РЎРёРЅСЏСЏ СЃС‚Р°Р»СЊ (РџС‹Р»СЊ)",
                 NameEn = "Blue steel (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "ammonium_chloride_dust",
-                NameRu = "Хлорид аммония (Пыль)",
+                NameRu = "РҐР»РѕСЂРёРґ Р°РјРјРѕРЅРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Ammonium chloride (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sodium_bicarbonate_dust",
-                NameRu = "Натрия бикарбонат (Пыль)",
+                NameRu = "РќР°С‚СЂРёСЏ Р±РёРєР°СЂР±РѕРЅР°С‚ (РџС‹Р»СЊ)",
                 NameEn = "Sodium bicarbonate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "granitic_mineral_sand_dust",
-                NameRu = "Гранитный минеральный песок (Пыль)",
+                NameRu = "Р“СЂР°РЅРёС‚РЅС‹Р№ РјРёРЅРµСЂР°Р»СЊРЅС‹Р№ РїРµСЃРѕРє (РџС‹Р»СЊ)",
                 NameEn = "Granitic mineral sand (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "manganese_phosphide_dust",
-                NameRu = "Фосфид марганца (Пыль)",
+                NameRu = "Р¤РѕСЃС„РёРґ РјР°СЂРіР°РЅС†Р° (РџС‹Р»СЊ)",
                 NameEn = "Manganese phosphide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "rock_salt_dust",
-                NameRu = "Каменная соль (Пыль)",
+                NameRu = "РљР°РјРµРЅРЅР°СЏ СЃРѕР»СЊ (РџС‹Р»СЊ)",
                 NameEn = "Rock salt (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "stellite_100_dust",
-                NameRu = "Стеллит (Пыль)",
+                NameRu = "РЎС‚РµР»Р»РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Stellite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "naquadria_dust",
-                NameRu = "Наквадрия (Пыль)",
+                NameRu = "РќР°РєРІР°РґСЂРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Naquadria (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "indium_phosphide_dust",
-                NameRu = "Фосфид индия (Пыль)",
+                NameRu = "Р¤РѕСЃС„РёРґ РёРЅРґРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Indium phosphide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "epoxy_dust",
-                NameRu = "Эпоксидная смола (Пыль)",
+                NameRu = "Р­РїРѕРєСЃРёРґРЅР°СЏ СЃРјРѕР»Р° (РџС‹Р»СЊ)",
                 NameEn = "Epoxy (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "caesium_137_dust",
-                NameRu = "Цезий 137 (Пыль)",
+                NameRu = "Р¦РµР·РёР№ 137 (РџС‹Р»СЊ)",
                 NameEn = "Caesium 137 (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "potassium_sulfate_dust",
-                NameRu = "Сульфат калия (Пыль)",
+                NameRu = "РЎСѓР»СЊС„Р°С‚ РєР°Р»РёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Potassium sulfate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "magnetic_neodymium_dust",
-                NameRu = "Магнитный неодим (Пыль)",
+                NameRu = "РњР°РіРЅРёС‚РЅС‹Р№ РЅРµРѕРґРёРј (РџС‹Р»СЊ)",
                 NameEn = "Magnetic neodymium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sodium_hydroxide_dust",
-                NameRu = "Гидроксид натрия (Пыль)",
+                NameRu = "Р“РёРґСЂРѕРєСЃРёРґ РЅР°С‚СЂРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Sodium hydroxide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "nichrome_dust",
-                NameRu = "Нихром (Пыль)",
+                NameRu = "РќРёС…СЂРѕРј (РџС‹Р»СЊ)",
                 NameEn = "Nichrome (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "pyrope_dust",
-                NameRu = "Пироп (Пыль)",
+                NameRu = "РџРёСЂРѕРї (РџС‹Р»СЊ)",
                 NameEn = "Pyrope (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "lepidolite_dust",
-                NameRu = "Лепидолит (Пыль)",
+                NameRu = "Р›РµРїРёРґРѕР»РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Lepidolite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "goethite_dust",
-                NameRu = "Гётит (Пыль)",
+                NameRu = "Р“С‘С‚РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Goethite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "americium_dust",
-                NameRu = "Америций 241 (Пыль)",
+                NameRu = "РђРјРµСЂРёС†РёР№ 241 (РџС‹Р»СЊ)",
                 NameEn = "Americium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "europium_dust",
-                NameRu = "Европий (Пыль)",
+                NameRu = "Р•РІСЂРѕРїРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Europium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "thorium_230_dust",
-                NameRu = "Торий 230 (Пыль)",
+                NameRu = "РўРѕСЂРёР№ 230 (РџС‹Р»СЊ)",
                 NameEn = "Thorium 230 (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "ilmenite_slag_dust",
-                NameRu = "Ильменитовый шлак (Пыль)",
+                NameRu = "РР»СЊРјРµРЅРёС‚РѕРІС‹Р№ С€Р»Р°Рє (РџС‹Р»СЊ)",
                 NameEn = "Ilmenite slag (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "coke_dust",
-                NameRu = "Коксовый уголь (Пыль)",
+                NameRu = "РљРѕРєСЃРѕРІС‹Р№ СѓРіРѕР»СЊ (РџС‹Р»СЊ)",
                 NameEn = "Coke (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "chalcocite_dust",
-                NameRu = "Халькозин (Пыль)",
+                NameRu = "РҐР°Р»СЊРєРѕР·РёРЅ (РџС‹Р»СЊ)",
                 NameEn = "Chalcocite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "enriched_naquadah_sulfate_dust",
-                NameRu = "Обогащенный сульфат наквады (Пыль)",
+                NameRu = "РћР±РѕРіР°С‰РµРЅРЅС‹Р№ СЃСѓР»СЊС„Р°С‚ РЅР°РєРІР°РґС‹ (РџС‹Р»СЊ)",
                 NameEn = "Enriched naquadah sulfate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "tarkianite_dust",
-                NameRu = "Таркианит (Пыль)",
+                NameRu = "РўР°СЂРєРёР°РЅРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Tarkianite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "uvarovite_dust",
-                NameRu = "Уваровит (Пыль)",
+                NameRu = "РЈРІР°СЂРѕРІРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Uvarovite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "vanadium_gallium_dust",
-                NameRu = "Ванадий-Галлий (Пыль)",
+                NameRu = "Р’Р°РЅР°РґРёР№-Р“Р°Р»Р»РёР№ (РџС‹Р»СЊ)",
                 NameEn = "Vanadium gallium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "tungsten_dust",
-                NameRu = "Вольфрам (Пыль)",
+                NameRu = "Р’РѕР»СЊС„СЂР°Рј (РџС‹Р»СЊ)",
                 NameEn = "Tungsten (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "realgar_dust",
-                NameRu = "Реальгар (Пыль)",
+                NameRu = "Р РµР°Р»СЊРіР°СЂ (РџС‹Р»СЊ)",
                 NameEn = "Realgar (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "glass_dust",
-                NameRu = "Стекло (Пыль)",
+                NameRu = "РЎС‚РµРєР»Рѕ (РџС‹Р»СЊ)",
                 NameEn = "Glass (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "ferrite_mixture_dust",
-                NameRu = "Ферритовая смесь (Пыль)",
+                NameRu = "Р¤РµСЂСЂРёС‚РѕРІР°СЏ СЃРјРµСЃСЊ (РџС‹Р»СЊ)",
                 NameEn = "Ferrite mixture (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "calcium_dust",
-                NameRu = "Кальций (Пыль)",
+                NameRu = "РљР°Р»СЊС†РёР№ (РџС‹Р»СЊ)",
                 NameEn = "Calcium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sodium_nitrate_dust",
-                NameRu = "Нитрат натрия (Пыль)",
+                NameRu = "РќРёС‚СЂР°С‚ РЅР°С‚СЂРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Sodium nitrate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "paracetamol_dust",
-                NameRu = "Парацетамол (Пыль)",
+                NameRu = "РџР°СЂР°С†РµС‚Р°РјРѕР» (РџС‹Р»СЊ)",
                 NameEn = "Paracetamol (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "plutonium_dust",
-                NameRu = "Плутоний 239 (Пыль)",
+                NameRu = "РџР»СѓС‚РѕРЅРёР№ 239 (РџС‹Р»СЊ)",
                 NameEn = "Plutonium 239 (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "styrene_butadiene_rubber_dust",
-                NameRu = "Стирол-бутадиеновая резина (Пыль)",
+                NameRu = "РЎС‚РёСЂРѕР»-Р±СѓС‚Р°РґРёРµРЅРѕРІР°СЏ СЂРµР·РёРЅР° (РџС‹Р»СЊ)",
                 NameEn = "Styrene butadiene rubber (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "crimsite_dust",
-                NameRu = "Кримит (Пыль)",
+                NameRu = "РљСЂРёРјРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Crimsite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "vanadium_steel_dust",
-                NameRu = "Ванадиевая сталь (Пыль)",
+                NameRu = "Р’Р°РЅР°РґРёРµРІР°СЏ СЃС‚Р°Р»СЊ (РџС‹Р»СЊ)",
                 NameEn = "Vanadium steel (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "inert_metal_mixture_dust",
-                NameRu = "Смесь инертных металлов",
+                NameRu = "РЎРјРµСЃСЊ РёРЅРµСЂС‚РЅС‹С… РјРµС‚Р°Р»Р»РѕРІ",
                 NameEn = "Inert metal mixture (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "caprolactam_dust",
-                NameRu = "Капролактам (Пыль)",
+                NameRu = "РљР°РїСЂРѕР»Р°РєС‚Р°Рј (РџС‹Р»СЊ)",
                 NameEn = "Caprolactam (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "pentlandite_dust",
-                NameRu = "Пентландит (Пыль)",
+                NameRu = "РџРµРЅС‚Р»Р°РЅРґРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Pentlandite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "saltpeter_dust",
-                NameRu = "Селитра (Пыль)",
+                NameRu = "РЎРµР»РёС‚СЂР° (РџС‹Р»СЊ)",
                 NameEn = "Saltpeter (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "antimony_trioxide_dust",
-                NameRu = "Триоксид сурьмы (Пыль)",
+                NameRu = "РўСЂРёРѕРєСЃРёРґ СЃСѓСЂСЊРјС‹ (РџС‹Р»СЊ)",
                 NameEn = "Antimony trioxide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "zinc_sulfide_dust",
-                NameRu = "Сульфид цинка (Пыль)",
+                NameRu = "РЎСѓР»СЊС„РёРґ С†РёРЅРєР° (РџС‹Р»СЊ)",
                 NameEn = "zinc sulfide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "hematite_dust",
-                NameRu = "Гематит (Пыль)",
+                NameRu = "Р“РµРјР°С‚РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Hematite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "tungsten_steel_dust",
-                NameRu = "Вольфрамовая сталь (Пыль)",
+                NameRu = "Р’РѕР»СЊС„СЂР°РјРѕРІР°СЏ СЃС‚Р°Р»СЊ (РџС‹Р»СЊ)",
                 NameEn = "Tungsten steel (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "monazite_dust",
-                NameRu = "Монацит (Пыль)",
+                NameRu = "РњРѕРЅР°С†РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Monazite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "alunite_dust",
-                NameRu = "Алунит (Пыль)",
+                NameRu = "РђР»СѓРЅРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Alunite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "magnalium_dust",
-                NameRu = "Магналий (Пыль)",
+                NameRu = "РњР°РіРЅР°Р»РёР№ (РџС‹Р»СЊ)",
                 NameEn = "Magnalium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "polybenzimidazole_dust",
-                NameRu = "Полибензимидазол (ПБИ) (Пыль)",
+                NameRu = "РџРѕР»РёР±РµРЅР·РёРјРёРґР°Р·РѕР» (РџР‘Р) (РџС‹Р»СЊ)",
                 NameEn = "Polybenzimidazole (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "iridium_dust",
-                NameRu = "Иридий (Пыль)",
+                NameRu = "РСЂРёРґРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Iridium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "palladium_raw_dust",
-                NameRu = "Необработанный порошок палладия",
+                NameRu = "РќРµРѕР±СЂР°Р±РѕС‚Р°РЅРЅС‹Р№ РїРѕСЂРѕС€РѕРє РїР°Р»Р»Р°РґРёСЏ",
                 NameEn = "Palladium raw dust",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "cyclohexanone_oxime_dust",
-                NameRu = "Циклогексаноноксим (Пыль)",
+                NameRu = "Р¦РёРєР»РѕРіРµРєСЃР°РЅРѕРЅРѕРєСЃРёРј (РџС‹Р»СЊ)",
                 NameEn = "Cyclohexanone oxime (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "potassium_carbonate_dust",
-                NameRu = "Карбонат калия (Пыль)",
+                NameRu = "РљР°СЂР±РѕРЅР°С‚ РєР°Р»РёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Potassium carbonate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "ilmenite_dust",
-                NameRu = "Ильменит (Пыль)",
+                NameRu = "РР»СЊРјРµРЅРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Ilmenite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "iridium_metal_residue_dust",
-                NameRu = "Металлический остаток иридия",
+                NameRu = "РњРµС‚Р°Р»Р»РёС‡РµСЃРєРёР№ РѕСЃС‚Р°С‚РѕРє РёСЂРёРґРёСЏ",
                 NameEn = "Iridium metal residue (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "cassiterite_sand_dust",
-                NameRu = "Касситеритовый песок",
+                NameRu = "РљР°СЃСЃРёС‚РµСЂРёС‚РѕРІС‹Р№ РїРµСЃРѕРє",
                 NameEn = "Cassiterite sand",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "red_steel_dust",
-                NameRu = "Красная сталь (Пыль)",
+                NameRu = "РљСЂР°СЃРЅР°СЏ СЃС‚Р°Р»СЊ (РџС‹Р»СЊ)",
                 NameEn = "Red steel (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "polyethylene_dust",
-                NameRu = "Полиэтилен (Пыль)",
+                NameRu = "РџРѕР»РёСЌС‚РёР»РµРЅ (РџС‹Р»СЊ)",
                 NameEn = "Polyethylene (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "magnetic_steel_dust",
-                NameRu = "Магнитная сталь (Пыль)",
+                NameRu = "РњР°РіРЅРёС‚РЅР°СЏ СЃС‚Р°Р»СЊ (РџС‹Р»СЊ)",
                 NameEn = "Magnetic steel (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "indium_gallium_phosphide_dust",
-                NameRu = "Индий галлий фосфид (Пыль)",
+                NameRu = "РРЅРґРёР№ РіР°Р»Р»РёР№ С„РѕСЃС„РёРґ (РџС‹Р»СЊ)",
                 NameEn = "Indium gallium phosphide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "treated_wood_dust",
-                NameRu = "Кучка обработанной древесной массы",
+                NameRu = "РљСѓС‡РєР° РѕР±СЂР°Р±РѕС‚Р°РЅРЅРѕР№ РґСЂРµРІРµСЃРЅРѕР№ РјР°СЃСЃС‹",
                 NameEn = "Treated wood (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "boron_dust",
-                NameRu = "Бор (Пыль)",
+                NameRu = "Р‘РѕСЂ (РџС‹Р»СЊ)",
                 NameEn = "Boron (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "perlite_dust",
-                NameRu = "Перлит (Пыль)",
+                NameRu = "РџРµСЂР»РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Perlite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "indium_dust",
-                NameRu = "Индий (Пыль)",
+                NameRu = "РРЅРґРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Indium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "pyrite_dust",
-                NameRu = "Пирит (Пыль)",
+                NameRu = "РџРёСЂРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Pyrite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "barium_sulfide_dust",
-                NameRu = "Сульфид бария (Пыль)",
+                NameRu = "РЎСѓР»СЊС„РёРґ Р±Р°СЂРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Barium sulfide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "andradite_dust",
-                NameRu = "Андрадит (Пыль)",
+                NameRu = "РђРЅРґСЂР°РґРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Andradite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "ruridit_dust",
-                NameRu = "Руридит (Пыль)",
+                NameRu = "Р СѓСЂРёРґРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Ruridit (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "lutetium_dust",
-                NameRu = "Лютеций (Пыль)",
+                NameRu = "Р›СЋС‚РµС†РёР№ (РџС‹Р»СЊ)",
                 NameEn = "Lutetium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "osmium_dust",
-                NameRu = "Осмий (Пыль)",
+                NameRu = "РћСЃРјРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Osmium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "hastelloy_c_276_dust",
-                NameRu = "Хастеллой-C276 (Пыль)",
+                NameRu = "РҐР°СЃС‚РµР»Р»РѕР№-C276 (РџС‹Р»СЊ)",
                 NameEn = "Hastelloy-C276 (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "massicot_dust",
-                NameRu = "Массикот (Пыль)",
+                NameRu = "РњР°СЃСЃРёРєРѕС‚ (РџС‹Р»СЊ)",
                 NameEn = "Massicot (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "molybdenum_disilicide_dust",
-                NameRu = "Дисилицид молибдена (Пыль)",
+                NameRu = "Р”РёСЃРёР»РёС†РёРґ РјРѕР»РёР±РґРµРЅР° (РџС‹Р»СЊ)",
                 NameEn = "molybdenum disilicide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "potash_dust",
-                NameRu = "Оксид калия (Пыль)",
+                NameRu = "РћРєСЃРёРґ РєР°Р»РёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Potash (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "potassium_feldspar_dust",
-                NameRu = "Калиевый полевой шпат (Пыль)",
+                NameRu = "РљР°Р»РёРµРІС‹Р№ РїРѕР»РµРІРѕР№ С€РїР°С‚ (РџС‹Р»СЊ)",
                 NameEn = "Potassium feldspar (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "grossular_dust",
-                NameRu = "Гроссуляр (Пыль)",
+                NameRu = "Р“СЂРѕСЃСЃСѓР»СЏСЂ (РџС‹Р»СЊ)",
                 NameEn = "Grossular (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "rose_gold_dust",
-                NameRu = "Розовое золото (Пыль)",
+                NameRu = "Р РѕР·РѕРІРѕРµ Р·РѕР»РѕС‚Рѕ (РџС‹Р»СЊ)",
                 NameEn = "Rose gold (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "malachite_dust",
-                NameRu = "Малахит (Пыль)",
+                NameRu = "РњР°Р»Р°С…РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Malachite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "iodine_dust",
-                NameRu = "Иод (Пыль)",
+                NameRu = "РРѕРґ (РџС‹Р»СЊ)",
                 NameEn = "Iodine (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "electrum_dust",
-                NameRu = "Электрум (Пыль)",
+                NameRu = "Р­Р»РµРєС‚СЂСѓРј (РџС‹Р»СЊ)",
                 NameEn = "Electrum (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "collagen_dust",
-                NameRu = "Коллаген (Пыль)",
+                NameRu = "РљРѕР»Р»Р°РіРµРЅ (РџС‹Р»СЊ)",
                 NameEn = "Collagen (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "thallium_dust",
-                NameRu = "Таллий (Пыль)",
+                NameRu = "РўР°Р»Р»РёР№ (РџС‹Р»СЊ)",
                 NameEn = "Thallium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "tantalum_dust",
-                NameRu = "Тантал (Пыль)",
+                NameRu = "РўР°РЅС‚Р°Р» (РџС‹Р»СЊ)",
                 NameEn = "Tantalum (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "polydimethylsiloxane_dust",
-                NameRu = "Полидиметилсилоксан (Пыль)",
+                NameRu = "РџРѕР»РёРґРёРјРµС‚РёР»СЃРёР»РѕРєСЃР°РЅ (РџС‹Р»СЊ)",
                 NameEn = "polydimethylsiloxane (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "basaltic_mineral_sand_dust",
-                NameRu = "Базальтовый минеральный песок (Пыль)",
+                NameRu = "Р‘Р°Р·Р°Р»СЊС‚РѕРІС‹Р№ РјРёРЅРµСЂР°Р»СЊРЅС‹Р№ РїРµСЃРѕРє (РџС‹Р»СЊ)",
                 NameEn = "Basaltic mineral sand (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "lapotron_dust",
-                NameRu = "Лапотрон (Пыль)",
+                NameRu = "Р›Р°РїРѕС‚СЂРѕРЅ (РџС‹Р»СЊ)",
                 NameEn = "Lapotron (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "charcoal_dust",
-                NameRu = "Древесный уголь (Пыль)",
+                NameRu = "Р”СЂРµРІРµСЃРЅС‹Р№ СѓРіРѕР»СЊ (РџС‹Р»СЊ)",
                 NameEn = "Charcoal (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "flint_dust",
-                NameRu = "Кремень (Пыль)",
+                NameRu = "РљСЂРµРјРµРЅСЊ (РџС‹Р»СЊ)",
                 NameEn = "Flint (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "polyvinyl_chloride_dust",
-                NameRu = "Поливинил хлорид (Пыль)",
+                NameRu = "РџРѕР»РёРІРёРЅРёР» С…Р»РѕСЂРёРґ (РџС‹Р»СЊ)",
                 NameEn = "Polyvinyl chloride (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "cooperite_dust",
-                NameRu = "Куперит (Пыль)",
+                NameRu = "РљСѓРїРµСЂРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Cooperite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "magnesium_diboride_dust",
-                NameRu = "Диборид магния (Пыль)",
+                NameRu = "Р”РёР±РѕСЂРёРґ РјР°РіРЅРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Magnesium diboride (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sterling_silver_dust",
-                NameRu = "Стерлинговое серебро (Пыль)",
+                NameRu = "РЎС‚РµСЂР»РёРЅРіРѕРІРѕРµ СЃРµСЂРµР±СЂРѕ (РџС‹Р»СЊ)",
                 NameEn = "Sterling silver (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "pitchblende_dust",
-                NameRu = "Уранит (Пыль)",
+                NameRu = "РЈСЂР°РЅРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Pitchblende (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "calcium_chloride_dust",
-                NameRu = "Хлорид кальция (Пыль)",
+                NameRu = "РҐР»РѕСЂРёРґ РєР°Р»СЊС†РёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Calcium chloride (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "trinium_sulfide_dust",
-                NameRu = "Сульфид триния (Пыль)",
+                NameRu = "РЎСѓР»СЊС„РёРґ С‚СЂРёРЅРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Trinium sulfide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "wrought_iron_dust",
-                NameRu = "Кованное железо (Пыль)",
+                NameRu = "РљРѕРІР°РЅРЅРѕРµ Р¶РµР»РµР·Рѕ (РџС‹Р»СЊ)",
                 NameEn = "Wrought iron (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "magnetite_dust",
-                NameRu = "Магнетит (Пыль)",
+                NameRu = "РњР°РіРЅРµС‚РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Magnetite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "tantalum_carbide_dust",
-                NameRu = "Карбид тантала (Пыль)",
+                NameRu = "РљР°СЂР±РёРґ С‚Р°РЅС‚Р°Р»Р° (РџС‹Р»СЊ)",
                 NameEn = "Tantalum carbide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "polytetrafluoroethylene_dust",
-                NameRu = "Политетрафторэтилен (Пыль)",
+                NameRu = "РџРѕР»РёС‚РµС‚СЂР°С„С‚РѕСЂСЌС‚РёР»РµРЅ (РџС‹Р»СЊ)",
                 NameEn = "Polytetrafluoroethylene (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "niobium_dust",
-                NameRu = "Ниобий (Пыль)",
+                NameRu = "РќРёРѕР±РёР№ (РџС‹Р»СЊ)",
                 NameEn = "Niobium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "gallium_arsenide_dust",
-                NameRu = "Арсенид галлия (Пыль)",
+                NameRu = "РђСЂСЃРµРЅРёРґ РіР°Р»Р»РёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Gallium arsenide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "kanthal_dust",
-                NameRu = "Кантал (Пыль)",
+                NameRu = "РљР°РЅС‚Р°Р» (РџС‹Р»СЊ)",
                 NameEn = "Kanthal (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "opal_dust",
-                NameRu = "Опал (Пыль)",
+                NameRu = "РћРїР°Р» (РџС‹Р»СЊ)",
                 NameEn = "Opal (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "tungstic_acid_dust",
-                NameRu = "Вольфрамовая кислота (Пыль)",
+                NameRu = "Р’РѕР»СЊС„СЂР°РјРѕРІР°СЏ РєРёСЃР»РѕС‚Р° (РџС‹Р»СЊ)",
                 NameEn = "tungstic_acid_dust (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "cadmium_dust",
-                NameRu = "Кадмий (Пыль)",
+                NameRu = "РљР°РґРјРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Cadmium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "calcium_phosphide_dust",
-                NameRu = "Фосфид кальция (Пыль)",
+                NameRu = "Р¤РѕСЃС„РёРґ РєР°Р»СЊС†РёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Calcium phosphide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "glauconite_sand_dust",
-                NameRu = "Глауконитовый песок (Пыль)",
+                NameRu = "Р“Р»Р°СѓРєРѕРЅРёС‚РѕРІС‹Р№ РїРµСЃРѕРє (РџС‹Р»СЊ)",
                 NameEn = "Glauconite sand (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "activated_carbon_dust",
-                NameRu = "Активированный уголь (Пыль)",
+                NameRu = "РђРєС‚РёРІРёСЂРѕРІР°РЅРЅС‹Р№ СѓРіРѕР»СЊ (РџС‹Р»СЊ)",
                 NameEn = "Activated carbon (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "gold_dust",
-                NameRu = "Золото (Пыль)",
+                NameRu = "Р—РѕР»РѕС‚Рѕ (РџС‹Р»СЊ)",
                 NameEn = "Gold (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "vanadium_dust",
-                NameRu = "Ванадий (Пыль)",
+                NameRu = "Р’Р°РЅР°РґРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Vanadium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "potassium_ferrocyanide_dust",
-                NameRu = "Ферроцианид калия (Пыль)",
+                NameRu = "Р¤РµСЂСЂРѕС†РёР°РЅРёРґ РєР°Р»РёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Potassium ferrocyanide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "blue_topaz_dust",
-                NameRu = "Синий топаз (Пыль)",
+                NameRu = "РЎРёРЅРёР№ С‚РѕРїР°Р· (РџС‹Р»СЊ)",
                 NameEn = "Blue topaz (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "lithium_dust",
-                NameRu = "Литий (Пыль)",
+                NameRu = "Р›РёС‚РёР№ (РџС‹Р»СЊ)",
                 NameEn = "Lithium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "vitrified_asbestos_dust",
-                NameRu = "Остеклованный асбест (Пыль)",
+                NameRu = "РћСЃС‚РµРєР»РѕРІР°РЅРЅС‹Р№ Р°СЃР±РµСЃС‚ (РџС‹Р»СЊ)",
                 NameEn = "Vitrified asbestos (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "caesium_dust",
-                NameRu = "Цезий (Пыль)",
+                NameRu = "Р¦РµР·РёР№ (РџС‹Р»СЊ)",
                 NameEn = "Caesium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "uranium_rhodium_dinaquadide_dust",
-                NameRu = "Уран родий динаквада (Пыль)",
+                NameRu = "РЈСЂР°РЅ СЂРѕРґРёР№ РґРёРЅР°РєРІР°РґР° (РџС‹Р»СЊ)",
                 NameEn = "Uranium rhodium dinaquadide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "garnierite_dust",
-                NameRu = "Гарниерит (Пыль)",
+                NameRu = "Р“Р°СЂРЅРёРµСЂРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Garnierite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "antimony_dust",
-                NameRu = "Сурьма (Пыль)",
+                NameRu = "РЎСѓСЂСЊРјР° (РџС‹Р»СЊ)",
                 NameEn = "Antimony (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "spessartine_dust",
-                NameRu = "Спасерит (Пыль)",
+                NameRu = "РЎРїР°СЃРµСЂРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Spessartine (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "yttrium_barium_cuprate_dust",
-                NameRu = "Оксид иттрия-бария-меди (Пыль)",
+                NameRu = "РћРєСЃРёРґ РёС‚С‚СЂРёСЏ-Р±Р°СЂРёСЏ-РјРµРґРё (РџС‹Р»СЊ)",
                 NameEn = "Yttrium barium cuprate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "mica_dust",
-                NameRu = "Слюда (Пыль)",
+                NameRu = "РЎР»СЋРґР° (РџС‹Р»СЊ)",
                 NameEn = "Mica (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "stibnite_dust",
-                NameRu = "Стибнит (Пыль)",
+                NameRu = "РЎС‚РёР±РЅРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Stibnite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "wax_dust",
-                NameRu = "Воск (Пыль)",
+                NameRu = "Р’РѕСЃРє (РџС‹Р»СЊ)",
                 NameEn = "Wax (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "reinforced_epoxy_resin_dust",
-                NameRu = "Укреплённая эпоксидная смола (Пыль)",
+                NameRu = "РЈРєСЂРµРїР»С‘РЅРЅР°СЏ СЌРїРѕРєСЃРёРґРЅР°СЏ СЃРјРѕР»Р° (РџС‹Р»СЊ)",
                 NameEn = "Reinforced epoxy resin (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "maraging_steel_300_dust",
-                NameRu = "Мартенситностареющая сталь 300 (Пыль)",
+                NameRu = "РњР°СЂС‚РµРЅСЃРёС‚РЅРѕСЃС‚Р°СЂРµСЋС‰Р°СЏ СЃС‚Р°Р»СЊ 300 (РџС‹Р»СЊ)",
                 NameEn = "Maraging steel 300 (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "enriched_naquadah_trinium_europium_duranide_dust",
-                NameRu = "Обогащенный наквада триний европий дюраний (Пыль)",
+                NameRu = "РћР±РѕРіР°С‰РµРЅРЅС‹Р№ РЅР°РєРІР°РґР° С‚СЂРёРЅРёР№ РµРІСЂРѕРїРёР№ РґСЋСЂР°РЅРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Enriched naquadah trinium europium duranide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "calcium_hydroxide_dust",
-                NameRu = "Гидроксид кальция (Пыль)",
+                NameRu = "Р“РёРґСЂРѕРєСЃРёРґ РєР°Р»СЊС†РёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Calcium hydroxide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "red_garnet_dust",
-                NameRu = "Красный гранат (Пыль)",
+                NameRu = "РљСЂР°СЃРЅС‹Р№ РіСЂР°РЅР°С‚ (РџС‹Р»СЊ)",
                 NameEn = "Red garnet (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "coal_dust",
-                NameRu = "Уголь (Пыль)",
+                NameRu = "РЈРіРѕР»СЊ (РџС‹Р»СЊ)",
                 NameEn = "Coal (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sodium_sulfide_dust",
-                NameRu = "Сульфид натрия (Пыль)",
+                NameRu = "РЎСѓР»СЊС„РёРґ РЅР°С‚СЂРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Sodium sulfide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sodalite_dust",
-                NameRu = "Содалит (Пыль)",
+                NameRu = "РЎРѕРґР°Р»РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Sodalite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "palladium_dust",
-                NameRu = "Палладий (Пыль)",
+                NameRu = "РџР°Р»Р»Р°РґРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Palladium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "graphene_dust",
-                NameRu = "Графен (Пыль)",
+                NameRu = "Р“СЂР°С„РµРЅ (РџС‹Р»СЊ)",
                 NameEn = "Graphene (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "beryllium_dust",
-                NameRu = "Бериллий (Пыль)",
+                NameRu = "Р‘РµСЂРёР»Р»РёР№ (РџС‹Р»СЊ)",
                 NameEn = "Beryllium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "kyanite_dust",
-                NameRu = "Ционит (Пыль)",
+                NameRu = "Р¦РёРѕРЅРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Kyanite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "potassium_hydroxide_dust",
-                NameRu = "Гидроксид калия (Пыль)",
+                NameRu = "Р“РёРґСЂРѕРєСЃРёРґ РєР°Р»РёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Potassium hydroxide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "rutile_dust",
-                NameRu = "Рутил (Пыль)",
+                NameRu = "Р СѓС‚РёР» (РџС‹Р»СЊ)",
                 NameEn = "Rutile (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sapphire_dust",
-                NameRu = "Сапфир (Пыль)",
+                NameRu = "РЎР°РїС„РёСЂ (РџС‹Р»СЊ)",
                 NameEn = "Sapphire (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "diamond_dust",
-                NameRu = "Алмаз (Пыль)",
+                NameRu = "РђР»РјР°Р· (РџС‹Р»СЊ)",
                 NameEn = "Diamond (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "platinum_raw_dust",
-                NameRu = "Необработанный платиновый порошок",
+                NameRu = "РќРµРѕР±СЂР°Р±РѕС‚Р°РЅРЅС‹Р№ РїР»Р°С‚РёРЅРѕРІС‹Р№ РїРѕСЂРѕС€РѕРє",
                 NameEn = "Platinum raw dust",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "blue_alloy_dust",
-                NameRu = "Синий сплав (Пыль)",
+                NameRu = "РЎРёРЅРёР№ СЃРїР»Р°РІ (РџС‹Р»СЊ)",
                 NameEn = "Blue alloy (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "hsse_dust",
-                NameRu = "HSS-E (Пыль)",
+                NameRu = "HSS-E (РџС‹Р»СЊ)",
                 NameEn = "HSS-E (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "calcium_carbonate_dust",
-                NameRu = "Карбонат кальция (Пыль)",
+                NameRu = "РљР°СЂР±РѕРЅР°С‚ РєР°Р»СЊС†РёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Calcium carbonate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "mercury_barium_calcium_cuprate_dust",
-                NameRu = "Купрат ртути бария кальция (Пыль)",
+                NameRu = "РљСѓРїСЂР°С‚ СЂС‚СѓС‚Рё Р±Р°СЂРёСЏ РєР°Р»СЊС†РёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Mercury barium calcium cuprate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "meat_dust",
-                NameRu = "Мясной фарш",
+                NameRu = "РњСЏСЃРЅРѕР№ С„Р°СЂС€",
                 NameEn = "Meat dust",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "oilsands_dust",
-                NameRu = "Нефтеносный песок (Пыль)",
+                NameRu = "РќРµС„С‚РµРЅРѕСЃРЅС‹Р№ РїРµСЃРѕРє (РџС‹Р»СЊ)",
                 NameEn = "Oilsand (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "chalcopyrite_dust",
-                NameRu = "Халькопирит (Пыль)",
+                NameRu = "РҐР°Р»СЊРєРѕРїРёСЂРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Chalcopyrite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "bismuth_bronze_dust",
-                NameRu = "Висмутовая бронза (Пыль)",
+                NameRu = "Р’РёСЃРјСѓС‚РѕРІР°СЏ Р±СЂРѕРЅР·Р° (РџС‹Р»СЊ)",
                 NameEn = "Bismuth bronze (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "garnet_sand_dust",
-                NameRu = "Гранатовый песок (Пыль)",
+                NameRu = "Р“СЂР°РЅР°С‚РѕРІС‹Р№ РїРµСЃРѕРє (РџС‹Р»СЊ)",
                 NameEn = "Garnet sand (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "copper_dust",
-                NameRu = "Медь (Пыль)",
+                NameRu = "РњРµРґСЊ (РџС‹Р»СЊ)",
                 NameEn = "Copper (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "arsenic_dust",
-                NameRu = "Мышьяк (Пыль)",
+                NameRu = "РњС‹С€СЊСЏРє (РџС‹Р»СЊ)",
                 NameEn = "Arsenic (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "silicon_dust",
-                NameRu = "Кремний (Пыль)",
+                NameRu = "РљСЂРµРјРЅРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Silicon (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sphalerite_dust",
-                NameRu = "Сфалерит (Пыль)",
+                NameRu = "РЎС„Р°Р»РµСЂРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Sphalerite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "rocket_alloy_t2_dust",
-                NameRu = "ASM 4914 титановый ракетный сплав (Пыль)",
+                NameRu = "ASM 4914 С‚РёС‚Р°РЅРѕРІС‹Р№ СЂР°РєРµС‚РЅС‹Р№ СЃРїР»Р°РІ (РџС‹Р»СЊ)",
                 NameEn = "Rocket alloy t2 (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "naquadah_alloy_dust",
-                NameRu = "Сплав наквада (Пыль)",
+                NameRu = "РЎРїР»Р°РІ РЅР°РєРІР°РґР° (РџС‹Р»СЊ)",
                 NameEn = "Naquadah alloy (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "darmstadtium_dust",
-                NameRu = "Дармштадтий (Пыль)",
+                NameRu = "Р”Р°СЂРјС€С‚Р°РґС‚РёР№ (РџС‹Р»СЊ)",
                 NameEn = "Darmstadtium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "soldering_alloy_dust",
-                NameRu = "Припой (Пыль)",
+                NameRu = "РџСЂРёРїРѕР№ (РџС‹Р»СЊ)",
                 NameEn = "Soldering alloy (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "magnesium_chloride_dust",
-                NameRu = "Хлорид магния (Пыль)",
+                NameRu = "РҐР»РѕСЂРёРґ РјР°РіРЅРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Magnesium chloride (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "gallium_sulfide_dust",
-                NameRu = "Сульфид галлия (Пыль)",
+                NameRu = "РЎСѓР»СЊС„РёРґ РіР°Р»Р»РёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Gallium sulfide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "stone_dust",
-                NameRu = "Камень (Пыль)",
+                NameRu = "РљР°РјРµРЅСЊ (РџС‹Р»СЊ)",
                 NameEn = "Stone (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "battery_alloy_dust",
-                NameRu = "Аккумуляторный сплав (Пыль)",
+                NameRu = "РђРєРєСѓРјСѓР»СЏС‚РѕСЂРЅС‹Р№ СЃРїР»Р°РІ (РџС‹Р»СЊ)",
                 NameEn = "Battery alloy (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "quartz_sand_dust",
-                NameRu = "Кварцевый песок (Пыль)",
+                NameRu = "РљРІР°СЂС†РµРІС‹Р№ РїРµСЃРѕРє (РџС‹Р»СЊ)",
                 NameEn = "Quartz sand (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "ochrum_dust",
-                NameRu = "Охрум (Пыль)",
+                NameRu = "РћС…СЂСѓРј (РџС‹Р»СЊ)",
                 NameEn = "Ochrum (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "naquadah_dust",
-                NameRu = "Наквада (Пыль)",
+                NameRu = "РќР°РєРІР°РґР° (РџС‹Р»СЊ)",
                 NameEn = "Naquadah (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "annealed_copper_dust",
-                NameRu = "Отожженная медь (Пыль)",
+                NameRu = "РћС‚РѕР¶Р¶РµРЅРЅР°СЏ РјРµРґСЊ (РџС‹Р»СЊ)",
                 NameEn = "Annealed copper (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "rare_earth_dust",
-                NameRu = "Редкоземельные элементы",
+                NameRu = "Р РµРґРєРѕР·РµРјРµР»СЊРЅС‹Рµ СЌР»РµРјРµРЅС‚С‹",
                 NameEn = "Rare earth (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "lazurite_dust",
-                NameRu = "Лазурит (Пыль)",
+                NameRu = "Р›Р°Р·СѓСЂРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Lazurite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "gelatin_dust",
-                NameRu = "Желатин (Пыль)",
+                NameRu = "Р–РµР»Р°С‚РёРЅ (РџС‹Р»СЊ)",
                 NameEn = "Gelatin (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "talc_dust",
-                NameRu = "Тальк (Пыль)",
+                NameRu = "РўР°Р»СЊРє (РџС‹Р»СЊ)",
                 NameEn = "Talc (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "indium_tin_barium_titanium_cuprate_dust",
-                NameRu = "Купрат индия олова бария титана (Пыль)",
+                NameRu = "РљСѓРїСЂР°С‚ РёРЅРґРёСЏ РѕР»РѕРІР° Р±Р°СЂРёСЏ С‚РёС‚Р°РЅР° (РџС‹Р»СЊ)",
                 NameEn = "Indium tin barium titanium cuprate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "ruby_dust",
-                NameRu = "Рубин (Пыль)",
+                NameRu = "Р СѓР±РёРЅ (РџС‹Р»СЊ)",
                 NameEn = "Ruby (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "amethyst_dust",
-                NameRu = "Аметист (Пыль)",
+                NameRu = "РђРјРµС‚РёСЃС‚ (РџС‹Р»СЊ)",
                 NameEn = "Amethyst (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "cobalt_oxide_dust",
-                NameRu = "Оксид кобальта (Пыль)",
+                NameRu = "РћРєСЃРёРґ РєРѕР±Р°Р»СЊС‚Р° (РџС‹Р»СЊ)",
                 NameEn = "Cobalt oxide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "ostrum_dust",
-                NameRu = "Острум (Пыль)",
+                NameRu = "РћСЃС‚СЂСѓРј (РџС‹Р»СЊ)",
                 NameEn = "Ostrum (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "yttrium_dust",
-                NameRu = "Иттрий (Пыль)",
+                NameRu = "РС‚С‚СЂРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Yttrium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "graphite_dust",
-                NameRu = "Графит (Пыль)",
+                NameRu = "Р“СЂР°С„РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Graphite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "cocoa_dust",
-                NameRu = "Какао (Пыль)",
+                NameRu = "РљР°РєР°Рѕ (РџС‹Р»СЊ)",
                 NameEn = "Cocoa (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "lead_dust",
-                NameRu = "Свинец (Пыль)",
+                NameRu = "РЎРІРёРЅРµС† (РџС‹Р»СЊ)",
                 NameEn = "Lead (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "tin_alloy_dust",
-                NameRu = "Оловянный сплав (Пыль)",
+                NameRu = "РћР»РѕРІСЏРЅРЅС‹Р№ СЃРїР»Р°РІ (РџС‹Р»СЊ)",
                 NameEn = "Tin alloy (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "steel_dust",
-                NameRu = "Сталь (Пыль)",
+                NameRu = "РЎС‚Р°Р»СЊ (РџС‹Р»СЊ)",
                 NameEn = "Steel (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "potassium_iodide_dust",
-                NameRu = "Йодистый калий (Пыль)",
+                NameRu = "Р™РѕРґРёСЃС‚С‹Р№ РєР°Р»РёР№ (РџС‹Р»СЊ)",
                 NameEn = "Potassium iodide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "biotite_dust",
-                NameRu = "Биотит (Пыль)",
+                NameRu = "Р‘РёРѕС‚РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Biotite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "tantalite_dust",
-                NameRu = "Танталит (Пыль)",
+                NameRu = "РўР°РЅС‚Р°Р»РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Tantalite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "aluminium_silicate_dust",
-                NameRu = "Алюмосиликат (Пыль)",
+                NameRu = "РђР»СЋРјРѕСЃРёР»РёРєР°С‚ (РџС‹Р»СЊ)",
                 NameEn = "Aluminium silicate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "tritanium_dust",
-                NameRu = "Тританий (Пыль)",
+                NameRu = "РўСЂРёС‚Р°РЅРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Tritanium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "lactose_dust",
-                NameRu = "Лактоза (Пыль)",
+                NameRu = "Р›Р°РєС‚РѕР·Р° (РџС‹Р»СЊ)",
                 NameEn = "Lactose (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "lithium_chloride_dust",
-                NameRu = "Хлорид лития (Пыль)",
+                NameRu = "РҐР»РѕСЂРёРґ Р»РёС‚РёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Lithium chloride (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "phosphorus_dust",
-                NameRu = "Фосфор (Пыль)",
+                NameRu = "Р¤РѕСЃС„РѕСЂ (РџС‹Р»СЊ)",
                 NameEn = "Phosphorus (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "potin_dust",
-                NameRu = "Потин (Пыль)",
+                NameRu = "РџРѕС‚РёРЅ (РџС‹Р»СЊ)",
                 NameEn = "Potin (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "electrotine_dust",
-                NameRu = "Электротин (Пыль)",
+                NameRu = "Р­Р»РµРєС‚СЂРѕС‚РёРЅ (РџС‹Р»СЊ)",
                 NameEn = "Electrotine (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "veridium_dust",
-                NameRu = "Веридий (Пыль)",
+                NameRu = "Р’РµСЂРёРґРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Veridium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sorbitol_dust",
-                NameRu = "Сорбитол (Пыль)",
+                NameRu = "РЎРѕСЂР±РёС‚РѕР» (РџС‹Р»СЊ)",
                 NameEn = "Sorbitol (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "tungsten_oxide_dust",
-                NameRu = "Оксид вольфрама (Пыль)",
+                NameRu = "РћРєСЃРёРґ РІРѕР»СЊС„СЂР°РјР° (РџС‹Р»СЊ)",
                 NameEn = "Tungsten oxide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "thallium_sulfate_dust",
-                NameRu = "Сульфат таллия (Пыль)",
+                NameRu = "РЎСѓР»СЊС„Р°С‚ С‚Р°Р»Р»РёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Thallium sulfate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "magnesia_refractory_brick_dust",
-                NameRu = "Склеенный смолой магнезиальный огнеупорный кирпич (Пыль)",
+                NameRu = "РЎРєР»РµРµРЅРЅС‹Р№ СЃРјРѕР»РѕР№ РјР°РіРЅРµР·РёР°Р»СЊРЅС‹Р№ РѕРіРЅРµСѓРїРѕСЂРЅС‹Р№ РєРёСЂРїРёС‡ (РџС‹Р»СЊ)",
                 NameEn = "Magnesia refractory brick (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "refined_nuclear_residue_dust",
-                NameRu = "Переработанные ядерные отходы (Пыль)",
+                NameRu = "РџРµСЂРµСЂР°Р±РѕС‚Р°РЅРЅС‹Рµ СЏРґРµСЂРЅС‹Рµ РѕС‚С…РѕРґС‹ (РџС‹Р»СЊ)",
                 NameEn = "Refined nuclear residue (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "methylene_diphenyl_diisocyanate_dust",
-                NameRu = "Метилен дифелин-4,4'-диизоционат (Пыль)",
+                NameRu = "РњРµС‚РёР»РµРЅ РґРёС„РµР»РёРЅ-4,4'-РґРёРёР·РѕС†РёРѕРЅР°С‚ (РџС‹Р»СЊ)",
                 NameEn = "Methylene diphenyl diisocyanate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "rough_silicon_carbide_dust",
-                NameRu = "Необработанный карбид кремния (Пыль)",
+                NameRu = "РќРµРѕР±СЂР°Р±РѕС‚Р°РЅРЅС‹Р№ РєР°СЂР±РёРґ РєСЂРµРјРЅРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Rough silicon carbide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "lorandite_dust",
-                NameRu = "Лорандит (Пыль)",
+                NameRu = "Р›РѕСЂР°РЅРґРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Lorandite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sodium_hydride_dust",
-                NameRu = "Гидрид натрия (Пыль)",
+                NameRu = "Р“РёРґСЂРёРґ РЅР°С‚СЂРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Sodium hydride (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "boron_10_hydroxide_dust",
-                NameRu = "Гидроксид бора-10 (Пыль)",
+                NameRu = "Р“РёРґСЂРѕРєСЃРёРґ Р±РѕСЂР°-10 (РџС‹Р»СЊ)",
                 NameEn = "Boron-10 hydroxide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "cassiterite_regolith_dust",
-                NameRu = "Кассеритовый реголит (Пыль)",
+                NameRu = "РљР°СЃСЃРµСЂРёС‚РѕРІС‹Р№ СЂРµРіРѕР»РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Cassiterite regolith (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "boron_carbide_dust",
-                NameRu = "Карбид бора (Пыль)",
+                NameRu = "РљР°СЂР±РёРґ Р±РѕСЂР° (РџС‹Р»СЊ)",
                 NameEn = "Boron carbide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "weak_red_steel_dust",
-                NameRu = "Сырая красная сталь (Пыль)",
+                NameRu = "РЎС‹СЂР°СЏ РєСЂР°СЃРЅР°СЏ СЃС‚Р°Р»СЊ (РџС‹Р»СЊ)",
                 NameEn = "Weak red steel (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "oxidized_nuclear_residue_dust",
-                NameRu = "Окисленные ядерные отходы (Пыль)",
+                NameRu = "РћРєРёСЃР»РµРЅРЅС‹Рµ СЏРґРµСЂРЅС‹Рµ РѕС‚С…РѕРґС‹ (РџС‹Р»СЊ)",
                 NameEn = "oxidized nuclear residue (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "igneous_intermediate_dust",
-                NameRu = "Средняя магматическая порода (Пыль)",
+                NameRu = "РЎСЂРµРґРЅСЏСЏ РјР°РіРјР°С‚РёС‡РµСЃРєР°СЏ РїРѕСЂРѕРґР° (РџС‹Р»СЊ)",
                 NameEn = "Igneous intermediate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "tin_chloride_dust",
-                NameRu = "Двуххлористое олово (Пыль)",
+                NameRu = "Р”РІСѓС…С…Р»РѕСЂРёСЃС‚РѕРµ РѕР»РѕРІРѕ (РџС‹Р»СЊ)",
                 NameEn = "Tin chloride (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "bright_regolith_dust",
-                NameRu = "Яркий реголит (Пыль)",
+                NameRu = "РЇСЂРєРёР№ СЂРµРіРѕР»РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Bright regolith (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "clean_powder_dust",
-                NameRu = "Силикатированный очищенный рениумный порошок (Пыль)",
+                NameRu = "РЎРёР»РёРєР°С‚РёСЂРѕРІР°РЅРЅС‹Р№ РѕС‡РёС‰РµРЅРЅС‹Р№ СЂРµРЅРёСѓРјРЅС‹Р№ РїРѕСЂРѕС€РѕРє (РџС‹Р»СЊ)",
                 NameEn = "Clean powder (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sodium_deuteroxide_dust",
-                NameRu = "Дейтерооксид натрия (Пыль)",
+                NameRu = "Р”РµР№С‚РµСЂРѕРѕРєСЃРёРґ РЅР°С‚СЂРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Sodium deuteroxide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "redstone_nitrate_dust",
-                NameRu = "Нитрат редстоуна (Пыль)",
+                NameRu = "РќРёС‚СЂР°С‚ СЂРµРґСЃС‚РѕСѓРЅР° (РџС‹Р»СЊ)",
                 NameEn = "Redstone nitrate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "magnesium_hydroxide_dust",
-                NameRu = "Гидроксид магния (Пыль)",
+                NameRu = "Р“РёРґСЂРѕРєСЃРёРґ РјР°РіРЅРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Magnesium hydroxide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "vitrified_pearl_dust",
-                NameRu = "Остеклованный эндер (Пыль)",
+                NameRu = "РћСЃС‚РµРєР»РѕРІР°РЅРЅС‹Р№ СЌРЅРґРµСЂ (РџС‹Р»СЊ)",
                 NameEn = "Vitrified pearl (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "metamorphic_dust",
-                NameRu = "Метаморфическая порода (Пыль)",
+                NameRu = "РњРµС‚Р°РјРѕСЂС„РёС‡РµСЃРєР°СЏ РїРѕСЂРѕРґР° (РџС‹Р»СЊ)",
                 NameEn = "Metamorphic (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "mycelienzene_dust",
-                NameRu = "Мицезоллий (Пыль)",
+                NameRu = "РњРёС†РµР·РѕР»Р»РёР№ (РџС‹Р»СЊ)",
                 NameEn = "Mycelienzene (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "weak_blue_steel_dust",
-                NameRu = "Сырая синяя сталь (Пыль)",
+                NameRu = "РЎС‹СЂР°СЏ СЃРёРЅСЏСЏ СЃС‚Р°Р»СЊ (РџС‹Р»СЊ)",
                 NameEn = "Weak blue steel (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "weak_mo_si_b_dust",
-                NameRu = "Слабый Mo-Si-B (Пыль)",
+                NameRu = "РЎР»Р°Р±С‹Р№ Mo-Si-B (РџС‹Р»СЊ)",
                 NameEn = "Weak Mo-Si-B (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sodium_fluorine_dust",
-                NameRu = "Фтористый натрий (Пыль)",
+                NameRu = "Р¤С‚РѕСЂРёСЃС‚С‹Р№ РЅР°С‚СЂРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Sodium fluorine (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "aes_mix_dust",
-                NameRu = "Щелочноземельный силикат (Пыль)",
+                NameRu = "Р©РµР»РѕС‡РЅРѕР·РµРјРµР»СЊРЅС‹Р№ СЃРёР»РёРєР°С‚ (РџС‹Р»СЊ)",
                 NameEn = "Aes mix (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "alumina_dust",
-                NameRu = "Оксид алюминия (Пыль)",
+                NameRu = "РћРєСЃРёРґ Р°Р»СЋРјРёРЅРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Alumina (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "bi_pb_sn_cd_in_tl_dust",
-                NameRu = "Bi-Pb-Cn-Cd-In-Tl (Пыль)",
+                NameRu = "Bi-Pb-Cn-Cd-In-Tl (РџС‹Р»СЊ)",
                 NameEn = "Bi-Pb-Cn-Cd-In-Tl (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "boric_acid_dust",
-                NameRu = "Борная кислота (Пыль)",
+                NameRu = "Р‘РѕСЂРЅР°СЏ РєРёСЃР»РѕС‚Р° (РџС‹Р»СЊ)",
                 NameEn = "Boric acid (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "apt_dust",
-                NameRu = "Паравольфрамат аммония (Пыль)",
+                NameRu = "РџР°СЂР°РІРѕР»СЊС„СЂР°РјР°С‚ Р°РјРјРѕРЅРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Apt (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sodium_sulfate_dust",
-                NameRu = "Сульфат натрия (Пыль)",
+                NameRu = "РЎСѓР»СЊС„Р°С‚ РЅР°С‚СЂРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Sodium sulfate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "silicon_carbide_dust",
-                NameRu = "Карбид кремния (Пыль)",
+                NameRu = "РљР°СЂР±РёРґ РєСЂРµРјРЅРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Silicon carbide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "recovered_ionic_complex_dust",
-                NameRu = "Восстановленный ионный комплекс (Пыль)",
+                NameRu = "Р’РѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹Р№ РёРѕРЅРЅС‹Р№ РєРѕРјРїР»РµРєСЃ (РџС‹Р»СЊ)",
                 NameEn = "Recovered ionic complex (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "aluminium_sulfate_dust",
-                NameRu = "Сульфат алюминия (Пыль)",
+                NameRu = "РЎСѓР»СЊС„Р°С‚ Р°Р»СЋРјРёРЅРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Aluminium sulfate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "inconel_718_dust",
-                NameRu = "Инконель-718 (Пыль)",
+                NameRu = "РРЅРєРѕРЅРµР»СЊ-718 (РџС‹Р»СЊ)",
                 NameEn = "Inconel-718 (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "zirconium_tetrachloride_dust",
-                NameRu = "Тетрахлорид циркония (Пыль)",
+                NameRu = "РўРµС‚СЂР°С…Р»РѕСЂРёРґ С†РёСЂРєРѕРЅРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Zirconium tetrachloride (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "polysilicon_dust",
-                NameRu = "Поликремний (Пыль)",
+                NameRu = "РџРѕР»РёРєСЂРµРјРЅРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Polysilicon (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "copper_trace_catalyst_dust",
-                NameRu = "Следовая каталитическая медь (Пыль)",
+                NameRu = "РЎР»РµРґРѕРІР°СЏ РєР°С‚Р°Р»РёС‚РёС‡РµСЃРєР°СЏ РјРµРґСЊ (РџС‹Р»СЊ)",
                 NameEn = "Copper trace catalyst (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "nuclear_residue_dust",
-                NameRu = "Ядерные отходы (Пыль)",
+                NameRu = "РЇРґРµСЂРЅС‹Рµ РѕС‚С…РѕРґС‹ (РџС‹Р»СЊ)",
                 NameEn = "Nuclear residue (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "citric_acid_dust",
-                NameRu = "Лимонная кислота (Пыль)",
+                NameRu = "Р›РёРјРѕРЅРЅР°СЏ РєРёСЃР»РѕС‚Р° (РџС‹Р»СЊ)",
                 NameEn = "Citric acid (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "igneous_felsic_dust",
-                NameRu = "Кислая магматическая порода (Пыль)",
+                NameRu = "РљРёСЃР»Р°СЏ РјР°РіРјР°С‚РёС‡РµСЃРєР°СЏ РїРѕСЂРѕРґР° (РџС‹Р»СЊ)",
                 NameEn = "Igneous felsic (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "bakelite_dust",
-                NameRu = "Бакелит (Пыль)",
+                NameRu = "Р‘Р°РєРµР»РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Bakelite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "ammonium_tungstate_dust",
-                NameRu = "Вольфрамат аммония (Пыль)",
+                NameRu = "Р’РѕР»СЊС„СЂР°РјР°С‚ Р°РјРјРѕРЅРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Ammonium tungstate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "ammonia_borane_dust",
-                NameRu = "Боразан (Пыль)",
+                NameRu = "Р‘РѕСЂР°Р·Р°РЅ (РџС‹Р»СЊ)",
                 NameEn = "Ammonia borane (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "mo_50_re_dust",
-                NameRu = "Mo-50 Re (Пыль)",
+                NameRu = "Mo-50 Re (РџС‹Р»СЊ)",
                 NameEn = "Mo-50 Re (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "inert_dust_fraction_dust",
-                NameRu = "Инертная фракция (Пыль)",
+                NameRu = "РРЅРµСЂС‚РЅР°СЏ С„СЂР°РєС†РёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Inert fraction (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "weak_inconel_718_dust",
-                NameRu = "Слабый инконель-718 (Пыль)",
+                NameRu = "РЎР»Р°Р±С‹Р№ РёРЅРєРѕРЅРµР»СЊ-718 (РџС‹Р»СЊ)",
                 NameEn = "Weak inconel-718 (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "regolith_mush_dust",
-                NameRu = "Реголитовая каша (Пыль)",
+                NameRu = "Р РµРіРѕР»РёС‚РѕРІР°СЏ РєР°С€Р° (РџС‹Р»СЊ)",
                 NameEn = "Regolith mush (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "mo_si_b_dust",
-                NameRu = "Mo-Si-B (Пыль)",
+                NameRu = "Mo-Si-B (РџС‹Р»СЊ)",
                 NameEn = "Mo-Si-B (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sodium_nitrate_dust",
-                NameRu = "Нитрат натрия (Пыль)",
+                NameRu = "РќРёС‚СЂР°С‚ РЅР°С‚СЂРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Sodium nitrate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "goethe_regolith_dust",
-                NameRu = "Гётитовый реголит (Пыль)",
+                NameRu = "Р“С‘С‚РёС‚РѕРІС‹Р№ СЂРµРіРѕР»РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Goethe regolith (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "cholesterol_dust",
-                NameRu = "Холестерин (Пыль)",
+                NameRu = "РҐРѕР»РµСЃС‚РµСЂРёРЅ (РџС‹Р»СЊ)",
                 NameEn = "Cholesterol (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "crimsene_dust",
-                NameRu = "Багреллий (Пыль)",
+                NameRu = "Р‘Р°РіСЂРµР»Р»РёР№ (РџС‹Р»СЊ)",
                 NameEn = "Crimsene (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "dirty_mo_si_b_dust",
-                NameRu = "Грязный сплав Mo-Si-B (Пыль)",
+                NameRu = "Р“СЂСЏР·РЅС‹Р№ СЃРїР»Р°РІ Mo-Si-B (РџС‹Р»СЊ)",
                 NameEn = "Dirty Mo-Si-B (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "calorite_dust",
-                NameRu = "Калорит (Пыль)",
+                NameRu = "РљР°Р»РѕСЂРёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Calorite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "zinc_sulfate_dust",
-                NameRu = "Сульфат цинка (Пыль)",
+                NameRu = "РЎСѓР»СЊС„Р°С‚ С†РёРЅРєР° (РџС‹Р»СЊ)",
                 NameEn = "Zinc sulfate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sodium_borohydride_dust",
-                NameRu = "Боргидрит натрия (Пыль)",
+                NameRu = "Р‘РѕСЂРіРёРґСЂРёС‚ РЅР°С‚СЂРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Sodium borohydride (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sodium_tungstate_dust",
-                NameRu = "Вольфрамат натрия (Пыль)",
+                NameRu = "Р’РѕР»СЊС„СЂР°РјР°С‚ РЅР°С‚СЂРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Sodium tungstate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "glucose_dust",
-                NameRu = "Глюкоза (Пыль)",
+                NameRu = "Р“Р»СЋРєРѕР·Р° (РџС‹Р»СЊ)",
                 NameEn = "Glucose (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "pyrogallol_dust",
-                NameRu = "Пирогаллол (Пыль)",
+                NameRu = "РџРёСЂРѕРіР°Р»Р»РѕР» (РџС‹Р»СЊ)",
                 NameEn = "Pyrogallol (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "certus_regolith_dust",
-                NameRu = "Кварцевый реголит (Пыль)",
+                NameRu = "РљРІР°СЂС†РµРІС‹Р№ СЂРµРіРѕР»РёС‚ (РџС‹Р»СЊ)",
                 NameEn = "Certus regolith (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "fructose_dust",
-                NameRu = "Фруктоза (Пыль)",
+                NameRu = "Р¤СЂСѓРєС‚РѕР·Р° (РџС‹Р»СЊ)",
                 NameEn = "Fructose (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "igneous_ultramafic_dust",
-                NameRu = "Ультраосновная магматическая порода (Пыль)",
+                NameRu = "РЈР»СЊС‚СЂР°РѕСЃРЅРѕРІРЅР°СЏ РјР°РіРјР°С‚РёС‡РµСЃРєР°СЏ РїРѕСЂРѕРґР° (РџС‹Р»СЊ)",
                 NameEn = "Igneous ultramafic (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "woods_metal_dust",
-                NameRu = "Сплав Вуда (Пыль)",
+                NameRu = "РЎРїР»Р°РІ Р’СѓРґР° (РџС‹Р»СЊ)",
                 NameEn = "Woods metal (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "refractory_clay_dust",
-                NameRu = "Огнеупорная глина (Пыль)",
+                NameRu = "РћРіРЅРµСѓРїРѕСЂРЅР°СЏ РіР»РёРЅР° (РџС‹Р»СЊ)",
                 NameEn = "Refractory clay (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "aluminium_hydroxide_dust",
-                NameRu = "Гидроксид алюминия (Пыль)",
+                NameRu = "Р“РёРґСЂРѕРєСЃРёРґ Р°Р»СЋРјРёРЅРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Aluminium hydroxide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "tungsten_bismuth_oxide_composite_dust",
-                NameRu = "Композит оксида-вольфрама-висмута (Пыль)",
+                NameRu = "РљРѕРјРїРѕР·РёС‚ РѕРєСЃРёРґР°-РІРѕР»СЊС„СЂР°РјР°-РІРёСЃРјСѓС‚Р° (РџС‹Р»СЊ)",
                 NameEn = "Tungsten bismuth oxide composite (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "warpane_dust",
-                NameRu = "Искажеллий (Пыль)",
+                NameRu = "РСЃРєР°Р¶РµР»Р»РёР№ (РџС‹Р»СЊ)",
                 NameEn = "Warpane (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "igneous_mafic_dust",
-                NameRu = "Основная магматическая порода (Пыль)",
+                NameRu = "РћСЃРЅРѕРІРЅР°СЏ РјР°РіРјР°С‚РёС‡РµСЃРєР°СЏ РїРѕСЂРѕРґР° (РџС‹Р»СЊ)",
                 NameEn = "Igneous mafic (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "catalyser_powder_dust",
-                NameRu = "Катализаторный рениумный порошок ZSM-5 (Пыль)",
+                NameRu = "РљР°С‚Р°Р»РёР·Р°С‚РѕСЂРЅС‹Р№ СЂРµРЅРёСѓРјРЅС‹Р№ РїРѕСЂРѕС€РѕРє ZSM-5 (РџС‹Р»СЊ)",
                 NameEn = "Catalyser powder (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "organic_stabilizer_dust",
-                NameRu = "Органический стабилизатор (Пыль)",
+                NameRu = "РћСЂРіР°РЅРёС‡РµСЃРєРёР№ СЃС‚Р°Р±РёР»РёР·Р°С‚РѕСЂ (РџС‹Р»СЊ)",
                 NameEn = "Organic stabilizer (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "zircon_dust",
-                NameRu = "Цирконий (Пыль)",
+                NameRu = "Р¦РёСЂРєРѕРЅРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Zircon (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "rene_41_dust",
-                NameRu = "Рене-41 (Пыль)",
+                NameRu = "Р РµРЅРµ-41 (РџС‹Р»СЊ)",
                 NameEn = "Rene 41 (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sodium_aluminium_dust",
-                NameRu = "Алюминат натрия (Пыль)",
+                NameRu = "РђР»СЋРјРёРЅР°С‚ РЅР°С‚СЂРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Sodium aluminium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sedimentary_carbonate_dust",
-                NameRu = "Карбонатный осадок (Пыль)",
+                NameRu = "РљР°СЂР±РѕРЅР°С‚РЅС‹Р№ РѕСЃР°РґРѕРє (РџС‹Р»СЊ)",
                 NameEn = "Sedimentary carbonate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sedimentary_clastic_dust",
-                NameRu = "Обломочный осадок (Пыль)",
+                NameRu = "РћР±Р»РѕРјРѕС‡РЅС‹Р№ РѕСЃР°РґРѕРє (РџС‹Р»СЊ)",
                 NameEn = "Sedimentary clastic (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "trace_catalyst_salt_e_dust",
-                NameRu = "Следовая каталитическая соль E (Пыль)",
+                NameRu = "РЎР»РµРґРѕРІР°СЏ РєР°С‚Р°Р»РёС‚РёС‡РµСЃРєР°СЏ СЃРѕР»СЊ E (РџС‹Р»СЊ)",
                 NameEn = "Trace catalyst salt E (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "tetrafluoroethane_dust",
-                NameRu = "Тетрафторэтан (Пыль)",
+                NameRu = "РўРµС‚СЂР°С„С‚РѕСЂСЌС‚Р°РЅ (РџС‹Р»СЊ)",
                 NameEn = "Tetrafluoroethane (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "14_sorbitan_dust",
-                NameRu = "1,4-сорбитан (Пыль)",
+                NameRu = "1,4-СЃРѕСЂР±РёС‚Р°РЅ (РџС‹Р»СЊ)",
                 NameEn = "1,4-sorbitan (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "galactose_dust",
-                NameRu = "Галактоза (Пыль)",
+                NameRu = "Р“Р°Р»Р°РєС‚РѕР·Р° (РџС‹Р»СЊ)",
                 NameEn = "Galactose (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sodium_methoxide_dust",
-                NameRu = "Метоксид натрия (Пыль)",
+                NameRu = "РњРµС‚РѕРєСЃРёРґ РЅР°С‚СЂРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Sodium methoxide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sodium_dihydrogen_citrate_dust",
-                NameRu = "Цитрат натрия 2-замещённый (Пыль)",
+                NameRu = "Р¦РёС‚СЂР°С‚ РЅР°С‚СЂРёСЏ 2-Р·Р°РјРµС‰С‘РЅРЅС‹Р№ (РџС‹Р»СЊ)",
                 NameEn = "Sodium dihydrogen citrate (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "zirconium_bromide_dust",
-                NameRu = "Четырёхбромистый цирконий (Пыль)",
+                NameRu = "Р§РµС‚С‹СЂС‘С…Р±СЂРѕРјРёСЃС‚С‹Р№ С†РёСЂРєРѕРЅРёР№ (РџС‹Р»СЊ)",
                 NameEn = "Zirconium bromide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "isosorbide_dust",
-                NameRu = "Изосорбид (Пыль)",
+                NameRu = "РР·РѕСЃРѕСЂР±РёРґ (РџС‹Р»СЊ)",
                 NameEn = "Isosorbide (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "zirconium_diboride_dust",
-                NameRu = "Диборид циркония (Пыль)",
+                NameRu = "Р”РёР±РѕСЂРёРґ С†РёСЂРєРѕРЅРёСЏ (РџС‹Р»СЊ)",
                 NameEn = "Zirconium diboride (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "certus_quartz_dust",
-                NameRu = "Пыль истинного кварца",
+                NameRu = "РџС‹Р»СЊ РёСЃС‚РёРЅРЅРѕРіРѕ РєРІР°СЂС†Р°",
                 NameEn = "Certus quartz dust",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "fluix_dust",
-                NameRu = "Флюисовая пыль",
+                NameRu = "Р¤Р»СЋРёСЃРѕРІР°СЏ РїС‹Р»СЊ",
                 NameEn = "Fluix dust",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "ender_dust",
-                NameRu = "Эндер-пыль",
+                NameRu = "Р­РЅРґРµСЂ-РїС‹Р»СЊ",
                 NameEn = "Ender dust",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "rose_quartz_dust",
-                NameRu = "Розовый кварц (Пыль)",
+                NameRu = "Р РѕР·РѕРІС‹Р№ РєРІР°СЂС† (РџС‹Р»СЊ)",
                 NameEn = "Rose quartz (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "etrium_dust",
-                NameRu = "Этриум (Пыль)",
+                NameRu = "Р­С‚СЂРёСѓРј (РџС‹Р»СЊ)",
                 NameEn = "Etrium (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             new GameItem
             {
                 Id = "sedimentary_organic_dust",
-                NameRu = "Органогенный осадок (Пыль)",
+                NameRu = "РћСЂРіР°РЅРѕРіРµРЅРЅС‹Р№ РѕСЃР°РґРѕРє (РџС‹Р»СЊ)",
                 NameEn = "Sedimentary organic (Dust)",
-                Type = "Пыль",
+                Type = "РџС‹Р»СЊ",
                 Tag = "#forge:dusts"
             },
             // ==========================================
-            //                   СЛИТКИ
+            //                   РЎР›РРўРљР
             // ==========================================
             new GameItem
             {
                 Id = "iron_ingot",
-                NameRu = "Серый чугун (Слиток)",
+                NameRu = "РЎРµСЂС‹Р№ С‡СѓРіСѓРЅ (РЎР»РёС‚РѕРє)",
                 NameEn = "Iron (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "pig_iron_ingot",
-                NameRu = "Белый чугун (Слиток)",
+                NameRu = "Р‘РµР»С‹Р№ С‡СѓРіСѓРЅ (РЎР»РёС‚РѕРє)",
                 NameEn = "Pig iron (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "weak_steel_ingot",
-                NameRu = "Сырая сталь (Слиток)",
+                NameRu = "РЎС‹СЂР°СЏ СЃС‚Р°Р»СЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "Weak steel (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "high_carbon_steel_ingot",
-                NameRu = "Высокоуглеродистая сталь (Слиток)",
+                NameRu = "Р’С‹СЃРѕРєРѕСѓРіР»РµСЂРѕРґРёСЃС‚Р°СЏ СЃС‚Р°Р»СЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "High carbon steel (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "high_carbon_black_steel_ingot",
-                NameRu = "Высокоуглеродистая сталь (Слиток)",
+                NameRu = "Р’С‹СЃРѕРєРѕСѓРіР»РµСЂРѕРґРёСЃС‚Р°СЏ СЃС‚Р°Р»СЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "High carbon black steel (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "high_carbon_blue_steel_ingot",
-                NameRu = "Высокоуглеродистая сталь (Слиток)",
+                NameRu = "Р’С‹СЃРѕРєРѕСѓРіР»РµСЂРѕРґРёСЃС‚Р°СЏ СЃС‚Р°Р»СЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "High carbon blue steel (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "high_carbon_red_steel_ingot",
-                NameRu = "Высокоуглеродистая сталь (Слиток)",
+                NameRu = "Р’С‹СЃРѕРєРѕСѓРіР»РµСЂРѕРґРёСЃС‚Р°СЏ СЃС‚Р°Р»СЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "High carbon red steel (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "activated_mo_si_b_ingot",
-                NameRu = "Активированный сплав Mo-Si-B (Слиток)",
+                NameRu = "РђРєС‚РёРІРёСЂРѕРІР°РЅРЅС‹Р№ СЃРїР»Р°РІ Mo-Si-B (РЎР»РёС‚РѕРє)",
                 NameEn = "Activated Mo-Si-B (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "homogenized_mo_si_b_ingot",
-                NameRu = "Гомогенизированный сплав Mo-Si-B (Слиток)",
+                NameRu = "Р“РѕРјРѕРіРµРЅРёР·РёСЂРѕРІР°РЅРЅС‹Р№ СЃРїР»Р°РІ Mo-Si-B (РЎР»РёС‚РѕРє)",
                 NameEn = "Homogenized Mo-Si-B (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "homogenized_inconel_718_ingot",
-                NameRu = "Гомогенизированный инконель-718 (Слиток)",
+                NameRu = "Р“РѕРјРѕРіРµРЅРёР·РёСЂРѕРІР°РЅРЅС‹Р№ РёРЅРєРѕРЅРµР»СЊ-718 (РЎР»РёС‚РѕРє)",
                 NameEn = "Homogenized inconel-718 (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "diamond_tipped_mo_50_re_ingot",
-                NameRu = "Mo-50Re с алмазным напылением (Слиток)",
+                NameRu = "Mo-50Re СЃ Р°Р»РјР°Р·РЅС‹Рј РЅР°РїС‹Р»РµРЅРёРµРј (РЎР»РёС‚РѕРє)",
                 NameEn = "Diamond tipped Mo-50Re (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "borosilicate_glass_ingot",
-                NameRu = "Боросиликатное стекло (Слиток)",
+                NameRu = "Р‘РѕСЂРѕСЃРёР»РёРєР°С‚РЅРѕРµ СЃС‚РµРєР»Рѕ (РЎР»РёС‚РѕРє)",
                 NameEn = "Borosilicate glass (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "stone_ingot",
-                NameRu = "Камень (Слиток)",
+                NameRu = "РљР°РјРµРЅСЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "Stone (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "polycaprolactam_ingot",
-                NameRu = "Поликапролактам (Слиток)",
+                NameRu = "РџРѕР»РёРєР°РїСЂРѕР»Р°РєС‚Р°Рј (РЎР»РёС‚РѕРє)",
                 NameEn = "Polycaprolactam (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "red_alloy_ingot",
-                NameRu = "Красный сплав (Слиток)",
+                NameRu = "РљСЂР°СЃРЅС‹Р№ СЃРїР»Р°РІ (РЎР»РёС‚РѕРє)",
                 NameEn = "Red alloy (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "neutronium_ingot",
-                NameRu = "Нейтроний (Слиток)",
+                NameRu = "РќРµР№С‚СЂРѕРЅРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Neutronium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "uranium_ingot",
-                NameRu = "Уран 238 (Слиток)",
+                NameRu = "РЈСЂР°РЅ 238 (РЎР»РёС‚РѕРє)",
                 NameEn = "Uranium 238 (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "plutonium_241_ingot",
-                NameRu = "Плутоний-241 (Слиток)",
+                NameRu = "РџР»СѓС‚РѕРЅРёР№-241 (РЎР»РёС‚РѕРє)",
                 NameEn = "Plutonium-241 (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "platinum_ingot",
-                NameRu = "Платина (Слиток)",
+                NameRu = "РџР»Р°С‚РёРЅР° (РЎР»РёС‚РѕРє)",
                 NameEn = "Platinum (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "enriched_naquadah_ingot",
-                NameRu = "Обогащённыя наквада (Слиток)",
+                NameRu = "РћР±РѕРіР°С‰С‘РЅРЅС‹СЏ РЅР°РєРІР°РґР° (РЎР»РёС‚РѕРє)",
                 NameEn = "Enriched naquadah (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "aluminium_ingot",
-                NameRu = "Алюминий (Слиток)",
+                NameRu = "РђР»СЋРјРёРЅРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Aluminium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "ruthenium_ingot",
-                NameRu = "Рутений (Слиток)",
+                NameRu = "Р СѓС‚РµРЅРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Ruthenium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "magnetic_iron_ingot",
-                NameRu = "Магнитное железо (Слиток)",
+                NameRu = "РњР°РіРЅРёС‚РЅРѕРµ Р¶РµР»РµР·Рѕ (РЎР»РёС‚РѕРє)",
                 NameEn = "Magnetic iron (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "invar_ingot",
-                NameRu = "Инвар (Слиток)",
+                NameRu = "РРЅРІР°СЂ (РЎР»РёС‚РѕРє)",
                 NameEn = "Invar (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "duranium_ingot",
-                NameRu = "Дюраний (Слиток)",
+                NameRu = "Р”СЋСЂР°РЅРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Duranium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "nickel_ingot",
-                NameRu = "Никель (Слиток)",
+                NameRu = "РќРёРєРµР»СЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "Nickel (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "zinc_ingot",
-                NameRu = "Цинк (Слиток)",
+                NameRu = "Р¦РёРЅРє (РЎР»РёС‚РѕРє)",
                 NameEn = "Zinc (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "watertight_steel_ingot",
-                NameRu = "Водостойкая сталь (Слиток)",
+                NameRu = "Р’РѕРґРѕСЃС‚РѕР№РєР°СЏ СЃС‚Р°Р»СЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "Watertight steel (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "thorium_232_ingot",
-                NameRu = "Торий 232 (Слиток)",
+                NameRu = "РўРѕСЂРёР№ 232 (РЎР»РёС‚РѕРє)",
                 NameEn = "Thorium 232 (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "osmiridium_ingot",
-                NameRu = "Осмистый иридий (Слиток)",
+                NameRu = "РћСЃРјРёСЃС‚С‹Р№ РёСЂРёРґРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Osmiridium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "cobalt_ingot",
-                NameRu = "Кобальт (Слиток)",
+                NameRu = "РљРѕР±Р°Р»СЊС‚ (РЎР»РёС‚РѕРє)",
                 NameEn = "Cobalt (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "hsla_steel_ingot",
-                NameRu = "HSLA сталь (Слиток)",
+                NameRu = "HSLA СЃС‚Р°Р»СЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "HSLA steel (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "titanium_tungsten_carbide_ingot",
-                NameRu = "Вольфрам-титанановый карбид (Слиток)",
+                NameRu = "Р’РѕР»СЊС„СЂР°Рј-С‚РёС‚Р°РЅР°РЅРѕРІС‹Р№ РєР°СЂР±РёРґ (РЎР»РёС‚РѕРє)",
                 NameEn = "Titanium tungsten carbide (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "polyvinyl_butyral_ingot",
-                NameRu = "Поливинилбутираль (Слиток)",
+                NameRu = "РџРѕР»РёРІРёРЅРёР»Р±СѓС‚РёСЂР°Р»СЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "Polyvinyl butyral (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "manganese_ingot",
-                NameRu = "Марганец (Слиток)",
+                NameRu = "РњР°СЂРіР°РЅРµС† (РЎР»РёС‚РѕРє)",
                 NameEn = "Manganese (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "niobium_titanium_ingot",
-                NameRu = "Ниобий-титан (Слиток)",
+                NameRu = "РќРёРѕР±РёР№-С‚РёС‚Р°РЅ (РЎР»РёС‚РѕРє)",
                 NameEn = "Niobium titanium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "silver_ingot",
-                NameRu = "Серебро (Слиток)",
+                NameRu = "РЎРµСЂРµР±СЂРѕ (РЎР»РёС‚РѕРє)",
                 NameEn = "Silver (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "rhodium_ingot",
-                NameRu = "Родий (Слиток)",
+                NameRu = "Р РѕРґРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Rhodium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "hsss_ingot",
-                NameRu = "HSS-S (Слиток)",
+                NameRu = "HSS-S (РЎР»РёС‚РѕРє)",
                 NameEn = "HSS-S (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "molybdenum_ingot",
-                NameRu = "Молибден (Слиток)",
+                NameRu = "РњРѕР»РёР±РґРµРЅ (РЎР»РёС‚РѕРє)",
                 NameEn = "molybdenum (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "polyphenylene_sulfide_ingot",
-                NameRu = "Полифениленсульфид (Слиток)",
+                NameRu = "РџРѕР»РёС„РµРЅРёР»РµРЅСЃСѓР»СЊС„РёРґ (РЎР»РёС‚РѕРє)",
                 NameEn = "Polyphenylene sulfide (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "tin_ingot",
-                NameRu = "Олово (Слиток)",
+                NameRu = "РћР»РѕРІРѕ (РЎР»РёС‚РѕРє)",
                 NameEn = "Tin (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "rocket_alloy_t1_ingot",
-                NameRu = "Красный алюминиево-стальной ракетный сплав (Слиток)",
+                NameRu = "РљСЂР°СЃРЅС‹Р№ Р°Р»СЋРјРёРЅРёРµРІРѕ-СЃС‚Р°Р»СЊРЅРѕР№ СЂР°РєРµС‚РЅС‹Р№ СЃРїР»Р°РІ (РЎР»РёС‚РѕРє)",
                 NameEn = "Rocket alloy t1 (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "hastelloy_x_ingot",
-                NameRu = "Хастеллой-X (Слиток)",
+                NameRu = "РҐР°СЃС‚РµР»Р»РѕР№-X (РЎР»РёС‚РѕРє)",
                 NameEn = "Hastelloy-X (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "niobium_nitride_ingot",
-                NameRu = "Нитрид ниобия (Слиток)",
+                NameRu = "РќРёС‚СЂРёРґ РЅРёРѕР±РёСЏ (РЎР»РёС‚РѕРє)",
                 NameEn = "Niobium nitride (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "cupronickel_ingot",
-                NameRu = "Купроникель (Слиток)",
+                NameRu = "РљСѓРїСЂРѕРЅРёРєРµР»СЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "Cupronickel (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "zirconium_ingot",
-                NameRu = "Цирконий (Слиток)",
+                NameRu = "Р¦РёСЂРєРѕРЅРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Zirconium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "titanium_ingot",
-                NameRu = "Титан (Слиток)",
+                NameRu = "РўРёС‚Р°РЅ (РЎР»РёС‚РѕРє)",
                 NameEn = "Titanium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "americium_ingot",
-                NameRu = "Америций 243 (Слиток)",
+                NameRu = "РђРјРµСЂРёС†РёР№ 243 (РЎР»РёС‚РѕРє)",
                 NameEn = "Americium 243 (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "uranium_235_ingot",
-                NameRu = "Уран-235 (Слиток)",
+                NameRu = "РЈСЂР°РЅ-235 (РЎР»РёС‚РѕРє)",
                 NameEn = "Uranium-235 (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "gallium_ingot",
-                NameRu = "Галлий (Слиток)",
+                NameRu = "Р“Р°Р»Р»РёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Gallium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "californium_252_ingot",
-                NameRu = "Калифорний 252 (Слиток)",
+                NameRu = "РљР°Р»РёС„РѕСЂРЅРёР№ 252 (РЎР»РёС‚РѕРє)",
                 NameEn = "Californium 252 (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "uranium_triplatinum_ingot",
-                NameRu = "Триплатина уран (Слиток)",
+                NameRu = "РўСЂРёРїР»Р°С‚РёРЅР° СѓСЂР°РЅ (РЎР»РёС‚РѕРє)",
                 NameEn = "Uranium triplatinum (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "ultimet_ingot",
-                NameRu = "Ультимет (Слиток)",
+                NameRu = "РЈР»СЊС‚РёРјРµС‚ (РЎР»РёС‚РѕРє)",
                 NameEn = "Ultimet (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "hssg_ingot",
-                NameRu = "HSS-G (Слиток)",
+                NameRu = "HSS-G (РЎР»РёС‚РѕРє)",
                 NameEn = "HSS-G (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "desh_ingot",
-                NameRu = "Деш (Слиток)",
+                NameRu = "Р”РµС€ (РЎР»РёС‚РѕРє)",
                 NameEn = "desh (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "tungsten_carbide_ingot",
-                NameRu = "Карбид вольфрама (Слиток)",
+                NameRu = "РљР°СЂР±РёРґ РІРѕР»СЊС„СЂР°РјР° (РЎР»РёС‚РѕРє)",
                 NameEn = "Tungsten carbide (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "trinium_ingot",
-                NameRu = "Триниум (Слиток)",
+                NameRu = "РўСЂРёРЅРёСѓРј (РЎР»РёС‚РѕРє)",
                 NameEn = "Trinium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "neptunium_237_ingot",
-                NameRu = "Нептуний 237 (Слиток)",
+                NameRu = "РќРµРїС‚СѓРЅРёР№ 237 (РЎР»РёС‚РѕРє)",
                 NameEn = "Neptunium 237 (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "rhodium_plated_palladium_ingot",
-                NameRu = "Палладий с родиевым покрытием (Слиток)",
+                NameRu = "РџР°Р»Р»Р°РґРёР№ СЃ СЂРѕРґРёРµРІС‹Рј РїРѕРєСЂС‹С‚РёРµРј (РЎР»РёС‚РѕРє)",
                 NameEn = "Rhodium plated palladium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "chromium_ingot",
-                NameRu = "Хром (Слиток)",
+                NameRu = "РҐСЂРѕРј (РЎР»РёС‚РѕРє)",
                 NameEn = "Chromium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "ostrum_iodide_ingot",
-                NameRu = "Йодид острума (Слиток)",
+                NameRu = "Р™РѕРґРёРґ РѕСЃС‚СЂСѓРјР° (РЎР»РёС‚РѕРє)",
                 NameEn = "ostrum_iodide_dust (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "nickel_zinc_ferrite_ingot",
-                NameRu = "Никель цинк феррит (Слиток)",
+                NameRu = "РќРёРєРµР»СЊ С†РёРЅРє С„РµСЂСЂРёС‚ (РЎР»РёС‚РѕРє)",
                 NameEn = "Nickel zinc ferrite (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "titanium_carbide_ingot",
-                NameRu = "Карбид титана (Слиток)",
+                NameRu = "РљР°СЂР±РёРґ С‚РёС‚Р°РЅР° (РЎР»РёС‚РѕРє)",
                 NameEn = "Titanium carbide (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "samarium_ingot",
-                NameRu = "Самарий (Слиток)",
+                NameRu = "РЎР°РјР°СЂРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Samarium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "stainless_steel_ingot",
-                NameRu = "Нержавеющая сталь (Слиток)",
+                NameRu = "РќРµСЂР¶Р°РІРµСЋС‰Р°СЏ СЃС‚Р°Р»СЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "Stainless steel (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "bismuth_ingot",
-                NameRu = "Висмут (Слиток)",
+                NameRu = "Р’РёСЃРјСѓС‚ (РЎР»РёС‚РѕРє)",
                 NameEn = "Bismuth (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "bronze_ingot",
-                NameRu = "Бронза (Слиток)",
+                NameRu = "Р‘СЂРѕРЅР·Р° (РЎР»РёС‚РѕРє)",
                 NameEn = "Bronze (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "ruthenium_trinium_americium_neutronate_ingot",
-                NameRu = "Нейтронат рутения триния америция (Слиток)",
+                NameRu = "РќРµР№С‚СЂРѕРЅР°С‚ СЂСѓС‚РµРЅРёСЏ С‚СЂРёРЅРёСЏ Р°РјРµСЂРёС†РёСЏ (РЎР»РёС‚РѕРє)",
                 NameEn = "Ruthenium trinium americium neutronate (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "incoloy_ma_956_ingot",
-                NameRu = "Инколой MA-956 (Слиток)",
+                NameRu = "РРЅРєРѕР»РѕР№ MA-956 (РЎР»РёС‚РѕРє)",
                 NameEn = "Incoloy MA-956 (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "brass_ingot",
-                NameRu = "Латунь (Слиток)",
+                NameRu = "Р›Р°С‚СѓРЅСЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "Brass (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "rtm_alloy_ingot",
-                NameRu = "РВМ сплав (Слиток)",
+                NameRu = "Р Р’Рњ СЃРїР»Р°РІ (РЎР»РёС‚РѕРє)",
                 NameEn = "RTM alloy (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "cobalt_brass_ingot",
-                NameRu = "Кобальтовая латунь (Слиток)",
+                NameRu = "РљРѕР±Р°Р»СЊС‚РѕРІР°СЏ Р»Р°С‚СѓРЅСЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "Cobalt brass (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "neodymium_ingot",
-                NameRu = "Неодим (Слиток)",
+                NameRu = "РќРµРѕРґРёРј (РЎР»РёС‚РѕРє)",
                 NameEn = "Neodymium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "silicone_rubber_ingot",
-                NameRu = "Силиконовая резина (Слиток)",
+                NameRu = "РЎРёР»РёРєРѕРЅРѕРІР°СЏ СЂРµР·РёРЅР° (РЎР»РёС‚РѕРє)",
                 NameEn = "Silicone rubber (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "rubber_ingot",
-                NameRu = "Резина (Слиток)",
+                NameRu = "Р РµР·РёРЅР° (РЎР»РёС‚РѕРє)",
                 NameEn = "Rubber (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "black_steel_ingot",
-                NameRu = "Черная сталь (Слиток)",
+                NameRu = "Р§РµСЂРЅР°СЏ СЃС‚Р°Р»СЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "Black steel (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "black_bronze_ingot",
-                NameRu = "Черная бронза (Слиток)",
+                NameRu = "Р§РµСЂРЅР°СЏ Р±СЂРѕРЅР·Р° (РЎР»РёС‚РѕРє)",
                 NameEn = "Black bronze (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "zeron_100_ingot",
-                NameRu = "Зерон-100 (Слиток)",
+                NameRu = "Р—РµСЂРѕРЅ-100 (РЎР»РёС‚РѕРє)",
                 NameEn = "Zeron-100 (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "magnetic_samarium_ingot",
-                NameRu = "Магнитный самарий (Слиток)",
+                NameRu = "РњР°РіРЅРёС‚РЅС‹Р№ СЃР°РјР°СЂРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Magnetic samarium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "samarium_iron_arsenic_oxide_ingot",
-                NameRu = "Оксид самария железа мышьяка (Слиток)",
+                NameRu = "РћРєСЃРёРґ СЃР°РјР°СЂРёСЏ Р¶РµР»РµР·Р° РјС‹С€СЊСЏРєР° (РЎР»РёС‚РѕРє)",
                 NameEn = "Samarium iron arsenic oxide (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "blue_steel_ingot",
-                NameRu = "Синяя сталь (Слиток)",
+                NameRu = "РЎРёРЅСЏСЏ СЃС‚Р°Р»СЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "Blue steel (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "manganese_phosphide_ingot",
-                NameRu = "Фосфид марганца (Слиток)",
+                NameRu = "Р¤РѕСЃС„РёРґ РјР°СЂРіР°РЅС†Р° (РЎР»РёС‚РѕРє)",
                 NameEn = "Manganese phosphide (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "stellite_100_ingot",
-                NameRu = "Стеллит (Слиток)",
+                NameRu = "РЎС‚РµР»Р»РёС‚ (РЎР»РёС‚РѕРє)",
                 NameEn = "Stellite (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "naquadria_ingot",
-                NameRu = "Наквадрия (Слиток)",
+                NameRu = "РќР°РєРІР°РґСЂРёСЏ (РЎР»РёС‚РѕРє)",
                 NameEn = "Naquadria (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "epoxy_ingot",
-                NameRu = "Эпоксидная смола (Слиток)",
+                NameRu = "Р­РїРѕРєСЃРёРґРЅР°СЏ СЃРјРѕР»Р° (РЎР»РёС‚РѕРє)",
                 NameEn = "Epoxy (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "magnetic_neodymium_ingot",
-                NameRu = "Магнитный неодим (Слиток)",
+                NameRu = "РњР°РіРЅРёС‚РЅС‹Р№ РЅРµРѕРґРёРј (РЎР»РёС‚РѕРє)",
                 NameEn = "Magnetic neodymium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "nichrome_ingot",
-                NameRu = "Нихром (Слиток)",
+                NameRu = "РќРёС…СЂРѕРј (РЎР»РёС‚РѕРє)",
                 NameEn = "Nichrome (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "americium_ingot",
-                NameRu = "Америций 241 (Слиток)",
+                NameRu = "РђРјРµСЂРёС†РёР№ 241 (РЎР»РёС‚РѕРє)",
                 NameEn = "Americium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "europium_ingot",
-                NameRu = "Европий (Слиток)",
+                NameRu = "Р•РІСЂРѕРїРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Europium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "thorium_230_ingot",
-                NameRu = "Торий 230 (Слиток)",
+                NameRu = "РўРѕСЂРёР№ 230 (РЎР»РёС‚РѕРє)",
                 NameEn = "Thorium 230 (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "vanadium_gallium_ingot",
-                NameRu = "Ванадий-Галлий (Слиток)",
+                NameRu = "Р’Р°РЅР°РґРёР№-Р“Р°Р»Р»РёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Vanadium gallium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "tungsten_ingot",
-                NameRu = "Вольфрам (Слиток)",
+                NameRu = "Р’РѕР»СЊС„СЂР°Рј (РЎР»РёС‚РѕРє)",
                 NameEn = "Tungsten (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "plutonium_ingot",
-                NameRu = "Плутоний 239 (Слиток)",
+                NameRu = "РџР»СѓС‚РѕРЅРёР№ 239 (РЎР»РёС‚РѕРє)",
                 NameEn = "Plutonium 239 (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "styrene_butadiene_rubber_ingot",
-                NameRu = "Стирол-бутадиеновая резина (Слиток)",
+                NameRu = "РЎС‚РёСЂРѕР»-Р±СѓС‚Р°РґРёРµРЅРѕРІР°СЏ СЂРµР·РёРЅР° (РЎР»РёС‚РѕРє)",
                 NameEn = "Styrene butadiene rubber (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "vanadium_steel_ingot",
-                NameRu = "Ванадиевая сталь (Слиток)",
+                NameRu = "Р’Р°РЅР°РґРёРµРІР°СЏ СЃС‚Р°Р»СЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "Vanadium steel (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "tungsten_steel_ingot",
-                NameRu = "Вольфрамовая сталь (Слиток)",
+                NameRu = "Р’РѕР»СЊС„СЂР°РјРѕРІР°СЏ СЃС‚Р°Р»СЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "Tungsten steel (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "magnalium_ingot",
-                NameRu = "Магналий (Слиток)",
+                NameRu = "РњР°РіРЅР°Р»РёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Magnalium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "polybenzimidazole_ingot",
-                NameRu = "Полибензимидазол (ПБИ) (Слиток)",
+                NameRu = "РџРѕР»РёР±РµРЅР·РёРјРёРґР°Р·РѕР» (РџР‘Р) (РЎР»РёС‚РѕРє)",
                 NameEn = "Polybenzimidazole (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "iridium_ingot",
-                NameRu = "Иридий (Слиток)",
+                NameRu = "РСЂРёРґРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Iridium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "red_steel_ingot",
-                NameRu = "Красная сталь (Слиток)",
+                NameRu = "РљСЂР°СЃРЅР°СЏ СЃС‚Р°Р»СЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "Red steel (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "polyethylene_ingot",
-                NameRu = "Полиэтилен (Слиток)",
+                NameRu = "РџРѕР»РёСЌС‚РёР»РµРЅ (РЎР»РёС‚РѕРє)",
                 NameEn = "Polyethylene (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "magnetic_steel_ingot",
-                NameRu = "Магнитная сталь (Слиток)",
+                NameRu = "РњР°РіРЅРёС‚РЅР°СЏ СЃС‚Р°Р»СЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "Magnetic steel (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "indium_gallium_phosphide_ingot",
-                NameRu = "Индий галлий фосфид (Слиток)",
+                NameRu = "РРЅРґРёР№ РіР°Р»Р»РёР№ С„РѕСЃС„РёРґ (РЎР»РёС‚РѕРє)",
                 NameEn = "Indium gallium phosphide (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "indium_ingot",
-                NameRu = "Индий (Слиток)",
+                NameRu = "РРЅРґРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Indium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "osmium_ingot",
-                NameRu = "Осмий (Слиток)",
+                NameRu = "РћСЃРјРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Osmium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "hastelloy_c_276_ingot",
-                NameRu = "Хастеллой-C276 (Слиток)",
+                NameRu = "РҐР°СЃС‚РµР»Р»РѕР№-C276 (РЎР»РёС‚РѕРє)",
                 NameEn = "Hastelloy-C276 (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "molybdenum_disilicide_ingot",
-                NameRu = "Дисилицид молибдена (Слиток)",
+                NameRu = "Р”РёСЃРёР»РёС†РёРґ РјРѕР»РёР±РґРµРЅР° (РЎР»РёС‚РѕРє)",
                 NameEn = "molybdenum disilicide (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "rose_gold_ingot",
-                NameRu = "Розовое золото (Слиток)",
+                NameRu = "Р РѕР·РѕРІРѕРµ Р·РѕР»РѕС‚Рѕ (РЎР»РёС‚РѕРє)",
                 NameEn = "Rose gold (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "electrum_ingot",
-                NameRu = "Электрум (Слиток)",
+                NameRu = "Р­Р»РµРєС‚СЂСѓРј (РЎР»РёС‚РѕРє)",
                 NameEn = "Electrum (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "tantalum_ingot",
-                NameRu = "Тантал (Слиток)",
+                NameRu = "РўР°РЅС‚Р°Р» (РЎР»РёС‚РѕРє)",
                 NameEn = "Tantalum (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "polydimethylsiloxane_ingot",
-                NameRu = "Полидиметилсилоксан (Слиток)",
+                NameRu = "РџРѕР»РёРґРёРјРµС‚РёР»СЃРёР»РѕРєСЃР°РЅ (РЎР»РёС‚РѕРє)",
                 NameEn = "polydimethylsiloxane (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "polyvinyl_chloride_ingot",
-                NameRu = "Поливинил хлорид (Слиток)",
+                NameRu = "РџРѕР»РёРІРёРЅРёР» С…Р»РѕСЂРёРґ (РЎР»РёС‚РѕРє)",
                 NameEn = "Polyvinyl chloride (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "magnesium_diboride_ingot",
-                NameRu = "Диборид магния (Слиток)",
+                NameRu = "Р”РёР±РѕСЂРёРґ РјР°РіРЅРёСЏ (РЎР»РёС‚РѕРє)",
                 NameEn = "Magnesium diboride (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "sterling_silver_ingot",
-                NameRu = "Стерлинговое серебро (Слиток)",
+                NameRu = "РЎС‚РµСЂР»РёРЅРіРѕРІРѕРµ СЃРµСЂРµР±СЂРѕ (РЎР»РёС‚РѕРє)",
                 NameEn = "Sterling silver (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "wrought_iron_ingot",
-                NameRu = "Кованное железо (Слиток)",
+                NameRu = "РљРѕРІР°РЅРЅРѕРµ Р¶РµР»РµР·Рѕ (РЎР»РёС‚РѕРє)",
                 NameEn = "Wrought iron (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "tantalum_carbide_ingot",
-                NameRu = "Карбид тантала (Слиток)",
+                NameRu = "РљР°СЂР±РёРґ С‚Р°РЅС‚Р°Р»Р° (РЎР»РёС‚РѕРє)",
                 NameEn = "Tantalum carbide (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "polytetrafluoroethylene_ingot",
-                NameRu = "Политетрафторэтилен (Слиток)",
+                NameRu = "РџРѕР»РёС‚РµС‚СЂР°С„С‚РѕСЂСЌС‚РёР»РµРЅ (РЎР»РёС‚РѕРє)",
                 NameEn = "Polytetrafluoroethylene (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "niobium_ingot",
-                NameRu = "Ниобий (Слиток)",
+                NameRu = "РќРёРѕР±РёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Niobium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "gallium_arsenide_ingot",
-                NameRu = "Арсенид галлия (Слиток)",
+                NameRu = "РђСЂСЃРµРЅРёРґ РіР°Р»Р»РёСЏ (РЎР»РёС‚РѕРє)",
                 NameEn = "Gallium arsenide (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "kanthal_ingot",
-                NameRu = "Кантал (Слиток)",
+                NameRu = "РљР°РЅС‚Р°Р» (РЎР»РёС‚РѕРє)",
                 NameEn = "Kanthal (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "cadmium_ingot",
-                NameRu = "Кадмий (Слиток)",
+                NameRu = "РљР°РґРјРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Cadmium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "gold_ingot",
-                NameRu = "Золото (Слиток)",
+                NameRu = "Р—РѕР»РѕС‚Рѕ (РЎР»РёС‚РѕРє)",
                 NameEn = "Gold (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "vanadium_ingot",
-                NameRu = "Ванадий (Слиток)",
+                NameRu = "Р’Р°РЅР°РґРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Vanadium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "uranium_rhodium_dinaquadide_ingot",
-                NameRu = "Уран родий динаквада (Слиток)",
+                NameRu = "РЈСЂР°РЅ СЂРѕРґРёР№ РґРёРЅР°РєРІР°РґР° (РЎР»РёС‚РѕРє)",
                 NameEn = "Uranium rhodium dinaquadide (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "yttrium_barium_cuprate_ingot",
-                NameRu = "Оксид иттрия-бария-меди (Слиток)",
+                NameRu = "РћРєСЃРёРґ РёС‚С‚СЂРёСЏ-Р±Р°СЂРёСЏ-РјРµРґРё (РЎР»РёС‚РѕРє)",
                 NameEn = "Yttrium barium cuprate (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "reinforced_epoxy_resin_ingot",
-                NameRu = "Укреплённая эпоксидная смола (Слиток)",
+                NameRu = "РЈРєСЂРµРїР»С‘РЅРЅР°СЏ СЌРїРѕРєСЃРёРґРЅР°СЏ СЃРјРѕР»Р° (РЎР»РёС‚РѕРє)",
                 NameEn = "Reinforced epoxy resin (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "maraging_steel_300_ingot",
-                NameRu = "Мартенситностареющая сталь 300 (Слиток)",
+                NameRu = "РњР°СЂС‚РµРЅСЃРёС‚РЅРѕСЃС‚Р°СЂРµСЋС‰Р°СЏ СЃС‚Р°Р»СЊ 300 (РЎР»РёС‚РѕРє)",
                 NameEn = "Maraging steel 300 (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "enriched_naquadah_trinium_europium_duranide_ingot",
-                NameRu = "Обогащенный наквада триний европий дюраний (Слиток)",
+                NameRu = "РћР±РѕРіР°С‰РµРЅРЅС‹Р№ РЅР°РєРІР°РґР° С‚СЂРёРЅРёР№ РµРІСЂРѕРїРёР№ РґСЋСЂР°РЅРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Enriched naquadah trinium europium duranide (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "palladium_ingot",
-                NameRu = "Палладий (Слиток)",
+                NameRu = "РџР°Р»Р»Р°РґРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Palladium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "graphene_ingot",
-                NameRu = "Графен (Слиток)",
+                NameRu = "Р“СЂР°С„РµРЅ (РЎР»РёС‚РѕРє)",
                 NameEn = "Graphene (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "beryllium_ingot",
-                NameRu = "Бериллий (Слиток)",
+                NameRu = "Р‘РµСЂРёР»Р»РёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Beryllium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "blue_alloy_ingot",
-                NameRu = "Синий сплав (Слиток)",
+                NameRu = "РЎРёРЅРёР№ СЃРїР»Р°РІ (РЎР»РёС‚РѕРє)",
                 NameEn = "Blue alloy (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "hsse_ingot",
-                NameRu = "HSS-E (Слиток)",
+                NameRu = "HSS-E (РЎР»РёС‚РѕРє)",
                 NameEn = "HSS-E (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "mercury_barium_calcium_cuprate_ingot",
-                NameRu = "Купрат ртути бария кальция (Слиток)",
+                NameRu = "РљСѓРїСЂР°С‚ СЂС‚СѓС‚Рё Р±Р°СЂРёСЏ РєР°Р»СЊС†РёСЏ (РЎР»РёС‚РѕРє)",
                 NameEn = "Mercury barium calcium cuprate (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "bismuth_bronze_ingot",
-                NameRu = "Висмутовая бронза (Слиток)",
+                NameRu = "Р’РёСЃРјСѓС‚РѕРІР°СЏ Р±СЂРѕРЅР·Р° (РЎР»РёС‚РѕРє)",
                 NameEn = "Bismuth bronze (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "copper_ingot",
-                NameRu = "Медь (Слиток)",
+                NameRu = "РњРµРґСЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "Copper (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "silicon_ingot",
-                NameRu = "Кремний (Слиток)",
+                NameRu = "РљСЂРµРјРЅРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Silicon (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "rocket_alloy_t2_ingot",
-                NameRu = "ASM 4914 титановый ракетный сплав (Слиток)",
+                NameRu = "ASM 4914 С‚РёС‚Р°РЅРѕРІС‹Р№ СЂР°РєРµС‚РЅС‹Р№ СЃРїР»Р°РІ (РЎР»РёС‚РѕРє)",
                 NameEn = "Rocket alloy t2 (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "naquadah_alloy_ingot",
-                NameRu = "Сплав наквада (Слиток)",
+                NameRu = "РЎРїР»Р°РІ РЅР°РєРІР°РґР° (РЎР»РёС‚РѕРє)",
                 NameEn = "Naquadah alloy (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "darmstadtium_ingot",
-                NameRu = "Дармштадтий (Слиток)",
+                NameRu = "Р”Р°СЂРјС€С‚Р°РґС‚РёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Darmstadtium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "soldering_alloy_ingot",
-                NameRu = "Припой (Слиток)",
+                NameRu = "РџСЂРёРїРѕР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Soldering alloy (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "battery_alloy_ingot",
-                NameRu = "Аккумуляторный сплав (Слиток)",
+                NameRu = "РђРєРєСѓРјСѓР»СЏС‚РѕСЂРЅС‹Р№ СЃРїР»Р°РІ (РЎР»РёС‚РѕРє)",
                 NameEn = "Battery alloy (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "naquadah_ingot",
-                NameRu = "Наквада (Слиток)",
+                NameRu = "РќР°РєРІР°РґР° (РЎР»РёС‚РѕРє)",
                 NameEn = "Naquadah (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "annealed_copper_ingot",
-                NameRu = "Отожженная медь (Слиток)",
+                NameRu = "РћС‚РѕР¶Р¶РµРЅРЅР°СЏ РјРµРґСЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "Annealed copper (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "indium_tin_barium_titanium_cuprate_ingot",
-                NameRu = "Купрат индия олова бария титана (Слиток)",
+                NameRu = "РљСѓРїСЂР°С‚ РёРЅРґРёСЏ РѕР»РѕРІР° Р±Р°СЂРёСЏ С‚РёС‚Р°РЅР° (РЎР»РёС‚РѕРє)",
                 NameEn = "Indium tin barium titanium cuprate (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "ostrum_ingot",
-                NameRu = "Острум (Слиток)",
+                NameRu = "РћСЃС‚СЂСѓРј (РЎР»РёС‚РѕРє)",
                 NameEn = "Ostrum (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "yttrium_ingot",
-                NameRu = "Иттрий (Слиток)",
+                NameRu = "РС‚С‚СЂРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Yttrium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "lead_ingot",
-                NameRu = "Свинец (Слиток)",
+                NameRu = "РЎРІРёРЅРµС† (РЎР»РёС‚РѕРє)",
                 NameEn = "Lead (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "tin_alloy_ingot",
-                NameRu = "Оловянный сплав (Слиток)",
+                NameRu = "РћР»РѕРІСЏРЅРЅС‹Р№ СЃРїР»Р°РІ (РЎР»РёС‚РѕРє)",
                 NameEn = "Tin alloy (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "steel_ingot",
-                NameRu = "Сталь (Слиток)",
+                NameRu = "РЎС‚Р°Р»СЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "Steel (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "aluminium_silicate_ingot",
-                NameRu = "Алюмосиликат (Слиток)",
+                NameRu = "РђР»СЋРјРѕСЃРёР»РёРєР°С‚ (РЎР»РёС‚РѕРє)",
                 NameEn = "Aluminium silicate (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "tritanium_ingot",
-                NameRu = "Тританий (Слиток)",
+                NameRu = "РўСЂРёС‚Р°РЅРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Tritanium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "potin_ingot",
-                NameRu = "Потин (Слиток)",
+                NameRu = "РџРѕС‚РёРЅ (РЎР»РёС‚РѕРє)",
                 NameEn = "Potin (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "magnesia_refractory_brick_ingot",
-                NameRu = "Склеенный смолой магнезиальный огнеупорный кирпич (Слиток)",
+                NameRu = "РЎРєР»РµРµРЅРЅС‹Р№ СЃРјРѕР»РѕР№ РјР°РіРЅРµР·РёР°Р»СЊРЅС‹Р№ РѕРіРЅРµСѓРїРѕСЂРЅС‹Р№ РєРёСЂРїРёС‡ (РЎР»РёС‚РѕРє)",
                 NameEn = "Magnesia refractory brick (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "rough_silicon_carbide_ingot",
-                NameRu = "Необработанный карбид кремния (Слиток)",
+                NameRu = "РќРµРѕР±СЂР°Р±РѕС‚Р°РЅРЅС‹Р№ РєР°СЂР±РёРґ РєСЂРµРјРЅРёСЏ (РЎР»РёС‚РѕРє)",
                 NameEn = "Rough silicon carbide (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "boron_carbide_ingot",
-                NameRu = "Карбид бора (Слиток)",
+                NameRu = "РљР°СЂР±РёРґ Р±РѕСЂР° (РЎР»РёС‚РѕРє)",
                 NameEn = "Boron carbide (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "weak_red_steel_ingot",
-                NameRu = "Сырая красная сталь (Слиток)",
+                NameRu = "РЎС‹СЂР°СЏ РєСЂР°СЃРЅР°СЏ СЃС‚Р°Р»СЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "Weak red steel (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "weak_blue_steel_ingot",
-                NameRu = "Сырая синяя сталь (Слиток)",
+                NameRu = "РЎС‹СЂР°СЏ СЃРёРЅСЏСЏ СЃС‚Р°Р»СЊ (РЎР»РёС‚РѕРє)",
                 NameEn = "Weak blue steel (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "bi_pb_sn_cd_in_tl_ingot",
-                NameRu = "Bi-Pb-Cn-Cd-In-Tl (Слиток)",
+                NameRu = "Bi-Pb-Cn-Cd-In-Tl (РЎР»РёС‚РѕРє)",
                 NameEn = "Bi-Pb-Cn-Cd-In-Tl (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "silicon_carbide_ingot",
-                NameRu = "Карбид кремния (Слиток)",
+                NameRu = "РљР°СЂР±РёРґ РєСЂРµРјРЅРёСЏ (РЎР»РёС‚РѕРє)",
                 NameEn = "Silicon carbide (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "inconel_718_ingot",
-                NameRu = "Инконель-718 (Слиток)",
+                NameRu = "РРЅРєРѕРЅРµР»СЊ-718 (РЎР»РёС‚РѕРє)",
                 NameEn = "Inconel-718 (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "bakelite_ingot",
-                NameRu = "Бакелит (Слиток)",
+                NameRu = "Р‘Р°РєРµР»РёС‚ (РЎР»РёС‚РѕРє)",
                 NameEn = "Bakelite (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "mo_50_re_ingot",
-                NameRu = "Mo-50 Re (Слиток)",
+                NameRu = "Mo-50 Re (РЎР»РёС‚РѕРє)",
                 NameEn = "Mo-50 Re (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "weak_inconel_718_ingot",
-                NameRu = "Слабый инконель-718 (Слиток)",
+                NameRu = "РЎР»Р°Р±С‹Р№ РёРЅРєРѕРЅРµР»СЊ-718 (РЎР»РёС‚РѕРє)",
                 NameEn = "Weak inconel-718 (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "mo_si_b_ingot",
-                NameRu = "Mo-Si-B (Слиток)",
+                NameRu = "Mo-Si-B (РЎР»РёС‚РѕРє)",
                 NameEn = "Mo-Si-B (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "calorite_ingot",
-                NameRu = "Калорит (Слиток)",
+                NameRu = "РљР°Р»РѕСЂРёС‚ (РЎР»РёС‚РѕРє)",
                 NameEn = "Calorite (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "woods_metal_ingot",
-                NameRu = "Сплав Вуда (Слиток)",
+                NameRu = "РЎРїР»Р°РІ Р’СѓРґР° (РЎР»РёС‚РѕРє)",
                 NameEn = "Woods metal (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "tungsten_bismuth_oxide_composite_ingot",
-                NameRu = "Композит оксида-вольфрама-висмута (Слиток)",
+                NameRu = "РљРѕРјРїРѕР·РёС‚ РѕРєСЃРёРґР°-РІРѕР»СЊС„СЂР°РјР°-РІРёСЃРјСѓС‚Р° (РЎР»РёС‚РѕРє)",
                 NameEn = "Tungsten bismuth oxide composite (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "zirconium_ingot",
-                NameRu = "Цирконий (Слиток)",
+                NameRu = "Р¦РёСЂРєРѕРЅРёР№ (РЎР»РёС‚РѕРє)",
                 NameEn = "Zirconium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "rene_41_ingot",
-                NameRu = "Рене-41 (Слиток)",
+                NameRu = "Р РµРЅРµ-41 (РЎР»РёС‚РѕРє)",
                 NameEn = "Rene 41 (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "zirconium_diboride_ingot",
-                NameRu = "Диборид циркония (Слиток)",
+                NameRu = "Р”РёР±РѕСЂРёРґ С†РёСЂРєРѕРЅРёСЏ (РЎР»РёС‚РѕРє)",
                 NameEn = "Zirconium diboride (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "etrium_ingot",
-                NameRu = "Этриум (Слиток)",
+                NameRu = "Р­С‚СЂРёСѓРј (РЎР»РёС‚РѕРє)",
                 NameEn = "Etrium (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "ruridit_ingot",
-                NameRu = "Руридит (Слиток)",
+                NameRu = "Р СѓСЂРёРґРёС‚ (РЎР»РёС‚РѕРє)",
                 NameEn = "Ruridit (Ingot)",
-                Type = "Слиток",
+                Type = "РЎР»РёС‚РѕРє",
                 Tag = "forge:ingots"
             },
             // ==========================================
-            //               ГОРЯЧИЕ СЛИТКИ
+            //               Р“РћР РЇР§РР• РЎР›РРўРљР
             // ==========================================
             new GameItem
             {
                 Id = "hot_worked_mo_si_b_ingot",
-                NameRu = "Обработанный сплав Mo-Si_b (Горячий слиток)",
+                NameRu = "РћР±СЂР°Р±РѕС‚Р°РЅРЅС‹Р№ СЃРїР»Р°РІ Mo-Si_b (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Worked Mo-Si_b (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_weak_mo_si_b_ingot",
-                NameRu = "Сплав Mo-Si_b (Горячий слиток)",
+                NameRu = "РЎРїР»Р°РІ Mo-Si_b (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Weak Mo-Si_b (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_homogenized_mo_si_b_ingot",
-                NameRu = "Гомогенизированный сплав Mo-Si-B (Горячий слиток)",
+                NameRu = "Р“РѕРјРѕРіРµРЅРёР·РёСЂРѕРІР°РЅРЅС‹Р№ СЃРїР»Р°РІ Mo-Si-B (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Homogenized Mo-Si-B (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_enriched_naquadah_ingot",
-                NameRu = "Обогащённыя наквада (Горячий слиток)",
+                NameRu = "РћР±РѕРіР°С‰С‘РЅРЅС‹СЏ РЅР°РєРІР°РґР° (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Enriched naquadah (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_ruthenium_ingot",
-                NameRu = "Рутений (Горячий слиток)",
+                NameRu = "Р СѓС‚РµРЅРёР№ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Ruthenium (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_watertight_steel_ingot",
-                NameRu = "Водостойкая сталь (Горячий слиток)",
+                NameRu = "Р’РѕРґРѕСЃС‚РѕР№РєР°СЏ СЃС‚Р°Р»СЊ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Watertight steel (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_osmiridium_ingot",
-                NameRu = "Осмистый иридий (Горячий слиток)",
+                NameRu = "РћСЃРјРёСЃС‚С‹Р№ РёСЂРёРґРёР№ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Osmiridium (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_titanium_tungsten_carbide_ingot",
-                NameRu = "Вольфрам-титанановый карбид (Горячий слиток)",
+                NameRu = "Р’РѕР»СЊС„СЂР°Рј-С‚РёС‚Р°РЅР°РЅРѕРІС‹Р№ РєР°СЂР±РёРґ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Titanium tungsten carbide (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_niobium_titanium_ingot",
-                NameRu = "Ниобий-титан (Горячий слиток)",
+                NameRu = "РќРёРѕР±РёР№-С‚РёС‚Р°РЅ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Niobium titanium (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_rhodium_ingot",
-                NameRu = "Родий (Горячий слиток)",
+                NameRu = "Р РѕРґРёР№ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Rhodium (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_hsss_ingot",
-                NameRu = "HSS-S (Горячий слиток)",
+                NameRu = "HSS-S (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "HSS-S (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_rocket_alloy_t1_ingot",
-                NameRu = "Красный алюминиево-стальной ракетный сплав (Горячий слиток)",
+                NameRu = "РљСЂР°СЃРЅС‹Р№ Р°Р»СЋРјРёРЅРёРµРІРѕ-СЃС‚Р°Р»СЊРЅРѕР№ СЂР°РєРµС‚РЅС‹Р№ СЃРїР»Р°РІ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Rocket alloy t1 (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_hastelloy_x_ingot",
-                NameRu = "Хастеллой-X (Горячий слиток)",
+                NameRu = "РҐР°СЃС‚РµР»Р»РѕР№-X (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Hastelloy-X (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_niobium_nitride_ingot",
-                NameRu = "Нитрид ниобия (Горячий слиток)",
+                NameRu = "РќРёС‚СЂРёРґ РЅРёРѕР±РёСЏ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Niobium nitride (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_zirconium_ingot",
-                NameRu = "Цирконий (Горячий слиток)",
+                NameRu = "Р¦РёСЂРєРѕРЅРёР№ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Zirconium (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_titanium_ingot",
-                NameRu = "Титан (Горячий слиток)",
+                NameRu = "РўРёС‚Р°РЅ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Titanium (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_uranium_triplatinum_ingot",
-                NameRu = "Триплатина уран (Горячий слиток)",
+                NameRu = "РўСЂРёРїР»Р°С‚РёРЅР° СѓСЂР°РЅ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Uranium triplatinum (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_ultimet_ingot",
-                NameRu = "Ультимет (Горячий слиток)",
+                NameRu = "РЈР»СЊС‚РёРјРµС‚ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Ultimet (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_hssg_ingot",
-                NameRu = "HSS-G (Горячий слиток)",
+                NameRu = "HSS-G (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "HSS-G (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_desh_ingot",
-                NameRu = "Деш (Горячий слиток)",
+                NameRu = "Р”РµС€ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "desh (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_tungsten_carbide_ingot",
-                NameRu = "Карбид вольфрама (Горячий слиток)",
+                NameRu = "РљР°СЂР±РёРґ РІРѕР»СЊС„СЂР°РјР° (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Tungsten carbide (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_trinium_ingot",
-                NameRu = "Триниум (Горячий слиток)",
+                NameRu = "РўСЂРёРЅРёСѓРј (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Trinium (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_rhodium_plated_palladium_ingot",
-                NameRu = "Палладий с родиевым покрытием (Горячий слиток)",
+                NameRu = "РџР°Р»Р»Р°РґРёР№ СЃ СЂРѕРґРёРµРІС‹Рј РїРѕРєСЂС‹С‚РёРµРј (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Rhodium plated palladium (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_ostrum_iodide_ingot",
-                NameRu = "Йодид острума (Горячий слиток)",
+                NameRu = "Р™РѕРґРёРґ РѕСЃС‚СЂСѓРјР° (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "ostrum_iodide_dust (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_titanium_carbide_ingot",
-                NameRu = "Карбид титана (Горячий слиток)",
+                NameRu = "РљР°СЂР±РёРґ С‚РёС‚Р°РЅР° (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Titanium carbide (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_samarium_ingot",
-                NameRu = "Самарий (Горячий слиток)",
+                NameRu = "РЎР°РјР°СЂРёР№ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Samarium (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_ruthenium_trinium_americium_neutronate_ingot",
-                NameRu = "Нейтронат рутения триния америция (Горячий слиток)",
+                NameRu = "РќРµР№С‚СЂРѕРЅР°С‚ СЂСѓС‚РµРЅРёСЏ С‚СЂРёРЅРёСЏ Р°РјРµСЂРёС†РёСЏ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Ruthenium trinium americium neutronate (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_incoloy_ma_956_ingot",
-                NameRu = "Инколой MA-956 (Горячий слиток)",
+                NameRu = "РРЅРєРѕР»РѕР№ MA-956 (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Incoloy MA-956 (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_rtm_alloy_ingot",
-                NameRu = "РВМ сплав (Горячий слиток)",
+                NameRu = "Р Р’Рњ СЃРїР»Р°РІ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "RTM alloy (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_zeron_100_ingot",
-                NameRu = "Зерон-100 (Горячий слиток)",
+                NameRu = "Р—РµСЂРѕРЅ-100 (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Zeron-100 (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_samarium_iron_arsenic_oxide_ingot",
-                NameRu = "Оксид самария железа мышьяка (Горячий слиток)",
+                NameRu = "РћРєСЃРёРґ СЃР°РјР°СЂРёСЏ Р¶РµР»РµР·Р° РјС‹С€СЊСЏРєР° (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Samarium iron arsenic oxide (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_stellite_100_ingot",
-                NameRu = "Стеллит (Горячий слиток)",
+                NameRu = "РЎС‚РµР»Р»РёС‚ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Stellite (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_naquadria_ingot",
-                NameRu = "Наквадрия (Горячий слиток)",
+                NameRu = "РќР°РєРІР°РґСЂРёСЏ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Naquadria (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_nichrome_ingot",
-                NameRu = "Нихром (Горячий слиток)",
+                NameRu = "РќРёС…СЂРѕРј (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Nichrome (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_europium_ingot",
-                NameRu = "Европий (Горячий слиток)",
+                NameRu = "Р•РІСЂРѕРїРёР№ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Europium (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_vanadium_gallium_ingot",
-                NameRu = "Ванадий-Галлий (Горячий слиток)",
+                NameRu = "Р’Р°РЅР°РґРёР№-Р“Р°Р»Р»РёР№ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Vanadium gallium (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_tungsten_ingot",
-                NameRu = "Вольфрам (Горячий слиток)",
+                NameRu = "Р’РѕР»СЊС„СЂР°Рј (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Tungsten (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_tungsten_steel_ingot",
-                NameRu = "Вольфрамовая сталь (Горячий слиток)",
+                NameRu = "Р’РѕР»СЊС„СЂР°РјРѕРІР°СЏ СЃС‚Р°Р»СЊ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Tungsten steel (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_iridium_ingot",
-                NameRu = "Иридий (Горячий слиток)",
+                NameRu = "РСЂРёРґРёР№ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Iridium (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_osmium_ingot",
-                NameRu = "Осмий (Горячий слиток)",
+                NameRu = "РћСЃРјРёР№ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Osmium (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_hastelloy_c_276_ingot",
-                NameRu = "Хастеллой-C276 (Горячий слиток)",
+                NameRu = "РҐР°СЃС‚РµР»Р»РѕР№-C276 (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Hastelloy-C276 (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_molybdenum_disilicide_ingot",
-                NameRu = "Дисилицид молибдена (Горячий слиток)",
+                NameRu = "Р”РёСЃРёР»РёС†РёРґ РјРѕР»РёР±РґРµРЅР° (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "molybdenum disilicide (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_magnesium_diboride_ingot",
-                NameRu = "Диборид магния (Горячий слиток)",
+                NameRu = "Р”РёР±РѕСЂРёРґ РјР°РіРЅРёСЏ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Magnesium diboride (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_tantalum_carbide_ingot",
-                NameRu = "Карбид тантала (Горячий слиток)",
+                NameRu = "РљР°СЂР±РёРґ С‚Р°РЅС‚Р°Р»Р° (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Tantalum carbide (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_niobium_ingot",
-                NameRu = "Ниобий (Горячий слиток)",
+                NameRu = "РќРёРѕР±РёР№ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Niobium (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_kanthal_ingot",
-                NameRu = "Кантал (Горячий слиток)",
+                NameRu = "РљР°РЅС‚Р°Р» (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Kanthal (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_vanadium_ingot",
-                NameRu = "Ванадий (Горячий слиток)",
+                NameRu = "Р’Р°РЅР°РґРёР№ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Vanadium (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_uranium_rhodium_dinaquadide_ingot",
-                NameRu = "Уран родий динаквада (Горячий слиток)",
+                NameRu = "РЈСЂР°РЅ СЂРѕРґРёР№ РґРёРЅР°РєРІР°РґР° (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Uranium rhodium dinaquadide (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_yttrium_barium_cuprate_ingot",
-                NameRu = "Оксид иттрия-бария-меди (Горячий слиток)",
+                NameRu = "РћРєСЃРёРґ РёС‚С‚СЂРёСЏ-Р±Р°СЂРёСЏ-РјРµРґРё (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Yttrium barium cuprate (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_maraging_steel_300_ingot",
-                NameRu = "Мартенситностареющая сталь 300 (Горячий слиток)",
+                NameRu = "РњР°СЂС‚РµРЅСЃРёС‚РЅРѕСЃС‚Р°СЂРµСЋС‰Р°СЏ СЃС‚Р°Р»СЊ 300 (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Maraging steel 300 (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_enriched_naquadah_trinium_europium_duranide_ingot",
-                NameRu = "Обогащенный наквада триний европий дюраний (Горячий слиток)",
+                NameRu = "РћР±РѕРіР°С‰РµРЅРЅС‹Р№ РЅР°РєРІР°РґР° С‚СЂРёРЅРёР№ РµРІСЂРѕРїРёР№ РґСЋСЂР°РЅРёР№ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Enriched naquadah trinium europium duranide (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_palladium_ingot",
-                NameRu = "Палладий (Горячий слиток)",
+                NameRu = "РџР°Р»Р»Р°РґРёР№ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Palladium (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_hsse_ingot",
-                NameRu = "HSS-E (Горячий слиток)",
+                NameRu = "HSS-E (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "HSS-E (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_mercury_barium_calcium_cuprate_ingot",
-                NameRu = "Купрат ртути бария кальция (Горячий слиток)",
+                NameRu = "РљСѓРїСЂР°С‚ СЂС‚СѓС‚Рё Р±Р°СЂРёСЏ РєР°Р»СЊС†РёСЏ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Mercury barium calcium cuprate (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_silicon_ingot",
-                NameRu = "Кремний (Горячий слиток)",
+                NameRu = "РљСЂРµРјРЅРёР№ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Silicon (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_rocket_alloy_t2_ingot",
-                NameRu = "ASM 4914 титановый ракетный сплав (Горячий слиток)",
+                NameRu = "ASM 4914 С‚РёС‚Р°РЅРѕРІС‹Р№ СЂР°РєРµС‚РЅС‹Р№ СЃРїР»Р°РІ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Rocket alloy t2 (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_naquadah_alloy_ingot",
-                NameRu = "Сплав наквада (Горячий слиток)",
+                NameRu = "РЎРїР»Р°РІ РЅР°РєРІР°РґР° (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Naquadah alloy (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_naquadah_ingot",
-                NameRu = "Наквада (Горячий слиток)",
+                NameRu = "РќР°РєРІР°РґР° (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Naquadah (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_indium_tin_barium_titanium_cuprate_ingot",
-                NameRu = "Купрат индия олова бария титана (Горячий слиток)",
+                NameRu = "РљСѓРїСЂР°С‚ РёРЅРґРёСЏ РѕР»РѕРІР° Р±Р°СЂРёСЏ С‚РёС‚Р°РЅР° (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Indium tin barium titanium cuprate (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_ostrum_ingot",
-                NameRu = "Острум (Горячий слиток)",
+                NameRu = "РћСЃС‚СЂСѓРј (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Ostrum (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_yttrium_ingot",
-                NameRu = "Иттрий (Горячий слиток)",
+                NameRu = "РС‚С‚СЂРёР№ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Yttrium (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_rough_silicon_carbide_ingot",
-                NameRu = "Необработанный карбид кремния (Горячий слиток)",
+                NameRu = "РќРµРѕР±СЂР°Р±РѕС‚Р°РЅРЅС‹Р№ РєР°СЂР±РёРґ РєСЂРµРјРЅРёСЏ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Rough silicon carbide (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_boron_carbide_ingot",
-                NameRu = "Карбид бора (Горячий слиток)",
+                NameRu = "РљР°СЂР±РёРґ Р±РѕСЂР° (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Boron carbide (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_inconel_718_ingot",
-                NameRu = "Инконель-718 (Горячий слиток)",
+                NameRu = "РРЅРєРѕРЅРµР»СЊ-718 (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Inconel-718 (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_mo_si_b_ingot",
-                NameRu = "Mo-Si-B (Горячий слиток)",
+                NameRu = "Mo-Si-B (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Mo-Si-B (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_tungsten_bismuth_oxide_composite_ingot",
-                NameRu = "Композит оксида-вольфрама-висмута (Горячий слиток)",
+                NameRu = "РљРѕРјРїРѕР·РёС‚ РѕРєСЃРёРґР°-РІРѕР»СЊС„СЂР°РјР°-РІРёСЃРјСѓС‚Р° (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Tungsten bismuth oxide composite (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_zirconium_ingot",
-                NameRu = "Цирконий (Горячий слиток)",
+                NameRu = "Р¦РёСЂРєРѕРЅРёР№ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Zirconium (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_rene_41_ingot",
-                NameRu = "Рене-41 (Горячий слиток)",
+                NameRu = "Р РµРЅРµ-41 (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Rene 41 (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_zirconium_diboride_ingot",
-                NameRu = "Диборид циркония (Горячий слиток)",
+                NameRu = "Р”РёР±РѕСЂРёРґ С†РёСЂРєРѕРЅРёСЏ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Zirconium diboride (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             new GameItem
             {
                 Id = "hot_ruridit_ingot",
-                NameRu = "Руридит (Горячий слиток)",
+                NameRu = "Р СѓСЂРёРґРёС‚ (Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє)",
                 NameEn = "Ruridit (Hot ingot)",
-                Type = "Горячий слиток",
+                Type = "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє",
                 Tag = "forge:hot_ingots"
             },
             // ==========================================
-            //                    СТЕРЖНИ
+            //                    РЎРўР•Р Р–РќР
             // ==========================================
             new GameItem
             {
                 Id = "iron_rod",
-                NameRu = "Серый чугун (Стержень)",
+                NameRu = "РЎРµСЂС‹Р№ С‡СѓРіСѓРЅ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Iron (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "red_garnet_rod",
-                NameRu = "Красный гранат (Стержень)",
+                NameRu = "РљСЂР°СЃРЅС‹Р№ РіСЂР°РЅР°С‚ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Red garnet (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "silicone_rubber_rod",
-                NameRu = "Силиконовая резина (Стержень)",
+                NameRu = "РЎРёР»РёРєРѕРЅРѕРІР°СЏ СЂРµР·РёРЅР° (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Silicone rubber (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "certus_quartz_rod",
-                NameRu = "Истинный кварц (Стержень)",
+                NameRu = "РСЃС‚РёРЅРЅС‹Р№ РєРІР°СЂС† (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Certus quartz (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "opal_rod",
-                NameRu = "Опал (Стержень)",
+                NameRu = "РћРїР°Р» (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Opal (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "lapis_rod",
-                NameRu = "Лазуритит (Стержень)",
+                NameRu = "Р›Р°Р·СѓСЂРёС‚РёС‚ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Lapis (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "styrene_butadiene_rubber_rod",
-                NameRu = "Стирол-бутадиеновая резина (Стержень)",
+                NameRu = "РЎС‚РёСЂРѕР»-Р±СѓС‚Р°РґРёРµРЅРѕРІР°СЏ СЂРµР·РёРЅР° (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Styrene butadiene rubber (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "diamond_rod",
-                NameRu = "Алмаз (Стержень)",
+                NameRu = "РђР»РјР°Р· (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Diamond (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "sodalite_rod",
-                NameRu = "Содалит (Стержень)",
+                NameRu = "РЎРѕРґР°Р»РёС‚ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Sodalite (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "yellow_garnet_rod",
-                NameRu = "Желтый гранат (Стержень)",
+                NameRu = "Р–РµР»С‚С‹Р№ РіСЂР°РЅР°С‚ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = " (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "nether_quartz_rod",
-                NameRu = "Незер-кварц (Стержень)",
+                NameRu = "РќРµР·РµСЂ-РєРІР°СЂС† (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Nether quartz (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "topaz_rod",
-                NameRu = "Топаз (Стержень)",
+                NameRu = "РўРѕРїР°Р· (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Topaz (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "rubber_rod",
-                NameRu = "Резина (Стержень)",
+                NameRu = "Р РµР·РёРЅР° (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Rubber (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "lazurite_rod",
-                NameRu = "Лазурит (Стержень)",
+                NameRu = "Р›Р°Р·СѓСЂРёС‚ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Lazurite (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "green_sapphire_rod",
-                NameRu = "Зеленый сапфир (Стержень)",
+                NameRu = "Р—РµР»РµРЅС‹Р№ СЃР°РїС„РёСЂ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Green sapphire (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "emerald_rod",
-                NameRu = "Изумруд (Стержень)",
+                NameRu = "РР·СѓРјСЂСѓРґ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Emerald (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "amethyst_rod",
-                NameRu = "Аметист (Стержень)",
+                NameRu = "РђРјРµС‚РёСЃС‚ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Amethyst (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "blue_topaz_rod",
-                NameRu = "Синий топаз (Стержень)",
+                NameRu = "РЎРёРЅРёР№ С‚РѕРїР°Р· (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Blue topaz (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "olivine_rod",
-                NameRu = "Оливин (Стержень)",
+                NameRu = "РћР»РёРІРёРЅ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Olivine (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "quartzite_rod",
-                NameRu = "Кварц (Стержень)",
+                NameRu = "РљРІР°СЂС† (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Quartzite (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "sapphire_rod",
-                NameRu = "Сапфир (Стержень)",
+                NameRu = "РЎР°РїС„РёСЂ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Sapphire (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "ruby_rod",
-                NameRu = "Рубин (Стержень)",
+                NameRu = "Р СѓР±РёРЅ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Ruby (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "ruridit_rod",
-                NameRu = "Руридит (Стержень)",
+                NameRu = "Р СѓСЂРёРґРёС‚ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Ruridit (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "diamond_tipped_mo_50_re_rod",
-                NameRu = "Mo-50Re с алмазным напылением (Стержень)",
+                NameRu = "Mo-50Re СЃ Р°Р»РјР°Р·РЅС‹Рј РЅР°РїС‹Р»РµРЅРёРµРј (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Diamond tipped Mo-50Re (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "red_alloy_rod",
-                NameRu = "Красный сплав (Стержень)",
+                NameRu = "РљСЂР°СЃРЅС‹Р№ СЃРїР»Р°РІ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Red alloy (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "neutronium_rod",
-                NameRu = "Нейтроний (Стержень)",
+                NameRu = "РќРµР№С‚СЂРѕРЅРёР№ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Neutronium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "uranium_rod",
-                NameRu = "Уран 238 (Стержень)",
+                NameRu = "РЈСЂР°РЅ 238 (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Uranium 238 (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "plutonium_241_rod",
-                NameRu = "Плутоний-241 (Стержень)",
+                NameRu = "РџР»СѓС‚РѕРЅРёР№-241 (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Plutonium-241 (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "platinum_rod",
-                NameRu = "Платина (Стержень)",
+                NameRu = "РџР»Р°С‚РёРЅР° (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Platinum (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "enriched_naquadah_rod",
-                NameRu = "Обогащённыя наквада (Стержень)",
+                NameRu = "РћР±РѕРіР°С‰С‘РЅРЅС‹СЏ РЅР°РєРІР°РґР° (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Enriched naquadah (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "aluminium_rod",
-                NameRu = "Алюминий (Стержень)",
+                NameRu = "РђР»СЋРјРёРЅРёР№ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Aluminium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "ruthenium_rod",
-                NameRu = "Рутений (Стержень)",
+                NameRu = "Р СѓС‚РµРЅРёР№ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Ruthenium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "magnetic_iron_rod",
-                NameRu = "Магнитное железо (Стержень)",
+                NameRu = "РњР°РіРЅРёС‚РЅРѕРµ Р¶РµР»РµР·Рѕ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Magnetic iron (Rod)",
-                 Type = "Стержень",
+                 Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "invar_rod",
-                NameRu = "Инвар (Стержень)",
+                NameRu = "РРЅРІР°СЂ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Invar (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "duranium_rod",
-                NameRu = "Дюраний (Стержень)",
+                NameRu = "Р”СЋСЂР°РЅРёР№ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Duranium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "nickel_rod",
-                NameRu = "Никель (Стержень)",
+                NameRu = "РќРёРєРµР»СЊ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Nickel (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "zinc_rod",
-                NameRu = "Цинк (Стержень)",
+                NameRu = "Р¦РёРЅРє (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Zinc (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "watertight_steel_rod",
-                NameRu = "Водостойкая сталь (Стержень)",
+                NameRu = "Р’РѕРґРѕСЃС‚РѕР№РєР°СЏ СЃС‚Р°Р»СЊ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Watertight steel (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "thorium_232_rod",
-                NameRu = "Торий 232 (Стержень)",
+                NameRu = "РўРѕСЂРёР№ 232 (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Thorium 232 (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "osmiridium_rod",
-                NameRu = "Осмистый иридий (Стержень)",
+                NameRu = "РћСЃРјРёСЃС‚С‹Р№ РёСЂРёРґРёР№ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Osmiridium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "cobalt_rod",
-                NameRu = "Кобальт (Стержень)",
+                NameRu = "РљРѕР±Р°Р»СЊС‚ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Cobalt (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "hsla_steel_rod",
-                NameRu = "HSLA сталь (Стержень)",
+                NameRu = "HSLA СЃС‚Р°Р»СЊ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "HSLA steel (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "manganese_rod",
-                NameRu = "Марганец (Стержень)",
+                NameRu = "РњР°СЂРіР°РЅРµС† (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Manganese (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "niobium_titanium_rod",
-                NameRu = "Ниобий-титан (Стержень)",
+                NameRu = "РќРёРѕР±РёР№-С‚РёС‚Р°РЅ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Niobium titanium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "silver_rod",
-                NameRu = "Серебро (Стержень)",
+                NameRu = "РЎРµСЂРµР±СЂРѕ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Silver (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "rhodium_rod",
-                NameRu = "Родий (Стержень)",
+                NameRu = "Р РѕРґРёР№ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Rhodium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "hsss_rod",
-                NameRu = "HSS-S (Стержень)",
+                NameRu = "HSS-S (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "HSS-S (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "molybdenum_rod",
-                NameRu = "Молибден (Стержень)",
+                NameRu = "РњРѕР»РёР±РґРµРЅ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "molybdenum (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "polyphenylene_sulfide_rod",
-                NameRu = "Полифениленсульфид (Стержень)",
+                NameRu = "РџРѕР»РёС„РµРЅРёР»РµРЅСЃСѓР»СЊС„РёРґ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Polyphenylene sulfide (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "tin_rod",
-                NameRu = "Олово (Стержень)",
+                NameRu = "РћР»РѕРІРѕ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Tin (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "rocket_alloy_t1_rod",
-                NameRu = "Красный алюминиево-стальной ракетный сплав (Стержень)",
+                NameRu = "РљСЂР°СЃРЅС‹Р№ Р°Р»СЋРјРёРЅРёРµРІРѕ-СЃС‚Р°Р»СЊРЅРѕР№ СЂР°РєРµС‚РЅС‹Р№ СЃРїР»Р°РІ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Rocket alloy t1 (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "hastelloy_x_rod",
-                NameRu = "Хастеллой-X (Стержень)",
+                NameRu = "РҐР°СЃС‚РµР»Р»РѕР№-X (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Hastelloy-X (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "niobium_nitride_rod",
-                NameRu = "Нитрид ниобия (Стержень)",
+                NameRu = "РќРёС‚СЂРёРґ РЅРёРѕР±РёСЏ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Niobium nitride (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "cupronickel_rod",
-                NameRu = "Купроникель (Стержень)",
+                NameRu = "РљСѓРїСЂРѕРЅРёРєРµР»СЊ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Cupronickel (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "titanium_rod",
-                NameRu = "Титан (Стержень)",
+                NameRu = "РўРёС‚Р°РЅ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Titanium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "americium_rod",
-                NameRu = "Америций 243 (Стержень)",
+                NameRu = "РђРјРµСЂРёС†РёР№ 243 (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Americium 243 (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "uranium_235_rod",
-                NameRu = "Уран-235 (Стержень)",
+                NameRu = "РЈСЂР°РЅ-235 (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Uranium-235 (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "californium_252_rod",
-                NameRu = "Калифорний 252 (Стержень)",
+                NameRu = "РљР°Р»РёС„РѕСЂРЅРёР№ 252 (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Californium 252 (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "ultimet_rod",
-                NameRu = "Ультимет (Стержень)",
+                NameRu = "РЈР»СЊС‚РёРјРµС‚ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Ultimet (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "hssg_rod",
-                NameRu = "HSS-G (Стержень)",
+                NameRu = "HSS-G (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "HSS-G (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "desh_rod",
-                NameRu = "Деш (Стержень)",
+                NameRu = "Р”РµС€ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "desh (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "tungsten_carbide_rod",
-                NameRu = "Карбид вольфрама (Стержень)",
+                NameRu = "РљР°СЂР±РёРґ РІРѕР»СЊС„СЂР°РјР° (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Tungsten carbide (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "trinium_rod",
-                NameRu = "Триниум (Стержень)",
+                NameRu = "РўСЂРёРЅРёСѓРј (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Trinium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "neptunium_237_rod",
-                NameRu = "Нептуний 237 (Стержень)",
+                NameRu = "РќРµРїС‚СѓРЅРёР№ 237 (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Neptunium 237 (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "rhodium_plated_palladium_rod",
-                NameRu = "Палладий с родиевым покрытием (Стержень)",
+                NameRu = "РџР°Р»Р»Р°РґРёР№ СЃ СЂРѕРґРёРµРІС‹Рј РїРѕРєСЂС‹С‚РёРµРј (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Rhodium plated palladium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "chromium_rod",
-                NameRu = "Хром (Стержень)",
+                NameRu = "РҐСЂРѕРј (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Chromium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "ostrum_iodide_rod",
-                NameRu = "Йодид острума (Стержень)",
+                NameRu = "Р™РѕРґРёРґ РѕСЃС‚СЂСѓРјР° (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "ostrum_iodide_dust (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "nickel_zinc_ferrite_rod",
-                NameRu = "Никель цинк феррит (Стержень)",
+                NameRu = "РќРёРєРµР»СЊ С†РёРЅРє С„РµСЂСЂРёС‚ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Nickel zinc ferrite (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "samarium_rod",
-                NameRu = "Самарий (Стержень)",
+                NameRu = "РЎР°РјР°СЂРёР№ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Samarium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "stainless_steel_rod",
-                NameRu = "Нержавеющая сталь (Стержень)",
+                NameRu = "РќРµСЂР¶Р°РІРµСЋС‰Р°СЏ СЃС‚Р°Р»СЊ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Stainless steel (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "bismuth_rod",
-                NameRu = "Висмут (Стержень)",
+                NameRu = "Р’РёСЃРјСѓС‚ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Bismuth (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "bronze_rod",
-                NameRu = "Бронза (Стержень)",
+                NameRu = "Р‘СЂРѕРЅР·Р° (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Bronze (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "incoloy_ma_956_rod",
-                NameRu = "Инколой MA-956 (Стержень)",
+                NameRu = "РРЅРєРѕР»РѕР№ MA-956 (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Incoloy MA-956 (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "brass_rod",
-                NameRu = "Латунь (Стержень)",
+                NameRu = "Р›Р°С‚СѓРЅСЊ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Brass (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "rtm_alloy_rod",
-                NameRu = "РВМ сплав (Стержень)",
+                NameRu = "Р Р’Рњ СЃРїР»Р°РІ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "RTM alloy (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "cobalt_brass_rod",
-                NameRu = "Кобальтовая латунь (Стержень)",
+                NameRu = "РљРѕР±Р°Р»СЊС‚РѕРІР°СЏ Р»Р°С‚СѓРЅСЊ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Cobalt brass (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "neodymium_rod",
-                NameRu = "Неодим (Стержень)",
+                NameRu = "РќРµРѕРґРёРј (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Neodymium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "black_steel_rod",
-                NameRu = "Черная сталь (Стержень)",
+                NameRu = "Р§РµСЂРЅР°СЏ СЃС‚Р°Р»СЊ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Black steel (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "black_bronze_rod",
-                NameRu = "Черная бронза (Стержень)",
+                NameRu = "Р§РµСЂРЅР°СЏ Р±СЂРѕРЅР·Р° (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Black bronze (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "magnetic_samarium_rod",
-                NameRu = "Магнитный самарий (Стержень)",
+                NameRu = "РњР°РіРЅРёС‚РЅС‹Р№ СЃР°РјР°СЂРёР№ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Magnetic samarium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "blue_steel_rod",
-                NameRu = "Синяя сталь (Стержень)",
+                NameRu = "РЎРёРЅСЏСЏ СЃС‚Р°Р»СЊ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Blue steel (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "naquadria_rod",
-                NameRu = "Наквадрия (Стержень)",
+                NameRu = "РќР°РєРІР°РґСЂРёСЏ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Naquadria (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "magnetic_neodymium_rod",
-                NameRu = "Магнитный неодим (Стержень)",
+                NameRu = "РњР°РіРЅРёС‚РЅС‹Р№ РЅРµРѕРґРёРј (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Magnetic neodymium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "nichrome_rod",
-                NameRu = "Нихром (Стержень)",
+                NameRu = "РќРёС…СЂРѕРј (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Nichrome (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "americium_rod",
-                NameRu = "Америций 241 (Стержень)",
+                NameRu = "РђРјРµСЂРёС†РёР№ 241 (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Americium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "europium_rod",
-                NameRu = "Европий (Стержень)",
+                NameRu = "Р•РІСЂРѕРїРёР№ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Europium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "thorium_230_rod",
-                NameRu = "Торий 230 (Стержень)",
+                NameRu = "РўРѕСЂРёР№ 230 (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Thorium 230 (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "vanadium_gallium_rod",
-                NameRu = "Ванадий-Галлий (Стержень)",
+                NameRu = "Р’Р°РЅР°РґРёР№-Р“Р°Р»Р»РёР№ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Vanadium gallium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "tungsten_rod",
-                NameRu = "Вольфрам (Стержень)",
+                NameRu = "Р’РѕР»СЊС„СЂР°Рј (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Tungsten (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "plutonium_rod",
-                NameRu = "Плутоний 239 (Стержень)",
+                NameRu = "РџР»СѓС‚РѕРЅРёР№ 239 (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Plutonium 239 (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "vanadium_steel_rod",
-                NameRu = "Ванадиевая сталь (Стержень)",
+                NameRu = "Р’Р°РЅР°РґРёРµРІР°СЏ СЃС‚Р°Р»СЊ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Vanadium steel (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "tungsten_steel_rod",
-                NameRu = "Вольфрамовая сталь (Стержень)",
+                NameRu = "Р’РѕР»СЊС„СЂР°РјРѕРІР°СЏ СЃС‚Р°Р»СЊ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Tungsten steel (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "magnalium_rod",
-                NameRu = "Магналий (Стержень)",
+                NameRu = "РњР°РіРЅР°Р»РёР№ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Magnalium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "iridium_rod",
-                NameRu = "Иридий (Стержень)",
+                NameRu = "РСЂРёРґРёР№ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Iridium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "red_steel_rod",
-                NameRu = "Красная сталь (Стержень)",
+                NameRu = "РљСЂР°СЃРЅР°СЏ СЃС‚Р°Р»СЊ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Red steel (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "magnetic_steel_rod",
-                NameRu = "Магнитная сталь (Стержень)",
+                NameRu = "РњР°РіРЅРёС‚РЅР°СЏ СЃС‚Р°Р»СЊ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Magnetic steel (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "osmium_rod",
-                NameRu = "Осмий (Стержень)",
+                NameRu = "РћСЃРјРёР№ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Osmium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "hastelloy_c_276_rod",
-                NameRu = "Хастеллой-C276 (Стержень)",
+                NameRu = "РҐР°СЃС‚РµР»Р»РѕР№-C276 (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Hastelloy-C276 (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "molybdenum_disilicide_rod",
-                NameRu = "Дисилицид молибдена (Стержень)",
+                NameRu = "Р”РёСЃРёР»РёС†РёРґ РјРѕР»РёР±РґРµРЅР° (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "molybdenum disilicide (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "rose_gold_rod",
-                NameRu = "Розовое золото (Стержень)",
+                NameRu = "Р РѕР·РѕРІРѕРµ Р·РѕР»РѕС‚Рѕ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Rose gold (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "electrum_rod",
-                NameRu = "Электрум (Стержень)",
+                NameRu = "Р­Р»РµРєС‚СЂСѓРј (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Electrum (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "polyvinyl_chloride_rod",
-                NameRu = "Поливинил хлорид (Стержень)",
+                NameRu = "РџРѕР»РёРІРёРЅРёР» С…Р»РѕСЂРёРґ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Polyvinyl chloride (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "sterling_silver_rod",
-                NameRu = "Стерлинговое серебро (Стержень)",
+                NameRu = "РЎС‚РµСЂР»РёРЅРіРѕРІРѕРµ СЃРµСЂРµР±СЂРѕ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Sterling silver (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "wrought_iron_rod",
-                NameRu = "Кованное железо (Стержень)",
+                NameRu = "РљРѕРІР°РЅРЅРѕРµ Р¶РµР»РµР·Рѕ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Wrought iron (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "polytetrafluoroethylene_rod",
-                NameRu = "Политетрафторэтилен (Стержень)",
+                NameRu = "РџРѕР»РёС‚РµС‚СЂР°С„С‚РѕСЂСЌС‚РёР»РµРЅ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Polytetrafluoroethylene (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "kanthal_rod",
-                NameRu = "Кантал (Стержень)",
+                NameRu = "РљР°РЅС‚Р°Р» (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Kanthal (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "gold_rod",
-                NameRu = "Золото (Стержень)",
+                NameRu = "Р—РѕР»РѕС‚Рѕ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Gold (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "yttrium_barium_cuprate_rod",
-                NameRu = "Оксид иттрия-бария-меди (Стержень)",
+                NameRu = "РћРєСЃРёРґ РёС‚С‚СЂРёСЏ-Р±Р°СЂРёСЏ-РјРµРґРё (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Yttrium barium cuprate (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "maraging_steel_300_rod",
-                NameRu = "Мартенситностареющая сталь 300 (Стержень)",
+                NameRu = "РњР°СЂС‚РµРЅСЃРёС‚РЅРѕСЃС‚Р°СЂРµСЋС‰Р°СЏ СЃС‚Р°Р»СЊ 300 (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Maraging steel 300 (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "palladium_rod",
-                NameRu = "Палладий (Стержень)",
+                NameRu = "РџР°Р»Р»Р°РґРёР№ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Palladium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "blue_alloy_rod",
-                NameRu = "Синий сплав (Стержень)",
+                NameRu = "РЎРёРЅРёР№ СЃРїР»Р°РІ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Blue alloy (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "hsse_rod",
-                NameRu = "HSS-E (Стержень)",
+                NameRu = "HSS-E (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "HSS-E (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "bismuth_bronze_rod",
-                NameRu = "Висмутовая бронза (Стержень)",
+                NameRu = "Р’РёСЃРјСѓС‚РѕРІР°СЏ Р±СЂРѕРЅР·Р° (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Bismuth bronze (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "copper_rod",
-                NameRu = "Медь (Стержень)",
+                NameRu = "РњРµРґСЊ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Copper (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "rocket_alloy_t2_rod",
-                NameRu = "ASM 4914 титановый ракетный сплав (Стержень)",
+                NameRu = "ASM 4914 С‚РёС‚Р°РЅРѕРІС‹Р№ СЂР°РєРµС‚РЅС‹Р№ СЃРїР»Р°РІ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Rocket alloy t2 (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "naquadah_alloy_rod",
-                NameRu = "Сплав наквада (Стержень)",
+                NameRu = "РЎРїР»Р°РІ РЅР°РєРІР°РґР° (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Naquadah alloy (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "darmstadtium_rod",
-                NameRu = "Дармштадтий (Стержень)",
+                NameRu = "Р”Р°СЂРјС€С‚Р°РґС‚РёР№ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Darmstadtium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "battery_alloy_rod",
-                NameRu = "Аккумуляторный сплав (Стержень)",
+                NameRu = "РђРєРєСѓРјСѓР»СЏС‚РѕСЂРЅС‹Р№ СЃРїР»Р°РІ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Battery alloy (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "naquadah_rod",
-                NameRu = "Наквада (Стержень)",
+                NameRu = "РќР°РєРІР°РґР° (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Naquadah (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "annealed_copper_rod",
-                NameRu = "Отожженная медь (Стержень)",
+                NameRu = "РћС‚РѕР¶Р¶РµРЅРЅР°СЏ РјРµРґСЊ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Annealed copper (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "ostrum_rod",
-                NameRu = "Острум (Стержень)",
+                NameRu = "РћСЃС‚СЂСѓРј (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Ostrum (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "lead_rod",
-                NameRu = "Свинец (Стержень)",
+                NameRu = "РЎРІРёРЅРµС† (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Lead (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "tin_alloy_rod",
-                NameRu = "Оловянный сплав (Стержень)",
+                NameRu = "РћР»РѕРІСЏРЅРЅС‹Р№ СЃРїР»Р°РІ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Tin alloy (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "steel_rod",
-                NameRu = "Сталь (Стержень)",
+                NameRu = "РЎС‚Р°Р»СЊ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Steel (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "tritanium_rod",
-                NameRu = "Тританий (Стержень)",
+                NameRu = "РўСЂРёС‚Р°РЅРёР№ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Tritanium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "potin_rod",
-                NameRu = "Потин (Стержень)",
+                NameRu = "РџРѕС‚РёРЅ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Potin (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "boron_carbide_rod",
-                NameRu = "Карбид бора (Стержень)",
+                NameRu = "РљР°СЂР±РёРґ Р±РѕСЂР° (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Boron carbide (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "inconel_718_rod",
-                NameRu = "Инконель-718 (Стержень)",
+                NameRu = "РРЅРєРѕРЅРµР»СЊ-718 (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Inconel-718 (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "mo_50_re_rod",
-                NameRu = "Mo-50 Re (Стержень)",
+                NameRu = "Mo-50 Re (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Mo-50 Re (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "mo_si_b_rod",
-                NameRu = "Mo-Si-B (Стержень)",
+                NameRu = "Mo-Si-B (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Mo-Si-B (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:ingots"
             },
             new GameItem
             {
                 Id = "calorite_rod",
-                NameRu = "Калорит (Стержень)",
+                NameRu = "РљР°Р»РѕСЂРёС‚ (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Calorite (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "tungsten_bismuth_oxide_composite_rod",
-                NameRu = "Композит оксида-вольфрама-висмута (Стержень)",
+                NameRu = "РљРѕРјРїРѕР·РёС‚ РѕРєСЃРёРґР°-РІРѕР»СЊС„СЂР°РјР°-РІРёСЃРјСѓС‚Р° (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Tungsten bismuth oxide composite (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "rene_41_rod",
-                NameRu = "Рене-41 (Стержень)",
+                NameRu = "Р РµРЅРµ-41 (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Rene 41 (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             new GameItem
             {
                 Id = "etrium_rod",
-                NameRu = "Этриум (Стержень)",
+                NameRu = "Р­С‚СЂРёСѓРј (РЎС‚РµСЂР¶РµРЅСЊ)",
                 NameEn = "Etrium (Rod)",
-                Type = "Стержень",
+                Type = "РЎС‚РµСЂР¶РµРЅСЊ",
                 Tag = "forge:rods"
             },
             // ==========================================
@@ -6923,3545 +6923,3545 @@ public class ItemService
             new GameItem
             {
                 Id = "water_fluid",
-                NameRu = "Вода",
+                NameRu = "Р’РѕРґР°",
                 NameEn = "Water",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "lava_fluid",
-                NameRu = "Лава",
+                NameRu = "Р›Р°РІР°",
                 NameEn = "Lava",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "milk_fluid",
-                NameRu = "Молоко",
+                NameRu = "РњРѕР»РѕРєРѕ",
                 NameEn = "Milk",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "weak_blue_steel_fluid",
-                NameRu = "Сырая синяя сталь",
+                NameRu = "РЎС‹СЂР°СЏ СЃРёРЅСЏСЏ СЃС‚Р°Р»СЊ",
                 NameEn = "Weak blue steel",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "weak_red_steel_fluid",
-                NameRu = "Сырая красная сталь",
+                NameRu = "РЎС‹СЂР°СЏ РєСЂР°СЃРЅР°СЏ СЃС‚Р°Р»СЊ",
                 NameEn = "Weak red steel",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "lye_fluid",
-                NameRu = "Щёлочь",
+                NameRu = "Р©С‘Р»РѕС‡СЊ",
                 NameEn = "Lye",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "white_dye_fluid",
-                NameRu = "Белый краситель",
+                NameRu = "Р‘РµР»С‹Р№ РєСЂР°СЃРёС‚РµР»СЊ",
                 NameEn = "White",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "orange_dye_fluid",
-                NameRu = "Оранжевый краситель",
+                NameRu = "РћСЂР°РЅР¶РµРІС‹Р№ РєСЂР°СЃРёС‚РµР»СЊ",
                 NameEn = "Orange",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "magenta_dye_fluid",
-                NameRu = "Пурпурный краситель",
+                NameRu = "РџСѓСЂРїСѓСЂРЅС‹Р№ РєСЂР°СЃРёС‚РµР»СЊ",
                 NameEn = "Magenta dye",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "light_blue_dye_fluid",
-                NameRu = "Голубой краситель",
+                NameRu = "Р“РѕР»СѓР±РѕР№ РєСЂР°СЃРёС‚РµР»СЊ",
                 NameEn = "Light blue dye",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "yellow_dye_fluid",
-                NameRu = "Желтый краситель",
+                NameRu = "Р–РµР»С‚С‹Р№ РєСЂР°СЃРёС‚РµР»СЊ",
                 NameEn = "Yellow dye",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "lime_dye_fluid",
-                NameRu = "Лаймовый краситель",
+                NameRu = "Р›Р°Р№РјРѕРІС‹Р№ РєСЂР°СЃРёС‚РµР»СЊ",
                 NameEn = "Lime dye",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "pink_dye_fluid",
-                NameRu = "Розовый краситель",
+                NameRu = "Р РѕР·РѕРІС‹Р№ РєСЂР°СЃРёС‚РµР»СЊ",
                 NameEn = "Pink dye",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "gray_dye_fluid",
-                NameRu = "Серый краситель",
+                NameRu = "РЎРµСЂС‹Р№ РєСЂР°СЃРёС‚РµР»СЊ",
                 NameEn = "Gray dye",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "light_gray_dye_fluid",
-                NameRu = "Светло-серый краситель",
+                NameRu = "РЎРІРµС‚Р»Рѕ-СЃРµСЂС‹Р№ РєСЂР°СЃРёС‚РµР»СЊ",
                 NameEn = "Light gray dye",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "cyan_dye_fluid",
-                NameRu = "Бирюзовый краситель",
+                NameRu = "Р‘РёСЂСЋР·РѕРІС‹Р№ РєСЂР°СЃРёС‚РµР»СЊ",
                 NameEn = "Cyan dye",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "purple_dye_fluid",
-                NameRu = "Фиолетовый краситель",
+                NameRu = "Р¤РёРѕР»РµС‚РѕРІС‹Р№ РєСЂР°СЃРёС‚РµР»СЊ",
                 NameEn = "Purple dye",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "blue_dye_fluid",
-                NameRu = "Синий краситель",
+                NameRu = "РЎРёРЅРёР№ РєСЂР°СЃРёС‚РµР»СЊ",
                 NameEn = "Blue dye",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "brown_dye_fluid",
-                NameRu = "Коричневый краситель",
+                NameRu = "РљРѕСЂРёС‡РЅРµРІС‹Р№ РєСЂР°СЃРёС‚РµР»СЊ",
                 NameEn = "Brown dye",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "green_dye_fluid",
-                NameRu = "Зеленый краситель",
+                NameRu = "Р—РµР»РµРЅС‹Р№ РєСЂР°СЃРёС‚РµР»СЊ",
                 NameEn = "Green dye",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "red_dye_fluid",
-                NameRu = "Красный краситель",
+                NameRu = "РљСЂР°СЃРЅС‹Р№ РєСЂР°СЃРёС‚РµР»СЊ",
                 NameEn = "Red dye",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "black_dye_fluid",
-                NameRu = "Черный краситель",
+                NameRu = "Р§РµСЂРЅС‹Р№ РєСЂР°СЃРёС‚РµР»СЊ",
                 NameEn = "Black dye",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_magnesium_diboride",
-                NameRu = "Расплав (Диборид магния)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (Р”РёР±РѕСЂРёРґ РјР°РіРЅРёСЏ)",
                 NameEn = "Molten (Magnesium diboride)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_hsss",
-                NameRu = "Расплав (HSS-S)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (HSS-S)",
                 NameEn = "Molten (HSS-S)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_hsse",
-                NameRu = "Расплав (HSS-E)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (HSS-E)",
                 NameEn = "Molten (HSS-E)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_hssg",
-                NameRu = "Расплав (HSS-G)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (HSS-G)",
                 NameEn = "Molten (HSS-G)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_zeron_100",
-                NameRu = "Расплав (Зерон-100)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (Р—РµСЂРѕРЅ-100)",
                 NameEn = "Molten (Zeron-100)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_naquadah_alloy",
-                NameRu = "Расплав (Сплав наквада)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РЎРїР»Р°РІ РЅР°РєРІР°РґР°)",
                 NameEn = "Molten (Naquadah alloy)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_enriched_naquadah_trinium_europium_duranide",
-                NameRu = "Расплав (Обогащенный наквада триний европий дюраний)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РћР±РѕРіР°С‰РµРЅРЅС‹Р№ РЅР°РєРІР°РґР° С‚СЂРёРЅРёР№ РµРІСЂРѕРїРёР№ РґСЋСЂР°РЅРёР№)",
                 NameEn = "Molten (Enriched naquadah trinium europium duranide)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_ostrum_iodide",
-                NameRu = "Расплав (йодид острума)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (Р№РѕРґРёРґ РѕСЃС‚СЂСѓРјР°)",
                 NameEn = "Molten (Ostrum iodide)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_stellite_100",
-                NameRu = "Расплав (Стеллит)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РЎС‚РµР»Р»РёС‚)",
                 NameEn = "Molten (Stellite)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_indium_tin_barium_titanium_cuprate",
-                NameRu = "Расплав (Купрат Индия Олова Бария Титана)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РљСѓРїСЂР°С‚ РРЅРґРёСЏ РћР»РѕРІР° Р‘Р°СЂРёСЏ РўРёС‚Р°РЅР°)",
                 NameEn = "Molten (Indium Tin Barium Titanium Cuprate)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_tantalum_carbide",
-                NameRu = "Расплав (Карбид тантала)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РљР°СЂР±РёРґ С‚Р°РЅС‚Р°Р»Р°)",
                 NameEn = "Molten (Tantalum carbide)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_rocket_alloy_t2",
-                NameRu = "Расплав (ASM 4914 титановый ракетный сплав)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (ASM 4914 С‚РёС‚Р°РЅРѕРІС‹Р№ СЂР°РєРµС‚РЅС‹Р№ СЃРїР»Р°РІ)",
                 NameEn = "Molten (Rocket alloy t2)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_ultimet",
-                NameRu = "Расплав (Ультимет)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РЈР»СЊС‚РёРјРµС‚)",
                 NameEn = "Molten (Ultimet)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_titanium_carbide",
-                NameRu = "Расплав (Карбид титана)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РљР°СЂР±РёРґ С‚РёС‚Р°РЅР°)",
                 NameEn = "Molten (Titanium carbide)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_mercury_barium_calcium_cuprate",
-                NameRu = "Расплав (Купрат ртути бария кальция)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РљСѓРїСЂР°С‚ СЂС‚СѓС‚Рё Р±Р°СЂРёСЏ РєР°Р»СЊС†РёСЏ)",
                 NameEn = "Molten (Mercury barium calcium cuprate)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_uranium_rhodium_dinaquadide",
-                NameRu = "Расплав (Уран родий динаквада)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РЈСЂР°РЅ СЂРѕРґРёР№ РґРёРЅР°РєРІР°РґР°)",
                 NameEn = "Molten (Uranium rhodium dinaquadide)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_niobium_titanium",
-                NameRu = "Расплав (Ниобий-титан)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РќРёРѕР±РёР№-С‚РёС‚Р°РЅ)",
                 NameEn = "Molten (Niobium titanium)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_ruthenium_trinium_americium_neutronate",
-                NameRu = "Расплав (Нейтронат рутения триния америция)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РќРµР№С‚СЂРѕРЅР°С‚ СЂСѓС‚РµРЅРёСЏ С‚СЂРёРЅРёСЏ Р°РјРµСЂРёС†РёСЏ)",
                 NameEn = "Molten (Ruthenium trinium americium neutronate)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_incoloy_ma_956",
-                NameRu = "Расплав (Инколой MA-956)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РРЅРєРѕР»РѕР№ MA-956)",
                 NameEn = "Molten (Incoloy MA-956)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_niobium_nitride",
-                NameRu = "Расплав (Нитрид ниобия)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РќРёС‚СЂРёРґ РЅРёРѕР±РёСЏ)",
                 NameEn = "Molten (Niobium nitride)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_rhodium_plated_palladium",
-                NameRu = "Расплав (Палладий с родиевым покрытием)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РџР°Р»Р»Р°РґРёР№ СЃ СЂРѕРґРёРµРІС‹Рј РїРѕРєСЂС‹С‚РёРµРј)",
                 NameEn = "Molten (Rhodium plated palladium)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_yttrium_barium_cuprate",
-                NameRu = "Расплав (Оксид иттрия-бария-меди)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РћРєСЃРёРґ РёС‚С‚СЂРёСЏ-Р±Р°СЂРёСЏ-РјРµРґРё)",
                 NameEn = "Molten (Yttrium Barium Cuprate)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_nichrome",
-                NameRu = "Расплав (Нихром)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РќРёС…СЂРѕРј)",
                 NameEn = "Molten (Nichrome)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_tungsten_carbide",
-                NameRu = "Расплав (Карбид вольфрама)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РљР°СЂР±РёРґ РІРѕР»СЊС„СЂР°РјР°)",
                 NameEn = "Molten (Tungsten carbide)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_ruridit",
-                NameRu = "Расплав (Руридит)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (Р СѓСЂРёРґРёС‚)",
                 NameEn = "Molten (Ruridit)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_osmiridium",
-                NameRu = "Расплав (Осмистый иридий)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РћСЃРјРёСЃС‚С‹Р№ РёСЂРёРґРёР№)",
                 NameEn = "Molten (Osmiridium)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_vanadium_gallium",
-                NameRu = "Расплав (Ванадий-галлий)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (Р’Р°РЅР°РґРёР№-РіР°Р»Р»РёР№)",
                 NameEn = "Molten (Vanadium gallium)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_tungsten_steel",
-                NameRu = "Расплав (Вольфрамовая сталь)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (Р’РѕР»СЊС„СЂР°РјРѕРІР°СЏ СЃС‚Р°Р»СЊ)",
                 NameEn = "Molten (Tungsten steel)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_hastelloy_c_276",
-                NameRu = "Расплав (Хастеллой-С276)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РҐР°СЃС‚РµР»Р»РѕР№-РЎ276)",
                 NameEn = "Molten (Hastelloy-C276)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_molybdenum_disilicide",
-                NameRu = "Расплав (Дисилицид молибдена)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (Р”РёСЃРёР»РёС†РёРґ РјРѕР»РёР±РґРµРЅР°)",
                 NameEn = "Molten (molybdenum disilicide)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_titanium_tungsten_carbide",
-                NameRu = "Расплав (Вольфрам-титановый карбид)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (Р’РѕР»СЊС„СЂР°Рј-С‚РёС‚Р°РЅРѕРІС‹Р№ РєР°СЂР±РёРґ)",
                 NameEn = "Molten (Titanium tungsten carbide)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_samarium_iron_arsenic_oxide",
-                NameRu = "Расплав (Оксид Самария Железа Мышьяка)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РћРєСЃРёРґ РЎР°РјР°СЂРёСЏ Р–РµР»РµР·Р° РњС‹С€СЊСЏРєР°)",
                 NameEn = "Molten (Samarium Iron Arsenic Oxide)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_uranium_triplatinum",
-                NameRu = "Расплав (Триплатина уран)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РўСЂРёРїР»Р°С‚РёРЅР° СѓСЂР°РЅ)",
                 NameEn = "Molten (Uranium triplatinum)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_rtm_alloy",
-                NameRu = "Расплав (РВМ сплав)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (Р Р’Рњ СЃРїР»Р°РІ)",
                 NameEn = "Molten (RTM alloy)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_kanthal",
-                NameRu = "Расплав (Кантал)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РљР°РЅС‚Р°Р»)",
                 NameEn = "Molten (Kanthal)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_maraging_steel_300",
-                NameRu = "Расплав (Мартенситностареющая сталь 300)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РњР°СЂС‚РµРЅСЃРёС‚РЅРѕСЃС‚Р°СЂРµСЋС‰Р°СЏ СЃС‚Р°Р»СЊ 300)",
                 NameEn = "Molten (Maraging steel 300)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_watertight_steel",
-                NameRu = "Расплав (Водостойкая сталь)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (Р’РѕРґРѕСЃС‚РѕР№РєР°СЏ СЃС‚Р°Р»СЊ)",
                 NameEn = "Molten (Watertight steel)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_hassteloy_x",
-                NameRu = "Расплав (Хастеллой-X)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РҐР°СЃС‚РµР»Р»РѕР№-X)",
                 NameEn = "Molten (Hastelloy-X)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_ostrum",
-                NameRu = "Расплав (Острум)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РћСЃС‚СЂСѓРј)",
                 NameEn = "Molten (Ostrum)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_red_steel",
-                NameRu = "Расплав (Красная сталь)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РљСЂР°СЃРЅР°СЏ СЃС‚Р°Р»СЊ)",
                 NameEn = "Molten (Red steel)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_blue_steel",
-                NameRu = "Расплав (Синяя сталь)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РЎРёРЅСЏСЏ СЃС‚Р°Р»СЊ)",
                 NameEn = "Molten (Blue steel)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_black_steel",
-                NameRu = "Расплав (Черная сталь)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (Р§РµСЂРЅР°СЏ СЃС‚Р°Р»СЊ)",
                 NameEn = "Molten (Black steel)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_tungsten_bismuth_oxide_composite",
-                NameRu = "Расплав (Композит оксида вольфрама-висмута)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (РљРѕРјРїРѕР·РёС‚ РѕРєСЃРёРґР° РІРѕР»СЊС„СЂР°РјР°-РІРёСЃРјСѓС‚Р°)",
                 NameEn = "Molten (Tungsten bismuth oxide composite)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_rene_41",
-                NameRu = "Расплав (Рене-41)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (Р РµРЅРµ-41)",
                 NameEn = "Molten (Rene-41)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_aes",
-                NameRu = "Расплавленный щелочноземельный силикат",
+                NameRu = "Р Р°СЃРїР»Р°РІР»РµРЅРЅС‹Р№ С‰РµР»РѕС‡РЅРѕР·РµРјРµР»СЊРЅС‹Р№ СЃРёР»РёРєР°С‚",
                 NameEn = "Molten aes",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molten_mo_50_re",
-                NameRu = "Расплав (Mo-50 Re)",
+                NameRu = "Р Р°СЃРїР»Р°РІ (Mo-50 Re)",
                 NameEn = "Molten (Mo-50 Re)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "aqua_regia_fluid",
-                NameRu = "Царская водка",
+                NameRu = "Р¦Р°СЂСЃРєР°СЏ РІРѕРґРєР°",
                 NameEn = "Aqua regia",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "severely_hydro_cracked_light_fuel_fluid",
-                NameRu = "Легкое топливо прошедшее тяжелый крекинг водородом",
+                NameRu = "Р›РµРіРєРѕРµ С‚РѕРїР»РёРІРѕ РїСЂРѕС€РµРґС€РµРµ С‚СЏР¶РµР»С‹Р№ РєСЂРµРєРёРЅРі РІРѕРґРѕСЂРѕРґРѕРј",
                 NameEn = "Severely hydro cracked light fuel",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "sulfuric_acid_fluid",
-                NameRu = "Серная кислота",
+                NameRu = "РЎРµСЂРЅР°СЏ РєРёСЃР»РѕС‚Р°",
                 NameEn = "Sulfuric acid",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "sterilized_growth_medium_fluid",
-                NameRu = "Стерилизованная среда роста",
+                NameRu = "РЎС‚РµСЂРёР»РёР·РѕРІР°РЅРЅР°СЏ СЃСЂРµРґР° СЂРѕСЃС‚Р°",
                 NameEn = "Sterilized growth medium",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "formic_acid_fluid",
-                NameRu = "Муравьиная кислота",
+                NameRu = "РњСѓСЂР°РІСЊРёРЅР°СЏ РєРёСЃР»РѕС‚Р°",
                 NameEn = "Formic acid",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "biomass_fluid",
-                NameRu = "Биомасса",
+                NameRu = "Р‘РёРѕРјР°СЃСЃР°",
                 NameEn = "Biomass",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "iron_iii_chloride_fluid",
-                NameRu = "Хлорид железа (III)",
+                NameRu = "РҐР»РѕСЂРёРґ Р¶РµР»РµР·Р° (III)",
                 NameEn = "Iron (III) chloride",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "glue_fluid",
-                NameRu = "Клей",
+                NameRu = "РљР»РµР№",
                 NameEn = "Glue",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "liquid_carbon_dioxide_fluid",
-                NameRu = "Сжиженный углекислый газ",
+                NameRu = "РЎР¶РёР¶РµРЅРЅС‹Р№ СѓРіР»РµРєРёСЃР»С‹Р№ РіР°Р·",
                 NameEn = "Liquid carbon dioxide",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "fluoroantimonic_acid_fluid",
-                NameRu = "Фторантимоновая кислота",
+                NameRu = "Р¤С‚РѕСЂР°РЅС‚РёРјРѕРЅРѕРІР°СЏ РєРёСЃР»РѕС‚Р°",
                 NameEn = "Fluoroantimonic acid",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "titanium_tetrachloride_fluid",
-                NameRu = "Тетрахлорид титана",
+                NameRu = "РўРµС‚СЂР°С…Р»РѕСЂРёРґ С‚РёС‚Р°РЅР°",
                 NameEn = "Titanium tetrachloride",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "gelatin_mixture_fluid",
-                NameRu = "Желатиновая смесь",
+                NameRu = "Р–РµР»Р°С‚РёРЅРѕРІР°СЏ СЃРјРµСЃСЊ",
                 NameEn = "Gelatin mixture",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "glycolonitrile_fluid",
-                NameRu = "Гликолонитрил",
+                NameRu = "Р“Р»РёРєРѕР»РѕРЅРёС‚СЂРёР»",
                 NameEn = "Glycolonitrile",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "tetranitromethane_fluid",
-                NameRu = "Тетранитрометан",
+                NameRu = "РўРµС‚СЂР°РЅРёС‚СЂРѕРјРµС‚Р°РЅ",
                 NameEn = "Tetranitromethane",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "residual_radioactive_concoction_fluid",
-                NameRu = "Остаточная радиоактивная смесь",
+                NameRu = "РћСЃС‚Р°С‚РѕС‡РЅР°СЏ СЂР°РґРёРѕР°РєС‚РёРІРЅР°СЏ СЃРјРµСЃСЊ",
                 NameEn = "Residual radioactive concoction",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "salt_water_fluid",
-                NameRu = "Соленая вода",
+                NameRu = "РЎРѕР»РµРЅР°СЏ РІРѕРґР°",
                 NameEn = "Salt water",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "naphthalene_fluid",
-                NameRu = "Нафталин",
+                NameRu = "РќР°С„С‚Р°Р»РёРЅ",
                 NameEn = "Naphthalene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "bacterial_sludge_fluid",
-                NameRu = "Бактериальный ил",
+                NameRu = "Р‘Р°РєС‚РµСЂРёР°Р»СЊРЅС‹Р№ РёР»",
                 NameEn = "Bacterial sludge",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hypochlorous_acid_fluid",
-                NameRu = "Хлорноватистая кислота",
+                NameRu = "РҐР»РѕСЂРЅРѕРІР°С‚РёСЃС‚Р°СЏ РєРёСЃР»РѕС‚Р°",
                 NameEn = "Hypochlorous acid",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "naphtha_fluid",
-                NameRu = "Нафта",
+                NameRu = "РќР°С„С‚Р°",
                 NameEn = "naphtha",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "methyl_acetate_fluid",
-                NameRu = "Метилацетат",
+                NameRu = "РњРµС‚РёР»Р°С†РµС‚Р°С‚",
                 NameEn = "Methyl acetate",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "cetane_boosted_diesel_fluid",
-                NameRu = "Нитро-дизель",
+                NameRu = "РќРёС‚СЂРѕ-РґРёР·РµР»СЊ",
                 NameEn = "Cetane boosted diesel",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "diluted_sulfuric_acid_fluid",
-                NameRu = "Разбавленная серная кислота",
+                NameRu = "Р Р°Р·Р±Р°РІР»РµРЅРЅР°СЏ СЃРµСЂРЅР°СЏ РєРёСЃР»РѕС‚Р°",
                 NameEn = "Diluted sulfuric acid",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "sulfuric_naphtha_fluid",
-                NameRu = "Серная нафта",
+                NameRu = "РЎРµСЂРЅР°СЏ РЅР°С„С‚Р°",
                 NameEn = "Sulfuric naphtha",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "dichlorobenzidine_fluid",
-                NameRu = "Дихлорбензол",
+                NameRu = "Р”РёС…Р»РѕСЂР±РµРЅР·РѕР»",
                 NameEn = "Dichlorobenzidine",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "allyl_chloride_fluid",
-                NameRu = "Аллилхлорид",
+                NameRu = "РђР»Р»РёР»С…Р»РѕСЂРёРґ",
                 NameEn = "Allyl chloride",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "oil_medium_fluid",
-                NameRu = "Средняя нефть",
+                NameRu = "РЎСЂРµРґРЅСЏСЏ РЅРµС„С‚СЊ",
                 NameEn = "Oil medium",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "sodium_persulfate_fluid",
-                NameRu = "Персульфат натрия",
+                NameRu = "РџРµСЂСЃСѓР»СЊС„Р°С‚ РЅР°С‚СЂРёСЏ",
                 NameEn = "Sodium persulfate",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "toluene_fluid",
-                NameRu = "Толуол",
+                NameRu = "РўРѕР»СѓРѕР»",
                 NameEn = "Toluene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "lubricant_fluid",
-                NameRu = "Смазка",
+                NameRu = "РЎРјР°Р·РєР°",
                 NameEn = "Lubricant",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "severely_steam_cracked_naphtha_fluid",
-                NameRu = "Нафта прошедшая жесткий крекинг паром",
+                NameRu = "РќР°С„С‚Р° РїСЂРѕС€РµРґС€Р°СЏ Р¶РµСЃС‚РєРёР№ РєСЂРµРєРёРЅРі РїР°СЂРѕРј",
                 NameEn = "Severely steam cracked naphtha",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "acetic_anhydride_fluid",
-                NameRu = "Уксусный ангидрид",
+                NameRu = "РЈРєСЃСѓСЃРЅС‹Р№ Р°РЅРіРёРґСЂРёРґ",
                 NameEn = "Acetic anhydride",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "lightly_steam_cracked_heavy_fuel_fluid",
-                NameRu = "Тяжелое топливо прошедшее легкий крекинг паром",
+                NameRu = "РўСЏР¶РµР»РѕРµ С‚РѕРїР»РёРІРѕ РїСЂРѕС€РµРґС€РµРµ Р»РµРіРєРёР№ РєСЂРµРєРёРЅРі РїР°СЂРѕРј",
                 NameEn = "Lightly steam cracked heavy fuel",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "uranium_waste_fluid",
-                NameRu = "Урановые отходы",
+                NameRu = "РЈСЂР°РЅРѕРІС‹Рµ РѕС‚С…РѕРґС‹",
                 NameEn = "Uranium waste",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "phosphoric_acid_fluid",
-                NameRu = "Фосфорная кислота",
+                NameRu = "Р¤РѕСЃС„РѕСЂРЅР°СЏ РєРёСЃР»РѕС‚Р°",
                 NameEn = "Phosphoric acid",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "enriched_naquadah_waste_fluid",
-                NameRu = "Обогащенные отходы наквады",
+                NameRu = "РћР±РѕРіР°С‰РµРЅРЅС‹Рµ РѕС‚С…РѕРґС‹ РЅР°РєРІР°РґС‹",
                 NameEn = "Enriched naquadah waste",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "distilled_water_fluid",
-                NameRu = "Дистиллированная вода",
+                NameRu = "Р”РёСЃС‚РёР»Р»РёСЂРѕРІР°РЅРЅР°СЏ РІРѕРґР°",
                 NameEn = "Distilled water",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "dimethylhydrazine_fluid",
-                NameRu = "1,1-Диметилгидразин",
+                NameRu = "1,1-Р”РёРјРµС‚РёР»РіРёРґСЂР°Р·РёРЅ",
                 NameEn = "Dimethylhydrazine",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "dichlorobenzene_fluid",
-                NameRu = "Дихлорбензол",
+                NameRu = "Р”РёС…Р»РѕСЂР±РµРЅР·РѕР»",
                 NameEn = "Dichlorobenzene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "benzene_fluid",
-                NameRu = "Бензол",
+                NameRu = "Р‘РµРЅР·РѕР»",
                 NameEn = "Benzene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "phenol_fluid",
-                NameRu = "Фенол",
+                NameRu = "Р¤РµРЅРѕР»",
                 NameEn = "Phenol",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "acidic_naquadria_solution_fluid",
-                NameRu = "Кислота раствора наквадрии",
+                NameRu = "РљРёСЃР»РѕС‚Р° СЂР°СЃС‚РІРѕСЂР° РЅР°РєРІР°РґСЂРёРё",
                 NameEn = "Acidic naquadria solution",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "heavy_fuel_fluid",
-                NameRu = "Тяжелое топливо",
+                NameRu = "РўСЏР¶РµР»РѕРµ С‚РѕРїР»РёРІРѕ",
                 NameEn = "Heavy fuel",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "severely_steam_cracked_heavy_fuel_fluid",
-                NameRu = "Тяжелое топливо прошедшее жесткий крекинг паром",
+                NameRu = "РўСЏР¶РµР»РѕРµ С‚РѕРїР»РёРІРѕ РїСЂРѕС€РµРґС€РµРµ Р¶РµСЃС‚РєРёР№ РєСЂРµРєРёРЅРі РїР°СЂРѕРј",
                 NameEn = "Severely steam cracked heavy fuel",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "lightly_hydro_cracked_light_fuel_fluid",
-                NameRu = "Легкое топливо прошедшее легкий крекинг водородом",
+                NameRu = "Р›РµРіРєРѕРµ С‚РѕРїР»РёРІРѕ РїСЂРѕС€РµРґС€РµРµ Р»РµРіРєРёР№ РєСЂРµРєРёРЅРі РІРѕРґРѕСЂРѕРґРѕРј",
                 NameEn = "Lightly hydro cracked light fuel",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "butyraldehyde_fluid",
-                NameRu = "Бутиральдегид",
+                NameRu = "Р‘СѓС‚РёСЂР°Р»СЊРґРµРіРёРґ",
                 NameEn = "Butyraldehyde",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "formamide_fluid",
-                NameRu = "Формамид",
+                NameRu = "Р¤РѕСЂРјР°РјРёРґ",
                 NameEn = "Formamide",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hydrogen_peroxide_fluid",
-                NameRu = "Перекись водорода",
+                NameRu = "РџРµСЂРµРєРёСЃСЊ РІРѕРґРѕСЂРѕРґР°",
                 NameEn = "Hydrogen peroxide",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "ethyl_tertbutyl_ether_fluid",
-                NameRu = "Трет-бутилэтиловый эфир",
+                NameRu = "РўСЂРµС‚-Р±СѓС‚РёР»СЌС‚РёР»РѕРІС‹Р№ СЌС„РёСЂ",
                 NameEn = "Ethyl tertbutyl ether",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "wood_vinegar_fluid",
-                NameRu = "Древесный уксус",
+                NameRu = "Р”СЂРµРІРµСЃРЅС‹Р№ СѓРєСЃСѓСЃ",
                 NameEn = "Wood vinegar",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "naquadria_solution_fluid",
-                NameRu = "Раствор наквадрии",
+                NameRu = "Р Р°СЃС‚РІРѕСЂ РЅР°РєРІР°РґСЂРёРё",
                 NameEn = "Naquadria solution",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "formaldehyde_fluid",
-                NameRu = "Формальдегид",
+                NameRu = "Р¤РѕСЂРјР°Р»СЊРґРµРіРёРґ",
                 NameEn = "Formaldehyde",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "vinyl_acetate_fluid",
-                NameRu = "Винилацетат",
+                NameRu = "Р’РёРЅРёР»Р°С†РµС‚Р°С‚",
                 NameEn = "Vinyl acetate",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "bisphenol_a_fluid",
-                NameRu = "Бисфенол А",
+                NameRu = "Р‘РёСЃС„РµРЅРѕР» Рђ",
                 NameEn = "Bisphenol A",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "uu_matter_fluid",
-                NameRu = "UU-материя",
+                NameRu = "UU-РјР°С‚РµСЂРёСЏ",
                 NameEn = "UU-matter",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "seed_oil_fluid",
-                NameRu = "Растительное масло",
+                NameRu = "Р Р°СЃС‚РёС‚РµР»СЊРЅРѕРµ РјР°СЃР»Рѕ",
                 NameEn = "Seed oil",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "fish_oil_fluid",
-                NameRu = "Рыбий жир",
+                NameRu = "Р С‹Р±РёР№ Р¶РёСЂ",
                 NameEn = "Fish oil",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "bauxite_slurry_fluid",
-                NameRu = "Бокситовая суспензия",
+                NameRu = "Р‘РѕРєСЃРёС‚РѕРІР°СЏ СЃСѓСЃРїРµРЅР·РёСЏ",
                 NameEn = "Bauxite slurry",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "epichlorohydrin_fluid",
-                NameRu = "Эпихлоргидрин",
+                NameRu = "Р­РїРёС…Р»РѕСЂРіРёРґСЂРёРЅ",
                 NameEn = "Epichlorohydrin",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "nitration_mixture_fluid",
-                NameRu = "Нитратная смесь",
+                NameRu = "РќРёС‚СЂР°С‚РЅР°СЏ СЃРјРµСЃСЊ",
                 NameEn = "Nitration mixture",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "sulfuric_copper_solution_fluid",
-                NameRu = "Водный раствор медного купороса",
+                NameRu = "Р’РѕРґРЅС‹Р№ СЂР°СЃС‚РІРѕСЂ РјРµРґРЅРѕРіРѕ РєСѓРїРѕСЂРѕСЃР°",
                 NameEn = "Sulfuric copper solution",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "oil_light_fluid",
-                NameRu = "Легкая нефть",
+                NameRu = "Р›РµРіРєР°СЏ РЅРµС„С‚СЊ",
                 NameEn = "Oil light",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "dirty_hexafluorosilicic_acid_fluid",
-                NameRu = "Грязная гексафторкремниевая кислота",
+                NameRu = "Р“СЂСЏР·РЅР°СЏ РіРµРєСЃР°С„С‚РѕСЂРєСЂРµРјРЅРёРµРІР°СЏ РєРёСЃР»РѕС‚Р°",
                 NameEn = "Dirty hexafluorosilicic acid",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "lpg_fluid",
-                NameRu = "Сжиженный углеводородный газ",
+                NameRu = "РЎР¶РёР¶РµРЅРЅС‹Р№ СѓРіР»РµРІРѕРґРѕСЂРѕРґРЅС‹Р№ РіР°Р·",
                 NameEn = "LPG",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "enriched_bacterial_sludge_fluid",
-                NameRu = "Обогащенный бактериальный ил",
+                NameRu = "РћР±РѕРіР°С‰РµРЅРЅС‹Р№ Р±Р°РєС‚РµСЂРёР°Р»СЊРЅС‹Р№ РёР»",
                 NameEn = "Enriched bacterial sludge",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "martian_sludge_fluid",
-                NameRu = "Марсианская слякоть",
+                NameRu = "РњР°СЂСЃРёР°РЅСЃРєР°СЏ СЃР»СЏРєРѕС‚СЊ",
                 NameEn = "Martian sludge",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "mercury_fluid",
-                NameRu = "Ртуть",
+                NameRu = "Р С‚СѓС‚СЊ",
                 NameEn = "Mercury",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "impure_naquadria_solution_fluid",
-                NameRu = "Загрязненный раствор наквадрии",
+                NameRu = "Р—Р°РіСЂСЏР·РЅРµРЅРЅС‹Р№ СЂР°СЃС‚РІРѕСЂ РЅР°РєРІР°РґСЂРёРё",
                 NameEn = "Impure naquadria solution",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "polychlorinated_biphenyl_fluid",
-                NameRu = "Полихлорированный дифенил (ПХД)",
+                NameRu = "РџРѕР»РёС…Р»РѕСЂРёСЂРѕРІР°РЅРЅС‹Р№ РґРёС„РµРЅРёР» (РџРҐР”)",
                 NameEn = "Polychlorinated biphenyl",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "aminophenol_fluid",
-                NameRu = "Аминофенол",
+                NameRu = "РђРјРёРЅРѕС„РµРЅРѕР»",
                 NameEn = "Aminophenol",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "chloroform_fluid",
-                NameRu = "Хлороформ",
+                NameRu = "РҐР»РѕСЂРѕС„РѕСЂРј",
                 NameEn = "Chloroform",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "dimethylbenzene_fluid",
-                NameRu = "Ксилол",
+                NameRu = "РљСЃРёР»РѕР»",
                 NameEn = "Dimethylbenzene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "ethenone_fluid",
-                NameRu = "Кетен",
+                NameRu = "РљРµС‚РµРЅ",
                 NameEn = "Ethenone",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "ethylbenzene_fluid",
-                NameRu = "Этилбензол",
+                NameRu = "Р­С‚РёР»Р±РµРЅР·РѕР»",
                 NameEn = "Ethylbenzene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "iron_ii_chloride_fluid",
-                NameRu = "Хлорид железа (II)",
+                NameRu = "РҐР»РѕСЂРёРґ Р¶РµР»РµР·Р° (II)",
                 NameEn = "Iron (II) chloride",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "severely_steam_cracked_light_fuel_fluid",
-                NameRu = "Легкое топливо прошедшее жесткий крекинг паром",
+                NameRu = "Р›РµРіРєРѕРµ С‚РѕРїР»РёРІРѕ РїСЂРѕС€РµРґС€РµРµ Р¶РµСЃС‚РєРёР№ РєСЂРµРєРёРЅРі РїР°СЂРѕРј",
                 NameEn = "Severely steam cracked light fuel",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "severely_hydro_cracked_naphtha_fluid",
-                NameRu = "Нафта прошедшая тяжелый крекинг водородом",
+                NameRu = "РќР°С„С‚Р° РїСЂРѕС€РµРґС€Р°СЏ С‚СЏР¶РµР»С‹Р№ РєСЂРµРєРёРЅРі РІРѕРґРѕСЂРѕРґРѕРј",
                 NameEn = "Severely hydro cracked naphtha",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "lightly_hydro_cracked_heavy_fuel_fluid",
-                NameRu = "Тяжелое топливо прошедшее легкий крекинг водородом",
+                NameRu = "РўСЏР¶РµР»РѕРµ С‚РѕРїР»РёРІРѕ РїСЂРѕС€РµРґС€РµРµ Р»РµРіРєРёР№ РєСЂРµРєРёРЅРі РІРѕРґРѕСЂРѕРґРѕРј",
                 NameEn = "Lightly hydro cracked heavy fuel",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "chlorobenzene_fluid",
-                NameRu = "Хлорбензол",
+                NameRu = "РҐР»РѕСЂР±РµРЅР·РѕР»",
                 NameEn = "Chlorobenzene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "oil_heavy_fluid",
-                NameRu = "Тяжелая нефть",
+                NameRu = "РўСЏР¶РµР»Р°СЏ РЅРµС„С‚СЊ",
                 NameEn = "Oil heavy",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "methanol_fluid",
-                NameRu = "Метанол",
+                NameRu = "РњРµС‚Р°РЅРѕР»",
                 NameEn = "Methanol",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "glycerol_fluid",
-                NameRu = "Глицерин",
+                NameRu = "Р“Р»РёС†РµСЂРёРЅ",
                 NameEn = "Glycerol",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "concrete_fluid",
-                NameRu = "Бетон",
+                NameRu = "Р‘РµС‚РѕРЅ",
                 NameEn = "Concrete",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "coal_tar_fluid",
-                NameRu = "Каменноугольная смола",
+                NameRu = "РљР°РјРµРЅРЅРѕСѓРіРѕР»СЊРЅР°СЏ СЃРјРѕР»Р°",
                 NameEn = "Coal tar",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "fermented_biomass_fluid",
-                NameRu = "Ферментированная биомасса",
+                NameRu = "Р¤РµСЂРјРµРЅС‚РёСЂРѕРІР°РЅРЅР°СЏ Р±РёРѕРјР°СЃСЃР°",
                 NameEn = "Fermented biomass",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "pcb_coolant_fluid",
-                NameRu = "Диэлектрический хладоген (ПХД)",
+                NameRu = "Р”РёСЌР»РµРєС‚СЂРёС‡РµСЃРєРёР№ С…Р»Р°РґРѕРіРµРЅ (РџРҐР”)",
                 NameEn = "PCB coolant",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "isoprene_fluid",
-                NameRu = "Изопрен",
+                NameRu = "РР·РѕРїСЂРµРЅ",
                 NameEn = "Isoprene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "cracked_bauxite_slurry_fluid",
-                NameRu = "Бокситовая суспензия прошедшая крекинг",
+                NameRu = "Р‘РѕРєСЃРёС‚РѕРІР°СЏ СЃСѓСЃРїРµРЅР·РёСЏ РїСЂРѕС€РµРґС€Р°СЏ РєСЂРµРєРёРЅРі",
                 NameEn = "Cracked bauxite slurry",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "phthalic_acid_fluid",
-                NameRu = "Фталиевая кислота",
+                NameRu = "Р¤С‚Р°Р»РёРµРІР°СЏ РєРёСЃР»РѕС‚Р°",
                 NameEn = "Phthalic acid",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "nitrochlorobenzene_fluid",
-                NameRu = "Нитрохлорбензол",
+                NameRu = "РќРёС‚СЂРѕС…Р»РѕСЂР±РµРЅР·РѕР»",
                 NameEn = "Nitrochlorobenzene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "sulfuric_light_fuel_fluid",
-                NameRu = "Серное легкое топливо",
+                NameRu = "РЎРµСЂРЅРѕРµ Р»РµРіРєРѕРµ С‚РѕРїР»РёРІРѕ",
                 NameEn = "Sulfuric light fuel",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "rocket_fuel_fluid",
-                NameRu = "Ракетное топливо",
+                NameRu = "Р Р°РєРµС‚РЅРѕРµ С‚РѕРїР»РёРІРѕ",
                 NameEn = "Rocket fuel",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "bromine_fluid",
-                NameRu = "Бром",
+                NameRu = "Р‘СЂРѕРј",
                 NameEn = "Bromine",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "creosote_fluid",
-                NameRu = "Креозот",
+                NameRu = "РљСЂРµРѕР·РѕС‚",
                 NameEn = "Creosote",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "lead_zinc_solution_fluid",
-                NameRu = "Свинцово-цинковый раствор",
+                NameRu = "РЎРІРёРЅС†РѕРІРѕ-С†РёРЅРєРѕРІС‹Р№ СЂР°СЃС‚РІРѕСЂ",
                 NameEn = "Lead zinc solution",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "decalcified_bauxite_sludge_fluid",
-                NameRu = "Декальцированный шлам боксита",
+                NameRu = "Р”РµРєР°Р»СЊС†РёСЂРѕРІР°РЅРЅС‹Р№ С€Р»Р°Рј Р±РѕРєСЃРёС‚Р°",
                 NameEn = "Decalcified bauxite sludge",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "ethanol_fluid",
-                NameRu = "Этанол",
+                NameRu = "Р­С‚Р°РЅРѕР»",
                 NameEn = "Ethanol",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "gasoline_fluid",
-                NameRu = "Бензин",
+                NameRu = "Р‘РµРЅР·РёРЅ",
                 NameEn = "Gasoline",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "high_octane_gasoline_fluid",
-                NameRu = "Высокооктановый бензин",
+                NameRu = "Р’С‹СЃРѕРєРѕРѕРєС‚Р°РЅРѕРІС‹Р№ Р±РµРЅР·РёРЅ",
                 NameEn = "High octane gasoline",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "lightly_steam_cracked_naphtha_fluid",
-                NameRu = "Нафта прошедшая легкий крекинг паром",
+                NameRu = "РќР°С„С‚Р° РїСЂРѕС€РµРґС€Р°СЏ Р»РµРіРєРёР№ РєСЂРµРєРёРЅРі РїР°СЂРѕРј",
                 NameEn = "Lightly steam cracked naphtha",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "dissolved_calcium_acetate_fluid",
-                NameRu = "Раствор ацетата кальция",
+                NameRu = "Р Р°СЃС‚РІРѕСЂ Р°С†РµС‚Р°С‚Р° РєР°Р»СЊС†РёСЏ",
                 NameEn = "Dissolved calcium acetate",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "raw_gasoline_fluid",
-                NameRu = "Сырой бензин",
+                NameRu = "РЎС‹СЂРѕР№ Р±РµРЅР·РёРЅ",
                 NameEn = "Raw gasoline",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "drilling_fluid",
-                NameRu = "Буровой раствор",
+                NameRu = "Р‘СѓСЂРѕРІРѕР№ СЂР°СЃС‚РІРѕСЂ",
                 NameEn = "Drilling fluid",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "indium_concentrate_fluid",
-                NameRu = "Концетрат индия",
+                NameRu = "РљРѕРЅС†РµС‚СЂР°С‚ РёРЅРґРёСЏ",
                 NameEn = "Indium concentrate",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "lightly_hydro_cracked_naphtha_fluid",
-                NameRu = "Нафта прошедшая легкий крекинг водородом",
+                NameRu = "РќР°С„С‚Р° РїСЂРѕС€РµРґС€Р°СЏ Р»РµРіРєРёР№ РєСЂРµРєРёРЅРі РІРѕРґРѕСЂРѕРґРѕРј",
                 NameEn = "Lightly hydro cracked naphtha",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "sodium_potassium_fluid",
-                NameRu = "Натрий калий",
+                NameRu = "РќР°С‚СЂРёР№ РєР°Р»РёР№",
                 NameEn = "Sodium potassium",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "sulfuric_nickel_solution_fluid",
-                NameRu = "Водный раствор сульфата никеля",
+                NameRu = "Р’РѕРґРЅС‹Р№ СЂР°СЃС‚РІРѕСЂ СЃСѓР»СЊС„Р°С‚Р° РЅРёРєРµР»СЏ",
                 NameEn = "Sulfuric nickel solution",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "diethylenetriamine_fluid",
-                NameRu = "Диэтилентриамин",
+                NameRu = "Р”РёСЌС‚РёР»РµРЅС‚СЂРёР°РјРёРЅ",
                 NameEn = "Diethylenetriamine",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "enriched_naquadah_solution_fluid",
-                NameRu = "Обогащенный раствор наквады",
+                NameRu = "РћР±РѕРіР°С‰РµРЅРЅС‹Р№ СЂР°СЃС‚РІРѕСЂ РЅР°РєРІР°РґС‹",
                 NameEn = "Enriched naquadah solution",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "bio_diesel_fluid",
-                NameRu = "Биодизель",
+                NameRu = "Р‘РёРѕРґРёР·РµР»СЊ",
                 NameEn = "Bio diesel",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "rhodium_sulfate_fluid",
-                NameRu = "Сульфат родия",
+                NameRu = "РЎСѓР»СЊС„Р°С‚ СЂРѕРґРёСЏ",
                 NameEn = "Rhodium sulfate",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "cyclohexane_fluid",
-                NameRu = "Циклогексан",
+                NameRu = "Р¦РёРєР»РѕРіРµРєСЃР°РЅ",
                 NameEn = "Cyclohexane",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "diesel_fluid",
-                NameRu = "Дизель",
+                NameRu = "Р”РёР·РµР»СЊ",
                 NameEn = "Diesel",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hydrochloric_acid_fluid",
-                NameRu = "Хлороводород",
+                NameRu = "РҐР»РѕСЂРѕРІРѕРґРѕСЂРѕРґ",
                 NameEn = "Hydrochloric acid",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "styrene_fluid",
-                NameRu = "Стирол",
+                NameRu = "РЎС‚РёСЂРѕР»",
                 NameEn = "Styrene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "diluted_hydrochloric_acid_fluid",
-                NameRu = "Разбавленный хлороводород",
+                NameRu = "Р Р°Р·Р±Р°РІР»РµРЅРЅС‹Р№ С…Р»РѕСЂРѕРІРѕРґРѕСЂРѕРґ",
                 NameEn = "Diluted hydrochloric acid",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "light_fuel_fluid",
-                NameRu = "Легкое топливо",
+                NameRu = "Р›РµРіРєРѕРµ С‚РѕРїР»РёРІРѕ",
                 NameEn = "Light fuel",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "bauxite_sludge_fluid",
-                NameRu = "Шлам боксита",
+                NameRu = "РЁР»Р°Рј Р±РѕРєСЃРёС‚Р°",
                 NameEn = "Bauxite sludge",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "diaminobenzidine_fluid",
-                NameRu = "Диаминобензидин",
+                NameRu = "Р”РёР°РјРёРЅРѕР±РµРЅР·РёРґРёРЅ",
                 NameEn = "Diaminobenzidine",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "tritiated_water_fluid",
-                NameRu = "Тритиевая вода",
+                NameRu = "РўСЂРёС‚РёРµРІР°СЏ РІРѕРґР°",
                 NameEn = "Tritiated water",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "diphenyl_isophthalate_fluid",
-                NameRu = "Дифенилизофталат",
+                NameRu = "Р”РёС„РµРЅРёР»РёР·РѕС„С‚Р°Р»Р°С‚",
                 NameEn = "Diphenyl isophthalate",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "sulfuric_heavy_fuel_fluid",
-                NameRu = "Серное тяжелое топливо",
+                NameRu = "РЎРµСЂРЅРѕРµ С‚СЏР¶РµР»РѕРµ С‚РѕРїР»РёРІРѕ",
                 NameEn = "Sulfuric heavy fuel",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "bacteria_fluid",
-                NameRu = "Бактерии",
+                NameRu = "Р‘Р°РєС‚РµСЂРёРё",
                 NameEn = "Bacteria",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "oil_fluid",
-                NameRu = "Нефть",
+                NameRu = "РќРµС„С‚СЊ",
                 NameEn = "Oil",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "severely_hydro_cracked_heavy_fuel_fluid",
-                NameRu = "Тяжелое топливо прошедшее тяжелый крекинг водородом",
+                NameRu = "РўСЏР¶РµР»РѕРµ С‚РѕРїР»РёРІРѕ РїСЂРѕС€РµРґС€РµРµ С‚СЏР¶РµР»С‹Р№ РєСЂРµРєРёРЅРі РІРѕРґРѕСЂРѕРґРѕРј",
                 NameEn = "Severely hydro cracked heavy fuel",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "acetone_fluid",
-                NameRu = "Ацетон",
+                NameRu = "РђС†РµС‚РѕРЅ",
                 NameEn = "Acetone",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "charcoal_byproducts_fluid",
-                NameRu = "Продукты переработки древесного угля",
+                NameRu = "РџСЂРѕРґСѓРєС‚С‹ РїРµСЂРµСЂР°Р±РѕС‚РєРё РґСЂРµРІРµСЃРЅРѕРіРѕ СѓРіР»СЏ",
                 NameEn = "Charcoal byproducts",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "mutagen_fluid",
-                NameRu = "Мутаген",
+                NameRu = "РњСѓС‚Р°РіРµРЅ",
                 NameEn = "Mutagen",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "liquid_air_fluid",
-                NameRu = "Сжиженный земной воздух",
+                NameRu = "РЎР¶РёР¶РµРЅРЅС‹Р№ Р·РµРјРЅРѕР№ РІРѕР·РґСѓС…",
                 NameEn = "Liquid air",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "dichloroethane_fluid",
-                NameRu = "Дихлорэтан",
+                NameRu = "Р”РёС…Р»РѕСЂСЌС‚Р°РЅ",
                 NameEn = "Dichloroethane",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "glyceryl_trinitrate_fluid",
-                NameRu = "Нитроглицерин",
+                NameRu = "РќРёС‚СЂРѕРіР»РёС†РµСЂРёРЅ",
                 NameEn = "Glyceryl trinitrate",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "acidic_enriched_naquadah_solution_fluid",
-                NameRu = "Кислота обогащенного раствора наквады",
+                NameRu = "РљРёСЃР»РѕС‚Р° РѕР±РѕРіР°С‰РµРЅРЅРѕРіРѕ СЂР°СЃС‚РІРѕСЂР° РЅР°РєРІР°РґС‹",
                 NameEn = "Acidic enriched naquadah solution",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "dioxygen_difluoride_fluid",
-                NameRu = "Диоксифторид",
+                NameRu = "Р”РёРѕРєСЃРёС„С‚РѕСЂРёРґ",
                 NameEn = "Dioxygen difluoride",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "wood_tar_fluid",
-                NameRu = "Древесная смола",
+                NameRu = "Р”СЂРµРІРµСЃРЅР°СЏ СЃРјРѕР»Р°",
                 NameEn = "Wood tar",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "naquadria_waste_fluid",
-                NameRu = "Наквадриевые отходы",
+                NameRu = "РќР°РєРІР°РґСЂРёРµРІС‹Рµ РѕС‚С…РѕРґС‹",
                 NameEn = "Naquadria waste",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "acetic_acid_fluid",
-                NameRu = "Уксусная кислота",
+                NameRu = "РЈРєСЃСѓСЃРЅР°СЏ РєРёСЃР»РѕС‚Р°",
                 NameEn = "Acetic acid",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "acidic_osmium_solution_fluid",
-                NameRu = "Раствор осмиевой кислоты",
+                NameRu = "Р Р°СЃС‚РІРѕСЂ РѕСЃРјРёРµРІРѕР№ РєРёСЃР»РѕС‚С‹",
                 NameEn = "Acidic osmium solution",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "raw_growth_medium_fluid",
-                NameRu = "Сырая среда роста",
+                NameRu = "РЎС‹СЂР°СЏ СЃСЂРµРґР° СЂРѕСЃС‚Р°",
                 NameEn = "Raw growth medium",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "lightly_steam_cracked_light_fuel_fluid",
-                NameRu = "Легкое топливо прошедшее легкий крекинг паром",
+                NameRu = "Р›РµРіРєРѕРµ С‚РѕРїР»РёРІРѕ РїСЂРѕС€РµРґС€РµРµ Р»РµРіРєРёР№ РєСЂРµРєРёРЅРі РїР°СЂРѕРј",
                 NameEn = "Lightly steam cracked light fuel",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "octane_fluid",
-                NameRu = "Октан",
+                NameRu = "РћРєС‚Р°РЅ",
                 NameEn = "Octane",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "impure_enriched_naquadah_solution_fluid",
-                NameRu = "Загрязненный обогащенный раствор наквады",
+                NameRu = "Р—Р°РіСЂСЏР·РЅРµРЅРЅС‹Р№ РѕР±РѕРіР°С‰РµРЅРЅС‹Р№ СЂР°СЃС‚РІРѕСЂ РЅР°РєРІР°РґС‹",
                 NameEn = "Impure enriched naquadah solution",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "nitric_acid_fluid",
-                NameRu = "Азотная кислота",
+                NameRu = "РђР·РѕС‚РЅР°СЏ РєРёСЃР»РѕС‚Р°",
                 NameEn = "Nitric acid",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "diethylenetriamine_pentaacetonitrile_fluid",
-                NameRu = "Диэтилентриамин-пента",
+                NameRu = "Р”РёСЌС‚РёР»РµРЅС‚СЂРёР°РјРёРЅ-РїРµРЅС‚Р°",
                 NameEn = "Diethylenetriamine pentaacetonitrile",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "polyvinyl_acetate_fluid",
-                NameRu = "Поливинилацетат",
+                NameRu = "РџРѕР»РёРІРёРЅРёР»Р°С†РµС‚Р°С‚",
                 NameEn = "Polyvinyl acetate",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hydrofluoric_acid_fluid",
-                NameRu = "Плавиковая кислота",
+                NameRu = "РџР»Р°РІРёРєРѕРІР°СЏ РєРёСЃР»РѕС‚Р°",
                 NameEn = "Hydrofluoric acid",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "construction_foam_fluid",
-                NameRu = "Строительная пена",
+                NameRu = "РЎС‚СЂРѕРёС‚РµР»СЊРЅР°СЏ РїРµРЅР°",
                 NameEn = "Construction foam",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "potin_fluid",
-                NameRu = "Потин (Жидкость)",
+                NameRu = "РџРѕС‚РёРЅ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Potin (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "soldering_alloy_fluid",
-                NameRu = "Припой (Жидкость)",
+                NameRu = "РџСЂРёРїРѕР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Soldering alloy (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "neutronium_fluid",
-                NameRu = "Нейтроний (Жидкость)",
+                NameRu = "РќРµР№С‚СЂРѕРЅРёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Neutronium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "silver_fluid",
-                NameRu = "Серебро (Жидкость)",
+                NameRu = "РЎРµСЂРµР±СЂРѕ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Silver (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "sterling_silver_fluid",
-                NameRu = "Стерлинговое серебро (Жидкость)",
+                NameRu = "РЎС‚РµСЂР»РёРЅРіРѕРІРѕРµ СЃРµСЂРµР±СЂРѕ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Sterling silver (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "polyphenylene_sulfide_fluid",
-                NameRu = "Полифениленсульфид (Жидкость)",
+                NameRu = "РџРѕР»РёС„РµРЅРёР»РµРЅСЃСѓР»СЊС„РёРґ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Polyphenylene sulfide (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "magnalium_fluid",
-                NameRu = "Магналий (Жидкость)",
+                NameRu = "РњР°РіРЅР°Р»РёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Magnalium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "magnesium_diboride_fluid",
-                NameRu = "Диборид магния (Жидкость)",
+                NameRu = "Р”РёР±РѕСЂРёРґ РјР°РіРЅРёСЏ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Magnesium diboride (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "manganese_phosphide_fluid",
-                NameRu = "Фосфид марганца (Жидкость)",
+                NameRu = "Р¤РѕСЃС„РёРґ РјР°СЂРіР°РЅС†Р° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Manganese phosphide (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "carbon_fluid",
-                NameRu = "Углерод (Жидкость)",
+                NameRu = "РЈРіР»РµСЂРѕРґ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Carbon (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "ostrum_fluid",
-                NameRu = "Острум (Жидкость)",
+                NameRu = "РћСЃС‚СЂСѓРј (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Ostrum (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "zeron_100_fluid",
-                NameRu = "Зерон-100 (Жидкость)",
+                NameRu = "Р—РµСЂРѕРЅ-100 (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Zeron 100 (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "naquadah_alloy_fluid",
-                NameRu = "Сплав наквада (Жидкость)",
+                NameRu = "РЎРїР»Р°РІ РЅР°РєРІР°РґР° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Naquadah alloy (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "bronze_fluid",
-                NameRu = "Бронза (Жидкость)",
+                NameRu = "Р‘СЂРѕРЅР·Р° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Bronze (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "indium_gallium_phosphide_fluid",
-                NameRu = "Индий Галлий Фосфид (Жидкость)",
+                NameRu = "РРЅРґРёР№ Р“Р°Р»Р»РёР№ Р¤РѕСЃС„РёРґ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Indium_gallium_phosphide (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "vanadium_fluid",
-                NameRu = "Ванадий (Жидкость)",
+                NameRu = "Р’Р°РЅР°РґРёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Vanadium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "enriched_naquadah_trinium_europium_duranide_fluid",
-                NameRu = "Обогащенный наквада триний европий дюраний (Жидкость)",
+                NameRu = "РћР±РѕРіР°С‰РµРЅРЅС‹Р№ РЅР°РєРІР°РґР° С‚СЂРёРЅРёР№ РµРІСЂРѕРїРёР№ РґСЋСЂР°РЅРёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Enriched naquadah trinium europium duranide (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "ostrum_iodide_fluid",
-                NameRu = "йодид острума (Жидкость)",
+                NameRu = "Р№РѕРґРёРґ РѕСЃС‚СЂСѓРјР° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Ostrum iodide (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "stellite_100_fluid",
-                NameRu = "Стеллит (Жидкость)",
+                NameRu = "РЎС‚РµР»Р»РёС‚ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Stellite (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "chromium_fluid",
-                NameRu = "Хром (Жидкость)",
+                NameRu = "РҐСЂРѕРј (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Chromium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "annealed_copper_fluid",
-                NameRu = "Отожженная медь (Жидкость)",
+                NameRu = "РћС‚РѕР¶Р¶РµРЅРЅР°СЏ РјРµРґСЊ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Annealed copper (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "plutonium_239_fluid",
-                NameRu = "Плутоний 239 (Жидкость)",
+                NameRu = "РџР»СѓС‚РѕРЅРёР№ 239 (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Plutonium 239 (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "potassium_fluid",
-                NameRu = "Калий (Жидкость)",
+                NameRu = "РљР°Р»РёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Potassium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "indium_tin_barium_titanium_cuprate_fluid",
-                NameRu = "Купрат Индия Олова Бария Титана (Жидкость)",
+                NameRu = "РљСѓРїСЂР°С‚ РРЅРґРёСЏ РћР»РѕРІР° Р‘Р°СЂРёСЏ РўРёС‚Р°РЅР° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Indium Tin Barium Titanium Cuprate (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "liquid_helium_fluid",
-                NameRu = "Гелий (Жидкость)",
+                NameRu = "Р“РµР»РёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Helium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "tantalum_fluid",
-                NameRu = "Тантал (Жидкость)",
+                NameRu = "РўР°РЅС‚Р°Р» (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Tantalum (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "styrene_butadiene_rubber_fluid",
-                NameRu = "Стирол-бутадиенова резина (Жидкость)",
+                NameRu = "РЎС‚РёСЂРѕР»-Р±СѓС‚Р°РґРёРµРЅРѕРІР° СЂРµР·РёРЅР° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Styrene butadiene rubber (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "lutetium_fluid",
-                NameRu = "Лютеций (Жидкость)",
+                NameRu = "Р›СЋС‚РµС†РёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Lutetium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "tantalum_carbide_fluid",
-                NameRu = "Карбид тантала (Жидкость)",
+                NameRu = "РљР°СЂР±РёРґ С‚Р°РЅС‚Р°Р»Р° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Tantalum carbide (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "rocket_alloy_t2_fluid",
-                NameRu = "ASM 4914 титановый ракетный сплав (Жидкость)",
+                NameRu = "ASM 4914 С‚РёС‚Р°РЅРѕРІС‹Р№ СЂР°РєРµС‚РЅС‹Р№ СЃРїР»Р°РІ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Rocket alloy t2 (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "liquid_oxygen_fluid",
-                NameRu = "Кислород (Жидкость)",
+                NameRu = "РљРёСЃР»РѕСЂРѕРґ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Oxygen (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "epoxy_fluid",
-                NameRu = "Эпоксидная смола (Жидкость)",
+                NameRu = "Р­РїРѕРєСЃРёРґРЅР°СЏ СЃРјРѕР»Р° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Epoxy (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "bismuth_bronze_fluid",
-                NameRu = "Висмутовая бронза (Жидкость)",
+                NameRu = "Р’РёСЃРјСѓС‚РѕРІР°СЏ Р±СЂРѕРЅР·Р° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Bismuth bronze (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "concrete_fluid",
-                NameRu = "Бетон (Жидкость)",
+                NameRu = "Р‘РµС‚РѕРЅ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Concrete (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "antimony_fluid",
-                NameRu = "Сурьма (Жидкость)",
+                NameRu = "РЎСѓСЂСЊРјР° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Antimony (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "ultimet_fluid",
-                NameRu = "Ультимет (Жидкость)",
+                NameRu = "РЈР»СЊС‚РёРјРµС‚ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Ultimet (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "polycaprolactam_fluid",
-                NameRu = "Поликапролактам (Жидкость)",
+                NameRu = "РџРѕР»РёРєР°РїСЂРѕР»Р°РєС‚Р°Рј (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Polycaprolactam (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "battery_alloy_fluid",
-                NameRu = "Аккумуляторный сплав (Жидкость)",
+                NameRu = "РђРєРєСѓРјСѓР»СЏС‚РѕСЂРЅС‹Р№ СЃРїР»Р°РІ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Battery alloy (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "redstone_fluid",
-                NameRu = "Редстоуновая пыль (Жидкость)",
+                NameRu = "Р РµРґСЃС‚РѕСѓРЅРѕРІР°СЏ РїС‹Р»СЊ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Redstone (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "red_steel_fluid",
-                NameRu = "Красная сталь (Жидкость)",
+                NameRu = "РљСЂР°СЃРЅР°СЏ СЃС‚Р°Р»СЊ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Red steel (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "vanadium_steel_fluid",
-                NameRu = "Ванадиевая сталь (Жидкость)",
+                NameRu = "Р’Р°РЅР°РґРёРµРІР°СЏ СЃС‚Р°Р»СЊ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Vanadium steel (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "osmium_fluid",
-                NameRu = "Осмий (Жидкость)",
+                NameRu = "РћСЃРјРёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Osmium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "samarium_fluid",
-                NameRu = "Самарий (Жидкость)",
+                NameRu = "РЎР°РјР°СЂРёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Samarium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "gallium_arsenide_fluid",
-                NameRu = "Арсенид галлия (Жидкость)",
+                NameRu = "РђСЂСЃРµРЅРёРґ РіР°Р»Р»РёСЏ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Gallium arsenide (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "polytetrafluoroethylene_fluid",
-                NameRu = "Политетрафторэтилен (Жидкость)",
+                NameRu = "РџРѕР»РёС‚РµС‚СЂР°С„С‚РѕСЂСЌС‚РёР»РµРЅ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Polytetrafluoroethylene (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "borosilicate_glass_fluid",
-                NameRu = "Боросиликатное стекло (Жидкость)",
+                NameRu = "Р‘РѕСЂРѕСЃРёР»РёРєР°С‚РЅРѕРµ СЃС‚РµРєР»Рѕ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Borosilicate glass (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "polybenzimidazole_fluid",
-                NameRu = "Полибензимидазол (ПБИ) (Жидкость)",
+                NameRu = "РџРѕР»РёР±РµРЅР·РёРјРёРґР°Р·РѕР» (РџР‘Р) (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Polybenzimidazole (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "tin_fluid",
-                NameRu = "Олово (Жидкость)",
+                NameRu = "РћР»РѕРІРѕ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Tin (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molybdenum_fluid",
-                NameRu = "Молибден (Жидкость)",
+                NameRu = "РњРѕР»РёР±РґРµРЅ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Molybdenum (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "gold_fluid",
-                NameRu = "Золото (Жидкость)",
+                NameRu = "Р—РѕР»РѕС‚Рѕ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Gold (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "neodymium_fluid",
-                NameRu = "Неодим (Жидкость)",
+                NameRu = "РќРµРѕРґРёРј (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Neodymium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "cupronickel_fluid",
-                NameRu = "Купроникель (Жидкость)",
+                NameRu = "РљСѓРїСЂРѕРЅРёРєРµР»СЊ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Cupronickel (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "glowstone_fluid",
-                NameRu = "Светокамень (Жидкость)",
+                NameRu = "РЎРІРµС‚РѕРєР°РјРµРЅСЊ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Glowstone (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "titanium_carbide_fluid",
-                NameRu = "Карбид титана (Жидкость)",
+                NameRu = "РљР°СЂР±РёРґ С‚РёС‚Р°РЅР° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Titanium carbide (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "indium_fluid",
-                NameRu = "Индий (Жидкость)",
+                NameRu = "РРЅРґРёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Indium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "mercury_barium_calcium_cuprate_fluid",
-                NameRu = "Купрат ртути бария кальция (Жидкость)",
+                NameRu = "РљСѓРїСЂР°С‚ СЂС‚СѓС‚Рё Р±Р°СЂРёСЏ РєР°Р»СЊС†РёСЏ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Mercury barium calcium cuprate (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "copper_fluid",
-                NameRu = "Медь (Жидкость)",
+                NameRu = "РњРµРґСЊ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Copper (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "cerium_fluid",
-                NameRu = "Церий (Жидкость)",
+                NameRu = "Р¦РµСЂРёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Cerium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "brass_fluid",
-                NameRu = "Латунь (Жидкость)",
+                NameRu = "Р›Р°С‚СѓРЅСЊ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Brass (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "gallium_fluid",
-                NameRu = "Галлий (Жидкость)",
+                NameRu = "Р“Р°Р»Р»РёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Gallium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "rose_gold_fluid",
-                NameRu = "Розовое золото (Жидкость)",
+                NameRu = "Р РѕР·РѕРІРѕРµ Р·РѕР»РѕС‚Рѕ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Rose gold (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "polyvinyl_butyral_fluid",
-                NameRu = "Поливинибутираль (Жидкость)",
+                NameRu = "РџРѕР»РёРІРёРЅРёР±СѓС‚РёСЂР°Р»СЊ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Polyvinyl butyral (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "cobalt_brass_fluid",
-                NameRu = "Кобальтовая латунь (Жидкость)",
+                NameRu = "РљРѕР±Р°Р»СЊС‚РѕРІР°СЏ Р»Р°С‚СѓРЅСЊ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Cobalt brass (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "uranium_rhodium_dinaquadide_fluid",
-                NameRu = "Уран родий динаквада (Жидкость)",
+                NameRu = "РЈСЂР°РЅ СЂРѕРґРёР№ РґРёРЅР°РєРІР°РґР° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Uranium rhodium dinaquadide (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "niobium_titanium_fluid",
-                NameRu = "Ниобий-титан (Жидкость)",
+                NameRu = "РќРёРѕР±РёР№-С‚РёС‚Р°РЅ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Niobium titanium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "niobium_fluid",
-                NameRu = "Ниобий (Жидкость)",
+                NameRu = "РќРёРѕР±РёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Niobium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "red_alloy_fluid",
-                NameRu = "Красный сплав (Жидкость)",
+                NameRu = "РљСЂР°СЃРЅС‹Р№ СЃРїР»Р°РІ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Red_alloy (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "iron_fluid",
-                NameRu = "Железо (Жидкость)",
+                NameRu = "Р–РµР»РµР·Рѕ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Iron (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "ruthenium_trinium_americium_neutronate_fluid",
-                NameRu = "Нейтронат рутения триния америция (Жидкость)",
+                NameRu = "РќРµР№С‚СЂРѕРЅР°С‚ СЂСѓС‚РµРЅРёСЏ С‚СЂРёРЅРёСЏ Р°РјРµСЂРёС†РёСЏ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Ruthenium trinium americium neutronate (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "vitrified_asbestos_fluid",
-                NameRu = "Остеклованный асбест (Жидкость)",
+                NameRu = "РћСЃС‚РµРєР»РѕРІР°РЅРЅС‹Р№ Р°СЃР±РµСЃС‚ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Vitrified asbestos (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "yttrium_fluid",
-                NameRu = "Иттрий (Жидкость)",
+                NameRu = "РС‚С‚СЂРёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Yttrium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "incoloy_ma_956_fluid",
-                NameRu = "Инколой MA-956 (Жидкость)",
+                NameRu = "РРЅРєРѕР»РѕР№ MA-956 (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Incoloy MA-956 (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "black_steel_fluid",
-                NameRu = "Черная сталь (Жидкость)",
+                NameRu = "Р§РµСЂРЅР°СЏ СЃС‚Р°Р»СЊ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Black steel (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "lead_fluid",
-                NameRu = "Свинец (Жидкость)",
+                NameRu = "РЎРІРёРЅРµС† (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Lead (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "iridium_fluid",
-                NameRu = "Иридий (Жидкость)",
+                NameRu = "РСЂРёРґРёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Iridium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "beryllium_fluid",
-                NameRu = "Бериллий (Жидкость)",
+                NameRu = "Р‘РµСЂРёР»Р»РёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Beryllium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "lithium_fluid",
-                NameRu = "Литий (Жидкость)",
+                NameRu = "Р›РёС‚РёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Lithium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "plutonium_241_fluid",
-                NameRu = "Плутоний-241 (Жидкость)",
+                NameRu = "РџР»СѓС‚РѕРЅРёР№-241 (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Plutonium-241 (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "uranium_fluid",
-                NameRu = "Уран 238 (Жидкость)",
+                NameRu = "РЈСЂР°РЅ 238 (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Uranium 238 (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "niobium_nitride_fluid",
-                NameRu = "Нитрид ниобия (Жидкость)",
+                NameRu = "РќРёС‚СЂРёРґ РЅРёРѕР±РёСЏ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Niobium nitride (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "electrum_fluid",
-                NameRu = "Электрум (Жидкость)",
+                NameRu = "Р­Р»РµРєС‚СЂСѓРј (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Electrum (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "duranium_fluid",
-                NameRu = "Дюраний (Жидкость)",
+                NameRu = "Р”СЋСЂР°РЅРёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Duranium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "cobalt_fluid",
-                NameRu = "Кобальт (Жидкость)",
+                NameRu = "РљРѕР±Р°Р»СЊС‚ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Cobalt (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "steel_fluid",
-                NameRu = "Сталь (Жидкость)",
+                NameRu = "РЎС‚Р°Р»СЊ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Steel (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "manganese_fluid",
-                NameRu = "Марганец (Жидкость)",
+                NameRu = "РњР°СЂРіР°РЅРµС† (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Manganese (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "rhodium_plated_palladium_fluid",
-                NameRu = "Палладий с родиевым покрытием (Жидкость)",
+                NameRu = "РџР°Р»Р»Р°РґРёР№ СЃ СЂРѕРґРёРµРІС‹Рј РїРѕРєСЂС‹С‚РёРµРј (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Rhodium plated palladium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "ice_fluid",
-                NameRu = "Ледяная слякоть (Жидкость)",
+                NameRu = "Р›РµРґСЏРЅР°СЏ СЃР»СЏРєРѕС‚СЊ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Ice (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "americium_fluid",
-                NameRu = "Америций 243 (Жидкость)",
+                NameRu = "РђРјРµСЂРёС†РёР№ 243 (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Americium 243 (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "enriched_naquadah_fluid",
-                NameRu = "Обогащенная наквада (Жидкость)",
+                NameRu = "РћР±РѕРіР°С‰РµРЅРЅР°СЏ РЅР°РєРІР°РґР° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Enriched naquadah (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "polyethylene_fluid",
-                NameRu = "Полиэтилен (Жидкость)",
+                NameRu = "РџРѕР»РёСЌС‚РёР»РµРЅ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Polyethylene (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "polyvinyl_chloride_fluid",
-                NameRu = "Поливинил хлорид (Жидкость)",
+                NameRu = "РџРѕР»РёРІРёРЅРёР» С…Р»РѕСЂРёРґ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Polyvinyl chloride (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "bismuth_fluid",
-                NameRu = "Висмут (Жидкость)",
+                NameRu = "Р’РёСЃРјСѓС‚ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Bismuth (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "nickel_zinc_ferrite_fluid",
-                NameRu = "Никель Цинк Феррит (Жидкость)",
+                NameRu = "РќРёРєРµР»СЊ Р¦РёРЅРє Р¤РµСЂСЂРёС‚ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Nickel Zinc Ferrite (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "yttrium_barium_cuprate_fluid",
-                NameRu = "Оксид иттрия-бария-меди (Жидкость)",
+                NameRu = "РћРєСЃРёРґ РёС‚С‚СЂРёСЏ-Р±Р°СЂРёСЏ-РјРµРґРё (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Yttrium barium cuprate (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "aluminium_fluid",
-                NameRu = "Алюминий (Жидкость)",
+                NameRu = "РђР»СЋРјРёРЅРёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Aluminium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "aluminium_silicate_fluid",
-                NameRu = "Алюмосиликат (Жидкость)",
+                NameRu = "РђР»СЋРјРѕСЃРёР»РёРєР°С‚ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Aluminium silicate (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "uranium_235_fluid",
-                NameRu = "Уран-235 (Жидкость)",
+                NameRu = "РЈСЂР°РЅ-235 (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Uranium-235 (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "naquadah_fluid",
-                NameRu = "Наквада (Жидкость)",
+                NameRu = "РќР°РєРІР°РґР° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Naquadah (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "glass_fluid",
-                NameRu = "Стекло (Жидкость)",
+                NameRu = "РЎС‚РµРєР»Рѕ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Glass (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "nichrome_fluid",
-                NameRu = "Нихром (Жидкость)",
+                NameRu = "РќРёС…СЂРѕРј (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Nichrome (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "tungsten_carbide_fluid",
-                NameRu = "Карбид вольфрама (Жидкость)",
+                NameRu = "РљР°СЂР±РёРґ РІРѕР»СЊС„СЂР°РјР° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Tungsten carbide (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "wrought_iron_fluid",
-                NameRu = "Кованое железо (Жидкость)",
+                NameRu = "РљРѕРІР°РЅРѕРµ Р¶РµР»РµР·Рѕ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Wrought iron (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "europium_fluid",
-                NameRu = "Европий (Жидкость)",
+                NameRu = "Р•РІСЂРѕРїРёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Europium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "tin_alloy_fluid",
-                NameRu = "Оловянный сплав (Жидкость)",
+                NameRu = "РћР»РѕРІСЏРЅРЅС‹Р№ СЃРїР»Р°РІ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Tin alloy (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "lanthanum_fluid",
-                NameRu = "Лантан (Жидкость)",
+                NameRu = "Р›Р°РЅС‚Р°РЅ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Lanthanum (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "black_bronze_fluid",
-                NameRu = "Черная бронза (Жидкость)",
+                NameRu = "Р§РµСЂРЅР°СЏ Р±СЂРѕРЅР·Р° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Black bronze (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "titanium_fluid",
-                NameRu = "Титан (Жидкость)",
+                NameRu = "РўРёС‚Р°РЅ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Titanium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "silicone_rubber_fluid",
-                NameRu = "Силиконовая резина (Жидкость)",
+                NameRu = "РЎРёР»РёРєРѕРЅРѕРІР°СЏ СЂРµР·РёРЅР° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Silicone rubber (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "blue_steel_fluid",
-                NameRu = "Синяя сталь (Жидкость)",
+                NameRu = "РЎРёРЅСЏСЏ СЃС‚Р°Р»СЊ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Blue steel (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "zinc_fluid",
-                NameRu = "Цинк (Жидкость)",
+                NameRu = "Р¦РёРЅРє (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Zinc (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "ruridit_fluid",
-                NameRu = "Руридит (Жидкость)",
+                NameRu = "Р СѓСЂРёРґРёС‚ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Ruridit (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "naquadria_fluid",
-                NameRu = "Наквадрия (Жидкость)",
+                NameRu = "РќР°РєРІР°РґСЂРёСЏ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Naquadria (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "desh_fluid",
-                NameRu = "Деш (Жидкость)",
+                NameRu = "Р”РµС€ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "desh (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "tungsten_fluid",
-                NameRu = "Вольфрам (Жидкость)",
+                NameRu = "Р’РѕР»СЊС„СЂР°Рј (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Tungsten (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "tritanium_fluid",
-                NameRu = "Тританий (Жидкость)",
+                NameRu = "РўСЂРёС‚Р°РЅРёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Tritanium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "osmiridium_fluid",
-                NameRu = "Осмистый иридий (Жидкость)",
+                NameRu = "РћСЃРјРёСЃС‚С‹Р№ РёСЂРёРґРёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Osmiridium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "vanadium_gallium_fluid",
-                NameRu = "Ванадий-галлий (Жидкость)",
+                NameRu = "Р’Р°РЅР°РґРёР№-РіР°Р»Р»РёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Vanadium gallium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "reinforced_epoxy_resin_fluid",
-                NameRu = "Укреплённая эпоксидна смола (Жидкость)",
+                NameRu = "РЈРєСЂРµРїР»С‘РЅРЅР°СЏ СЌРїРѕРєСЃРёРґРЅР° СЃРјРѕР»Р° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Reinforced epoxy resin (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "blue_alloy_fluid",
-                NameRu = "Синий сплав (Жидкость)",
+                NameRu = "РЎРёРЅРёР№ СЃРїР»Р°РІ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Blue alloy (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "rubber_fluid",
-                NameRu = "Резина (Жидкость)",
+                NameRu = "Р РµР·РёРЅР° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Rubber (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "stainless_steel_fluid",
-                NameRu = "Нержавеющая сталь (Жидкость)",
+                NameRu = "РќРµСЂР¶Р°РІРµСЋС‰Р°СЏ СЃС‚Р°Р»СЊ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Stainless steel (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "darmstadtium_fluid",
-                NameRu = "Дармштадтий (Жидкость)",
+                NameRu = "Р”Р°СЂРјС€С‚Р°РґС‚РёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Darmstadtium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "invar_fluid",
-                NameRu = "Инвар (Жидкость)",
+                NameRu = "РРЅРІР°СЂ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Invar (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "tungsten_steel_fluid",
-                NameRu = "Вольфрамовая сталь (Жидкость)",
+                NameRu = "Р’РѕР»СЊС„СЂР°РјРѕРІР°СЏ СЃС‚Р°Р»СЊ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Tungsten steel (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hastelloy_c_276_fluid",
-                NameRu = "Хастеллой-C276 (Жидкость)",
+                NameRu = "РҐР°СЃС‚РµР»Р»РѕР№-C276 (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Hastelloy-C276 (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "molybdenum_disilicide_fluid",
-                NameRu = "Дисилицид молибдена (Жидкость)",
+                NameRu = "Р”РёСЃРёР»РёС†РёРґ РјРѕР»РёР±РґРµРЅР° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "molybdenum disilicide (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "titanium_tungsten_carbide_fluid",
-                NameRu = "Вольфрам-титановый карбид (Жидкость)",
+                NameRu = "Р’РѕР»СЊС„СЂР°Рј-С‚РёС‚Р°РЅРѕРІС‹Р№ РєР°СЂР±РёРґ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Titanium tungsten carbide (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "ruthenium_fluid",
-                NameRu = "Рутений (Жидкость)",
+                NameRu = "Р СѓС‚РµРЅРёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Ruthenium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "samarium_iron_arsenic_oxide_fluid",
-                NameRu = "Оксид Самария Железа Мышьяка (Жидкость)",
+                NameRu = "РћРєСЃРёРґ РЎР°РјР°СЂРёСЏ Р–РµР»РµР·Р° РњС‹С€СЊСЏРєР° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Samarium Iron Arsenic Oxide (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "_fluid",
-                NameRu = " (Жидкость)",
+                NameRu = " (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = " (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "magnesium_fluid",
-                NameRu = "Магний (Жидкость)",
+                NameRu = "РњР°РіРЅРёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Magnesium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "uranium_triplatinum_fluid",
-                NameRu = "Триплатина уран (Жидкость)",
+                NameRu = "РўСЂРёРїР»Р°С‚РёРЅР° СѓСЂР°РЅ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Uranium triplatinum (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "rtm_alloy_fluid",
-                NameRu = "РВМ сплав (Жидкость)",
+                NameRu = "Р Р’Рњ СЃРїР»Р°РІ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "RTM alloy (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "khantal_fluid",
-                NameRu = "Кантал (Жидкость)",
+                NameRu = "РљР°РЅС‚Р°Р» (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Khantal (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "wax_fluid",
-                NameRu = "Воск (Жидкость)",
+                NameRu = "Р’РѕСЃРє (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Wax (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "platinum_fluid",
-                NameRu = "Платина (Жидкость)",
+                NameRu = "РџР»Р°С‚РёРЅР° (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Platinum (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "maraging_steel_300_fluid",
-                NameRu = "Мартенситностареющая сталь 300 (Жидкость)",
+                NameRu = "РњР°СЂС‚РµРЅСЃРёС‚РЅРѕСЃС‚Р°СЂРµСЋС‰Р°СЏ СЃС‚Р°Р»СЊ 300 (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Maraging steel 300 (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "silicon_fluid",
-                NameRu = "Кремний (Жидкость)",
+                NameRu = "РљСЂРµРјРЅРёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Silicon (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "rhodium_fluid",
-                NameRu = "Родий (Жидкость)",
+                NameRu = "Р РѕРґРёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Rhodium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "trinium_fluid",
-                NameRu = "Триниум (Жидкость)",
+                NameRu = "РўСЂРёРЅРёСѓРј (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Trinium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "nickel_fluid",
-                NameRu = "Никель (Жидкость)",
+                NameRu = "РќРёРєРµР»СЊ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Nickel (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "palladium_fluid",
-                NameRu = "Палладий (Жидкость)",
+                NameRu = "РџР°Р»Р»Р°РґРёР№ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Palladium (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "watertight_steel_fluid",
-                NameRu = "Водостойкая сталь (Жидкость)",
+                NameRu = "Р’РѕРґРѕСЃС‚РѕР№РєР°СЏ СЃС‚Р°Р»СЊ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Watertight steel (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hastelloy_x_fluid",
-                NameRu = "Хастеллой-X (Жидкость)",
+                NameRu = "РҐР°СЃС‚РµР»Р»РѕР№-X (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "Hastelloy-X (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hsla_steel_fluid",
-                NameRu = "HSLA сталь (Жидкость)",
+                NameRu = "HSLA СЃС‚Р°Р»СЊ (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "HSLA steel (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hsss_fluid",
-                NameRu = "HSS-S (Жидкость)",
+                NameRu = "HSS-S (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "HSS-S (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hsse_fluid",
-                NameRu = "HSS-E (Жидкость)",
+                NameRu = "HSS-E (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "HSS-E (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hssg_fluid",
-                NameRu = "HSS-G (Жидкость)",
+                NameRu = "HSS-G (Р–РёРґРєРѕСЃС‚СЊ)",
                 NameEn = "HSS-G (Liquid)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "steam_cracked_ethane_fluid",
-                NameRu = "Этан прошедший крекинг паром",
+                NameRu = "Р­С‚Р°РЅ РїСЂРѕС€РµРґС€РёР№ РєСЂРµРєРёРЅРі РїР°СЂРѕРј",
                 NameEn = "Steam cracked ethane",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "dimethylamine_fluid",
-                NameRu = "Диметилэтан",
+                NameRu = "Р”РёРјРµС‚РёР»СЌС‚Р°РЅ",
                 NameEn = "Dimethylamine",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "xenon_fluid",
-                NameRu = "Ксенон (газ)",
+                NameRu = "РљСЃРµРЅРѕРЅ (РіР°Р·)",
                 NameEn = "Xenon (gas)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "ostrum_vapor_fluid",
-                NameRu = "Пары острума",
+                NameRu = "РџР°СЂС‹ РѕСЃС‚СЂСѓРјР°",
                 NameEn = "Ostrum vapor",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "arsenic_steam_fluid",
-                NameRu = "Пар (Мышьяк)",
+                NameRu = "РџР°СЂ (РњС‹С€СЊСЏРє)",
                 NameEn = "Steam (Arsenic)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hydro_cracked_propane_fluid",
-                NameRu = "Пропан прошедший крекинг водородом",
+                NameRu = "РџСЂРѕРїР°РЅ РїСЂРѕС€РµРґС€РёР№ РєСЂРµРєРёРЅРі РІРѕРґРѕСЂРѕРґРѕРј",
                 NameEn = "Hydro cracked propane",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "nitrogen_fluid",
-                NameRu = "Азот (газ)",
+                NameRu = "РђР·РѕС‚ (РіР°Р·)",
                 NameEn = "Nitrogen (gas)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "ammonium_formate_fluid",
-                NameRu = "Формиат аммония",
+                NameRu = "Р¤РѕСЂРјРёР°С‚ Р°РјРјРѕРЅРёСЏ",
                 NameEn = "Ammonium formate",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hydro_cracked_propene_fluid",
-                NameRu = "Пропен прошедший крекинг водородом",
+                NameRu = "РџСЂРѕРїРµРЅ РїСЂРѕС€РµРґС€РёР№ РєСЂРµРєРёРЅРі РІРѕРґРѕСЂРѕРґРѕРј",
                 NameEn = "Hydro cracked propene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "monochloramine_fluid",
-                NameRu = "Хлорамин",
+                NameRu = "РҐР»РѕСЂР°РјРёРЅ",
                 NameEn = "Monochloramine",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "irradiated_steam_fluid",
-                NameRu = "Облученный пар",
+                NameRu = "РћР±Р»СѓС‡РµРЅРЅС‹Р№ РїР°СЂ",
                 NameEn = "Irradiated steam",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "dinitrogen_trioxide_fluid",
-                NameRu = "Тетраоксид диазота",
+                NameRu = "РўРµС‚СЂР°РѕРєСЃРёРґ РґРёР°Р·РѕС‚Р°",
                 NameEn = "Dinitrogen tetroxide",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "propane_fluid",
-                NameRu = "Пропан",
+                NameRu = "РџСЂРѕРїР°РЅ",
                 NameEn = "Propane",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "dense_ostrum_vapor_fluid",
-                NameRu = "Плотные пары острума",
+                NameRu = "РџР»РѕС‚РЅС‹Рµ РїР°СЂС‹ РѕСЃС‚СЂСѓРјР°",
                 NameEn = "Dense ostrum vapor",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hydro_cracked_ethane_fluid",
-                NameRu = "Этан прошедший крекинг водородом",
+                NameRu = "Р­С‚Р°РЅ РїСЂРѕС€РµРґС€РёР№ РєСЂРµРєРёРЅРі РІРѕРґРѕСЂРѕРґРѕРј",
                 NameEn = "Hydro cracked ethane",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "neon_fluid",
-                NameRu = "Неон (газ)",
+                NameRu = "РќРµРѕРЅ (РіР°Р·)",
                 NameEn = "Neon (gas)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "regolith_vapor_fluid",
-                NameRu = "Реголитовый пар",
+                NameRu = "Р РµРіРѕР»РёС‚РѕРІС‹Р№ РїР°СЂ",
                 NameEn = "Regolith vapor",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "ethylene_fluid",
-                NameRu = "Этилен",
+                NameRu = "Р­С‚РёР»РµРЅ",
                 NameEn = "Ethylene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "radon_fluid",
-                NameRu = "Радон (газ)",
+                NameRu = "Р Р°РґРѕРЅ (РіР°Р·)",
                 NameEn = "Radon (gas)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hydrogen_sulfide_fluid",
-                NameRu = "Сероводород",
+                NameRu = "РЎРµСЂРѕРІРѕРґРѕСЂРѕРґ",
                 NameEn = "Hydrogen sulfide",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "air_fluid",
-                NameRu = "Земной воздух",
+                NameRu = "Р—РµРјРЅРѕР№ РІРѕР·РґСѓС…",
                 NameEn = "Air",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "butane_fluid",
-                NameRu = "Бутан",
+                NameRu = "Р‘СѓС‚Р°РЅ",
                 NameEn = "Butane",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "methane_fluid",
-                NameRu = "Метан (газ)",
+                NameRu = "РњРµС‚Р°РЅ (РіР°Р·)",
                 NameEn = "Methane (gas)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "lightly_hydro_cracked_gas_fluid",
-                NameRu = "Нефтяной газ прошедший легкий крекинг водородом",
+                NameRu = "РќРµС„С‚СЏРЅРѕР№ РіР°Р· РїСЂРѕС€РµРґС€РёР№ Р»РµРіРєРёР№ РєСЂРµРєРёРЅРі РІРѕРґРѕСЂРѕРґРѕРј",
                 NameEn = "Lightly hydro cracked gas",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "cumene_fluid",
-                NameRu = "Кумола",
+                NameRu = "РљСѓРјРѕР»Р°",
                 NameEn = "Cumene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "sulfur_dioxide_fluid",
-                NameRu = "Диоксид серы",
+                NameRu = "Р”РёРѕРєСЃРёРґ СЃРµСЂС‹",
                 NameEn = "Sulfur dioxide",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "steam_cracked_butene_fluid",
-                NameRu = "Бутен прошедший крекинг паром",
+                NameRu = "Р‘СѓС‚РµРЅ РїСЂРѕС€РµРґС€РёР№ РєСЂРµРєРёРЅРі РїР°СЂРѕРј",
                 NameEn = "Steam cracked butene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "helium_fluid",
-                NameRu = "Гелий (газ)",
+                NameRu = "Р“РµР»РёР№ (РіР°Р·)",
                 NameEn = "Helium (gas)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "steam_cracked_ethylene_fluid",
-                NameRu = "Этилен прошедший крекинг паром",
+                NameRu = "Р­С‚РёР»РµРЅ РїСЂРѕС€РµРґС€РёР№ РєСЂРµРєРёРЅРі РїР°СЂРѕРј",
                 NameEn = "Steam cracked ethylene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "depleted_uranium_hexafluoride_fluid",
-                NameRu = "Обедненный гексофторид урана",
+                NameRu = "РћР±РµРґРЅРµРЅРЅС‹Р№ РіРµРєСЃРѕС„С‚РѕСЂРёРґ СѓСЂР°РЅР°",
                 NameEn = "Depleted uranium hexafluoride",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "deuterium_fluid",
-                NameRu = "Дейтерий (газ)",
+                NameRu = "Р”РµР№С‚РµСЂРёР№ (РіР°Р·)",
                 NameEn = "Deuterium (gas)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "tetrafluoroethylene_fluid",
-                NameRu = "Тетрафторэтилен",
+                NameRu = "РўРµС‚СЂР°С„С‚РѕСЂСЌС‚РёР»РµРЅ",
                 NameEn = "Tetrafluoroethylene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "nitrous_oxide_fluid",
-                NameRu = "Оксид азота",
+                NameRu = "РћРєСЃРёРґ Р°Р·РѕС‚Р°",
                 NameEn = "Nitrous oxide",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "steam_cracked_butane_fluid",
-                NameRu = "Бутан прошедший крекинг паром",
+                NameRu = "Р‘СѓС‚Р°РЅ РїСЂРѕС€РµРґС€РёР№ РєСЂРµРєРёРЅРі РїР°СЂРѕРј",
                 NameEn = "Steam cracked butane",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "krypton_fluid",
-                NameRu = "Криптон",
+                NameRu = "РљСЂРёРїС‚РѕРЅ",
                 NameEn = "Krypton",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "sulfuric_gas_fluid",
-                NameRu = "Серный газ",
+                NameRu = "РЎРµСЂРЅС‹Р№ РіР°Р·",
                 NameEn = "Sulfuric gas",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "nitrogen_dioxide_fluid",
-                NameRu = "Диоксид азота",
+                NameRu = "Р”РёРѕРєСЃРёРґ Р°Р·РѕС‚Р°",
                 NameEn = "Nitrogen dioxide",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "argon_fluid",
-                NameRu = "Аргон (газ)",
+                NameRu = "РђСЂРіРѕРЅ (РіР°Р·)",
                 NameEn = "Argon (gas)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hydro_cracked_butadiene_fluid",
-                NameRu = "Бутадиен прошедший крекинг водородом",
+                NameRu = "Р‘СѓС‚Р°РґРёРµРЅ РїСЂРѕС€РµРґС€РёР№ РєСЂРµРєРёРЅРі РІРѕРґРѕСЂРѕРґРѕРј",
                 NameEn = "Hydro cracked butadiene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "steam_cracked_propane_fluid",
-                NameRu = "Пропан прошедший крекинг паром",
+                NameRu = "РџСЂРѕРїР°РЅ РїСЂРѕС€РµРґС€РёР№ РєСЂРµРєРёРЅРі РїР°СЂРѕРј",
                 NameEn = "Steam cracked propane",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "radioactive_waste_fluid",
-                NameRu = "Радиоактивные продукты",
+                NameRu = "Р Р°РґРёРѕР°РєС‚РёРІРЅС‹Рµ РїСЂРѕРґСѓРєС‚С‹",
                 NameEn = "Radioactive waste",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "ammonia_fluid",
-                NameRu = "Аммиак",
+                NameRu = "РђРјРјРёР°Рє",
                 NameEn = "Ammonia",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "propene_fluid",
-                NameRu = "Пропен",
+                NameRu = "РџСЂРѕРїРµРЅ",
                 NameEn = "Propene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "nitrobenzene_fluid",
-                NameRu = "Нитробензол",
+                NameRu = "РќРёС‚СЂРѕР±РµРЅР·РѕР»",
                 NameEn = "Nitrobenzene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "butadiene_fluid",
-                NameRu = "Бутадиен",
+                NameRu = "Р‘СѓС‚Р°РґРёРµРЅ",
                 NameEn = "Butadiene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "chlorine_fluid",
-                NameRu = "Хлор (газ)",
+                NameRu = "РҐР»РѕСЂ (РіР°Р·)",
                 NameEn = "chlorine (gas)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "severely_hydro_cracked_gas_fluid",
-                NameRu = "Нефтной газ прошедший тяжелый крекинг водородом",
+                NameRu = "РќРµС„С‚РЅРѕР№ РіР°Р· РїСЂРѕС€РµРґС€РёР№ С‚СЏР¶РµР»С‹Р№ РєСЂРµРєРёРЅРі РІРѕРґРѕСЂРѕРґРѕРј",
                 NameEn = "Severely hydro cracked gas",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hydrogen_iodide_fluid",
-                NameRu = "Йодоводород",
+                NameRu = "Р™РѕРґРѕРІРѕРґРѕСЂРѕРґ",
                 NameEn = "Hydrogen iodide",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hydro_cracked_ethylene_fluid",
-                NameRu = "Этилен прошедший крекинг водородом",
+                NameRu = "Р­С‚РёР»РµРЅ РїСЂРѕС€РµРґС€РёР№ РєСЂРµРєРёРЅРі РІРѕРґРѕСЂРѕРґРѕРј",
                 NameEn = "Hydro cracked ethylene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "sulfur_trioxide_fluid",
-                NameRu = "Триоксид серы",
+                NameRu = "РўСЂРёРѕРєСЃРёРґ СЃРµСЂС‹",
                 NameEn = "Sulfur trioxide",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "steam_fluid",
-                NameRu = "Пар",
+                NameRu = "РџР°СЂ",
                 NameEn = "Steam",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "vinyl_chloride_fluid",
-                NameRu = "Винилхлорид",
+                NameRu = "Р’РёРЅРёР»С…Р»РѕСЂРёРґ",
                 NameEn = "Vinyl chloride",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "nitrosyl_chloride_fluid",
-                NameRu = "Хлорид нитрозила",
+                NameRu = "РҐР»РѕСЂРёРґ РЅРёС‚СЂРѕР·РёР»Р°",
                 NameEn = "Nitrosyl chloride",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "severely_steam_cracked_gas_fluid",
-                NameRu = "Нефтяной газ прошедший жесткий крекинг паром",
+                NameRu = "РќРµС„С‚СЏРЅРѕР№ РіР°Р· РїСЂРѕС€РµРґС€РёР№ Р¶РµСЃС‚РєРёР№ РєСЂРµРєРёРЅРі РїР°СЂРѕРј",
                 NameEn = "Severely steam cracked gas",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "fluorene_fluid",
-                NameRu = "Фтор (газ)",
+                NameRu = "Р¤С‚РѕСЂ (РіР°Р·)",
                 NameEn = "Fluorene (gas)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "nitric_oxide_fluid",
-                NameRu = "Оксид азота(II)",
+                NameRu = "РћРєСЃРёРґ Р°Р·РѕС‚Р°(II)",
                 NameEn = "Nitric oxide(II)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "radioactive_steam_fluid",
-                NameRu = "Радиоактивный пар",
+                NameRu = "Р Р°РґРёРѕР°РєС‚РёРІРЅС‹Р№ РїР°СЂ",
                 NameEn = "Radioactive steam",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "lightweight_ostrum_vapor_fluid",
-                NameRu = "Легкие пары острума",
+                NameRu = "Р›РµРіРєРёРµ РїР°СЂС‹ РѕСЃС‚СЂСѓРјР°",
                 NameEn = "Lightweight ostrum vapor",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "coal_gas_fluid",
-                NameRu = "Угольный газ",
+                NameRu = "РЈРіРѕР»СЊРЅС‹Р№ РіР°Р·",
                 NameEn = "Coal gas",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hydrogen_cyanide_fluid",
-                NameRu = "Синильная кислота",
+                NameRu = "РЎРёРЅРёР»СЊРЅР°СЏ РєРёСЃР»РѕС‚Р°",
                 NameEn = "Hydrogen cyanide",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "oxygen_fluid",
-                NameRu = "Кислород (газ)",
+                NameRu = "РљРёСЃР»РѕСЂРѕРґ (РіР°Р·)",
                 NameEn = "Oxygen (gas)",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "helium_3_fluid",
-                NameRu = "Гелий-3",
+                NameRu = "Р“РµР»РёР№-3",
                 NameEn = "Helium-3",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "lightly_steam_cracked_gas_fluid",
-                NameRu = "Нефтяной газ прошедший легкий крекинг паром",
+                NameRu = "РќРµС„С‚СЏРЅРѕР№ РіР°Р· РїСЂРѕС€РµРґС€РёР№ Р»РµРіРєРёР№ РєСЂРµРєРёРЅРі РїР°СЂРѕРј",
                 NameEn = "Lightly steam cracked gas",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hydro_cracked_butene_fluid",
-                NameRu = "Бутен прошедший крекинг водородом",
+                NameRu = "Р‘СѓС‚РµРЅ РїСЂРѕС€РµРґС€РёР№ РєСЂРµРєРёРЅРі РІРѕРґРѕСЂРѕРґРѕРј",
                 NameEn = "Hydro cracked butene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "refinery_gas_fluid",
-                NameRu = "Нефтяной газ",
+                NameRu = "РќРµС„С‚СЏРЅРѕР№ РіР°Р·",
                 NameEn = "Refinery gas",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "steam_cracked_propene_fluid",
-                NameRu = "Пропен прошедший крекинг паром",
+                NameRu = "РџСЂРѕРїРµРЅ РїСЂРѕС€РµРґС€РёР№ РєСЂРµРєРёРЅРі РїР°СЂРѕРј",
                 NameEn = "Steam cracked propene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "steam_cracked_butadiene_fluid",
-                NameRu = "Бутадиен прошедший крекинг паром",
+                NameRu = "Р‘СѓС‚Р°РґРёРµРЅ РїСЂРѕС€РµРґС€РёР№ РєСЂРµРєРёРЅРі РїР°СЂРѕРј",
                 NameEn = "Steam cracked butadiene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "chloromethane_fluid",
-                NameRu = "Хлорметан",
+                NameRu = "РҐР»РѕСЂРјРµС‚Р°РЅ",
                 NameEn = "Chloromethane",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "carbon_dioxide_fluid",
-                NameRu = "Двуокись углерода",
+                NameRu = "Р”РІСѓРѕРєРёСЃСЊ СѓРіР»РµСЂРѕРґР°",
                 NameEn = "Carbon dioxide",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "tritium_fluid",
-                NameRu = "Тритий (газ)",
+                NameRu = "РўСЂРёС‚РёР№ (РіР°Р·)",
                 NameEn = "Tritium",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "dimethyldichlorosilane_fluid",
-                NameRu = "Диметилдихлорсилана",
+                NameRu = "Р”РёРјРµС‚РёР»РґРёС…Р»РѕСЂСЃРёР»Р°РЅР°",
                 NameEn = "Dimethyldichlorosilane",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "enriched_uranium_hexafluoride_fluid",
-                NameRu = "Обогащенный гексафторид урана",
+                NameRu = "РћР±РѕРіР°С‰РµРЅРЅС‹Р№ РіРµРєСЃР°С„С‚РѕСЂРёРґ СѓСЂР°РЅР°",
                 NameEn = "Enriched uranium hexafluoride",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hydrogen_fluid",
-                NameRu = "Водород (газ)",
+                NameRu = "Р’РѕРґРѕСЂРѕРґ (РіР°Р·)",
                 NameEn = "Hydrogen",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "hydro_cracked_butane_fluid",
-                NameRu = "Бутан прошедший крекинг водородом",
+                NameRu = "Р‘СѓС‚Р°РЅ РїСЂРѕС€РµРґС€РёР№ РєСЂРµРєРёРЅРі РІРѕРґРѕСЂРѕРґРѕРј",
                 NameEn = "Hydro cracked butane",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "uranium_hexafluoride_fluid",
-                NameRu = "Гексафторид урана",
+                NameRu = "Р“РµРєСЃР°С„С‚РѕСЂРёРґ СѓСЂР°РЅР°",
                 NameEn = "Uranium hexafluoride",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "butene_fluid",
-                NameRu = "Бутен",
+                NameRu = "Р‘СѓС‚РµРЅ",
                 NameEn = "Butene",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "wood_gas_fluid",
-                NameRu = "Древесный газ",
+                NameRu = "Р”СЂРµРІРµСЃРЅС‹Р№ РіР°Р·",
                 NameEn = "Wood gas",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "dense_steam_fluid",
-                NameRu = "ПВД",
+                NameRu = "РџР’Р”",
                 NameEn = "Dense steam",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "ethane_fluid",
-                NameRu = "Этан",
+                NameRu = "Р­С‚Р°РЅ",
                 NameEn = "Ethane",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "natural_gas_fluid",
-                NameRu = "Природный газ",
+                NameRu = "РџСЂРёСЂРѕРґРЅС‹Р№ РіР°Р·",
                 NameEn = "Natural gas",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
             {
                 Id = "carbon_monooxide_fluid",
-                NameRu = "Монооксид углерода",
+                NameRu = "РњРѕРЅРѕРѕРєСЃРёРґ СѓРіР»РµСЂРѕРґР°",
                 NameEn = "Zerbin monooxide",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10469,7 +10469,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10477,7 +10477,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10485,7 +10485,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10493,7 +10493,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10501,7 +10501,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10509,7 +10509,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10517,7 +10517,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10525,7 +10525,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10533,7 +10533,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10541,7 +10541,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10549,7 +10549,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10557,7 +10557,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10565,7 +10565,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10573,7 +10573,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10581,7 +10581,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10589,7 +10589,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10597,7 +10597,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10605,7 +10605,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10613,7 +10613,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10621,7 +10621,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10629,7 +10629,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10637,7 +10637,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10645,7 +10645,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10653,7 +10653,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10661,7 +10661,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10669,7 +10669,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10677,7 +10677,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10685,7 +10685,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10693,7 +10693,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10701,7 +10701,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10709,7 +10709,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10717,7 +10717,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10725,7 +10725,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10733,7 +10733,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10741,7 +10741,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10749,7 +10749,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10757,7 +10757,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10765,7 +10765,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10773,7 +10773,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10781,7 +10781,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10789,7 +10789,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10797,7 +10797,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10805,7 +10805,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10813,7 +10813,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10821,7 +10821,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10829,7 +10829,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10837,7 +10837,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10845,7 +10845,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10853,7 +10853,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10861,7 +10861,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10869,7 +10869,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10877,7 +10877,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10885,7 +10885,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10893,7 +10893,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10901,7 +10901,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10909,7 +10909,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10917,7 +10917,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10925,7 +10925,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10933,7 +10933,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10941,7 +10941,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10949,7 +10949,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10957,7 +10957,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10965,7 +10965,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10973,7 +10973,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10981,7 +10981,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10989,7 +10989,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -10997,7 +10997,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11005,7 +11005,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11013,7 +11013,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11021,7 +11021,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11029,7 +11029,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11037,7 +11037,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11045,7 +11045,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11053,7 +11053,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11061,7 +11061,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11069,7 +11069,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11077,7 +11077,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11085,7 +11085,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11093,7 +11093,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11101,7 +11101,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11109,7 +11109,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11117,7 +11117,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11125,7 +11125,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11133,7 +11133,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11141,7 +11141,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11149,7 +11149,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11157,7 +11157,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11165,7 +11165,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11173,7 +11173,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11181,7 +11181,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11189,7 +11189,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11197,7 +11197,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11205,7 +11205,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11213,7 +11213,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11221,7 +11221,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11229,7 +11229,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11237,7 +11237,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11245,7 +11245,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11253,7 +11253,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11261,7 +11261,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11269,7 +11269,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11277,7 +11277,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11285,7 +11285,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11293,7 +11293,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11301,7 +11301,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11309,7 +11309,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11317,7 +11317,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11325,7 +11325,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11333,7 +11333,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11341,7 +11341,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11349,7 +11349,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11357,7 +11357,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11365,7 +11365,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11373,7 +11373,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11381,7 +11381,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11389,7 +11389,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11397,7 +11397,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11405,7 +11405,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11413,7 +11413,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11421,7 +11421,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11429,7 +11429,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11437,7 +11437,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11445,7 +11445,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11453,7 +11453,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11461,7 +11461,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11469,7 +11469,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11477,7 +11477,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11485,7 +11485,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11493,7 +11493,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11501,7 +11501,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11509,7 +11509,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11517,7 +11517,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11525,7 +11525,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11533,7 +11533,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11541,7 +11541,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11549,7 +11549,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11557,7 +11557,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11565,7 +11565,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11573,7 +11573,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11581,7 +11581,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11589,7 +11589,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11597,7 +11597,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11605,7 +11605,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11613,7 +11613,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11621,7 +11621,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11629,7 +11629,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11637,7 +11637,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11645,7 +11645,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11653,7 +11653,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11661,7 +11661,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11669,7 +11669,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11677,7 +11677,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11685,7 +11685,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11693,7 +11693,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11701,7 +11701,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11709,7 +11709,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11717,7 +11717,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11725,7 +11725,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11733,7 +11733,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11741,7 +11741,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11749,7 +11749,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11757,7 +11757,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11765,7 +11765,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11773,7 +11773,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11781,7 +11781,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11789,7 +11789,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11797,7 +11797,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11805,7 +11805,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11813,7 +11813,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11821,7 +11821,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11829,7 +11829,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11837,7 +11837,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11845,7 +11845,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11853,7 +11853,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11861,7 +11861,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11869,7 +11869,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11877,7 +11877,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11885,7 +11885,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11893,7 +11893,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11901,7 +11901,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11909,7 +11909,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11917,7 +11917,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11925,7 +11925,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11933,7 +11933,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11941,7 +11941,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11949,7 +11949,7 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             new GameItem
@@ -11957,442 +11957,442 @@ public class ItemService
                 Id = "_fluid",
                 NameRu = "",
                 NameEn = "",
-                Type = "Жидкость",
+                Type = "Р–РёРґРєРѕСЃС‚СЊ",
                 Tag = "forge:fluid"
             },
             // ==========================================
-            //                Очищенные руды
+            //                РћС‡РёС‰РµРЅРЅС‹Рµ СЂСѓРґС‹
             // ==========================================
             new GameItem
             {
                 Id = "purified_chalcopyrite_ore",
-                NameRu = "Халькопирит (Очищенная руда)",
+                NameRu = "РҐР°Р»СЊРєРѕРїРёСЂРёС‚ (РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°)",
                 NameEn = "Chalcopyrite (Purified ore)",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "forge:purified_ores"
             },
             new GameItem
             {
                 Id = "purified_bornite_ore",
-                NameRu = "Борнит (Очищенная руда)",
+                NameRu = "Р‘РѕСЂРЅРёС‚ (РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°)",
                 NameEn = "Bornite (Purified ore)",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "forge:purified_ores"
             },
             new GameItem
             {
                 Id = "purified_chalcocite_ore",
-                NameRu = "Халькозин (Очищенная руда)",
+                NameRu = "РҐР°Р»СЊРєРѕР·РёРЅ (РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°)",
                 NameEn = "Chalcocite (Purified ore)",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "forge:purified_ores"
             },
             new GameItem
             {
                 Id = "purified_tetrahedrite_ore",
-                NameRu = "Тетраэдрит (Очищенная руда)",
+                NameRu = "РўРµС‚СЂР°СЌРґСЂРёС‚ (РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°)",
                 NameEn = "Tetrahedrite (Purified ore)",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "forge:purified_ores"
             },
             new GameItem
             {
                 Id = "purified_pentlandite_ore",
-                NameRu = "Пентландит (Очищенная руда)",
+                NameRu = "РџРµРЅС‚Р»Р°РЅРґРёС‚ (РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°)",
                 NameEn = "Pentlandite (Purified ore)",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "forge:purified_ores"
             },
             new GameItem
             {
                 Id = "purified_cooperite_ore",
-                NameRu = "Куперит (Очищенная руда)",
+                NameRu = "РљСѓРїРµСЂРёС‚ (РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°)",
                 NameEn = "Cooperite (Purified ore)",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "forge:purified_ores"
             },
 
             // ==========================================
-            //             Интегральные схемы
+            //             РРЅС‚РµРіСЂР°Р»СЊРЅС‹Рµ СЃС…РµРјС‹
             // ==========================================
             new GameItem
             {
                 Id = "programmed_circuit_1",
-                NameRu = "Интегральная схема 1",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 1",
                 NameEn = "Programmed circuit 1",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_1.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_2",
-                NameRu = "Интегральная схема 2",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 2",
                 NameEn = "Programmed circuit 2",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_2.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_3",
-                NameRu = "Интегральная схема 3",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 3",
                 NameEn = "Programmed circuit 3",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_3.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_4",
-                NameRu = "Интегральная схема 4",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 4",
                 NameEn = "Programmed circuit 4",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_4.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_5",
-                NameRu = "Интегральная схема 5",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 5",
                 NameEn = "Programmed circuit 5",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_5.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_6",
-                NameRu = "Интегральная схема 6",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 6",
                 NameEn = "Programmed circuit 6",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_6.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_7",
-                NameRu = "Интегральная схема 7",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 7",
                 NameEn = "Programmed circuit 7",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_7.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_8",
-                NameRu = "Интегральная схема 8",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 8",
                 NameEn = "Programmed circuit 8",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_8.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_9",
-                NameRu = "Интегральная схема 9",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 9",
                 NameEn = "Programmed circuit 9",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_9.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_10",
-                NameRu = "Интегральная схема 10",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 10",
                 NameEn = "Programmed circuit 10",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_10.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_11",
-                NameRu = "Интегральная схема 11",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 11",
                 NameEn = "Programmed circuit 11",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_11.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_12",
-                NameRu = "Интегральная схема 12",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 12",
                 NameEn = "Programmed circuit 12",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_12.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_13",
-                NameRu = "Интегральная схема 13",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 13",
                 NameEn = "Programmed circuit 13",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_13.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_14",
-                NameRu = "Интегральная схема 14",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 14",
                 NameEn = "Programmed circuit 14",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_14.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_15",
-                NameRu = "Интегральная схема 15",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 15",
                 NameEn = "Programmed circuit 15",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_15.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_16",
-                NameRu = "Интегральная схема 16",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 16",
                 NameEn = "Programmed circuit 16",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_16.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_17",
-                NameRu = "Интегральная схема 17",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 17",
                 NameEn = "Programmed circuit 17",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_17.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_18",
-                NameRu = "Интегральная схема 18",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 18",
                 NameEn = "Programmed circuit 18",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_18.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_19",
-                NameRu = "Интегральная схема 19",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 19",
                 NameEn = "Programmed circuit 19",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_19.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_20",
-                NameRu = "Интегральная схема 20",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 20",
                 NameEn = "Programmed circuit 20",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_20.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_21",
-                NameRu = "Интегральная схема 21",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 21",
                 NameEn = "Programmed circuit 21",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_21.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_22",
-                NameRu = "Интегральная схема 22",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 22",
                 NameEn = "Programmed circuit 22",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_22.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_23",
-                NameRu = "Интегральная схема 23",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 23",
                 NameEn = "Programmed circuit 23",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_23.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_24",
-                NameRu = "Интегральная схема 24",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 24",
                 NameEn = "Programmed circuit 24",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_24.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_25",
-                NameRu = "Интегральная схема 25",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 25",
                 NameEn = "Programmed circuit 25",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_25.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_26",
-                NameRu = "Интегральная схема 26",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 26",
                 NameEn = "Programmed circuit 26",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_26.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_27",
-                NameRu = "Интегральная схема 27",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 27",
                 NameEn = "Programmed circuit 27",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_27.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_28",
-                NameRu = "Интегральная схема 28",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 28",
                 NameEn = "Programmed circuit 28",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_28.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_29",
-                NameRu = "Интегральная схема 29",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 29",
                 NameEn = "Programmed circuit 29",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_29.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_30",
-                NameRu = "Интегральная схема 30",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 30",
                 NameEn = "Programmed circuit 30",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_30.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_31",
-                NameRu = "Интегральная схема 31",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 31",
                 NameEn = "Programmed circuit 31",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_31.png"
             },
             new GameItem
             {
                 Id = "programmed_circuit_32",
-                NameRu = "Интегральная схема 32",
+                NameRu = "РРЅС‚РµРіСЂР°Р»СЊРЅР°СЏ СЃС…РµРјР° 32",
                 NameEn = "Programmed circuit 32",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:programmed_circuit",
                 IconPath = "images/items/programmed_circuit_32.png"
             },
             // ==========================================
-            //             Интегральные схемы
+            //             РРЅС‚РµРіСЂР°Р»СЊРЅС‹Рµ СЃС…РµРјС‹
             // ==========================================
             new GameItem
             {
                 Id = "ulv_universal_circuit",
-                NameRu = "Универсальная схема ULV",
+                NameRu = "РЈРЅРёРІРµСЂСЃР°Р»СЊРЅР°СЏ СЃС…РµРјР° ULV",
                 NameEn = "Universal circuit ULV",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:circuits",
                 IconPath = "images/tiers/ulv.gif"
             },
             new GameItem
             {
                 Id = "lv_universal_circuit",
-                NameRu = "Универсальная схема LV",
+                NameRu = "РЈРЅРёРІРµСЂСЃР°Р»СЊРЅР°СЏ СЃС…РµРјР° LV",
                 NameEn = "Universal circuit LV",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:circuits",
                 IconPath = "images/tiers/lv.gif"
             },
             new GameItem
             {
                 Id = "mv_universal_circuit",
-                NameRu = "Универсальная схема MV",
+                NameRu = "РЈРЅРёРІРµСЂСЃР°Р»СЊРЅР°СЏ СЃС…РµРјР° MV",
                 NameEn = "Universal circuit MV",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:circuits",
                 IconPath = "images/tiers/mv.gif"
             },
             new GameItem
             {
                 Id = "hv_universal_circuit",
-                NameRu = "Универсальная схема HV",
+                NameRu = "РЈРЅРёРІРµСЂСЃР°Р»СЊРЅР°СЏ СЃС…РµРјР° HV",
                 NameEn = "Universal circuit HV",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:circuits",
                 IconPath = "images/tiers/hv.gif"
             },
             new GameItem
             {
                 Id = "ev_universal_circuit",
-                NameRu = "Универсальная схема EV",
+                NameRu = "РЈРЅРёРІРµСЂСЃР°Р»СЊРЅР°СЏ СЃС…РµРјР° EV",
                 NameEn = "Universal circuit EV",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:circuits",
                 IconPath = "images/tiers/ev.gif"
             },
             new GameItem
             {
                 Id = "iv_universal_circuit",
-                NameRu = "Универсальная схема IV",
+                NameRu = "РЈРЅРёРІРµСЂСЃР°Р»СЊРЅР°СЏ СЃС…РµРјР° IV",
                 NameEn = "Universal circuit IV",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:circuits",
                 IconPath = "images/tiers/iv.gif"
             },
             new GameItem
             {
                 Id = "luv_universal_circuit",
-                NameRu = "Универсальная схема LuV",
+                NameRu = "РЈРЅРёРІРµСЂСЃР°Р»СЊРЅР°СЏ СЃС…РµРјР° LuV",
                 NameEn = "Universal circuit LuV",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:circuits",
                 IconPath = "images/tiers/luv.gif"
             },
             new GameItem
             {
                 Id = "zpm_universal_circuit",
-                NameRu = "Универсальная схема ZPM",
+                NameRu = "РЈРЅРёРІРµСЂСЃР°Р»СЊРЅР°СЏ СЃС…РµРјР° ZPM",
                 NameEn = "Universal circuit ZPM",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:circuits",
                 IconPath = "images/tiers/zpm.gif"
             },
             new GameItem
             {
                 Id = "uv_universal_circuit",
-                NameRu = "Универсальная схема UV",
+                NameRu = "РЈРЅРёРІРµСЂСЃР°Р»СЊРЅР°СЏ СЃС…РµРјР° UV",
                 NameEn = "Universal circuit UV",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:circuits",
                 IconPath = "images/tiers/uv.gif"
             },
             new GameItem
             {
                 Id = "uhv_universal_circuit",
-                NameRu = "Универсальная схема UHV",
+                NameRu = "РЈРЅРёРІРµСЂСЃР°Р»СЊРЅР°СЏ СЃС…РµРјР° UHV",
                 NameEn = "Universal circuit UHV",
-                Type = "Очищенная руда",
+                Type = "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°",
                 Tag = "gtceu:circuits",
                 IconPath = "images/tiers/uhv.gif"
             },

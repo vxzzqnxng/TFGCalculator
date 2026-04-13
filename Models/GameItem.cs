@@ -11,19 +11,19 @@ public class GameItem
 
     public string GetName(string lang) => lang == "en" ? NameEn : NameRu;
     /// <summary>
-    /// Возвращает путь к иконке предмета.
-    /// Если IconPath задан — используется он, иначе — генерируется из Id.
+    /// Р’РѕР·РІСЂР°С‰Р°РµС‚ РїСѓС‚СЊ Рє РёРєРѕРЅРєРµ РїСЂРµРґРјРµС‚Р°.
+    /// Р•СЃР»Рё IconPath Р·Р°РґР°РЅ вЂ” РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РѕРЅ, РёРЅР°С‡Рµ вЂ” РіРµРЅРµСЂРёСЂСѓРµС‚СЃСЏ РёР· Id.
     /// </summary>
     public string GetIconUrl()
     {
         if (!string.IsNullOrEmpty(IconPath))
             return IconPath;
-        else if (Type == "Пыль") return $"images/items/dusts/{Id}.png";
-        else if (Type == "Слиток") return $"images/items/ingots/{Id}.png";
-        else if (Type == "Горячий слиток") return $"images/items/hot_ingots/{Id}.png";
-        else if (Type == "Стержень") return $"images/items/rods/{Id}.png";
-        else if (Type == "Жидкость") return $"images/items/fluids/{Id}.png";
-        else if (Type == "Очищенная руда") return $"images/items/purified_ores/{Id}.png";
+        else if (Type == "РџС‹Р»СЊ") return $"images/items/dusts/{Id}.png";
+        else if (Type == "РЎР»РёС‚РѕРє") return $"images/items/ingots/{Id}.png";
+        else if (Type == "Р“РѕСЂСЏС‡РёР№ СЃР»РёС‚РѕРє") return $"images/items/hot_ingots/{Id}.png";
+        else if (Type == "РЎС‚РµСЂР¶РµРЅСЊ") return $"images/items/rods/{Id}.png";
+        else if (Type == "Р–РёРґРєРѕСЃС‚СЊ") return $"images/items/fluids/{Id}.png";
+        else if (Type == "РћС‡РёС‰РµРЅРЅР°СЏ СЂСѓРґР°") return $"images/items/purified_ores/{Id}.png";
         else return $"images/items/{Id}.png";
     }
 }

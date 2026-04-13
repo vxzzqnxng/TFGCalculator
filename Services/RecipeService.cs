@@ -1,4 +1,4 @@
-﻿namespace TFGCalculator.Services;
+namespace TFGCalculator.Services;
 
 using System.Collections.Generic;
 using TFGCalculator.Models;
@@ -9,7 +9,7 @@ public class RecipeService
     /// Для каждого рецепта указывается механизм, входы, выходы, энергия, длительность и т.д.
     private readonly Dictionary<string, List<Recipe>> _recipes = new()
     {
-        ["tfg-0.12.0"] = new List<Recipe>
+        ["tfg-0.12.3"] = new List<Recipe>
         {
             // ===================================================================
             //                           Химический реактор

@@ -28,7 +28,7 @@ public class Recipe
     public CoilMachineType CoilMachineType { get; set; } = CoilMachineType.None;
     public int MinCoilLevel { get; set; } = 1;
 
-    /// <summary>Минимальная температура рецепта (только для EBF)</summary>
+    /// <summary>РњРёРЅРёРјР°Р»СЊРЅР°СЏ С‚РµРјРїРµСЂР°С‚СѓСЂР° СЂРµС†РµРїС‚Р° (С‚РѕР»СЊРєРѕ РґР»СЏ EBF)</summary>
     public int MinTemperature { get; set; }
 
     public bool SupportsCoils => CoilMachineType != CoilMachineType.None;
@@ -39,6 +39,6 @@ public class Recipe
     public string GetMachineIconUrl()
     {
         if (!string.IsNullOrEmpty(MachineIconPath)) return MachineIconPath;
-        return $"images/machines/{MachineId}.gif";
+        return $"images/machines/{MachineId}.png";
     }
 }

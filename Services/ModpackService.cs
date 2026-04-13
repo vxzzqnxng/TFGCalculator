@@ -6,8 +6,8 @@ public class ModpackService
 {
     private readonly List<Modpack> _modpacks = new()
     {
-        new Modpack { Id = "tfg-0.12.0", Name = "TerraFirmaGreg-Modern ver0.12.0" },
-        // Добавьте новые модпаки здесь:
+        new Modpack { Id = "tfg-0.12.3", Name = "TerraFirmaGreg-Modern ver0.12.3" },
+        // Р”РѕР±Р°РІСЊС‚Рµ РЅРѕРІС‹Рµ РјРѕРґРїР°РєРё Р·РґРµСЃСЊ:
         // new Modpack { Id = "", Name = "" },
     };
 
