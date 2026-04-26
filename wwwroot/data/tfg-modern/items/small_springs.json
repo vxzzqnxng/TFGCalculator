@@ -1,0 +1,113 @@
+﻿[
+  {
+    "Id": "small_iron_spring",
+    "NameRu": "Серый чугун (Маленькая пружина)",
+    "NameEn": "Iron (Small spring)",
+    "Type": "Маленькая пружина",
+    "Tag": "forge:small_springs"
+  },
+
+  {
+    "Id": "small_platinum_spring",
+    "NameRu": "Платина (Маленькая пружина)",
+    "NameEn": "Platinum (Small spring)",
+    "Type": "Маленькая пружина",
+    "Tag": "forge:small_springs"
+  },
+
+  {
+    "Id": "small_aluminium_spring",
+    "NameRu": "Алюминий (Маленькая пружина)",
+    "NameEn": "Aluminium (Small spring)",
+    "Type": "Маленькая пружина",
+    "Tag": "forge:small_springs"
+  },
+
+  {
+    "Id": "small_tin_spring",
+    "NameRu": "Олово (Маленькая пружина)",
+    "NameEn": "Tin (Small spring)",
+    "Type": "Маленькая пружина",
+    "Tag": "forge:small_springs"
+  },
+
+  {
+    "Id": "small_gold_spring",
+    "NameRu": "Золото (Маленькая пружина)",
+    "NameEn": "Gold (Small spring)",
+    "Type": "Маленькая пружина",
+    "Tag": "forge:small_springs"
+  },
+
+  {
+    "Id": "small_copper_spring",
+    "NameRu": "Медь (Маленькая пружина)",
+    "NameEn": "Copper (Small spring)",
+    "Type": "Маленькая пружина",
+    "Tag": "forge:small_springs"
+  },
+
+  {
+    "Id": "small_lead_spring",
+    "NameRu": "Свинец (Маленькая пружина)",
+    "NameEn": "Lead (Small spring)",
+    "Type": "Маленькая пружина",
+    "Tag": "forge:small_springs"
+  },
+
+  {
+    "Id": "small_steel_spring",
+    "NameRu": "Сталь (Маленькая пружина)",
+    "NameEn": "Steel (Small spring)",
+    "Type": "Маленькая пружина",
+    "Tag": "forge:small_springs"
+  },
+
+  {
+    "Id": "small_tungsten_spring",
+    "NameRu": "Вольфрам (Маленькая пружина)",
+    "NameEn": "Tungsten (Small spring)",
+    "Type": "Маленькая пружина",
+    "Tag": "forge:small_springs"
+  },
+
+  {
+    "Id": "small_niobium_titanium_spring",
+    "NameRu": "Ниобий-титан (Маленькая пружина)",
+    "NameEn": "Niobium titanium (Small spring)",
+    "Type": "Маленькая пружина",
+    "Tag": "forge:small_springs"
+  },
+
+  {
+    "Id": "small_vanadium_gallium_spring",
+    "NameRu": "Ванадий-Галлий (Маленькая пружина)",
+    "NameEn": "Vanadium gallium (Small spring)",
+    "Type": "Маленькая пружина",
+    "Tag": "forge:small_springs"
+  },
+
+  {
+    "Id": "small_yttrium_barium_cuprate_spring",
+    "NameRu": "Оксид иттрия-бария-меди (Маленькая пружина)",
+    "NameEn": "Yttrium barium cuprate (Small spring)",
+    "Type": "Маленькая пружина",
+    "Tag": "forge:small_springs"
+  },
+
+  {
+    "Id": "small_europium_spring",
+    "NameRu": "Европий (Маленькая пружина)",
+    "NameEn": "Europium (Small spring)",
+    "Type": "Маленькая пружина",
+    "Tag": "forge:small_springs"
+  },
+
+  {
+    "Id": "small_red_alloy_spring",
+    "NameRu": "Красный сплав (Маленькая пружина)",
+    "NameEn": "Red alloy (Small spring)",
+    "Type": "Маленькая пружина",
+    "Tag": "forge:small_springs"
+  }
+]

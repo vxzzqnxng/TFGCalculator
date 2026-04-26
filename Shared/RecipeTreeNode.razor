@@ -7,19 +7,25 @@
             @foreach (var inp in recipe.Inputs)
             {
                 var it = ItemSvc.GetById(ModpackId, inp.ItemId);
-                if (it != null)
-                {
-                    <span class="recipe-visual-item"><img class="item-icon-sm" src="@it.GetIconUrl()" onerror="this.style.background='#ccc'" /><sub>@($"{inp.Amount:G}")</sub></span>
-                }
+                var iconUrl = it?.GetIconUrl() ?? "";
+                var iname = it?.GetName(Loc.CurrentLanguage) ?? inp.ItemId;
+                var itype = it?.Type ?? "?";
+                <span class="recipe-visual-item">
+                    <img class="item-icon-sm" src="@iconUrl" title="@iname (@itype)" onerror="this.style.background='#ccc'" />
+                    <sub>@($"{inp.Amount:G}")</sub>
+                </span>
             }
             <span class="recipe-arrow-sm">→</span>
             @foreach (var outp in recipe.Outputs)
             {
                 var it = ItemSvc.GetById(ModpackId, outp.ItemId);
-                if (it != null)
-                {
-                    <span class="recipe-visual-item"><img class="item-icon-sm" src="@it.GetIconUrl()" onerror="this.style.background='#ccc'" /><sub>@($"{outp.Amount:G}")</sub></span>
-                }
+                var iconUrl = it?.GetIconUrl() ?? "";
+                var iname = it?.GetName(Loc.CurrentLanguage) ?? outp.ItemId;
+                var itype = it?.Type ?? "?";
+                <span class="recipe-visual-item">
+                    <img class="item-icon-sm" src="@iconUrl" title="@iname (@itype)" onerror="this.style.background='#ccc'" />
+                    <sub>@($"{outp.Amount:G}")</sub>
+                </span>
             }
         </div>
     };
@@ -41,7 +47,7 @@
                         {
                             var recipe = r;
                             <div class="recipe-option" @onclick="() => DoRecipe(recipe)">
-                                <img class="machine-icon" src="@recipe.GetMachineIconUrl()" onerror="this.style.background='#ccc'" />
+                                <img class="machine-icon" src="@recipe.GetMachineIconUrl()" title="@recipe.GetMachineName(Loc.CurrentLanguage)" onerror="this.style.background='#ccc'" />
                                 @RenderRecipeVisualInline(recipe)
                             </div>
                         }
@@ -51,133 +57,214 @@
         </div>
     };
 
+    RenderFragment RenderCatalysts = __builder2 =>
+    {
+        @if (Node.Recipe != null && Node.Recipe.Catalysts.Any())
+        {
+            <div class="catalyst-row">
+                @foreach (var cat in Node.Recipe.Catalysts)
+                {
+                    var it = ItemSvc.GetById(ModpackId, cat.ItemId);
+                    var iconUrl = it?.GetIconUrl() ?? "";
+                    var iname = it?.GetName(Loc.CurrentLanguage) ?? cat.ItemId;
+                    var itype = it?.Type ?? "?";
+                    <span class="catalyst-item">
+                        <img class="item-icon" src="@iconUrl" title="@iname (@itype)" onerror="this.style.background='#ccc'" />
+                        <sup class="catalyst-mark">НТ</sup>
+                    </span>
+                }
+            </div>
+        }
+    };
+
     RenderFragment RenderRecipeVisual = __builder2 =>
     {
-        <div class="recipe-visual">
-            @foreach (var inp in Node.Recipe!.Inputs)
-            {
-                var it = ItemSvc.GetById(ModpackId, inp.ItemId);
-                if (it != null)
+       @RenderCatalysts
+      @if (Node.Recipe!.IsCraftingTable)
+        {
+            <div class="crafting-grid">
+                @for (int slot = 0; slot < 9; slot++)
                 {
-                    <span class="recipe-visual-item"><img class="item-icon" src="@it.GetIconUrl()" onerror="this.style.background='#ccc'" /><sub>@($"{inp.Amount:G}")</sub></span>
+                    var s = slot;
+                    var inp = Node.Recipe.Inputs.FirstOrDefault(i => i.SlotIndex == s);
+                    <div class="crafting-cell">
+                        @if (inp != null)
+                        {
+                            var it = ItemSvc.GetById(ModpackId, inp.ItemId);
+                            var iconUrl = it?.GetIconUrl() ?? "";
+                            var iname = it?.GetName(Loc.CurrentLanguage) ?? inp.ItemId;
+                            var itype = it?.Type ?? "?";
+                            <img class="item-icon" src="@iconUrl" title="@iname (@itype)" onerror="this.style.background='#ccc'" />
+                        }
+                    </div>
                 }
-            }
-            <span class="recipe-arrow">→</span>
-            @foreach (var outp in Node.Recipe.Outputs)
-            {
-                var it = ItemSvc.GetById(ModpackId, outp.ItemId);
-                if (it != null)
+            </div>
+            <div class="crafting-arrow">→</div>
+            <div class="crafting-output">
+                @foreach (var outp in Node.Recipe.Outputs)
                 {
-                    <span class="recipe-visual-item"><img class="item-icon" src="@it.GetIconUrl()" onerror="this.style.background='#ccc'" /><sub>@($"{outp.Amount:G}")</sub></span>
+                    var it = ItemSvc.GetById(ModpackId, outp.ItemId);
+                    var iconUrl = it?.GetIconUrl() ?? "";
+                    var iname = it?.GetName(Loc.CurrentLanguage) ?? outp.ItemId;
+                    <span class="recipe-visual-item">
+                        <img class="item-icon" src="@iconUrl" title="@iname" onerror="this.style.background='#ccc'" />
+                        <sub>@($"{outp.Amount:G}")</sub>
+                    </span>
                 }
-            }
-        </div>
+            </div>
+        }
+        else
+        {
+            <div class="recipe-visual">
+                @foreach (var inp in Node.Recipe.Inputs)
+                {
+                    var it = ItemSvc.GetById(ModpackId, inp.ItemId);
+                    var iconUrl = it?.GetIconUrl() ?? "";
+                    var iname = it?.GetName(Loc.CurrentLanguage) ?? inp.ItemId;
+                    var itype = it?.Type ?? "?";
+                    <span class="recipe-visual-item">
+                        <img class="item-icon" src="@iconUrl" title="@iname (@itype)" onerror="this.style.background='#ccc'" />
+                        <sub>@($"{inp.Amount:G}")</sub>
+                    </span>
+                }
+                <span class="recipe-arrow">→</span>
+                @foreach (var outp in Node.Recipe.Outputs)
+                {
+                    var it = ItemSvc.GetById(ModpackId, outp.ItemId);
+                    var iconUrl = it?.GetIconUrl() ?? "";
+                    var iname = it?.GetName(Loc.CurrentLanguage) ?? outp.ItemId;
+                    var itype = it?.Type ?? "?";
+                    <span class="recipe-visual-item">
+                        <img class="item-icon" src="@iconUrl" title="@iname (@itype)" onerror="this.style.background='#ccc'" />
+                        <sub>@($"{outp.Amount:G}")</sub>
+                    </span>
+                }
+            </div>
+        }
     };
 
     RenderFragment RenderMachineInfo = __builder2 =>
     {
-        <div class="tree-node-detail">
-            <img class="machine-icon" src="@Node.Recipe!.GetMachineIconUrl()" onerror="this.style.background='#ccc'" />
-            <span>@Node.Recipe.GetMachineName(Loc.CurrentLanguage)</span>
-            @if (!Node.IsViewOnly)
-            {
-                <span>x @Math.Ceiling(Node.MachineCount)</span>
-            }
-            @if (Node.MSParallels > 1)
-            {
-                <span>(×@Node.MSParallels)</span>
-            }
-        </div>
+        @if (!Node.Recipe!.IsCraftingTable)
+        {
+            <div class="tree-node-detail">
+                <img class="machine-icon" src="@GetTieredMachineIcon()"
+                     onerror="this.onerror=null; this.src='@GetFallbackMachineIcon()'"
+                     title="@Node.Recipe.GetMachineName(Loc.CurrentLanguage)" />
+                <span>@Node.Recipe.GetMachineName(Loc.CurrentLanguage)</span>
+                @if (!Node.IsViewOnly)
+                {
+                    <span>x @Math.Ceiling(Node.MachineCount)</span>
+                }
+                @if (Node.MSParallels > 1)
+                {
+                    <span>(×@Node.MSParallels)</span>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="tree-node-detail">
+                <span style="font-style:italic">@Loc.Get("CraftingTable")</span>
+            </div>
+        }
     };
 
     RenderFragment RenderEnergyInfo = __builder2 =>
     {
-        <div class="tree-node-detail">
-            <span>@($"{Node.ActualEnergyPerTick:F2}") @Node.Recipe!.PrimaryEnergyType/t | @($"{Node.ActualDurationTicks / 20.0:F2}")s</span>
-        </div>
-        @if (Node.Recipe.UsesHeatUnit)
-        {
-            <div class="tree-node-detail"><span>+ @($"{Node.Recipe.HeatPerTick:F2}") HUt</span></div>
+        @if (!Node.Recipe!.IsCraftingTable) {
+            <div class="tree-node-detail">
+                <span>@($"{Node.ActualEnergyPerTick:F2}") @Node.Recipe!.PrimaryEnergyType/t | @($"{Node.ActualDurationTicks / 20.0:F2}")s</span>
+            </div>
+            @if (Node.Recipe.UsesHeatUnit)
+            {
+                <div class="tree-node-detail"><span>+ @($"{Node.Recipe.HeatPerTick:F2}") HUt</span></div>
+            }
         }
     };
 
     RenderFragment RenderTierSelector = __builder2 =>
     {
-        @if (Node.Recipe!.PrimaryEnergyType == EnergyType.EUt)
-        {
-            var currentTier = VoltageTier.GetByLevel(Node.CurrentTierLevel);
-            <div class="tree-node-detail tier-selector-row">
-                <span>@Loc.Get("Level"):</span>
-                <div class="custom-tier-dropdown interactive" @onclick="ToggleTierDrop" @onclick:stopPropagation="true">
-                    <div class="custom-tier-selected">
-                        <img class="tier-icon" src="@currentTier.IconPath" alt="@currentTier.Name" onerror="this.style.display='none'" />
-                        <span class="@currentTier.CssClass">@currentTier.Name</span>
-                        <span class="custom-tier-arrow">▼</span>
-                    </div>
-                    @if (_showTierDrop)
-                    {
-                        <div class="custom-tier-options" @onclick:stopPropagation="true">
-                            @foreach (var t in VoltageTier.AllTiers.Where(t => t.Level >= Node.Recipe.MinTierLevel))
-                            {
-                                var tier = t;
-                                <div class="custom-tier-option @(tier.Level == Node.CurrentTierLevel ? "selected" : "")"
-                                     @onclick="() => SelectTier(tier.Level)" @onclick:stopPropagation="true">
-                                    <img class="tier-icon" src="@tier.IconPath" alt="@tier.Name" onerror="this.style.display='none'" />
-                                    <span class="@tier.CssClass">@tier.Name</span>
-                                </div>
-                            }
+        @if (!Node.Recipe!.IsCraftingTable) {
+            @if (Node.Recipe!.PrimaryEnergyType == EnergyType.EUt)
+            {
+                VoltageTier? currentTier = VoltageTier.GetByLevel(Node.CurrentTierLevel);
+                <div class="tree-node-detail tier-selector-row">
+                    <span>@Loc.Get("Level"):</span>
+                    <div class="custom-tier-dropdown interactive" @onclick="ToggleTierDrop" @onclick:stopPropagation="true">
+                        <div class="custom-tier-selected">
+                            <img class="tier-icon" src="@currentTier.IconPath" alt="@currentTier.Name" onerror="this.style.display='none'" />
+                            <span class="@currentTier.CssClass">@currentTier.Name</span>
+                            <span class="custom-tier-arrow">▼</span>
                         </div>
-                    }
+                        @if (_showTierDrop)
+                        {
+                            <div class="custom-tier-options" @onclick:stopPropagation="true">
+                                @foreach (var t in VoltageTier.AllTiers.Where(t => t.Level >= Node.Recipe.MinTierLevel))
+                                {
+                                    var tier = t;
+                                    <div class="custom-tier-option @(tier.Level == Node.CurrentTierLevel ? "selected" : "")"
+                                         @onclick="() => SelectTier(tier.Level)" @onclick:stopPropagation="true">
+                                        <img class="tier-icon" src="@tier.IconPath" alt="@tier.Name" onerror="this.style.display='none'" />
+                                        <span class="@tier.CssClass">@tier.Name</span>
+                                    </div>
+                                }
+                            </div>
+                        }
+                    </div>
                 </div>
-            </div>
+            }
         }
     };
 
     RenderFragment RenderCoilSelector = __builder2 =>
     {
-        @if (Node.Recipe!.SupportsCoils)
-        {
-            var currentCoil = CoilTier.GetByLevel(Node.CurrentCoilLevel);
-            <div class="tree-node-detail coil-selector-row">
-                <span>@Loc.Get("Coil"):</span>
-                <div class="custom-tier-dropdown interactive" @onclick="ToggleCoilDrop" @onclick:stopPropagation="true">
-                    <div class="custom-tier-selected">
-                        <img class="coil-icon" src="@currentCoil.IconPath" onerror="this.style.display='none'" />
-                        <span>@currentCoil.Name</span>
-                        <span class="custom-tier-arrow">▼</span>
-                    </div>
-                    @if (_showCoilDrop)
-                    {
-                        <div class="custom-tier-options" @onclick:stopPropagation="true">
-                            @foreach (var c in CoilTier.AllCoils.Where(c => c.Level >= Node.Recipe.MinCoilLevel))
-                            {
-                                var coil = c;
-                                <div class="custom-tier-option @(coil.Level == Node.CurrentCoilLevel ? "selected" : "")"
-                                     @onclick="() => SelectCoil(coil.Level)" @onclick:stopPropagation="true">
-                                    <img class="coil-icon" src="@coil.IconPath" onerror="this.style.display='none'" />
-                                    <span>@coil.Name (@(coil.Temperature)K)</span>
-                                </div>
-                            }
+        @if (!Node.Recipe!.IsCraftingTable) {
+            @if (Node.Recipe!.SupportsCoils)
+            {
+                var currentCoil = CoilTier.GetByLevel(Node.CurrentCoilLevel);
+                <div class="tree-node-detail coil-selector-row">
+                    <span>@Loc.Get("Coil"):</span>
+                    <div class="custom-tier-dropdown interactive" @onclick="ToggleCoilDrop" @onclick:stopPropagation="true">
+                        <div class="custom-tier-selected">
+                            <img class="coil-icon" src="@currentCoil.IconPath" onerror="this.style.display='none'" />
+                            <span>@currentCoil.Name</span>
+                            <span class="custom-tier-arrow">▼</span>
                         </div>
+                        @if (_showCoilDrop)
+                        {
+                            <div class="custom-tier-options" @onclick:stopPropagation="true">
+                                @foreach (var c in CoilTier.AllCoils.Where(c => c.Level >= Node.Recipe.MinCoilLevel))
+                                {
+                                    var coil = c;
+                                    <div class="custom-tier-option @(coil.Level == Node.CurrentCoilLevel ? "selected" : "")"
+                                         @onclick="() => SelectCoil(coil.Level)" @onclick:stopPropagation="true">
+                                        <img class="coil-icon" src="@coil.IconPath" onerror="this.style.display='none'" />
+                                        <span>@coil.Name (@(coil.Temperature)K)</span>
+                                    </div>
+                                }
+                            </div>
+                        }
+                    </div>
+                    @if (Node.Recipe.CoilMachineType == CoilMachineType.ElectricBlastFurnace)
+                    {
+                        var ct = CoilTier.GetByLevel(Node.CurrentCoilLevel);
+                        var tb = Math.Max(0, Node.CurrentTierLevel - 3) * 100;
+                        <span style="font-size:10px;opacity:0.7">@(ct.Temperature + tb)K</span>
                     }
                 </div>
-                @if (Node.Recipe.CoilMachineType == CoilMachineType.ElectricBlastFurnace)
-                {
-                    var ct = CoilTier.GetByLevel(Node.CurrentCoilLevel);
-                    var tb = Math.Max(0, Node.CurrentTierLevel - 3) * 100;
-                    <span style="font-size:10px;opacity:0.7">@(ct.Temperature + tb)K</span>
-                }
-            </div>
+            }
         }
     };
 }
 
 <div class="tree-node-wrapper @(_showDrop || _showTierDrop || _showCoilDrop ? "dropdown-active" : "")"
-     id="node-@Node.NodeId" @onclick="OnCardClick" @onclick:stopPropagation="true">
+     id="node-@Node.NodeId" data-nid="@Node.NodeId"
+     @onclick="OnCardClick" @onclick:stopPropagation="true">
     @if (Node.IsStorage)
     {
         <div class="storage-node-card">
-            <img class="item-icon" src="@Node.ItemIconUrl" onerror="this.style.background='#ccc'" />
+            <img class="item-icon" src="@Node.ItemIconUrl" title="@Node.ItemName (@Node.ItemType)" onerror="this.style.background='#ccc'" />
             <div class="storage-node-title">@Loc.Get("Storage")</div>
             @if (!Node.IsViewOnly)
             {
@@ -193,14 +280,46 @@
     {
         <div class="tree-node-card @(Node.IsRootNode ? "root-node" : "")">
             <div class="tree-node-header">
-                <img class="item-icon" src="@Node.ItemIconUrl" onerror="this.style.background='#ccc'" />
-                <span class="tree-node-item-name">@Node.ItemName</span>
+                @if (Node.OutputItemIds.Count > 1)
+                {
+                    <div class="tree-node-multi-outputs">
+                        @foreach (var oid in Node.OutputItemIds)
+                        {
+                            var oit = ItemSvc.GetById(ModpackId, oid);
+                            var iconUrl = oit?.GetIconUrl() ?? "";
+                            var iname = oit?.GetName(Loc.CurrentLanguage) ?? oid;
+                            var itype = oit?.Type ?? "";
+                            <img class="item-icon" src="@iconUrl" title="@iname (@itype)" onerror="this.style.background='#ccc'" />
+                        }
+                    </div>
+                    <span class="tree-node-item-name">
+                        @string.Join(" + ", Node.OutputItemIds.Select(oid =>
+                        ItemSvc.GetById(ModpackId, oid)?.GetName(Loc.CurrentLanguage) ?? oid))
+            </span>
+                        }
+                else
+                {
+                    <img class="item-icon" src="@Node.ItemIconUrl" title="@Node.ItemName (@Node.ItemType)" onerror="this.style.background='#ccc'" />
+                    <span class="tree-node-item-name">@Node.ItemName</span>
+                }
             </div>
             @if (!Node.IsViewOnly)
             {
-                <div class="rate-display">@($"{Node.RequiredPerSecond:F2}") @Loc.Get("PerSec")</div>
+                @if (Node.OutputItemIds.Count > 1)
+                {
+                    @foreach (var oid in Node.OutputItemIds)
+                    {
+                        var oit = ItemSvc.GetById(ModpackId, oid);
+                        var shortName = oit?.GetName(Loc.CurrentLanguage) ?? oid;
+                        var demand = Node.OutputDemand.GetValueOrDefault(oid, 0);
+                        <div class="rate-display">@shortName: @($"{demand:F2}") @Loc.Get("PerSec")</div>
+                    }
+                }
+                else
+                {
+                    <div class="rate-display">@($"{Node.RequiredPerSecond:F2}") @Loc.Get("PerSec")</div>
+                }
             }
-
             @if (Node.NeedsRecipeSelection)
             {
                 @RenderRecipeSelector
@@ -217,7 +336,12 @@
                 @RenderCoilSelector
                 @if (Node.AvailableRecipes.Count > 1)
                 {
-                    @RenderRecipeSelector
+                    <div class="tree-node-detail">
+                        <button class="btn-small interactive" @onclick="AddAlternative" @onclick:stopPropagation="true"
+                                title="@Loc.Get("AddAltVariant")">
+                            + @Loc.Get("AltRecipe")
+                        </button>
+                    </div>
                 }
             }
             else

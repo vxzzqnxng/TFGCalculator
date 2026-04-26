@@ -1,0 +1,345 @@
+﻿[
+  {
+    "Id": "iron_gear",
+    "NameRu": "Серый чугун (Шестерня)",
+    "NameEn": "Iron (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "neutronium_gear",
+    "NameRu": "Нейтроний (Шестерня)",
+    "NameEn": "Neutronium (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "aluminium_gear",
+    "NameRu": "Алюминий (Шестерня)",
+    "NameEn": "Aluminium (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "ruthenium_gear",
+    "NameRu": "Рутений (Шестерня)",
+    "NameEn": "Ruthenium (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "invar_gear",
+    "NameRu": "Инвар (Шестерня)",
+    "NameEn": "Invar (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "duranium_gear",
+    "NameRu": "Дюраний (Шестерня)",
+    "NameEn": "Duranium (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "osmiridium_gear",
+    "NameRu": "Осмистый иридий (Шестерня)",
+    "NameEn": "Osmiridium (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "rhodium_gear",
+    "NameRu": "Родий (Шестерня)",
+    "NameEn": "Rhodium (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "hsss_gear",
+    "NameRu": "HSS-S (Шестерня)",
+    "NameEn": "HSS-S (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "rocket_alloy_t1_gear",
+    "NameRu": "Красный алюминиево-стальной ракетный сплав (Шестерня)",
+    "NameEn": "Rocket alloy t1 (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "titanium_gear",
+    "NameRu": "Титан (Шестерня)",
+    "NameEn": "Titanium (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "ultimet_gear",
+    "NameRu": "Ультимет (Шестерня)",
+    "NameEn": "Ultimet (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "hssg_gear",
+    "NameRu": "HSS-G (Шестерня)",
+    "NameEn": "HSS-G (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "desh_gear",
+    "NameRu": "Деш (Шестерня)",
+    "NameEn": "desh (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "tungsten_carbide_gear",
+    "NameRu": "Карбид вольфрама (Шестерня)",
+    "NameEn": "Tungsten carbide (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "trinium_gear",
+    "NameRu": "Триниум (Шестерня)",
+    "NameEn": "Trinium (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "ostrum_iodide_gear",
+    "NameRu": "Йодид острума (Шестерня)",
+    "NameEn": "ostrum_iodide_dust (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "stainless_steel_gear",
+    "NameRu": "Нержавеющая сталь (Шестерня)",
+    "NameEn": "Stainless steel (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "bronze_gear",
+    "NameRu": "Бронза (Шестерня)",
+    "NameEn": "Bronze (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "cobalt_brass_gear",
+    "NameRu": "Кобальтовая латунь (Шестерня)",
+    "NameEn": "Cobalt brass (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "black_steel_gear",
+    "NameRu": "Черная сталь (Шестерня)",
+    "NameEn": "Black steel (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "black_bronze_gear",
+    "NameRu": "Черная бронза (Шестерня)",
+    "NameEn": "Black bronze (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "blue_steel_gear",
+    "NameRu": "Синяя сталь (Шестерня)",
+    "NameEn": "Blue steel (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "naquadria_gear",
+    "NameRu": "Наквадрия (Шестерня)",
+    "NameEn": "Naquadria (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "tungsten_gear",
+    "NameRu": "Вольфрам (Шестерня)",
+    "NameEn": "Tungsten (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "vanadium_steel_gear",
+    "NameRu": "Ванадиевая сталь (Шестерня)",
+    "NameEn": "Vanadium steel (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "tungsten_steel_gear",
+    "NameRu": "Вольфрамовая сталь (Шестерня)",
+    "NameEn": "Tungsten steel (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "magnalium_gear",
+    "NameRu": "Магналий (Шестерня)",
+    "NameEn": "Magnalium (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "iridium_gear",
+    "NameRu": "Иридий (Шестерня)",
+    "NameEn": "Iridium (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "red_steel_gear",
+    "NameRu": "Красная сталь (Шестерня)",
+    "NameEn": "Red steel (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "rose_gold_gear",
+    "NameRu": "Розовое золото (Шестерня)",
+    "NameEn": "Rose gold (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "sterling_silver_gear",
+    "NameRu": "Стерлинговое серебро (Шестерня)",
+    "NameEn": "Sterling silver (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "wrought_iron_gear",
+    "NameRu": "Кованное железо (Шестерня)",
+    "NameEn": "Wrought iron (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "hsse_gear",
+    "NameRu": "HSS-E (Шестерня)",
+    "NameEn": "HSS-E (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "rocket_alloy_t2_gear",
+    "NameRu": "ASM 4914 титановый ракетный сплав (Шестерня)",
+    "NameEn": "Rocket alloy t2 (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "naquadah_alloy_gear",
+    "NameRu": "Сплав наквада (Шестерня)",
+    "NameEn": "Naquadah alloy (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "steel_gear",
+    "NameRu": "Сталь (Шестерня)",
+    "NameEn": "Steel (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "tritanium_gear",
+    "NameRu": "Тританий (Шестерня)",
+    "NameEn": "Tritanium (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "potin_gear",
+    "NameRu": "Потин (Шестерня)",
+    "NameEn": "Potin (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "ruridit_gear",
+    "NameRu": "Руридит (Шестерня)",
+    "NameEn": "Ruridit (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "diamond_gear",
+    "NameRu": "Алмаз (Шестерня)",
+    "NameEn": "Diamond (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "wood_gear",
+    "NameRu": "Дерево (Шестерня)",
+    "NameEn": "Wood (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  },
+
+  {
+    "Id": "silicone_rubber_gear",
+    "NameRu": "Силиконовая резина (Шестерня)",
+    "NameEn": "Silicone rubber (Gear)",
+    "Type": "Шестерня",
+    "Tag": "forge:gears"
+  }
+]

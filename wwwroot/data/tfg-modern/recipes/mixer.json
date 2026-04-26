@@ -1,0 +1,28 @@
+﻿[
+  {
+    "Id": "aqua_regia",
+    "MachineId": "mixer",
+    "MachineNameRu": "Миксер",
+    "MachineNameEn": "Mixer",
+    "Inputs": [
+      {
+        "ItemId": "nitric_acid_fluid",
+        "Amount": 1
+      },
+      {
+        "ItemId": "hydrochloric_acid_fluid",
+        "Amount": 2
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "aqua_regia_fluid",
+        "Amount": 3
+      }
+    ],
+    "EnergyPerTick": 30,
+    "DurationTicks": 30,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 2
+  }
+]

@@ -1,0 +1,120 @@
+﻿@page "/tfc-calculators/anvil"
+
+<PageTitle>@Loc.Get("AnvilCalculator")</PageTitle>
+
+<div class="modpack-page">
+    <a href="/tfc-calculators" class="back-link">@Loc.Get("BackToTfcCalc")</a>
+
+    @for (int bi = 0; bi < _blocks.Count; bi++)
+    {
+        var blockIdx = bi;
+        var block = _blocks[blockIdx];
+        <div class="tree-config-block anvil-block">
+            @if (_blocks.Count > 1)
+            {
+                <div class="tree-config-header-right" style="position:absolute;top:8px;right:8px">
+                    <button class="btn-danger-small interactive" @onclick="() => RemoveBlock(blockIdx)">✕</button>
+                </div>
+            }
+
+            @if (block.Selected == null)
+            {
+                <SearchDropdown Label="@Loc.Get("SelectRecipe")" Placeholder="@Loc.Get("SearchItem")"
+                                OnSearch="@(q => OnSearch(blockIdx, q))" @ref="block.Dropdown">
+                    <table class="dropdown-table">
+                        <thead><tr><th>@Loc.Get("Name")</th></tr></thead>
+                        <tbody>
+                            @foreach (var r in block.Filtered)
+                            {
+                                var recipe = r;
+                                var inIt  = ItemSvc.GetById(ModpackId, recipe.InputItemId);
+                                var outIt = ItemSvc.GetById(ModpackId, recipe.OutputItemId);
+                                var inName  = inIt?.GetName(Loc.CurrentLanguage)  ?? recipe.InputItemId;
+                                var outName = outIt?.GetName(Loc.CurrentLanguage) ?? recipe.OutputItemId;
+                                <tr class="clickable-row" @onclick="() => SelectRecipe(blockIdx, recipe)">
+                                    <td>
+                                        <div class="anvil-recipe-line">
+                                            <img class="item-icon" src="@(inIt?.GetIconUrl() ?? "")" title="@inName" onerror="this.style.background='#ccc'" />
+                                            <span>@inName</span>
+                                            <span class="recipe-arrow">→</span>
+                                            <img class="item-icon" src="@(outIt?.GetIconUrl() ?? "")" title="@outName" onerror="this.style.background='#ccc'" />
+                                            <span>@outName</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                            @if (!block.Filtered.Any())
+                            {
+                                <tr><td style="color:var(--muted)">@Loc.Get("NothingFound")</td></tr>
+                            }
+                        </tbody>
+                    </table>
+                </SearchDropdown>
+            }
+            else
+            {
+                var rec = block.Selected;
+                var inIt  = ItemSvc.GetById(ModpackId, rec.InputItemId);
+                var outIt = ItemSvc.GetById(ModpackId, rec.OutputItemId);
+                var inName  = inIt?.GetName(Loc.CurrentLanguage)  ?? rec.InputItemId;
+                var outName = outIt?.GetName(Loc.CurrentLanguage) ?? rec.OutputItemId;
+                <div class="tree-config-header">
+                    <img class="item-icon" src="@(inIt?.GetIconUrl() ?? "")" title="@inName" onerror="this.style.background='#ccc'" />
+                    <span>@inName</span>
+                    <span class="recipe-arrow">→</span>
+                    <img class="item-icon" src="@(outIt?.GetIconUrl() ?? "")" title="@outName" onerror="this.style.background='#ccc'" />
+                    <span class="tree-config-name">@outName</span>
+                    <span style="margin-left:10px">— @Loc.Get("TargetValue"): @rec.TargetValue</span>
+                    <button class="btn-small interactive" style="margin-left:auto" @onclick="() => ClearSelection(blockIdx)">
+                        @Loc.Get("ChangeRecipe")
+                    </button>
+                </div>
+
+                @if (block.Solution != null && block.Solution.Any())
+                {
+                    <div class="anvil-sequence">
+                        @{ int count = 1; }
+                        @for (int i = 0; i < block.Solution.Count; i++)
+                        {
+                            if (i + 1 < block.Solution.Count && block.Solution[i].Type == block.Solution[i + 1].Type)
+                            {
+                                count++;
+                                continue;
+                            }
+                            <span class="anvil-step">
+                                <img class="item-icon" src="@block.Solution[i].IconPath"
+                                     title="@block.Solution[i].GetName(Loc.CurrentLanguage)"
+                                     onerror="this.style.background='#ccc'" />
+                                <sub>x @count</sub>
+                            </span>
+                            @if (i + 1 < block.Solution.Count)
+                            {
+                                <span class="recipe-arrow">→</span>
+                            }
+                            count = 1;
+                        }
+                    </div>
+                    <div class="tree-node-detail">@Loc.Get("TotalSteps"): @block.Solution.Count</div>
+                }
+                else if (block.Solution != null)
+                {
+                    <div class="tree-node-detail" style="color:red">@Loc.Get("NoSolution")</div>
+                }
+            }
+        </div>
+
+        @if (bi == _blocks.Count - 1)
+        {
+            <div class="add-tree-btn-wrap">
+                <button class="btn-main interactive" @onclick="AddBlock">+ @Loc.Get("AddItem")</button>
+            </div>
+        }
+    }
+</div>
+
+<div class="bottom-bar">
+    <a href="https://terrafirmagreg.team" target="_blank" class="btn-main">@Loc.Get("SiteTFG")</a>
+    <a href="https://github.com/TerraFirmaGreg-Team/Modpack-Modern/releases" target="_blank" class="btn-main">@Loc.Get("GitHubTFG")</a>
+    <a href="https://github.com/vxzzqnxng/TFGCalculator?tab=readme-ov-file" target="_blank" class="btn-main">@Loc.Get("GitHubProject")</a>
+    <a href="https://discordapp.com/users/505270818779955202" target="_blank" class="btn-main">@Loc.Get("ReportBug")</a>
+</div>

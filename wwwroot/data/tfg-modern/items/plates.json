@@ -1,0 +1,1433 @@
+﻿[
+  {
+    "Id": "iron_plate",
+    "NameRu": "Серый чугун (Пластина)",
+    "NameEn": "Iron (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "diamond_tipped_mo_50_re_plate",
+    "NameRu": "Mo-50Re с алмазным напылением (Пластина)",
+    "NameEn": "Diamond tipped Mo-50Re (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "polycaprolactam_plate",
+    "NameRu": "Поликапролактам (Лист)",
+    "NameEn": "Polycaprolactam (Sheet)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "red_alloy_plate",
+    "NameRu": "Красный сплав (Пластина)",
+    "NameEn": "Red alloy (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "neutronium_plate",
+    "NameRu": "Нейтроний (Пластина)",
+    "NameEn": "Neutronium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "uranium_plate",
+    "NameRu": "Уран 238 (Пластина)",
+    "NameEn": "Uranium 238 (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "plutonium_241_plate",
+    "NameRu": "Плутоний-241 (Пластина)",
+    "NameEn": "Plutonium-241 (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "platinum_plate",
+    "NameRu": "Платина (Пластина)",
+    "NameEn": "Platinum (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "enriched_naquadah_plate",
+    "NameRu": "Обогащённая наквада (Пластина)",
+    "NameEn": "Enriched naquadah (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "aluminium_plate",
+    "NameRu": "Алюминий (Пластина)",
+    "NameEn": "Aluminium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "ruthenium_plate",
+    "NameRu": "Рутений (Пластина)",
+    "NameEn": "Ruthenium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "magnetic_iron_plate",
+    "NameRu": "Магнитное железо (Пластина)",
+    "NameEn": "Magnetic iron (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "invar_plate",
+    "NameRu": "Инвар (Пластина)",
+    "NameEn": "Invar (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "duranium_plate",
+    "NameRu": "Дюраний (Пластина)",
+    "NameEn": "Duranium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "nickel_plate",
+    "NameRu": "Никель (Пластина)",
+    "NameEn": "Nickel (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "zinc_plate",
+    "NameRu": "Цинк (Пластина)",
+    "NameEn": "Zinc (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "watertight_steel_plate",
+    "NameRu": "Водостойкая сталь (Пластина)",
+    "NameEn": "Watertight steel (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "osmiridium_plate",
+    "NameRu": "Осмистый иридий (Пластина)",
+    "NameEn": "Osmiridium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "cobalt_plate",
+    "NameRu": "Кобальт (Пластина)",
+    "NameEn": "Cobalt (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "hsla_steel_plate",
+    "NameRu": "HSLA сталь (Пластина)",
+    "NameEn": "HSLA steel (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "titanium_tungsten_carbide_plate",
+    "NameRu": "Вольфрам-титанановый карбид (Пластина)",
+    "NameEn": "Titanium tungsten carbide (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "polyvinyl_butyral_plate",
+    "NameRu": "Поливинилбутираль (Пластина)",
+    "NameEn": "Polyvinyl butyral (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "manganese_plate",
+    "NameRu": "Марганец (Пластина)",
+    "NameEn": "Manganese (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "niobium_titanium_plate",
+    "NameRu": "Ниобий-титан (Пластина)",
+    "NameEn": "Niobium titanium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "silver_plate",
+    "NameRu": "Серебро (Пластина)",
+    "NameEn": "Silver (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "rhodium_plate",
+    "NameRu": "Родий (Пластина)",
+    "NameEn": "Rhodium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "molybdenum_plate",
+    "NameRu": "Молибден (Пластина)",
+    "NameEn": "molybdenum (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "polyphenylene_sulfide_plate",
+    "NameRu": "Полифениленсульфид (Лист)",
+    "NameEn": "Polyphenylene sulfide (Sheet)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "tin_plate",
+    "NameRu": "Олово (Пластина)",
+    "NameEn": "Tin (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "rocket_alloy_t1_plate",
+    "NameRu": "Красный алюминиево-стальной ракетный сплав (Пластина)",
+    "NameEn": "Rocket alloy t1 (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "hastelloy_x_plate",
+    "NameRu": "Хастеллой-X (Пластина)",
+    "NameEn": "Hastelloy-X (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "niobium_nitride_plate",
+    "NameRu": "Нитрид ниобия (Пластина)",
+    "NameEn": "Niobium nitride (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "cupronickel_plate",
+    "NameRu": "Купроникель (Пластина)",
+    "NameEn": "Cupronickel (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "zirconium_plate",
+    "NameRu": "Цирконий (Пластина)",
+    "NameEn": "Zirconium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "titanium_plate",
+    "NameRu": "Титан (Пластина)",
+    "NameEn": "Titanium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "americium_plate",
+    "NameRu": "Америций 243 (Пластина)",
+    "NameEn": "Americium 243 (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "uranium_235_plate",
+    "NameRu": "Уран-235 (Пластина)",
+    "NameEn": "Uranium-235 (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "gallium_plate",
+    "NameRu": "Галлий (Пластина)",
+    "NameEn": "Gallium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "uranium_triplatinum_plate",
+    "NameRu": "Триплатина уран (Пластина)",
+    "NameEn": "Uranium triplatinum (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "ultimet_plate",
+    "NameRu": "Ультимет (Пластина)",
+    "NameEn": "Ultimet (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "desh_plate",
+    "NameRu": "Деш (Пластина)",
+    "NameEn": "desh (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "tungsten_carbide_plate",
+    "NameRu": "Карбид вольфрама (Пластина)",
+    "NameEn": "Tungsten carbide (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "trinium_plate",
+    "NameRu": "Триниум (Пластина)",
+    "NameEn": "Trinium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "rhodium_plated_palladium_plate",
+    "NameRu": "Палладий с родиевым покрытием (Пластина)",
+    "NameEn": "Rhodium plated palladium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "chromium_plate",
+    "NameRu": "Хром (Пластина)",
+    "NameEn": "Chromium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "ostrum_iodide_plate",
+    "NameRu": "Йодид острума (Пластина)",
+    "NameEn": "ostrum_iodide_dust (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "titanium_carbide_plate",
+    "NameRu": "Карбид титана (Пластина)",
+    "NameEn": "Titanium carbide (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "stainless_steel_plate",
+    "NameRu": "Нержавеющая сталь (Пластина)",
+    "NameEn": "Stainless steel (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "bismuth_plate",
+    "NameRu": "Висмут (Пластина)",
+    "NameEn": "Bismuth (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "bronze_plate",
+    "NameRu": "Бронза (Пластина)",
+    "NameEn": "Bronze (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "ruthenium_trinium_americium_neutronate_plate",
+    "NameRu": "Нейтронат рутения триния америция (Пластина)",
+    "NameEn": "Ruthenium trinium americium neutronate (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "incoloy_ma_956_plate",
+    "NameRu": "Инколой MA-956 (Пластина)",
+    "NameEn": "Incoloy MA-956 (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "brass_plate",
+    "NameRu": "Латунь (Пластина)",
+    "NameEn": "Brass (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "rtm_alloy_plate",
+    "NameRu": "РВМ сплав (Пластина)",
+    "NameEn": "RTM alloy (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "cobalt_brass_plate",
+    "NameRu": "Кобальтовая латунь (Пластина)",
+    "NameEn": "Cobalt brass (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "neodymium_plate",
+    "NameRu": "Неодим (Пластина)",
+    "NameEn": "Neodymium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "silicone_rubber_plate",
+    "NameRu": "Силиконовая резина (Лист)",
+    "NameEn": "Silicone rubber (Sheet)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "rubber_plate",
+    "NameRu": "Резина (Лист)",
+    "NameEn": "Rubber (Sheet)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "black_steel_plate",
+    "NameRu": "Черная сталь (Пластина)",
+    "NameEn": "Black steel (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "black_bronze_plate",
+    "NameRu": "Черная бронза (Пластина)",
+    "NameEn": "Black bronze (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "zeron_100_plate",
+    "NameRu": "Зерон-100 (Пластина)",
+    "NameEn": "Zeron-100 (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "samarium_iron_arsenic_oxide_plate",
+    "NameRu": "Оксид самария железа мышьяка (Пластина)",
+    "NameEn": "Samarium iron arsenic oxide (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "blue_steel_plate",
+    "NameRu": "Синяя сталь (Пластина)",
+    "NameEn": "Blue steel (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "manganese_phosphide_plate",
+    "NameRu": "Фосфид марганца (Пластина)",
+    "NameEn": "Manganese phosphide (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "stellite_100_plate",
+    "NameRu": "Стеллит (Пластина)",
+    "NameEn": "Stellite (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "naquadria_plate",
+    "NameRu": "Наквадрия (Пластина)",
+    "NameEn": "Naquadria (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "epoxy_plate",
+    "NameRu": "Эпоксидная смола (Пластина)",
+    "NameEn": "Epoxy (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "nichrome_plate",
+    "NameRu": "Нихром (Пластина)",
+    "NameEn": "Nichrome (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "europium_plate",
+    "NameRu": "Европий (Пластина)",
+    "NameEn": "Europium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "vanadium_gallium_plate",
+    "NameRu": "Ванадий-Галлий (Пластина)",
+    "NameEn": "Vanadium gallium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "tungsten_plate",
+    "NameRu": "Вольфрам (Пластина)",
+    "NameEn": "Tungsten (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "styrene_butadiene_rubber_plate",
+    "NameRu": "Стирол-бутадиеновая резина (Лист)",
+    "NameEn": "Styrene butadiene rubber (Sheet)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "vanadium_steel_plate",
+    "NameRu": "Ванадиевая сталь (Пластина)",
+    "NameEn": "Vanadium steel (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "tungsten_steel_plate",
+    "NameRu": "Вольфрамовая сталь (Пластина)",
+    "NameEn": "Tungsten steel (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "magnalium_plate",
+    "NameRu": "Магналий (Пластина)",
+    "NameEn": "Magnalium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "polybenzimidazole_plate",
+    "NameRu": "Полибензимидазол (ПБИ) (Лист)",
+    "NameEn": "Polybenzimidazole (Sheet)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "iridium_plate",
+    "NameRu": "Иридий (Пластина)",
+    "NameEn": "Iridium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "red_steel_plate",
+    "NameRu": "Красная сталь (Пластина)",
+    "NameEn": "Red steel (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "polyethylene_plate",
+    "NameRu": "Полиэтилен (Лист)",
+    "NameEn": "Polyethylene (Sheet)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "magnetic_steel_plate",
+    "NameRu": "Магнитная сталь (Пластина)",
+    "NameEn": "Magnetic steel (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "indium_gallium_phosphide_plate",
+    "NameRu": "Индий галлий фосфид (Пластина)",
+    "NameEn": "Indium gallium phosphide (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "osmium_plate",
+    "NameRu": "Осмий (Пластина)",
+    "NameEn": "Osmium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "hastelloy_c_276_plate",
+    "NameRu": "Хастеллой-C276 (Пластина)",
+    "NameEn": "Hastelloy-C276 (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "molybdenum_disilicide_plate",
+    "NameRu": "Дисилицид молибдена (Пластина)",
+    "NameEn": "molybdenum disilicide (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "rose_gold_plate",
+    "NameRu": "Розовое золото (Пластина)",
+    "NameEn": "Rose gold (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "electrum_plate",
+    "NameRu": "Электрум (Пластина)",
+    "NameEn": "Electrum (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "tantalum_plate",
+    "NameRu": "Тантал (Пластина)",
+    "NameEn": "Tantalum (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "polyvinyl_chloride_plate",
+    "NameRu": "Поливинил хлорид (Лист)",
+    "NameEn": "Polyvinyl chloride (Sheet)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "magnesium_diboride_plate",
+    "NameRu": "Диборид магния (Пластина)",
+    "NameEn": "Magnesium diboride (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "sterling_silver_plate",
+    "NameRu": "Стерлинговое серебро (Пластина)",
+    "NameEn": "Sterling silver (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "wrought_iron_plate",
+    "NameRu": "Кованное железо (Пластина)",
+    "NameEn": "Wrought iron (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "tantalum_carbide_plate",
+    "NameRu": "Карбид тантала (Пластина)",
+    "NameEn": "Tantalum carbide (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "polytetrafluoroethylene_plate",
+    "NameRu": "Политетрафторэтилен (Лист)",
+    "NameEn": "Polytetrafluoroethylene (Sheet)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "gallium_arsenide_plate",
+    "NameRu": "Арсенид галлия (Пластина)",
+    "NameEn": "Gallium arsenide (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "kanthal_plate",
+    "NameRu": "Кантал (Пластина)",
+    "NameEn": "Kanthal (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "cadmium_plate",
+    "NameRu": "Кадмий (Пластина)",
+    "NameEn": "Cadmium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "gold_plate",
+    "NameRu": "Золото (Пластина)",
+    "NameEn": "Gold (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "vanadium_plate",
+    "NameRu": "Ванадий (Пластина)",
+    "NameEn": "Vanadium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "uranium_rhodium_dinaquadide_plate",
+    "NameRu": "Уран родий динаквада (Пластина)",
+    "NameEn": "Uranium rhodium dinaquadide (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "yttrium_barium_cuprate_plate",
+    "NameRu": "Оксид иттрия-бария-меди (Пластина)",
+    "NameEn": "Yttrium barium cuprate (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "reinforced_epoxy_resin_plate",
+    "NameRu": "Укреплённая эпоксидная смола (Пластина)",
+    "NameEn": "Reinforced epoxy resin (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "maraging_steel_300_plate",
+    "NameRu": "Мартенситностареющая сталь 300 (Пластина)",
+    "NameEn": "Maraging steel 300 (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "enriched_naquadah_trinium_europium_duranide_plate",
+    "NameRu": "Обогащенный наквада триний европий дюраний (Пластина)",
+    "NameEn": "Enriched naquadah trinium europium duranide (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "palladium_plate",
+    "NameRu": "Палладий (Пластина)",
+    "NameEn": "Palladium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "graphene_plate",
+    "NameRu": "Графен (Пластина)",
+    "NameEn": "Graphene (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "beryllium_plate",
+    "NameRu": "Бериллий (Пластина)",
+    "NameEn": "Beryllium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "blue_alloy_plate",
+    "NameRu": "Синий сплав (Пластина)",
+    "NameEn": "Blue alloy (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "hsse_plate",
+    "NameRu": "HSS-E (Пластина)",
+    "NameEn": "HSS-E (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "hsss_plate",
+    "NameRu": "HSS-S (Пластина)",
+    "NameEn": "HSS-S (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "hssg_plate",
+    "NameRu": "HSS-G (Пластина)",
+    "NameEn": "HSS-G (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "mercury_barium_calcium_cuprate_plate",
+    "NameRu": "Купрат ртути бария кальция (Пластина)",
+    "NameEn": "Mercury barium calcium cuprate (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "bismuth_bronze_plate",
+    "NameRu": "Висмутовая бронза (Пластина)",
+    "NameEn": "Bismuth bronze (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "copper_plate",
+    "NameRu": "Медь (Пластина)",
+    "NameEn": "Copper (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "silicon_plate",
+    "NameRu": "Кремний (Пластина)",
+    "NameEn": "Silicon (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "rocket_alloy_t2_plate",
+    "NameRu": "ASM 4914 титановый ракетный сплав (Пластина)",
+    "NameEn": "Rocket alloy t2 (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "naquadah_alloy_plate",
+    "NameRu": "Сплав наквада (Пластина)",
+    "NameEn": "Naquadah alloy (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "darmstadtium_plate",
+    "NameRu": "Дармштадтий (Пластина)",
+    "NameEn": "Darmstadtium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "battery_alloy_plate",
+    "NameRu": "Аккумуляторный сплав (Пластина)",
+    "NameEn": "Battery alloy (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "naquadah_plate",
+    "NameRu": "Наквада (Пластина)",
+    "NameEn": "Naquadah (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "annealed_copper_plate",
+    "NameRu": "Отожженная медь (Пластина)",
+    "NameEn": "Annealed copper (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "indium_tin_barium_titanium_cuprate_plate",
+    "NameRu": "Купрат индия олова бария титана (Пластина)",
+    "NameEn": "Indium tin barium titanium cuprate (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "ostrum_plate",
+    "NameRu": "Острум (Пластина)",
+    "NameEn": "Ostrum (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "lead_plate",
+    "NameRu": "Свинец (Пластина)",
+    "NameEn": "Lead (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "tin_alloy_plate",
+    "NameRu": "Оловянный сплав (Пластина)",
+    "NameEn": "Tin alloy (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "steel_plate",
+    "NameRu": "Сталь (Пластина)",
+    "NameEn": "Steel (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "tritanium_plate",
+    "NameRu": "Тританий (Пластина)",
+    "NameEn": "Tritanium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "potin_plate",
+    "NameRu": "Потин (Пластина)",
+    "NameEn": "Potin (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "boron_carbide_plate",
+    "NameRu": "Карбид бора (Пластина)",
+    "NameEn": "Boron carbide (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "silicon_carbide_plate",
+    "NameRu": "Карбид кремния (Пластина)",
+    "NameEn": "Silicon carbide (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "inconel_718_plate",
+    "NameRu": "Инконель-718 (Пластина)",
+    "NameEn": "Inconel-718 (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "bakelite_plate",
+    "NameRu": "Бакелит (Пластина)",
+    "NameEn": "Bakelite (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "mo_50_re_plate",
+    "NameRu": "Mo-50 Re (Пластина)",
+    "NameEn": "Mo-50 Re (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "mo_si_b_plate",
+    "NameRu": "Mo-Si-B (Пластина)",
+    "NameEn": "Mo-Si-B (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "calorite_plate",
+    "NameRu": "Калорит (Пластина)",
+    "NameEn": "Calorite (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "tungsten_bismuth_oxide_composite_plate",
+    "NameRu": "Композит оксида-вольфрама-висмута (Пластина)",
+    "NameEn": "Tungsten bismuth oxide composite (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "zirconium_plate",
+    "NameRu": "Цирконий (Пластина)",
+    "NameEn": "Zirconium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "rene_41_plate",
+    "NameRu": "Рене-41 (Пластина)",
+    "NameEn": "Rene 41 (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "zirconium_diboride_plate",
+    "NameRu": "Диборид циркония (Пластина)",
+    "NameEn": "Zirconium diboride (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "etrium_plate",
+    "NameRu": "Этриум (Пластина)",
+    "NameEn": "Etrium (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "ruridit_plate",
+    "NameRu": "Руридит (Пластина)",
+    "NameEn": "Ruridit (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "paper",
+    "NameRu": "Бумага",
+    "NameEn": "Paper",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "sapphire_plate",
+    "NameRu": "Сапфир (Пластина)",
+    "NameEn": "Sapphire (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "topaz_plate",
+    "NameRu": "Топаз (Пластина)",
+    "NameEn": "Topaz (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "grossular_plate",
+    "NameRu": "Гроссуляр (Пластина)",
+    "NameEn": "Grossular (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "quartzite_plate",
+    "NameRu": "Кварц (Пластина)",
+    "NameEn": "Quartzite (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "lapis_plate",
+    "NameRu": "Лазуритит (Пластина)",
+    "NameEn": "Lapis (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "diamond_plate",
+    "NameRu": "Алмаз (Пластина)",
+    "NameEn": "Diamond (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "nether_star_plate",
+    "NameRu": "Звезда незера (Пластина)",
+    "NameEn": "Nether star (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "lazurite_plate",
+    "NameRu": "Лазурит (Пластина)",
+    "NameEn": "Lazurite (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "yellow_garnet_plate",
+    "NameRu": "Жёлтый гранат (Пластина)",
+    "NameEn": "Yellow garnet (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "red_garnet_plate",
+    "NameRu": "Красный гранат (Пластина)",
+    "NameEn": "Red garnet (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "stone_plate",
+    "NameRu": "Камень (Пластина)",
+    "NameEn": "Stone (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "apatite_plate",
+    "NameRu": "Апатит (Пластина)",
+    "NameEn": "Apatite (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "blue_topaz_plate",
+    "NameRu": "Синий топаз (Пластина)",
+    "NameEn": "Blue topaz (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "wood_plate",
+    "NameRu": "МДФ доска",
+    "NameEn": "MDF board",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "amethyst_plate",
+    "NameRu": "Аметист (Пластина)",
+    "NameEn": "Amethyst (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "coal_plate",
+    "NameRu": "Уголь (Пластина)",
+    "NameEn": "Coal (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "redstone_plate",
+    "NameRu": "Редстоуновая пыль (Пластина)",
+    "NameEn": "Redstone (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "glowstone_plate",
+    "NameRu": "Светокамень (Пластина)",
+    "NameEn": "Glowstone (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "ruby_plate",
+    "NameRu": "Рубин (Пластина)",
+    "NameEn": "Ruby (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "opal_plate",
+    "NameRu": "Опал (Пластина)",
+    "NameEn": "Opal (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "emerald_plate",
+    "NameRu": "Изумруд (Пластина)",
+    "NameEn": "Emerald (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "olivine_plate",
+    "NameRu": "Оливин (Пластина)",
+    "NameEn": "Olivine (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "nether_quartz_plate",
+    "NameRu": "Незер кварц (Пластина)",
+    "NameEn": "Nether quartz (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "spessartine_plate",
+    "NameRu": "Спасерит (Пластина)",
+    "NameEn": "Spessartine (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "treated_wood_plate",
+    "NameRu": "Обработанная деревянная доска",
+    "NameEn": "Treated wood board",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "armalcolite_plate",
+    "NameRu": "Армалколит (Пластина)",
+    "NameEn": "Armalcolite (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "sodalite_plate",
+    "NameRu": "Содалит (Пластина)",
+    "NameEn": "Sodalite (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "green_sapphire_plate",
+    "NameRu": "Зелёный сапфир (Пластина)",
+    "NameEn": "Green sapphire (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "obsidian_plate",
+    "NameRu": "Обсидиан (Пластина)",
+    "NameEn": "Obsidian (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "ender_pearl_plate",
+    "NameRu": "Эндер жемчуг (Пластина)",
+    "NameEn": "Ender pearl (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "certus_quartz_plate",
+    "NameRu": "Истинный кварц (Пластина)",
+    "NameEn": "Certus quartz (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "glass_plate",
+    "NameRu": "Стекло (Пластина)",
+    "NameEn": "Glass (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "ammonia_borane_plate",
+    "NameRu": "Боразан (Пластина)",
+    "NameEn": "Sapphire (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "alumina_plate",
+    "NameRu": "Оксид алюминия (Пластина)",
+    "NameEn": "Alumina (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "basalt_fiber_plate",
+    "NameRu": "Базальтовое волокно (Пластина)",
+    "NameEn": "Basalt fiber (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "cardboard",
+    "NameRu": "Картон",
+    "NameEn": "Cardboard",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "rose_quartz_plate",
+    "NameRu": "Розовый кварц (Пластина)",
+    "NameEn": "Rose quartz (Plate)",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  },
+
+  {
+    "Id": "aes_insulation_plate",
+    "NameRu": "Щелочноземмельная силикатная шерстяная пластина",
+    "NameEn": "AES insulation plate",
+    "Type": "Пластина",
+    "Tag": "forge:plates"
+  }
+]

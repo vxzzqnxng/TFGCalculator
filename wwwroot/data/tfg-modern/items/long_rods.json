@@ -1,0 +1,593 @@
+﻿[
+  {
+    "Id": "long_iron_rod",
+    "NameRu": "Серый чугун (Прут)",
+    "NameEn": "Iron (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_diamond_rod",
+    "NameRu": "Алмаз (Прут)",
+    "NameEn": "Diamond (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_ruridit_rod",
+    "NameRu": "Руридит (Прут)",
+    "NameEn": "Ruridit (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_diamond_tipped_mo_50_re_rod",
+    "NameRu": "Mo-50Re с алмазным напылением (Прут)",
+    "NameEn": "Diamond tipped Mo-50Re (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_neutronium_rod",
+    "NameRu": "Нейтроний (Прут)",
+    "NameEn": "Neutronium (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_platinum_rod",
+    "NameRu": "Платина (Прут)",
+    "NameEn": "Platinum (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_aluminium_rod",
+    "NameRu": "Алюминий (Прут)",
+    "NameEn": "Aluminium (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_invar_rod",
+    "NameRu": "Инвар (Прут)",
+    "NameEn": "Invar (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_duranium_rod",
+    "NameRu": "Дюраний (Прут)",
+    "NameEn": "Duranium (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_nickel_rod",
+    "NameRu": "Никель (Прут)",
+    "NameEn": "Nickel (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_zinc_rod",
+    "NameRu": "Цинк (Прут)",
+    "NameEn": "Zinc (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_thorium_232_rod",
+    "NameRu": "Торий 232 (Прут)",
+    "NameEn": "Thorium 232 (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_osmiridium_rod",
+    "NameRu": "Осмистый иридий (Прут)",
+    "NameEn": "Osmiridium (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_hsla_steel_rod",
+    "NameRu": "HSLA сталь (Прут)",
+    "NameEn": "HSLA steel (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_niobium_titanium_rod",
+    "NameRu": "Ниобий-титан (Прут)",
+    "NameEn": "Niobium titanium (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_silver_rod",
+    "NameRu": "Серебро (Прут)",
+    "NameEn": "Silver (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_rhodium_rod",
+    "NameRu": "Родий (Прут)",
+    "NameEn": "Rhodium (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_hsss_rod",
+    "NameRu": "HSS-S (Прут)",
+    "NameEn": "HSS-S (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_tin_rod",
+    "NameRu": "Олово (Прут)",
+    "NameEn": "Tin (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_cupronickel_rod",
+    "NameRu": "Купроникель (Прут)",
+    "NameEn": "Cupronickel (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_titanium_rod",
+    "NameRu": "Титан (Прут)",
+    "NameEn": "Titanium (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_ultimet_rod",
+    "NameRu": "Ультимет (Прут)",
+    "NameEn": "Ultimet (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_hssg_rod",
+    "NameRu": "HSS-G (Прут)",
+    "NameEn": "HSS-G (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_tungsten_carbide_rod",
+    "NameRu": "Карбид вольфрама (Прут)",
+    "NameEn": "Tungsten carbide (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_trinium_rod",
+    "NameRu": "Триниум (Прут)",
+    "NameEn": "Trinium (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_rhodium_plated_palladium_rod",
+    "NameRu": "Палладий с родиевым покрытием (Прут)",
+    "NameEn": "Rhodium plated palladium (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_ostrum_iodide_rod",
+    "NameRu": "Йодид острума (Прут)",
+    "NameEn": "ostrum_iodide_dust (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_samarium_rod",
+    "NameRu": "Самарий (Прут)",
+    "NameEn": "Samarium (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_stainless_steel_rod",
+    "NameRu": "Нержавеющая сталь (Прут)",
+    "NameEn": "Stainless steel (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_bismuth_rod",
+    "NameRu": "Висмут (Прут)",
+    "NameEn": "Bismuth (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_bronze_rod",
+    "NameRu": "Бронза (Прут)",
+    "NameEn": "Bronze (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_brass_rod",
+    "NameRu": "Латунь (Прут)",
+    "NameEn": "Brass (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_rtm_alloy_rod",
+    "NameRu": "РВМ сплав (Прут)",
+    "NameEn": "RTM alloy (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_cobalt_brass_rod",
+    "NameRu": "Кобальтовая латунь (Прут)",
+    "NameEn": "Cobalt brass (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_black_steel_rod",
+    "NameRu": "Черная сталь (Прут)",
+    "NameEn": "Black steel (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_black_bronze_rod",
+    "NameRu": "Черная бронза (Прут)",
+    "NameEn": "Black bronze (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_magnetic_samarium_rod",
+    "NameRu": "Магнитный самарий (Прут)",
+    "NameEn": "Magnetic samarium (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_blue_steel_rod",
+    "NameRu": "Синяя сталь (Прут)",
+    "NameEn": "Blue steel (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_nichrome_rod",
+    "NameRu": "Нихром (Прут)",
+    "NameEn": "Nichrome (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_europium_rod",
+    "NameRu": "Европий (Прут)",
+    "NameEn": "Europium (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_thorium_230_rod",
+    "NameRu": "Торий 230 (Прут)",
+    "NameEn": "Thorium 230 (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_vanadium_gallium_rod",
+    "NameRu": "Ванадий-Галлий (Прут)",
+    "NameEn": "Vanadium gallium (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_tungsten_rod",
+    "NameRu": "Вольфрам (Прут)",
+    "NameEn": "Tungsten (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_plutonium_rod",
+    "NameRu": "Плутоний 239 (Прут)",
+    "NameEn": "Plutonium 239 (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_vanadium_steel_rod",
+    "NameRu": "Ванадиевая сталь (Прут)",
+    "NameEn": "Vanadium steel (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_tungsten_steel_rod",
+    "NameRu": "Вольфрамовая сталь (Прут)",
+    "NameEn": "Tungsten steel (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_magnalium_rod",
+    "NameRu": "Магналий (Прут)",
+    "NameEn": "Magnalium (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_iridium_rod",
+    "NameRu": "Иридий (Прут)",
+    "NameEn": "Iridium (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_red_steel_rod",
+    "NameRu": "Красная сталь (Прут)",
+    "NameEn": "Red steel (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_osmium_rod",
+    "NameRu": "Осмий (Прут)",
+    "NameEn": "Osmium (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_molybdenum_disilicide_rod",
+    "NameRu": "Дисилицид молибдена (Прут)",
+    "NameEn": "molybdenum disilicide (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_rose_gold_rod",
+    "NameRu": "Розовое золото (Прут)",
+    "NameEn": "Rose gold (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_electrum_rod",
+    "NameRu": "Электрум (Прут)",
+    "NameEn": "Electrum (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_sterling_silver_rod",
+    "NameRu": "Стерлинговое серебро (Прут)",
+    "NameEn": "Sterling silver (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_wrought_iron_rod",
+    "NameRu": "Кованное железо (Прут)",
+    "NameEn": "Wrought iron (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_kanthal_rod",
+    "NameRu": "Кантал (Прут)",
+    "NameEn": "Kanthal (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_gold_rod",
+    "NameRu": "Золото (Прут)",
+    "NameEn": "Gold (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_yttrium_barium_cuprate_rod",
+    "NameRu": "Оксид иттрия-бария-меди (Прут)",
+    "NameEn": "Yttrium barium cuprate (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_hsse_rod",
+    "NameRu": "HSS-E (Прут)",
+    "NameEn": "HSS-E (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_bismuth_bronze_rod",
+    "NameRu": "Висмутовая бронза (Прут)",
+    "NameEn": "Bismuth bronze (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_copper_rod",
+    "NameRu": "Медь (Прут)",
+    "NameEn": "Copper (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_naquadah_alloy_rod",
+    "NameRu": "Сплав наквада (Прут)",
+    "NameEn": "Naquadah alloy (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_darmstadtium_rod",
+    "NameRu": "Дармштадтий (Прут)",
+    "NameEn": "Darmstadtium (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_naquadah_rod",
+    "NameRu": "Наквада (Прут)",
+    "NameEn": "Naquadah (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_annealed_copper_rod",
+    "NameRu": "Отожженная медь (Прут)",
+    "NameEn": "Annealed copper (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_lead_rod",
+    "NameRu": "Свинец (Прут)",
+    "NameEn": "Lead (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_tin_alloy_rod",
+    "NameRu": "Оловянный сплав (Прут)",
+    "NameEn": "Tin alloy (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_steel_rod",
+    "NameRu": "Сталь (Прут)",
+    "NameEn": "Steel (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_tritanium_rod",
+    "NameRu": "Тританий (Прут)",
+    "NameEn": "Tritanium (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_potin_rod",
+    "NameRu": "Потин (Прут)",
+    "NameEn": "Potin (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_boron_carbide_rod",
+    "NameRu": "Карбид бора (Прут)",
+    "NameEn": "Boron carbide (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_rene_41_rod",
+    "NameRu": "Рене-41 (Прут)",
+    "NameEn": "Rene 41 (Long rod)",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_wood_rod",
+    "NameRu": "Длинная деревянная палка",
+    "NameEn": "Long wood rod",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  },
+
+  {
+    "Id": "long_treated_wood_rod",
+    "NameRu": "Длинная обработанная деревянная палка",
+    "NameEn": "Long treated wood rod",
+    "Type": "Прут",
+    "Tag": "forge:long_rods"
+  }
+]

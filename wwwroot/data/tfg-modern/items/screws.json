@@ -1,0 +1,577 @@
+﻿[
+  {
+    "Id": "iron_screw",
+    "NameRu": "Серый чугун (Винт)",
+    "NameEn": "Iron (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "ruridit_screw",
+    "NameRu": "Руридит (Винт)",
+    "NameEn": "Ruridit (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "red_alloy_screw",
+    "NameRu": "Красный сплав (Винт)",
+    "NameEn": "Red alloy (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "neutronium_screw",
+    "NameRu": "Нейтроний (Винт)",
+    "NameEn": "Neutronium (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "platinum_screw",
+    "NameRu": "Платина (Винт)",
+    "NameEn": "Platinum (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "aluminium_screw",
+    "NameRu": "Алюминий (Винт)",
+    "NameEn": "Aluminium (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "magnetic_iron_screw",
+    "NameRu": "Магнитное железо (Винт)",
+    "NameEn": "Magnetic iron (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "invar_screw",
+    "NameRu": "Инвар (Винт)",
+    "NameEn": "Invar (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "duranium_screw",
+    "NameRu": "Дюраний (Винт)",
+    "NameEn": "Duranium (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "zinc_screw",
+    "NameRu": "Цинк (Винт)",
+    "NameEn": "Zinc (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "osmiridium_screw",
+    "NameRu": "Осмистый иридий (Винт)",
+    "NameEn": "Osmiridium (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "hsla_steel_screw",
+    "NameRu": "HSLA сталь (Винт)",
+    "NameEn": "HSLA steel (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "manganese_screw",
+    "NameRu": "Марганец (Винт)",
+    "NameEn": "Manganese (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "niobium_titanium_screw",
+    "NameRu": "Ниобий-титан (Винт)",
+    "NameEn": "Niobium titanium (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "silver_screw",
+    "NameRu": "Серебро (Винт)",
+    "NameEn": "Silver (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "rhodium_screw",
+    "NameRu": "Родий (Винт)",
+    "NameEn": "Rhodium (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "hsss_screw",
+    "NameRu": "HSS-S (Винт)",
+    "NameEn": "HSS-S (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "molybdenum_screw",
+    "NameRu": "Молибден (Винт)",
+    "NameEn": "molybdenum (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "tin_screw",
+    "NameRu": "Олово (Винт)",
+    "NameEn": "Tin (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "rocket_alloy_t1_screw",
+    "NameRu": "Красный алюминиево-стальной ракетный сплав (Винт)",
+    "NameEn": "Rocket alloy t1 (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "cupronickel_screw",
+    "NameRu": "Купроникель (Винт)",
+    "NameEn": "Cupronickel (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "titanium_screw",
+    "NameRu": "Титан (Винт)",
+    "NameEn": "Titanium (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "ultimet_screw",
+    "NameRu": "Ультимет (Винт)",
+    "NameEn": "Ultimet (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "hssg_screw",
+    "NameRu": "HSS-G (Винт)",
+    "NameEn": "HSS-G (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "tungsten_carbide_screw",
+    "NameRu": "Карбид вольфрама (Винт)",
+    "NameEn": "Tungsten carbide (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "trinium_screw",
+    "NameRu": "Триниум (Винт)",
+    "NameEn": "Trinium (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "rhodium_plated_palladium_screw",
+    "NameRu": "Палладий с родиевым покрытием (Винт)",
+    "NameEn": "Rhodium plated palladium (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "chromium_screw",
+    "NameRu": "Хром (Винт)",
+    "NameEn": "Chromium (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "stainless_steel_screw",
+    "NameRu": "Нержавеющая сталь (Винт)",
+    "NameEn": "Stainless steel (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "bismuth_screw",
+    "NameRu": "Висмут (Винт)",
+    "NameEn": "Bismuth (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "bronze_screw",
+    "NameRu": "Бронза (Винт)",
+    "NameEn": "Bronze (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "brass_screw",
+    "NameRu": "Латунь (Винт)",
+    "NameEn": "Brass (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "cobalt_brass_screw",
+    "NameRu": "Кобальтовая латунь (Винт)",
+    "NameEn": "Cobalt brass (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "neodymium_screw",
+    "NameRu": "Неодим (Винт)",
+    "NameEn": "Neodymium (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "black_steel_screw",
+    "NameRu": "Черная сталь (Винт)",
+    "NameEn": "Black steel (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "black_bronze_screw",
+    "NameRu": "Черная бронза (Винт)",
+    "NameEn": "Black bronze (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "blue_steel_screw",
+    "NameRu": "Синяя сталь (Винт)",
+    "NameEn": "Blue steel (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "naquadria_screw",
+    "NameRu": "Наквадрия (Винт)",
+    "NameEn": "Naquadria (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "tungsten_screw",
+    "NameRu": "Вольфрам (Винт)",
+    "NameEn": "Tungsten (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "vanadium_steel_screw",
+    "NameRu": "Ванадиевая сталь (Винт)",
+    "NameEn": "Vanadium steel (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "tungsten_steel_screw",
+    "NameRu": "Вольфрамовая сталь (Винт)",
+    "NameEn": "Tungsten steel (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "magnalium_screw",
+    "NameRu": "Магналий (Винт)",
+    "NameEn": "Magnalium (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "iridium_screw",
+    "NameRu": "Иридий (Винт)",
+    "NameEn": "Iridium (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "red_steel_screw",
+    "NameRu": "Красная сталь (Винт)",
+    "NameEn": "Red steel (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "osmium_screw",
+    "NameRu": "Осмий (Винт)",
+    "NameEn": "Osmium (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "rose_gold_screw",
+    "NameRu": "Розовое золото (Винт)",
+    "NameEn": "Rose gold (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "electrum_screw",
+    "NameRu": "Электрум (Винт)",
+    "NameEn": "Electrum (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "sterling_silver_screw",
+    "NameRu": "Стерлинговое серебро (Винт)",
+    "NameEn": "Sterling silver (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "wrought_iron_screw",
+    "NameRu": "Кованное железо (Винт)",
+    "NameEn": "Wrought iron (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "gold_screw",
+    "NameRu": "Золото (Винт)",
+    "NameEn": "Gold (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "yttrium_barium_cuprate_screw",
+    "NameRu": "Оксид иттрия-бария-меди (Винт)",
+    "NameEn": "Yttrium barium cuprate (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "blue_alloy_screw",
+    "NameRu": "Синий сплав (Винт)",
+    "NameEn": "Blue alloy (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "hsse_screw",
+    "NameRu": "HSS-E (Винт)",
+    "NameEn": "HSS-E (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "bismuth_bronze_screw",
+    "NameRu": "Висмутовая бронза (Винт)",
+    "NameEn": "Bismuth bronze (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+  
+  {
+    "Id": "copper_screw",
+    "NameRu": "Медь (Винт)",
+    "NameEn": "Copper (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "rocket_alloy_t2_screw",
+    "NameRu": "ASM 4914 титановый ракетный сплав (Винт)",
+    "NameEn": "Rocket alloy t2 (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+  
+  {
+    "Id": "naquadah_alloy_screw",
+    "NameRu": "Сплав наквада (Винт)",
+    "NameEn": "Naquadah alloy (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "darmstadtium_screw",
+    "NameRu": "Дармштадтий (Винт)",
+    "NameEn": "Darmstadtium (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "naquadah_screw",
+    "NameRu": "Наквада (Винт)",
+    "NameEn": "Naquadah (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "annealed_copper_screw",
+    "NameRu": "Отожженная медь (Винт)",
+    "NameEn": "Annealed copper (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "lead_screw",
+    "NameRu": "Свинец (Винт)",
+    "NameEn": "Lead (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "tin_alloy_screw",
+    "NameRu": "Оловянный сплав (Винт)",
+    "NameEn": "Tin alloy (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "steel_screw",
+    "NameRu": "Сталь (Винт)",
+    "NameEn": "Steel (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "tritanium_screw",
+    "NameRu": "Тританий (Винт)",
+    "NameEn": "Tritanium (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "potin_screw",
+    "NameRu": "Потин (Винт)",
+    "NameEn": "Potin (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "mo_50_re_screw",
+    "NameRu": "Mo-50 Re (Винт)",
+    "NameEn": "Mo-50 Re (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "mo_si_b_screw",
+    "NameRu": "Mo-Si-B (Винт)",
+    "NameEn": "Mo-Si-B (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "tungsten_bismuth_oxide_composite_screw",
+    "NameRu": "Композит оксида-вольфрама-висмута (Винт)",
+    "NameEn": "Tungsten bismuth oxide composite (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "diamond_screw",
+    "NameRu": "Алмаз (Винт)",
+    "NameEn": "Diamond (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "wood_screw",
+    "NameRu": "Дерево (Винт)",
+    "NameEn": "Wood (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "inconel_718_screw",
+    "NameRu": "Инконель-718 (Винт)",
+    "NameEn": "Inconel-718 (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  },
+
+  {
+    "Id": "rene_41_screw",
+    "NameRu": "Рене-41 (Винт)",
+    "NameEn": "Rene 41 (Screw)",
+    "Type": "Винт",
+    "Tag": "forge:screws"
+  }
+]

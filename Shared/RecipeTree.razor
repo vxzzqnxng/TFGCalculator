@@ -1,6 +1,7 @@
 ﻿<div class="tree-panel" id="tree-pan-container">
     <div class="tree-inner" id="tree-inner">
         <svg class="tree-arrows-svg" id="tree-arrows-svg"></svg>
+        @* ничего менять не нужно в разметке *@
         @if (_flatNodes != null)
         {
             @foreach (var node in _flatNodes)
@@ -8,6 +9,7 @@
                 <RecipeTreeNode Node="@node" ModpackId="@ModpackId"
                                 OnTierChangedCallback="@HandleChanged" OnRecipeSelected="@HandleChanged"
                                 OnStorageSelected="@HandleChanged"
+                                OnAddAlternative="@HandleAddAlternative"
                                 OpenDropdownNodeId="@_openDropdownNodeId"
                                 OnRequestOpenDropdown="@OnRequestOpenDropdown" />
             }

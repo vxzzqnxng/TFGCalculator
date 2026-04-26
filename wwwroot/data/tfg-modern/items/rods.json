@@ -1,0 +1,1073 @@
+﻿[
+  {
+    "Id": "iron_rod",
+    "NameRu": "Серый чугун (Стержень)",
+    "NameEn": "Iron (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "red_garnet_rod",
+    "NameRu": "Красный гранат (Стержень)",
+    "NameEn": "Red garnet (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "silicone_rubber_rod",
+    "NameRu": "Силиконовая резина (Стержень)",
+    "NameEn": "Silicone rubber (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "certus_quartz_rod",
+    "NameRu": "Истинный кварц (Стержень)",
+    "NameEn": "Certus quartz (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "opal_rod",
+    "NameRu": "Опал (Стержень)",
+    "NameEn": "Opal (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "lapis_rod",
+    "NameRu": "Лазуритит (Стержень)",
+    "NameEn": "Lapis (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "styrene_butadiene_rubber_rod",
+    "NameRu": "Стирол-бутадиеновая резина (Стержень)",
+    "NameEn": "Styrene butadiene rubber (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "diamond_rod",
+    "NameRu": "Алмаз (Стержень)",
+    "NameEn": "Diamond (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "sodalite_rod",
+    "NameRu": "Содалит (Стержень)",
+    "NameEn": "Sodalite (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "yellow_garnet_rod",
+    "NameRu": "Желтый гранат (Стержень)",
+    "NameEn": " (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "nether_quartz_rod",
+    "NameRu": "Незер-кварц (Стержень)",
+    "NameEn": "Nether quartz (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "topaz_rod",
+    "NameRu": "Топаз (Стержень)",
+    "NameEn": "Topaz (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "rubber_rod",
+    "NameRu": "Резина (Стержень)",
+    "NameEn": "Rubber (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "lazurite_rod",
+    "NameRu": "Лазурит (Стержень)",
+    "NameEn": "Lazurite (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "green_sapphire_rod",
+    "NameRu": "Зеленый сапфир (Стержень)",
+    "NameEn": "Green sapphire (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "emerald_rod",
+    "NameRu": "Изумруд (Стержень)",
+    "NameEn": "Emerald (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "amethyst_rod",
+    "NameRu": "Аметист (Стержень)",
+    "NameEn": "Amethyst (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "blue_topaz_rod",
+    "NameRu": "Синий топаз (Стержень)",
+    "NameEn": "Blue topaz (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "olivine_rod",
+    "NameRu": "Оливин (Стержень)",
+    "NameEn": "Olivine (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "quartzite_rod",
+    "NameRu": "Кварц (Стержень)",
+    "NameEn": "Quartzite (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "sapphire_rod",
+    "NameRu": "Сапфир (Стержень)",
+    "NameEn": "Sapphire (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "ruby_rod",
+    "NameRu": "Рубин (Стержень)",
+    "NameEn": "Ruby (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "ruridit_rod",
+    "NameRu": "Руридит (Стержень)",
+    "NameEn": "Ruridit (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "diamond_tipped_mo_50_re_rod",
+    "NameRu": "Mo-50Re с алмазным напылением (Стержень)",
+    "NameEn": "Diamond tipped Mo-50Re (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "red_alloy_rod",
+    "NameRu": "Красный сплав (Стержень)",
+    "NameEn": "Red alloy (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "neutronium_rod",
+    "NameRu": "Нейтроний (Стержень)",
+    "NameEn": "Neutronium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "uranium_rod",
+    "NameRu": "Уран 238 (Стержень)",
+    "NameEn": "Uranium 238 (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "plutonium_241_rod",
+    "NameRu": "Плутоний-241 (Стержень)",
+    "NameEn": "Plutonium-241 (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "platinum_rod",
+    "NameRu": "Платина (Стержень)",
+    "NameEn": "Platinum (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "enriched_naquadah_rod",
+    "NameRu": "Обогащённыя наквада (Стержень)",
+    "NameEn": "Enriched naquadah (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "aluminium_rod",
+    "NameRu": "Алюминий (Стержень)",
+    "NameEn": "Aluminium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "ruthenium_rod",
+    "NameRu": "Рутений (Стержень)",
+    "NameEn": "Ruthenium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "magnetic_iron_rod",
+    "NameRu": "Магнитное железо (Стержень)",
+    "NameEn": "Magnetic iron (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "invar_rod",
+    "NameRu": "Инвар (Стержень)",
+    "NameEn": "Invar (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "duranium_rod",
+    "NameRu": "Дюраний (Стержень)",
+    "NameEn": "Duranium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "nickel_rod",
+    "NameRu": "Никель (Стержень)",
+    "NameEn": "Nickel (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "zinc_rod",
+    "NameRu": "Цинк (Стержень)",
+    "NameEn": "Zinc (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "watertight_steel_rod",
+    "NameRu": "Водостойкая сталь (Стержень)",
+    "NameEn": "Watertight steel (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "thorium_232_rod",
+    "NameRu": "Торий 232 (Стержень)",
+    "NameEn": "Thorium 232 (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "osmiridium_rod",
+    "NameRu": "Осмистый иридий (Стержень)",
+    "NameEn": "Osmiridium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "cobalt_rod",
+    "NameRu": "Кобальт (Стержень)",
+    "NameEn": "Cobalt (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "hsla_steel_rod",
+    "NameRu": "HSLA сталь (Стержень)",
+    "NameEn": "HSLA steel (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "manganese_rod",
+    "NameRu": "Марганец (Стержень)",
+    "NameEn": "Manganese (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "niobium_titanium_rod",
+    "NameRu": "Ниобий-титан (Стержень)",
+    "NameEn": "Niobium titanium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "silver_rod",
+    "NameRu": "Серебро (Стержень)",
+    "NameEn": "Silver (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "rhodium_rod",
+    "NameRu": "Родий (Стержень)",
+    "NameEn": "Rhodium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "hsss_rod",
+    "NameRu": "HSS-S (Стержень)",
+    "NameEn": "HSS-S (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "molybdenum_rod",
+    "NameRu": "Молибден (Стержень)",
+    "NameEn": "molybdenum (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "polyphenylene_sulfide_rod",
+    "NameRu": "Полифениленсульфид (Стержень)",
+    "NameEn": "Polyphenylene sulfide (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "tin_rod",
+    "NameRu": "Олово (Стержень)",
+    "NameEn": "Tin (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "rocket_alloy_t1_rod",
+    "NameRu": "Красный алюминиево-стальной ракетный сплав (Стержень)",
+    "NameEn": "Rocket alloy t1 (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "hastelloy_x_rod",
+    "NameRu": "Хастеллой-X (Стержень)",
+    "NameEn": "Hastelloy-X (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "niobium_nitride_rod",
+    "NameRu": "Нитрид ниобия (Стержень)",
+    "NameEn": "Niobium nitride (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "cupronickel_rod",
+    "NameRu": "Купроникель (Стержень)",
+    "NameEn": "Cupronickel (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "titanium_rod",
+    "NameRu": "Титан (Стержень)",
+    "NameEn": "Titanium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "americium_rod",
+    "NameRu": "Америций 243 (Стержень)",
+    "NameEn": "Americium 243 (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "uranium_235_rod",
+    "NameRu": "Уран-235 (Стержень)",
+    "NameEn": "Uranium-235 (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "californium_252_rod",
+    "NameRu": "Калифорний 252 (Стержень)",
+    "NameEn": "Californium 252 (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "ultimet_rod",
+    "NameRu": "Ультимет (Стержень)",
+    "NameEn": "Ultimet (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "hssg_rod",
+    "NameRu": "HSS-G (Стержень)",
+    "NameEn": "HSS-G (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "desh_rod",
+    "NameRu": "Деш (Стержень)",
+    "NameEn": "desh (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "tungsten_carbide_rod",
+    "NameRu": "Карбид вольфрама (Стержень)",
+    "NameEn": "Tungsten carbide (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "trinium_rod",
+    "NameRu": "Триниум (Стержень)",
+    "NameEn": "Trinium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "neptunium_237_rod",
+    "NameRu": "Нептуний 237 (Стержень)",
+    "NameEn": "Neptunium 237 (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "rhodium_plated_palladium_rod",
+    "NameRu": "Палладий с родиевым покрытием (Стержень)",
+    "NameEn": "Rhodium plated palladium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "chromium_rod",
+    "NameRu": "Хром (Стержень)",
+    "NameEn": "Chromium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "ostrum_iodide_rod",
+    "NameRu": "Йодид острума (Стержень)",
+    "NameEn": "ostrum_iodide_dust (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "nickel_zinc_ferrite_rod",
+    "NameRu": "Никель цинк феррит (Стержень)",
+    "NameEn": "Nickel zinc ferrite (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "samarium_rod",
+    "NameRu": "Самарий (Стержень)",
+    "NameEn": "Samarium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "stainless_steel_rod",
+    "NameRu": "Нержавеющая сталь (Стержень)",
+    "NameEn": "Stainless steel (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "bismuth_rod",
+    "NameRu": "Висмут (Стержень)",
+    "NameEn": "Bismuth (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "bronze_rod",
+    "NameRu": "Бронза (Стержень)",
+    "NameEn": "Bronze (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "incoloy_ma_956_rod",
+    "NameRu": "Инколой MA-956 (Стержень)",
+    "NameEn": "Incoloy MA-956 (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "brass_rod",
+    "NameRu": "Латунь (Стержень)",
+    "NameEn": "Brass (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "rtm_alloy_rod",
+    "NameRu": "РВМ сплав (Стержень)",
+    "NameEn": "RTM alloy (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "cobalt_brass_rod",
+    "NameRu": "Кобальтовая латунь (Стержень)",
+    "NameEn": "Cobalt brass (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "neodymium_rod",
+    "NameRu": "Неодим (Стержень)",
+    "NameEn": "Neodymium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "black_steel_rod",
+    "NameRu": "Черная сталь (Стержень)",
+    "NameEn": "Black steel (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "black_bronze_rod",
+    "NameRu": "Черная бронза (Стержень)",
+    "NameEn": "Black bronze (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "magnetic_samarium_rod",
+    "NameRu": "Магнитный самарий (Стержень)",
+    "NameEn": "Magnetic samarium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "blue_steel_rod",
+    "NameRu": "Синяя сталь (Стержень)",
+    "NameEn": "Blue steel (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "naquadria_rod",
+    "NameRu": "Наквадрия (Стержень)",
+    "NameEn": "Naquadria (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "magnetic_neodymium_rod",
+    "NameRu": "Магнитный неодим (Стержень)",
+    "NameEn": "Magnetic neodymium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "nichrome_rod",
+    "NameRu": "Нихром (Стержень)",
+    "NameEn": "Nichrome (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "americium_rod",
+    "NameRu": "Америций 241 (Стержень)",
+    "NameEn": "Americium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "europium_rod",
+    "NameRu": "Европий (Стержень)",
+    "NameEn": "Europium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "thorium_230_rod",
+    "NameRu": "Торий 230 (Стержень)",
+    "NameEn": "Thorium 230 (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "vanadium_gallium_rod",
+    "NameRu": "Ванадий-Галлий (Стержень)",
+    "NameEn": "Vanadium gallium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "tungsten_rod",
+    "NameRu": "Вольфрам (Стержень)",
+    "NameEn": "Tungsten (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "plutonium_rod",
+    "NameRu": "Плутоний 239 (Стержень)",
+    "NameEn": "Plutonium 239 (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "vanadium_steel_rod",
+    "NameRu": "Ванадиевая сталь (Стержень)",
+    "NameEn": "Vanadium steel (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "tungsten_steel_rod",
+    "NameRu": "Вольфрамовая сталь (Стержень)",
+    "NameEn": "Tungsten steel (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "magnalium_rod",
+    "NameRu": "Магналий (Стержень)",
+    "NameEn": "Magnalium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "iridium_rod",
+    "NameRu": "Иридий (Стержень)",
+    "NameEn": "Iridium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "red_steel_rod",
+    "NameRu": "Красная сталь (Стержень)",
+    "NameEn": "Red steel (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "magnetic_steel_rod",
+    "NameRu": "Магнитная сталь (Стержень)",
+    "NameEn": "Magnetic steel (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "osmium_rod",
+    "NameRu": "Осмий (Стержень)",
+    "NameEn": "Osmium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "hastelloy_c_276_rod",
+    "NameRu": "Хастеллой-C276 (Стержень)",
+    "NameEn": "Hastelloy-C276 (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "molybdenum_disilicide_rod",
+    "NameRu": "Дисилицид молибдена (Стержень)",
+    "NameEn": "molybdenum disilicide (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "rose_gold_rod",
+    "NameRu": "Розовое золото (Стержень)",
+    "NameEn": "Rose gold (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "electrum_rod",
+    "NameRu": "Электрум (Стержень)",
+    "NameEn": "Electrum (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "polyvinyl_chloride_rod",
+    "NameRu": "Поливинил хлорид (Стержень)",
+    "NameEn": "Polyvinyl chloride (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "sterling_silver_rod",
+    "NameRu": "Стерлинговое серебро (Стержень)",
+    "NameEn": "Sterling silver (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "wrought_iron_rod",
+    "NameRu": "Кованное железо (Стержень)",
+    "NameEn": "Wrought iron (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "polytetrafluoroethylene_rod",
+    "NameRu": "Политетрафторэтилен (Стержень)",
+    "NameEn": "Polytetrafluoroethylene (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "kanthal_rod",
+    "NameRu": "Кантал (Стержень)",
+    "NameEn": "Kanthal (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "gold_rod",
+    "NameRu": "Золото (Стержень)",
+    "NameEn": "Gold (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "yttrium_barium_cuprate_rod",
+    "NameRu": "Оксид иттрия-бария-меди (Стержень)",
+    "NameEn": "Yttrium barium cuprate (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "maraging_steel_300_rod",
+    "NameRu": "Мартенситностареющая сталь 300 (Стержень)",
+    "NameEn": "Maraging steel 300 (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "palladium_rod",
+    "NameRu": "Палладий (Стержень)",
+    "NameEn": "Palladium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "blue_alloy_rod",
+    "NameRu": "Синий сплав (Стержень)",
+    "NameEn": "Blue alloy (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "hsse_rod",
+    "NameRu": "HSS-E (Стержень)",
+    "NameEn": "HSS-E (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "bismuth_bronze_rod",
+    "NameRu": "Висмутовая бронза (Стержень)",
+    "NameEn": "Bismuth bronze (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "copper_rod",
+    "NameRu": "Медь (Стержень)",
+    "NameEn": "Copper (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "rocket_alloy_t2_rod",
+    "NameRu": "ASM 4914 титановый ракетный сплав (Стержень)",
+    "NameEn": "Rocket alloy t2 (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "naquadah_alloy_rod",
+    "NameRu": "Сплав наквада (Стержень)",
+    "NameEn": "Naquadah alloy (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "darmstadtium_rod",
+    "NameRu": "Дармштадтий (Стержень)",
+    "NameEn": "Darmstadtium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "battery_alloy_rod",
+    "NameRu": "Аккумуляторный сплав (Стержень)",
+    "NameEn": "Battery alloy (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "naquadah_rod",
+    "NameRu": "Наквада (Стержень)",
+    "NameEn": "Naquadah (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "annealed_copper_rod",
+    "NameRu": "Отожженная медь (Стержень)",
+    "NameEn": "Annealed copper (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "ostrum_rod",
+    "NameRu": "Острум (Стержень)",
+    "NameEn": "Ostrum (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "lead_rod",
+    "NameRu": "Свинец (Стержень)",
+    "NameEn": "Lead (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "tin_alloy_rod",
+    "NameRu": "Оловянный сплав (Стержень)",
+    "NameEn": "Tin alloy (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "steel_rod",
+    "NameRu": "Сталь (Стержень)",
+    "NameEn": "Steel (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "tritanium_rod",
+    "NameRu": "Тританий (Стержень)",
+    "NameEn": "Tritanium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "potin_rod",
+    "NameRu": "Потин (Стержень)",
+    "NameEn": "Potin (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "boron_carbide_rod",
+    "NameRu": "Карбид бора (Стержень)",
+    "NameEn": "Boron carbide (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "inconel_718_rod",
+    "NameRu": "Инконель-718 (Стержень)",
+    "NameEn": "Inconel-718 (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "mo_50_re_rod",
+    "NameRu": "Mo-50 Re (Стержень)",
+    "NameEn": "Mo-50 Re (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "mo_si_b_rod",
+    "NameRu": "Mo-Si-B (Стержень)",
+    "NameEn": "Mo-Si-B (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "calorite_rod",
+    "NameRu": "Калорит (Стержень)",
+    "NameEn": "Calorite (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "tungsten_bismuth_oxide_composite_rod",
+    "NameRu": "Композит оксида-вольфрама-висмута (Стержень)",
+    "NameEn": "Tungsten bismuth oxide composite (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "rene_41_rod",
+    "NameRu": "Рене-41 (Стержень)",
+    "NameEn": "Rene 41 (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  },
+
+  {
+    "Id": "etrium_rod",
+    "NameRu": "Этриум (Стержень)",
+    "NameEn": "Etrium (Rod)",
+    "Type": "Стержень",
+    "Tag": "forge:rods"
+  }
+]

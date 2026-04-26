@@ -1,9 +1,10 @@
-namespace TFGCalculator.Models;
+﻿namespace TFGCalculator.Models;
 
 public class ArrowItemInfo
 {
     public string ItemId { get; set; } = "";
     public string IconUrl { get; set; } = "";
+    public string ItemName { get; set; } = "";
 }
 
 public class ArrowConnection

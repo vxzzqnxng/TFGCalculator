@@ -1,0 +1,1385 @@
+﻿[
+  {
+    "Id": "iron_ingot",
+    "NameRu": "Серый чугун (Слиток)",
+    "NameEn": "Iron (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "pig_iron_ingot",
+    "NameRu": "Белый чугун (Слиток)",
+    "NameEn": "Pig iron (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "weak_steel_ingot",
+    "NameRu": "Сырая сталь (Слиток)",
+    "NameEn": "Weak steel (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "high_carbon_steel_ingot",
+    "NameRu": "Высокоуглеродистая сталь (Слиток)",
+    "NameEn": "High carbon steel (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "high_carbon_black_steel_ingot",
+    "NameRu": "Высокоуглеродистая сталь (Слиток)",
+    "NameEn": "High carbon black steel (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "high_carbon_blue_steel_ingot",
+    "NameRu": "Высокоуглеродистая сталь (Слиток)",
+    "NameEn": "High carbon blue steel (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "high_carbon_red_steel_ingot",
+    "NameRu": "Высокоуглеродистая сталь (Слиток)",
+    "NameEn": "High carbon red steel (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "activated_mo_si_b_ingot",
+    "NameRu": "Активированный сплав Mo-Si-B (Слиток)",
+    "NameEn": "Activated Mo-Si-B (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "homogenized_mo_si_b_ingot",
+    "NameRu": "Гомогенизированный сплав Mo-Si-B (Слиток)",
+    "NameEn": "Homogenized Mo-Si-B (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "homogenized_inconel_718_ingot",
+    "NameRu": "Гомогенизированный инконель-718 (Слиток)",
+    "NameEn": "Homogenized inconel-718 (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "diamond_tipped_mo_50_re_ingot",
+    "NameRu": "Mo-50Re с алмазным напылением (Слиток)",
+    "NameEn": "Diamond tipped Mo-50Re (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "borosilicate_glass_ingot",
+    "NameRu": "Боросиликатное стекло (Слиток)",
+    "NameEn": "Borosilicate glass (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "stone_ingot",
+    "NameRu": "Камень (Слиток)",
+    "NameEn": "Stone (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "polycaprolactam_ingot",
+    "NameRu": "Поликапролактам (Слиток)",
+    "NameEn": "Polycaprolactam (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "red_alloy_ingot",
+    "NameRu": "Красный сплав (Слиток)",
+    "NameEn": "Red alloy (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "neutronium_ingot",
+    "NameRu": "Нейтроний (Слиток)",
+    "NameEn": "Neutronium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "uranium_ingot",
+    "NameRu": "Уран 238 (Слиток)",
+    "NameEn": "Uranium 238 (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "plutonium_241_ingot",
+    "NameRu": "Плутоний-241 (Слиток)",
+    "NameEn": "Plutonium-241 (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "platinum_ingot",
+    "NameRu": "Платина (Слиток)",
+    "NameEn": "Platinum (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "enriched_naquadah_ingot",
+    "NameRu": "Обогащённыя наквада (Слиток)",
+    "NameEn": "Enriched naquadah (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "aluminium_ingot",
+    "NameRu": "Алюминий (Слиток)",
+    "NameEn": "Aluminium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "ruthenium_ingot",
+    "NameRu": "Рутений (Слиток)",
+    "NameEn": "Ruthenium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "magnetic_iron_ingot",
+    "NameRu": "Магнитное железо (Слиток)",
+    "NameEn": "Magnetic iron (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "invar_ingot",
+    "NameRu": "Инвар (Слиток)",
+    "NameEn": "Invar (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "duranium_ingot",
+    "NameRu": "Дюраний (Слиток)",
+    "NameEn": "Duranium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "nickel_ingot",
+    "NameRu": "Никель (Слиток)",
+    "NameEn": "Nickel (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "zinc_ingot",
+    "NameRu": "Цинк (Слиток)",
+    "NameEn": "Zinc (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "watertight_steel_ingot",
+    "NameRu": "Водостойкая сталь (Слиток)",
+    "NameEn": "Watertight steel (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "thorium_232_ingot",
+    "NameRu": "Торий 232 (Слиток)",
+    "NameEn": "Thorium 232 (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "osmiridium_ingot",
+    "NameRu": "Осмистый иридий (Слиток)",
+    "NameEn": "Osmiridium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "cobalt_ingot",
+    "NameRu": "Кобальт (Слиток)",
+    "NameEn": "Cobalt (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "hsla_steel_ingot",
+    "NameRu": "HSLA сталь (Слиток)",
+    "NameEn": "HSLA steel (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "titanium_tungsten_carbide_ingot",
+    "NameRu": "Вольфрам-титанановый карбид (Слиток)",
+    "NameEn": "Titanium tungsten carbide (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "polyvinyl_butyral_ingot",
+    "NameRu": "Поливинилбутираль (Слиток)",
+    "NameEn": "Polyvinyl butyral (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "manganese_ingot",
+    "NameRu": "Марганец (Слиток)",
+    "NameEn": "Manganese (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "niobium_titanium_ingot",
+    "NameRu": "Ниобий-титан (Слиток)",
+    "NameEn": "Niobium titanium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "silver_ingot",
+    "NameRu": "Серебро (Слиток)",
+    "NameEn": "Silver (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "rhodium_ingot",
+    "NameRu": "Родий (Слиток)",
+    "NameEn": "Rhodium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "hsss_ingot",
+    "NameRu": "HSS-S (Слиток)",
+    "NameEn": "HSS-S (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "molybdenum_ingot",
+    "NameRu": "Молибден (Слиток)",
+    "NameEn": "molybdenum (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "polyphenylene_sulfide_ingot",
+    "NameRu": "Полифениленсульфид (Слиток)",
+    "NameEn": "Polyphenylene sulfide (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "tin_ingot",
+    "NameRu": "Олово (Слиток)",
+    "NameEn": "Tin (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "rocket_alloy_t1_ingot",
+    "NameRu": "Красный алюминиево-стальной ракетный сплав (Слиток)",
+    "NameEn": "Rocket alloy t1 (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "hastelloy_x_ingot",
+    "NameRu": "Хастеллой-X (Слиток)",
+    "NameEn": "Hastelloy-X (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "niobium_nitride_ingot",
+    "NameRu": "Нитрид ниобия (Слиток)",
+    "NameEn": "Niobium nitride (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "cupronickel_ingot",
+    "NameRu": "Купроникель (Слиток)",
+    "NameEn": "Cupronickel (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "zirconium_ingot",
+    "NameRu": "Цирконий (Слиток)",
+    "NameEn": "Zirconium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "titanium_ingot",
+    "NameRu": "Титан (Слиток)",
+    "NameEn": "Titanium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "americium_ingot",
+    "NameRu": "Америций 243 (Слиток)",
+    "NameEn": "Americium 243 (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "uranium_235_ingot",
+    "NameRu": "Уран-235 (Слиток)",
+    "NameEn": "Uranium-235 (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "gallium_ingot",
+    "NameRu": "Галлий (Слиток)",
+    "NameEn": "Gallium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "californium_252_ingot",
+    "NameRu": "Калифорний 252 (Слиток)",
+    "NameEn": "Californium 252 (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "uranium_triplatinum_ingot",
+    "NameRu": "Триплатина уран (Слиток)",
+    "NameEn": "Uranium triplatinum (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "ultimet_ingot",
+    "NameRu": "Ультимет (Слиток)",
+    "NameEn": "Ultimet (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "hssg_ingot",
+    "NameRu": "HSS-G (Слиток)",
+    "NameEn": "HSS-G (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "desh_ingot",
+    "NameRu": "Деш (Слиток)",
+    "NameEn": "desh (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "tungsten_carbide_ingot",
+    "NameRu": "Карбид вольфрама (Слиток)",
+    "NameEn": "Tungsten carbide (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "trinium_ingot",
+    "NameRu": "Триниум (Слиток)",
+    "NameEn": "Trinium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "neptunium_237_ingot",
+    "NameRu": "Нептуний 237 (Слиток)",
+    "NameEn": "Neptunium 237 (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "rhodium_plated_palladium_ingot",
+    "NameRu": "Палладий с родиевым покрытием (Слиток)",
+    "NameEn": "Rhodium plated palladium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "chromium_ingot",
+    "NameRu": "Хром (Слиток)",
+    "NameEn": "Chromium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "ostrum_iodide_ingot",
+    "NameRu": "Йодид острума (Слиток)",
+    "NameEn": "ostrum_iodide_dust (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "nickel_zinc_ferrite_ingot",
+    "NameRu": "Никель цинк феррит (Слиток)",
+    "NameEn": "Nickel zinc ferrite (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "titanium_carbide_ingot",
+    "NameRu": "Карбид титана (Слиток)",
+    "NameEn": "Titanium carbide (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "samarium_ingot",
+    "NameRu": "Самарий (Слиток)",
+    "NameEn": "Samarium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "stainless_steel_ingot",
+    "NameRu": "Нержавеющая сталь (Слиток)",
+    "NameEn": "Stainless steel (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "bismuth_ingot",
+    "NameRu": "Висмут (Слиток)",
+    "NameEn": "Bismuth (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "bronze_ingot",
+    "NameRu": "Бронза (Слиток)",
+    "NameEn": "Bronze (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "ruthenium_trinium_americium_neutronate_ingot",
+    "NameRu": "Нейтронат рутения триния америция (Слиток)",
+    "NameEn": "Ruthenium trinium americium neutronate (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "incoloy_ma_956_ingot",
+    "NameRu": "Инколой MA-956 (Слиток)",
+    "NameEn": "Incoloy MA-956 (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "brass_ingot",
+    "NameRu": "Латунь (Слиток)",
+    "NameEn": "Brass (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "rtm_alloy_ingot",
+    "NameRu": "РВМ сплав (Слиток)",
+    "NameEn": "RTM alloy (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "cobalt_brass_ingot",
+    "NameRu": "Кобальтовая латунь (Слиток)",
+    "NameEn": "Cobalt brass (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "neodymium_ingot",
+    "NameRu": "Неодим (Слиток)",
+    "NameEn": "Neodymium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "silicone_rubber_ingot",
+    "NameRu": "Силиконовая резина (Слиток)",
+    "NameEn": "Silicone rubber (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "rubber_ingot",
+    "NameRu": "Резина (Слиток)",
+    "NameEn": "Rubber (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "black_steel_ingot",
+    "NameRu": "Черная сталь (Слиток)",
+    "NameEn": "Black steel (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "black_bronze_ingot",
+    "NameRu": "Черная бронза (Слиток)",
+    "NameEn": "Black bronze (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "zeron_100_ingot",
+    "NameRu": "Зерон-100 (Слиток)",
+    "NameEn": "Zeron-100 (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "magnetic_samarium_ingot",
+    "NameRu": "Магнитный самарий (Слиток)",
+    "NameEn": "Magnetic samarium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "samarium_iron_arsenic_oxide_ingot",
+    "NameRu": "Оксид самария железа мышьяка (Слиток)",
+    "NameEn": "Samarium iron arsenic oxide (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "blue_steel_ingot",
+    "NameRu": "Синяя сталь (Слиток)",
+    "NameEn": "Blue steel (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "manganese_phosphide_ingot",
+    "NameRu": "Фосфид марганца (Слиток)",
+    "NameEn": "Manganese phosphide (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "stellite_100_ingot",
+    "NameRu": "Стеллит (Слиток)",
+    "NameEn": "Stellite (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "naquadria_ingot",
+    "NameRu": "Наквадрия (Слиток)",
+    "NameEn": "Naquadria (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "epoxy_ingot",
+    "NameRu": "Эпоксидная смола (Слиток)",
+    "NameEn": "Epoxy (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "magnetic_neodymium_ingot",
+    "NameRu": "Магнитный неодим (Слиток)",
+    "NameEn": "Magnetic neodymium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "nichrome_ingot",
+    "NameRu": "Нихром (Слиток)",
+    "NameEn": "Nichrome (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "americium_ingot",
+    "NameRu": "Америций 241 (Слиток)",
+    "NameEn": "Americium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "europium_ingot",
+    "NameRu": "Европий (Слиток)",
+    "NameEn": "Europium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "thorium_230_ingot",
+    "NameRu": "Торий 230 (Слиток)",
+    "NameEn": "Thorium 230 (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "vanadium_gallium_ingot",
+    "NameRu": "Ванадий-Галлий (Слиток)",
+    "NameEn": "Vanadium gallium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "tungsten_ingot",
+    "NameRu": "Вольфрам (Слиток)",
+    "NameEn": "Tungsten (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "plutonium_ingot",
+    "NameRu": "Плутоний 239 (Слиток)",
+    "NameEn": "Plutonium 239 (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "styrene_butadiene_rubber_ingot",
+    "NameRu": "Стирол-бутадиеновая резина (Слиток)",
+    "NameEn": "Styrene butadiene rubber (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "vanadium_steel_ingot",
+    "NameRu": "Ванадиевая сталь (Слиток)",
+    "NameEn": "Vanadium steel (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "tungsten_steel_ingot",
+    "NameRu": "Вольфрамовая сталь (Слиток)",
+    "NameEn": "Tungsten steel (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "magnalium_ingot",
+    "NameRu": "Магналий (Слиток)",
+    "NameEn": "Magnalium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "polybenzimidazole_ingot",
+    "NameRu": "Полибензимидазол (ПБИ) (Слиток)",
+    "NameEn": "Polybenzimidazole (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "iridium_ingot",
+    "NameRu": "Иридий (Слиток)",
+    "NameEn": "Iridium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "red_steel_ingot",
+    "NameRu": "Красная сталь (Слиток)",
+    "NameEn": "Red steel (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "polyethylene_ingot",
+    "NameRu": "Полиэтилен (Слиток)",
+    "NameEn": "Polyethylene (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "magnetic_steel_ingot",
+    "NameRu": "Магнитная сталь (Слиток)",
+    "NameEn": "Magnetic steel (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "indium_gallium_phosphide_ingot",
+    "NameRu": "Индий галлий фосфид (Слиток)",
+    "NameEn": "Indium gallium phosphide (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "indium_ingot",
+    "NameRu": "Индий (Слиток)",
+    "NameEn": "Indium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "osmium_ingot",
+    "NameRu": "Осмий (Слиток)",
+    "NameEn": "Osmium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "hastelloy_c_276_ingot",
+    "NameRu": "Хастеллой-C276 (Слиток)",
+    "NameEn": "Hastelloy-C276 (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "molybdenum_disilicide_ingot",
+    "NameRu": "Дисилицид молибдена (Слиток)",
+    "NameEn": "molybdenum disilicide (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "rose_gold_ingot",
+    "NameRu": "Розовое золото (Слиток)",
+    "NameEn": "Rose gold (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "electrum_ingot",
+    "NameRu": "Электрум (Слиток)",
+    "NameEn": "Electrum (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "tantalum_ingot",
+    "NameRu": "Тантал (Слиток)",
+    "NameEn": "Tantalum (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "polyvinyl_chloride_ingot",
+    "NameRu": "Поливинил хлорид (Слиток)",
+    "NameEn": "Polyvinyl chloride (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "magnesium_diboride_ingot",
+    "NameRu": "Диборид магния (Слиток)",
+    "NameEn": "Magnesium diboride (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "sterling_silver_ingot",
+    "NameRu": "Стерлинговое серебро (Слиток)",
+    "NameEn": "Sterling silver (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "wrought_iron_ingot",
+    "NameRu": "Кованное железо (Слиток)",
+    "NameEn": "Wrought iron (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "tantalum_carbide_ingot",
+    "NameRu": "Карбид тантала (Слиток)",
+    "NameEn": "Tantalum carbide (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "polytetrafluoroethylene_ingot",
+    "NameRu": "Политетрафторэтилен (Слиток)",
+    "NameEn": "Polytetrafluoroethylene (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "niobium_ingot",
+    "NameRu": "Ниобий (Слиток)",
+    "NameEn": "Niobium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "gallium_arsenide_ingot",
+    "NameRu": "Арсенид галлия (Слиток)",
+    "NameEn": "Gallium arsenide (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "kanthal_ingot",
+    "NameRu": "Кантал (Слиток)",
+    "NameEn": "Kanthal (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "cadmium_ingot",
+    "NameRu": "Кадмий (Слиток)",
+    "NameEn": "Cadmium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "gold_ingot",
+    "NameRu": "Золото (Слиток)",
+    "NameEn": "Gold (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "vanadium_ingot",
+    "NameRu": "Ванадий (Слиток)",
+    "NameEn": "Vanadium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "uranium_rhodium_dinaquadide_ingot",
+    "NameRu": "Уран родий динаквада (Слиток)",
+    "NameEn": "Uranium rhodium dinaquadide (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "yttrium_barium_cuprate_ingot",
+    "NameRu": "Оксид иттрия-бария-меди (Слиток)",
+    "NameEn": "Yttrium barium cuprate (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "reinforced_epoxy_resin_ingot",
+    "NameRu": "Укреплённая эпоксидная смола (Слиток)",
+    "NameEn": "Reinforced epoxy resin (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "maraging_steel_300_ingot",
+    "NameRu": "Мартенситностареющая сталь 300 (Слиток)",
+    "NameEn": "Maraging steel 300 (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "enriched_naquadah_trinium_europium_duranide_ingot",
+    "NameRu": "Обогащенный наквада триний европий дюраний (Слиток)",
+    "NameEn": "Enriched naquadah trinium europium duranide (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "palladium_ingot",
+    "NameRu": "Палладий (Слиток)",
+    "NameEn": "Palladium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "graphene_ingot",
+    "NameRu": "Графен (Слиток)",
+    "NameEn": "Graphene (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "beryllium_ingot",
+    "NameRu": "Бериллий (Слиток)",
+    "NameEn": "Beryllium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "blue_alloy_ingot",
+    "NameRu": "Синий сплав (Слиток)",
+    "NameEn": "Blue alloy (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "hsse_ingot",
+    "NameRu": "HSS-E (Слиток)",
+    "NameEn": "HSS-E (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "mercury_barium_calcium_cuprate_ingot",
+    "NameRu": "Купрат ртути бария кальция (Слиток)",
+    "NameEn": "Mercury barium calcium cuprate (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "bismuth_bronze_ingot",
+    "NameRu": "Висмутовая бронза (Слиток)",
+    "NameEn": "Bismuth bronze (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "copper_ingot",
+    "NameRu": "Медь (Слиток)",
+    "NameEn": "Copper (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "silicon_ingot",
+    "NameRu": "Кремний (Слиток)",
+    "NameEn": "Silicon (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "rocket_alloy_t2_ingot",
+    "NameRu": "ASM 4914 титановый ракетный сплав (Слиток)",
+    "NameEn": "Rocket alloy t2 (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "naquadah_alloy_ingot",
+    "NameRu": "Сплав наквада (Слиток)",
+    "NameEn": "Naquadah alloy (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "darmstadtium_ingot",
+    "NameRu": "Дармштадтий (Слиток)",
+    "NameEn": "Darmstadtium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "soldering_alloy_ingot",
+    "NameRu": "Припой (Слиток)",
+    "NameEn": "Soldering alloy (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "battery_alloy_ingot",
+    "NameRu": "Аккумуляторный сплав (Слиток)",
+    "NameEn": "Battery alloy (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "naquadah_ingot",
+    "NameRu": "Наквада (Слиток)",
+    "NameEn": "Naquadah (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "annealed_copper_ingot",
+    "NameRu": "Отожженная медь (Слиток)",
+    "NameEn": "Annealed copper (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "indium_tin_barium_titanium_cuprate_ingot",
+    "NameRu": "Купрат индия олова бария титана (Слиток)",
+    "NameEn": "Indium tin barium titanium cuprate (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "ostrum_ingot",
+    "NameRu": "Острум (Слиток)",
+    "NameEn": "Ostrum (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "yttrium_ingot",
+    "NameRu": "Иттрий (Слиток)",
+    "NameEn": "Yttrium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "lead_ingot",
+    "NameRu": "Свинец (Слиток)",
+    "NameEn": "Lead (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "tin_alloy_ingot",
+    "NameRu": "Оловянный сплав (Слиток)",
+    "NameEn": "Tin alloy (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "steel_ingot",
+    "NameRu": "Сталь (Слиток)",
+    "NameEn": "Steel (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "aluminium_silicate_ingot",
+    "NameRu": "Алюмосиликат (Слиток)",
+    "NameEn": "Aluminium silicate (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "tritanium_ingot",
+    "NameRu": "Тританий (Слиток)",
+    "NameEn": "Tritanium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "potin_ingot",
+    "NameRu": "Потин (Слиток)",
+    "NameEn": "Potin (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "magnesia_refractory_brick_ingot",
+    "NameRu": "Склеенный смолой магнезиальный огнеупорный кирпич (Слиток)",
+    "NameEn": "Magnesia refractory brick (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "rough_silicon_carbide_ingot",
+    "NameRu": "Необработанный карбид кремния (Слиток)",
+    "NameEn": "Rough silicon carbide (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "boron_carbide_ingot",
+    "NameRu": "Карбид бора (Слиток)",
+    "NameEn": "Boron carbide (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "weak_red_steel_ingot",
+    "NameRu": "Сырая красная сталь (Слиток)",
+    "NameEn": "Weak red steel (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "weak_blue_steel_ingot",
+    "NameRu": "Сырая синяя сталь (Слиток)",
+    "NameEn": "Weak blue steel (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "bi_pb_sn_cd_in_tl_ingot",
+    "NameRu": "Bi-Pb-Cn-Cd-In-Tl (Слиток)",
+    "NameEn": "Bi-Pb-Cn-Cd-In-Tl (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "silicon_carbide_ingot",
+    "NameRu": "Карбид кремния (Слиток)",
+    "NameEn": "Silicon carbide (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "inconel_718_ingot",
+    "NameRu": "Инконель-718 (Слиток)",
+    "NameEn": "Inconel-718 (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "bakelite_ingot",
+    "NameRu": "Бакелит (Слиток)",
+    "NameEn": "Bakelite (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "mo_50_re_ingot",
+    "NameRu": "Mo-50 Re (Слиток)",
+    "NameEn": "Mo-50 Re (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "weak_inconel_718_ingot",
+    "NameRu": "Слабый инконель-718 (Слиток)",
+    "NameEn": "Weak inconel-718 (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "mo_si_b_ingot",
+    "NameRu": "Mo-Si-B (Слиток)",
+    "NameEn": "Mo-Si-B (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "calorite_ingot",
+    "NameRu": "Калорит (Слиток)",
+    "NameEn": "Calorite (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "woods_metal_ingot",
+    "NameRu": "Сплав Вуда (Слиток)",
+    "NameEn": "Woods metal (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "tungsten_bismuth_oxide_composite_ingot",
+    "NameRu": "Композит оксида-вольфрама-висмута (Слиток)",
+    "NameEn": "Tungsten bismuth oxide composite (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "zirconium_ingot",
+    "NameRu": "Цирконий (Слиток)",
+    "NameEn": "Zirconium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "rene_41_ingot",
+    "NameRu": "Рене-41 (Слиток)",
+    "NameEn": "Rene 41 (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "zirconium_diboride_ingot",
+    "NameRu": "Диборид циркония (Слиток)",
+    "NameEn": "Zirconium diboride (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "etrium_ingot",
+    "NameRu": "Этриум (Слиток)",
+    "NameEn": "Etrium (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "ruridit_ingot",
+    "NameRu": "Руридит (Слиток)",
+    "NameEn": "Ruridit (Ingot)",
+    "Type": "Слиток",
+    "Tag": "forge:ingots"
+  }
+]

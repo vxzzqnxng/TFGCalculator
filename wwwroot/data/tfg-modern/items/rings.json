@@ -1,0 +1,361 @@
+﻿[
+  {
+    "Id": "iron_ring",
+    "NameRu": "Серый чугун (Кольцо)",
+    "NameEn": "Iron (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "neutronium_ring",
+    "NameRu": "Нейтроний (Кольцо)",
+    "NameEn": "Neutronium (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "platinum_ring",
+    "NameRu": "Платина (Кольцо)",
+    "NameEn": "Platinum (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "aluminium_ring",
+    "NameRu": "Алюминий (Кольцо)",
+    "NameEn": "Aluminium (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "invar_ring",
+    "NameRu": "Инвар (Кольцо)",
+    "NameEn": "Invar (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "zinc_ring",
+    "NameRu": "Цинк (Кольцо)",
+    "NameEn": "Zinc (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "osmiridium_ring",
+    "NameRu": "Осмистый иридий (Кольцо)",
+    "NameEn": "Osmiridium (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "silver_ring",
+    "NameRu": "Серебро (Кольцо)",
+    "NameEn": "Silver (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "hsss_ring",
+    "NameRu": "HSS-S (Кольцо)",
+    "NameEn": "HSS-S (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "tin_ring",
+    "NameRu": "Олово (Кольцо)",
+    "NameEn": "Tin (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "cupronickel_ring",
+    "NameRu": "Купроникель (Кольцо)",
+    "NameEn": "Cupronickel (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "titanium_ring",
+    "NameRu": "Титан (Кольцо)",
+    "NameEn": "Titanium (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "ultimet_ring",
+    "NameRu": "Ультимет (Кольцо)",
+    "NameEn": "Ultimet (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "rhodium_plated_palladium_ring",
+    "NameRu": "Палладий с родиевым покрытием (Кольцо)",
+    "NameEn": "Rhodium plated palladium (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "chromium_ring",
+    "NameRu": "Хром (Кольцо)",
+    "NameEn": "Chromium (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "stainless_steel_ring",
+    "NameRu": "Нержавеющая сталь (Кольцо)",
+    "NameEn": "Stainless steel (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "bronze_ring",
+    "NameRu": "Бронза (Кольцо)",
+    "NameEn": "Bronze (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "brass_ring",
+    "NameRu": "Латунь (Кольцо)",
+    "NameEn": "Brass (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "cobalt_brass_ring",
+    "NameRu": "Кобальтовая латунь (Кольцо)",
+    "NameEn": "Cobalt brass (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "black_steel_ring",
+    "NameRu": "Черная сталь (Кольцо)",
+    "NameEn": "Black steel (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "black_bronze_ring",
+    "NameRu": "Черная бронза (Кольцо)",
+    "NameEn": "Black bronze (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "vanadium_steel_ring",
+    "NameRu": "Ванадиевая сталь (Кольцо)",
+    "NameEn": "Vanadium steel (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "tungsten_steel_ring",
+    "NameRu": "Вольфрамовая сталь (Кольцо)",
+    "NameEn": "Tungsten steel (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "magnalium_ring",
+    "NameRu": "Магналий (Кольцо)",
+    "NameEn": "Magnalium (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "rose_gold_ring",
+    "NameRu": "Розовое золото (Кольцо)",
+    "NameEn": "Rose gold (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "electrum_ring",
+    "NameRu": "Электрум (Кольцо)",
+    "NameEn": "Electrum (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "sterling_silver_ring",
+    "NameRu": "Стерлинговое серебро (Кольцо)",
+    "NameEn": "Sterling silver (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "wrought_iron_ring",
+    "NameRu": "Кованное железо (Кольцо)",
+    "NameEn": "Wrought iron (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "gold_ring",
+    "NameRu": "Золото (Кольцо)",
+    "NameEn": "Gold (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "hsse_ring",
+    "NameRu": "HSS-E (Кольцо)",
+    "NameEn": "HSS-E (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "bismuth_bronze_ring",
+    "NameRu": "Висмутовая бронза (Кольцо)",
+    "NameEn": "Bismuth bronze (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "copper_ring",
+    "NameRu": "Медь (Кольцо)",
+    "NameEn": "Copper (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "naquadah_alloy_ring",
+    "NameRu": "Сплав наквада (Кольцо)",
+    "NameEn": "Naquadah alloy (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "darmstadtium_ring",
+    "NameRu": "Дармштадтий (Кольцо)",
+    "NameEn": "Darmstadtium (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "lead_ring",
+    "NameRu": "Свинец (Кольцо)",
+    "NameEn": "Lead (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "tin_alloy_ring",
+    "NameRu": "Оловянный сплав (Кольцо)",
+    "NameEn": "Tin alloy (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "steel_ring",
+    "NameRu": "Сталь (Кольцо)",
+    "NameEn": "Steel (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "tritanium_ring",
+    "NameRu": "Тританий (Кольцо)",
+    "NameEn": "Tritanium (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "rene_41_ring",
+    "NameRu": "Рене-41 (Кольцо)",
+    "NameEn": "Rene 41 (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "polyvinyl_chloride_ring",
+    "NameRu": "Поливинил хлорид (Кольцо)",
+    "NameEn": "Polyvinyl chloride (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "silicone_rubber_ring",
+    "NameRu": "Силиконовая резина (Кольцо)",
+    "NameEn": "Silicone rubber (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "styrene_butadiene_rubber_ring",
+    "NameRu": "Стирол-бутадиеновая резина (Кольцо)",
+    "NameEn": "Styrene butadiene rubber (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "rubber_ring",
+    "NameRu": "Резина (Кольцо)",
+    "NameEn": "Rubber (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "molybdenum_disilicide_ring",
+    "NameRu": "Дисилицид молибдена (Кольцо)",
+    "NameEn": "Molybdenum disilicide (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  },
+
+  {
+    "Id": "nickel_zinc_ferrite_ring",
+    "NameRu": "Никель Цинк Феррит (Кольцо)",
+    "NameEn": "Nickel Zinc Ferrite (Ring)",
+    "Type": "Кольцо",
+    "Tag": "forge:rings"
+  }
+]

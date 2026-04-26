@@ -10,7 +10,7 @@ else
 {
     <a href="@($"/modpack/{_modpackId}")" class="back-link">@Loc.Get("BackToItems")</a>
     <div class="calc-result-page">
-        <RecipeTree Nodes="@_result.RootNodes" ModpackId="@_modpackId" OnTreeChanged="HandleChanged" />
+        <RecipeTree Nodes="@_result.RootNodes" ModpackId="@_modpackId" TreeId="@_treeId" OnTreeChanged="HandleChanged" OnAddAlternativeRoot="HandleAddAlternative" />
 
         <div class="side-panel">
             @* Energy *@
@@ -61,7 +61,7 @@ else
                             @foreach (var m in _result.Machines)
                             {
                                 <tr>
-                                    <td><img class="machine-icon" src="@m.MachineIconUrl" onerror="this.style.background='#ccc'" /></td>
+                                    <td><img class="machine-icon" src="@m.MachineIconUrl" title="@m.MachineName" onerror="this.style.background='#ccc'" /></td>
                                     <td>@m.MachineName</td>
                                     <td>
                                         @if (!string.IsNullOrEmpty(m.TierName))
@@ -96,7 +96,7 @@ else
                         @foreach (var r in _result.RawResources)
                         {
                             <tr>
-                                <td><img class="item-icon" src="@r.ItemIconUrl" onerror="this.style.background='#ccc'" /></td>
+                                <td><img class="item-icon" src="@r.ItemIconUrl" title="@r.ItemName" onerror="this.style.background='#ccc'" /></td>
                                 <td>@r.ItemName</td>
                                 <td>@($"{r.TotalPerSecond:F2}")</td>
                             </tr>

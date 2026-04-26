@@ -1,0 +1,30 @@
+﻿@inject NavigationManager Navigation
+@page "/tfc-calculators"
+
+<PageTitle>TFC Calculators</PageTitle>
+
+<div class="home-page">
+    <a href="@($"/")" class="back-link">@Loc.Get("BackToModpacks")</a>
+    <div class="tfc-calc-grid">
+        <div class="tfc-calc-card" @onclick='() => Nav.NavigateTo("/tfc-calculators/anvil")'>
+            <img src="images/anvil_icon.png" alt="Anvil" class="tfc-calc-icon" onerror="this.style.background='#ccc'" />
+            <span class="tfc-calc-label">@Loc.Get("AnvilCalculator")</span>
+        </div>
+        <div class="tfc-calc-card" @onclick='() => Nav.NavigateTo("/tfc-calculators/alloy")'>
+            <img src="images/alloy_icon.png" alt="Alloy" class="tfc-calc-icon" onerror="this.style.background='#ccc'" />
+            <span class="tfc-calc-label">@Loc.Get("AlloyCalculator")</span>
+        </div>
+    </div>
+</div>
+
+<div class="bottom-bar">
+    <a href="https://terrafirmagreg.team" target="_blank" class="btn-main">@Loc.Get("SiteTFG")</a>
+    <a href="https://github.com/TerraFirmaGreg-Team/Modpack-Modern/releases" target="_blank" class="btn-main">@Loc.Get("GitHubTFG")</a>
+    <a href="https://github.com/vxzzqnxng/TFGCalculator" target="_blank" class="btn-main">@Loc.Get("GitHubProject")</a>
+    <a href="https://discordapp.com/users/505270818779955202" target="_blank" class="btn-main">@Loc.Get("ReportBug")</a>
+</div>
+
+@code {
+    [Inject] private NavigationManager Nav { get; set; } = default!;
+    [Inject] private LocalizationService Loc { get; set; } = default!;
+}

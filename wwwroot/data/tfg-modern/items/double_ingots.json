@@ -1,0 +1,209 @@
+﻿[
+  {
+    "Id": "iron_double_ingot",
+    "NameRu": "Серый чугун (Двойной слиток)",
+    "NameEn": "Iron (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+
+  {
+    "Id": "red_alloy_double_ingot",
+    "NameRu": "Красный сплав (Двойной слиток)",
+    "NameEn": "Red alloy (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+  
+  {
+    "Id": "invar_double_ingot",
+    "NameRu": "Инвар (Двойной слиток)",
+    "NameEn": "Invar (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+
+  {
+    "Id": "nickel_double_ingot",
+    "NameRu": "Никель (Двойной слиток)",
+    "NameEn": "Nickel (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+
+  {
+    "Id": "zinc_double_ingot",
+    "NameRu": "Цинк (Двойной слиток)",
+    "NameEn": "Zinc (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+  
+  {
+    "Id": "cobalt_double_ingot",
+    "NameRu": "Кобальт (Двойной слиток)",
+    "NameEn": "Cobalt (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+  
+  {
+    "Id": "silver_double_ingot",
+    "NameRu": "Серебро (Двойной слиток)",
+    "NameEn": "Silver (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+  
+  {
+    "Id": "tin_double_ingot",
+    "NameRu": "Олово (Двойной слиток)",
+    "NameEn": "Tin (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+  
+  {
+    "Id": "bismuth_double_ingot",
+    "NameRu": "Висмут (Двойной слиток)",
+    "NameEn": "Bismuth (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+
+  {
+    "Id": "bronze_double_ingot",
+    "NameRu": "Бронза (Двойной слиток)",
+    "NameEn": "Bronze (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+  
+  {
+    "Id": "brass_double_ingot",
+    "NameRu": "Латунь (Двойной слиток)",
+    "NameEn": "Brass (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+  
+  {
+    "Id": "cobalt_brass_double_ingot",
+    "NameRu": "Кобальтовая латунь (Двойной слиток)",
+    "NameEn": "Cobalt brass (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+  
+  {
+    "Id": "black_steel_double_ingot",
+    "NameRu": "Черная сталь (Двойной слиток)",
+    "NameEn": "Black steel (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+
+  {
+    "Id": "black_bronze_double_ingot",
+    "NameRu": "Черная бронза (Двойной слиток)",
+    "NameEn": "Black bronze (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+  
+  {
+    "Id": "blue_steel_double_ingot",
+    "NameRu": "Синяя сталь (Двойной слиток)",
+    "NameEn": "Blue steel (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+  
+  {
+    "Id": "red_steel_double_ingot",
+    "NameRu": "Красная сталь (Двойной слиток)",
+    "NameEn": "Red steel (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+  
+  {
+    "Id": "rose_gold_double_ingot",
+    "NameRu": "Розовое золото (Двойной слиток)",
+    "NameEn": "Rose gold (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+  
+  {
+    "Id": "sterling_silver_double_ingot",
+    "NameRu": "Стерлинговое серебро (Двойной слиток)",
+    "NameEn": "Sterling silver (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+  
+  {
+    "Id": "wrought_iron_double_ingot",
+    "NameRu": "Кованное железо (Двойной слиток)",
+    "NameEn": "Wrought iron (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+  
+  {
+    "Id": "gold_double_ingot",
+    "NameRu": "Золото (Двойной слиток)",
+    "NameEn": "Gold (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+  
+  {
+    "Id": "bismuth_bronze_double_ingot",
+    "NameRu": "Висмутовая бронза (Двойной слиток)",
+    "NameEn": "Bismuth bronze (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+  
+  {
+    "Id": "copper_double_ingot",
+    "NameRu": "Медь (Двойной слиток)",
+    "NameEn": "Copper (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+  
+  {
+    "Id": "lead_double_ingot",
+    "NameRu": "Свинец (Двойной слиток)",
+    "NameEn": "Lead (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+
+  {
+    "Id": "tin_alloy_double_ingot",
+    "NameRu": "Оловянный сплав (Двойной слиток)",
+    "NameEn": "Tin alloy (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+  
+  {
+    "Id": "steel_double_ingot",
+    "NameRu": "Сталь (Двойной слиток)",
+    "NameEn": "Steel (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  },
+  
+  {
+    "Id": "potin_double_ingot",
+    "NameRu": "Потин (Двойной слиток)",
+    "NameEn": "Potin (Double ingot)",
+    "Type": "Двойной слиток",
+    "Tag": "forge:double_ingots"
+  }
+]

@@ -1,0 +1,577 @@
+﻿[
+  {
+    "Id": "iron_bolt",
+    "NameRu": "Серый чугун (Болт)",
+    "NameEn": "Iron (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "ruridit_bolt",
+    "NameRu": "Руридит (Болт)",
+    "NameEn": "Ruridit (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "red_alloy_bolt",
+    "NameRu": "Красный сплав (Болт)",
+    "NameEn": "Red alloy (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "neutronium_bolt",
+    "NameRu": "Нейтроний (Болт)",
+    "NameEn": "Neutronium (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "platinum_bolt",
+    "NameRu": "Платина (Болт)",
+    "NameEn": "Platinum (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "aluminium_bolt",
+    "NameRu": "Алюминий (Болт)",
+    "NameEn": "Aluminium (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "magnetic_iron_bolt",
+    "NameRu": "Магнитное железо (Болт)",
+    "NameEn": "Magnetic iron (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "invar_bolt",
+    "NameRu": "Инвар (Болт)",
+    "NameEn": "Invar (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "duranium_bolt",
+    "NameRu": "Дюраний (Болт)",
+    "NameEn": "Duranium (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "zinc_bolt",
+    "NameRu": "Цинк (Болт)",
+    "NameEn": "Zinc (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "osmiridium_bolt",
+    "NameRu": "Осмистый иридий (Болт)",
+    "NameEn": "Osmiridium (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "hsla_steel_bolt",
+    "NameRu": "HSLA сталь (Болт)",
+    "NameEn": "HSLA steel (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "manganese_bolt",
+    "NameRu": "Марганец (Болт)",
+    "NameEn": "Manganese (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "niobium_titanium_bolt",
+    "NameRu": "Ниобий-титан (Болт)",
+    "NameEn": "Niobium titanium (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "silver_bolt",
+    "NameRu": "Серебро (Болт)",
+    "NameEn": "Silver (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "rhodium_bolt",
+    "NameRu": "Родий (Болт)",
+    "NameEn": "Rhodium (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "hsss_bolt",
+    "NameRu": "HSS-S (Болт)",
+    "NameEn": "HSS-S (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "molybdenum_bolt",
+    "NameRu": "Молибден (Болт)",
+    "NameEn": "molybdenum (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "tin_bolt",
+    "NameRu": "Олово (Болт)",
+    "NameEn": "Tin (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "rocket_alloy_t1_bolt",
+    "NameRu": "Красный алюминиево-стальной ракетный сплав (Болт)",
+    "NameEn": "Rocket alloy t1 (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "cupronickel_bolt",
+    "NameRu": "Купроникель (Болт)",
+    "NameEn": "Cupronickel (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "titanium_bolt",
+    "NameRu": "Титан (Болт)",
+    "NameEn": "Titanium (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "ultimet_bolt",
+    "NameRu": "Ультимет (Болт)",
+    "NameEn": "Ultimet (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "hssg_bolt",
+    "NameRu": "HSS-G (Болт)",
+    "NameEn": "HSS-G (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "tungsten_carbide_bolt",
+    "NameRu": "Карбид вольфрама (Болт)",
+    "NameEn": "Tungsten carbide (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "trinium_bolt",
+    "NameRu": "Триниум (Болт)",
+    "NameEn": "Trinium (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "rhodium_plated_palladium_bolt",
+    "NameRu": "Палладий с родиевым покрытием (Болт)",
+    "NameEn": "Rhodium plated palladium (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "chromium_bolt",
+    "NameRu": "Хром (Болт)",
+    "NameEn": "Chromium (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "stainless_steel_bolt",
+    "NameRu": "Нержавеющая сталь (Болт)",
+    "NameEn": "Stainless steel (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "bismuth_bolt",
+    "NameRu": "Висмут (Болт)",
+    "NameEn": "Bismuth (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "bronze_bolt",
+    "NameRu": "Бронза (Болт)",
+    "NameEn": "Bronze (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "brass_bolt",
+    "NameRu": "Латунь (Болт)",
+    "NameEn": "Brass (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "cobalt_brass_bolt",
+    "NameRu": "Кобальтовая латунь (Болт)",
+    "NameEn": "Cobalt brass (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "neodymium_bolt",
+    "NameRu": "Неодим (Болт)",
+    "NameEn": "Neodymium (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "black_steel_bolt",
+    "NameRu": "Черная сталь (Болт)",
+    "NameEn": "Black steel (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "black_bronze_bolt",
+    "NameRu": "Черная бронза (Болт)",
+    "NameEn": "Black bronze (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "blue_steel_bolt",
+    "NameRu": "Синяя сталь (Болт)",
+    "NameEn": "Blue steel (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "naquadria_bolt",
+    "NameRu": "Наквадрия (Болт)",
+    "NameEn": "Naquadria (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "tungsten_bolt",
+    "NameRu": "Вольфрам (Болт)",
+    "NameEn": "Tungsten (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "vanadium_steel_bolt",
+    "NameRu": "Ванадиевая сталь (Болт)",
+    "NameEn": "Vanadium steel (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "tungsten_steel_bolt",
+    "NameRu": "Вольфрамовая сталь (Болт)",
+    "NameEn": "Tungsten steel (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "magnalium_bolt",
+    "NameRu": "Магналий (Болт)",
+    "NameEn": "Magnalium (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "iridium_bolt",
+    "NameRu": "Иридий (Болт)",
+    "NameEn": "Iridium (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "red_steel_bolt",
+    "NameRu": "Красная сталь (Болт)",
+    "NameEn": "Red steel (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "osmium_bolt",
+    "NameRu": "Осмий (Болт)",
+    "NameEn": "Osmium (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "rose_gold_bolt",
+    "NameRu": "Розовое золото (Болт)",
+    "NameEn": "Rose gold (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "electrum_bolt",
+    "NameRu": "Электрум (Болт)",
+    "NameEn": "Electrum (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "sterling_silver_bolt",
+    "NameRu": "Стерлинговое серебро (Болт)",
+    "NameEn": "Sterling silver (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "wrought_iron_bolt",
+    "NameRu": "Кованное железо (Болт)",
+    "NameEn": "Wrought iron (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "gold_bolt",
+    "NameRu": "Золото (Болт)",
+    "NameEn": "Gold (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "yttrium_barium_cuprate_bolt",
+    "NameRu": "Оксид иттрия-бария-меди (Болт)",
+    "NameEn": "Yttrium barium cuprate (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "blue_alloy_bolt",
+    "NameRu": "Синий сплав (Болт)",
+    "NameEn": "Blue alloy (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "hsse_bolt",
+    "NameRu": "HSS-E (Болт)",
+    "NameEn": "HSS-E (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "bismuth_bronze_bolt",
+    "NameRu": "Висмутовая бронза (Болт)",
+    "NameEn": "Bismuth bronze (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+  
+  {
+    "Id": "copper_bolt",
+    "NameRu": "Медь (Болт)",
+    "NameEn": "Copper (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "rocket_alloy_t2_bolt",
+    "NameRu": "ASM 4914 титановый ракетный сплав (Болт)",
+    "NameEn": "Rocket alloy t2 (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+  
+  {
+    "Id": "naquadah_alloy_bolt",
+    "NameRu": "Сплав наквада (Болт)",
+    "NameEn": "Naquadah alloy (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "darmstadtium_bolt",
+    "NameRu": "Дармштадтий (Болт)",
+    "NameEn": "Darmstadtium (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "naquadah_bolt",
+    "NameRu": "Наквада (Болт)",
+    "NameEn": "Naquadah (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "annealed_copper_bolt",
+    "NameRu": "Отожженная медь (Болт)",
+    "NameEn": "Annealed copper (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "lead_bolt",
+    "NameRu": "Свинец (Болт)",
+    "NameEn": "Lead (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "tin_alloy_bolt",
+    "NameRu": "Оловянный сплав (Болт)",
+    "NameEn": "Tin alloy (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "steel_bolt",
+    "NameRu": "Сталь (Болт)",
+    "NameEn": "Steel (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "tritanium_bolt",
+    "NameRu": "Тританий (Болт)",
+    "NameEn": "Tritanium (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "potin_bolt",
+    "NameRu": "Потин (Болт)",
+    "NameEn": "Potin (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "mo_50_re_bolt",
+    "NameRu": "Mo-50 Re (Болт)",
+    "NameEn": "Mo-50 Re (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "mo_si_b_bolt",
+    "NameRu": "Mo-Si-B (Болт)",
+    "NameEn": "Mo-Si-B (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:ingots"
+  },
+
+  {
+    "Id": "tungsten_bismuth_oxide_composite_bolt",
+    "NameRu": "Композит оксида-вольфрама-висмута (Болт)",
+    "NameEn": "Tungsten bismuth oxide composite (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "diamond_bolt",
+    "NameRu": "Алмаз (Болт)",
+    "NameEn": "Diamond (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "wood_bolt",
+    "NameRu": "Короткая деревянная палка",
+    "NameEn": "Short wooden stick",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "inconel_718_bolt",
+    "NameRu": "Инконель-718 (Болт)",
+    "NameEn": "Inconel-718 (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  },
+
+  {
+    "Id": "rene_41_bolt",
+    "NameRu": "Рене-41 (Болт)",
+    "NameEn": "Rene 41 (Bolt)",
+    "Type": "Болт",
+    "Tag": "forge:bolts"
+  }
+]

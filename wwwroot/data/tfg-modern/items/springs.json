@@ -1,0 +1,209 @@
+﻿[
+  {
+    "Id": "iron_spring",
+    "NameRu": "Серый чугун (Пружина)",
+    "NameEn": "Iron (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "platinum_spring",
+    "NameRu": "Платина (Пружина)",
+    "NameEn": "Platinum (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "aluminium_spring",
+    "NameRu": "Алюминий (Пружина)",
+    "NameEn": "Aluminium (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "tin_spring",
+    "NameRu": "Олово (Пружина)",
+    "NameEn": "Tin (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "cupronickel_spring",
+    "NameRu": "Купроникель (Пружина)",
+    "NameEn": "Cupronickel (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "tungsten_steel_spring",
+    "NameRu": "Вольфрамовая сталь (Пружина)",
+    "NameEn": "Tungsten steel (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "wrought_iron_spring",
+    "NameRu": "Кованное железо (Пружина)",
+    "NameEn": "Wrought iron (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "gold_spring",
+    "NameRu": "Золото (Пружина)",
+    "NameEn": "Gold (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "copper_spring",
+    "NameRu": "Медь (Пружина)",
+    "NameEn": "Copper (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "naquadah_alloy_spring",
+    "NameRu": "Сплав наквада (Пружина)",
+    "NameEn": "Naquadah alloy (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "lead_spring",
+    "NameRu": "Свинец (Пружина)",
+    "NameEn": "Lead (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "steel_spring",
+    "NameRu": "Сталь (Пружина)",
+    "NameEn": "Steel (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "molybdenum_disilicide_spring",
+    "NameRu": "Дисилицид молибдена (Пружина)",
+    "NameEn": "Molybdenum disilicide (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "hssg_spring",
+    "NameRu": "HSS-G (Пружина)",
+    "NameEn": "HSS-G (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "kanthal_spring",
+    "NameRu": "Кантал (Пружина)",
+    "NameEn": "Kanthal (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "tungsten_spring",
+    "NameRu": "Вольфрам (Пружина)",
+    "NameEn": "Tungsten (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "nichrome_spring",
+    "NameRu": "Нихром (Пружина)",
+    "NameEn": "Nichrome (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "hsla_steel_spring",
+    "NameRu": "HSLA сталь (Пружина)",
+    "NameEn": "HSLA steel (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "trinium_spring",
+    "NameRu": "Триниум (Пружина)",
+    "NameEn": "Trinium (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "niobium_titanium_spring",
+    "NameRu": "Ниобий-титан (Пружина)",
+    "NameEn": "Niobium titanium (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "vanadium_gallium_spring",
+    "NameRu": "Ванадий-Галлий (Пружина)",
+    "NameEn": "Vanadium gallium (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "blue_steel_spring",
+    "NameRu": "Синяя сталь (Пружина)",
+    "NameEn": "Blue steel (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "naquadah_spring",
+    "NameRu": "Наквада (Пружина)",
+    "NameEn": "Naquadah (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "yttrium_barium_cuprate_spring",
+    "NameRu": "Оксид иттрия-бария-меди (Пружина)",
+    "NameEn": "Yttrium barium cuprate (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "europium_spring",
+    "NameRu": "Европий (Пружина)",
+    "NameEn": "Europium (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  },
+
+  {
+    "Id": "rtm_alloy_spring",
+    "NameRu": "РВМ сплав (Пружина)",
+    "NameEn": "RTM alloy (Spring)",
+    "Type": "Пружина",
+    "Tag": "forge:springs"
+  }
+]

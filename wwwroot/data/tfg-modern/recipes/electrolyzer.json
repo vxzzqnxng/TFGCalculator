@@ -1,0 +1,148 @@
+﻿[
+  {
+    "Id": "platinum_dust",
+    "MachineId": "electrolyzer",
+    "MachineNameRu": "Электролизёр",
+    "MachineNameEn": "Electrolyer",
+    "Inputs": [
+      {
+        "ItemId": "platinum_raw_dust",
+        "Amount": 3
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "platinum_dust",
+        "Amount": 1
+      },
+      {
+        "ItemId": "chlorine_fluid",
+        "Amount": 0.8
+      }
+    ],
+    "EnergyPerTick": 120,
+    "DurationTicks": 100,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 3
+  },
+
+  {
+    "Id": "hydrochloric_acid_and_ammonia",
+    "MachineId": "electrolyzer",
+    "MachineNameRu": "Электролизёр",
+    "MachineNameEn": "Electrolyer",
+    "Inputs": [
+      {
+        "ItemId": "ammonium_chloride_dust",
+        "Amount": 2
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "ammonia_fluid",
+        "Amount": 1
+      },
+      {
+        "ItemId": "hydrochloric_acid_fluid",
+        "Amount": 1
+      }
+    ],
+    "EnergyPerTick": 30,
+    "DurationTicks": 20,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 2
+  },
+
+  {
+    "Id": "rhodium_sulfate_recycling",
+    "MachineId": "electrolyzer",
+    "MachineNameRu": "Электролизёр",
+    "MachineNameEn": "Electrolyer",
+    "Inputs": [
+      {
+        "ItemId": "rhodium_sulfate_fluid",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "rhodium_dust",
+        "Amount": 2
+      },
+      {
+        "ItemId": "oxygen_fluid",
+        "Amount": 3
+      },
+      {
+        "ItemId": "sulfur_trioxide_fluid",
+        "Amount": 3
+      }
+    ],
+    "EnergyPerTick": 120,
+    "DurationTicks": 100,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 3
+  },
+
+  {
+    "Id": "sulfuric_copper_solution",
+    "MachineId": "electrolyzer",
+    "MachineNameRu": "Электролизёр",
+    "MachineNameEn": "Electrolyer",
+    "Inputs": [
+      {
+        "ItemId": "sulfuric_copper_solution_fluid",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "copper_dust",
+        "Amount": 1
+      },
+      {
+        "ItemId": "oxygen_fluid",
+        "Amount": 1
+      },
+      {
+        "ItemId": "sulfuric_acid_fluid",
+        "Amount": 1
+      }
+    ],
+    "EnergyPerTick": 60,
+    "DurationTicks": 84,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 3
+  },
+
+  {
+    "Id": "sulfuric_nickel_solution",
+    "MachineId": "electrolyzer",
+    "MachineNameRu": "Электролизёр",
+    "MachineNameEn": "Electrolyer",
+    "Inputs": [
+      {
+        "ItemId": "sulfuric_nickel_solution_fluid",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "nickel_dust",
+        "Amount": 1
+      },
+      {
+        "ItemId": "oxygen_fluid",
+        "Amount": 1
+      },
+      {
+        "ItemId": "sulfuric_acid_fluid",
+        "Amount": 1
+      }
+    ],
+    "EnergyPerTick": 60,
+    "DurationTicks": 84,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 3
+  }
+]

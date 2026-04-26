@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Components;
+﻿using Microsoft.AspNetCore.Components;
 using TFGCalculator.Models;
 using TFGCalculator.Services;
 using TFGCalculator.Shared;
@@ -8,7 +8,6 @@ namespace TFGCalculator.Pages;
 public partial class ModpackItems : ComponentBase, IDisposable
 {
     [Parameter] public string ModpackId { get; set; } = "";
-
     [Inject] private ItemService ItemSvc { get; set; } = default!;
     [Inject] private RecipeService RecipeSvc { get; set; } = default!;
     [Inject] private NavigationManager Nav { get; set; } = default!;
@@ -22,9 +21,13 @@ public partial class ModpackItems : ComponentBase, IDisposable
 
     public static List<ProductionRequest>? PendingRequests { get; set; }
     public static string? PendingModpackId { get; set; }
+    public static string? PendingTreeId { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
+        await ItemSvc.EnsureLoadedAsync(ModpackId);
+        await RecipeSvc.EnsureLoadedAsync(ModpackId);
+
         Loc.OnLanguageChanged += StateHasChanged;
         _filtered = ItemSvc.GetByModpack(ModpackId);
 
@@ -64,7 +67,7 @@ public partial class ModpackItems : ComponentBase, IDisposable
 
     private async Task AddItem(int ti, GameItem item)
     {
-        if (_trees[ti].Requests.Any(r => r.Item.Id == item.Id)) return;
+        // Allow duplicates — each becomes independent root with its own recipe choice
         _trees[ti].Requests.Add(new ProductionRequest { Item = item, AmountPerSecond = 1.0 });
         _addIdx = -1; _dd?.Close(); await Save();
     }
@@ -144,6 +147,7 @@ public partial class ModpackItems : ComponentBase, IDisposable
 
         await Storage.SaveAsync("lastCalc", new SavedCalculationState
         {
+            TreeId = tree.Id,
             ModpackId = ModpackId,
             Requests = tree.Requests.Select(r => new SavedRequestItem
             {
@@ -153,7 +157,7 @@ public partial class ModpackItems : ComponentBase, IDisposable
                 MachineCountValue = r.MachineCountValue
             }).ToList()
         });
-
+        PendingTreeId = tree.Id;
         Nav.NavigateTo("/result");
     }
 

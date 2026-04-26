@@ -1,0 +1,993 @@
+﻿[
+  {
+    "Id": "double_iron_plate",
+    "NameRu": "Серый чугун (Двойная пластина)",
+    "NameEn": "Iron (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_red_alloy_plate",
+    "NameRu": "Красный сплав (Двойная пластина)",
+    "NameEn": "Red alloy (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_neutronium_plate",
+    "NameRu": "Нейтроний (Двойная пластина)",
+    "NameEn": "Neutronium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_uranium_plate",
+    "NameRu": "Уран 238 (Двойная пластина)",
+    "NameEn": "Uranium 238 (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_plutonium_241_plate",
+    "NameRu": "Плутоний-241 (Двойная пластина)",
+    "NameEn": "Plutonium-241 (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_platinum_plate",
+    "NameRu": "Платина (Двойная пластина)",
+    "NameEn": "Platinum (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_enriched_naquadah_plate",
+    "NameRu": "Обогащённая наквада (Двойная пластина)",
+    "NameEn": "Enriched naquadah (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_aluminium_plate",
+    "NameRu": "Алюминий (Двойная пластина)",
+    "NameEn": "Aluminium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_ruthenium_plate",
+    "NameRu": "Рутений (Двойная пластина)",
+    "NameEn": "Ruthenium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_magnetic_iron_plate",
+    "NameRu": "Магнитное железо (Двойная пластина)",
+    "NameEn": "Magnetic iron (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_invar_plate",
+    "NameRu": "Инвар (Двойная пластина)",
+    "NameEn": "Invar (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_duranium_plate",
+    "NameRu": "Дюраний (Двойная пластина)",
+    "NameEn": "Duranium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_nickel_plate",
+    "NameRu": "Никель (Двойная пластина)",
+    "NameEn": "Nickel (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_zinc_plate",
+    "NameRu": "Цинк (Двойная пластина)",
+    "NameEn": "Zinc (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_watertight_steel_plate",
+    "NameRu": "Водостойкая сталь (Двойная пластина)",
+    "NameEn": "Watertight steel (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_osmiridium_plate",
+    "NameRu": "Осмистый иридий (Двойная пластина)",
+    "NameEn": "Osmiridium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_cobalt_plate",
+    "NameRu": "Кобальт (Двойная пластина)",
+    "NameEn": "Cobalt (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_hsla_steel_plate",
+    "NameRu": "HSLA сталь (Двойная пластина)",
+    "NameEn": "HSLA steel (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_titanium_tungsten_carbide_plate",
+    "NameRu": "Вольфрам-титанановый карбид (Двойная пластина)",
+    "NameEn": "Titanium tungsten carbide (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_manganese_plate",
+    "NameRu": "Марганец (Двойная пластина)",
+    "NameEn": "Manganese (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_niobium_titanium_plate",
+    "NameRu": "Ниобий-титан (Двойная пластина)",
+    "NameEn": "Niobium titanium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_silver_plate",
+    "NameRu": "Серебро (Двойная пластина)",
+    "NameEn": "Silver (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_rhodium_plate",
+    "NameRu": "Родий (Двойная пластина)",
+    "NameEn": "Rhodium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_molybdenum_plate",
+    "NameRu": "Молибден (Двойная пластина)",
+    "NameEn": "molybdenum (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_tin_plate",
+    "NameRu": "Олово (Двойная пластина)",
+    "NameEn": "Tin (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_rocket_alloy_t1_plate",
+    "NameRu": "Красный алюминиево-стальной ракетный сплав (Двойная пластина)",
+    "NameEn": "Rocket alloy t1 (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_hastelloy_x_plate",
+    "NameRu": "Хастеллой-X (Двойная пластина)",
+    "NameEn": "Hastelloy-X (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_niobium_nitride_plate",
+    "NameRu": "Нитрид ниобия (Двойная пластина)",
+    "NameEn": "Niobium nitride (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_cupronickel_plate",
+    "NameRu": "Купроникель (Двойная пластина)",
+    "NameEn": "Cupronickel (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_zirconium_plate",
+    "NameRu": "Цирконий (Двойная пластина)",
+    "NameEn": "Zirconium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_titanium_plate",
+    "NameRu": "Титан (Двойная пластина)",
+    "NameEn": "Titanium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_americium_plate",
+    "NameRu": "Америций 243 (Двойная пластина)",
+    "NameEn": "Americium 243 (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_uranium_235_plate",
+    "NameRu": "Уран-235 (Двойная пластина)",
+    "NameEn": "Uranium-235 (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_gallium_plate",
+    "NameRu": "Галлий (Двойная пластина)",
+    "NameEn": "Gallium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_uranium_triplatinum_plate",
+    "NameRu": "Триплатина уран (Двойная пластина)",
+    "NameEn": "Uranium triplatinum (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_ultimet_plate",
+    "NameRu": "Ультимет (Двойная пластина)",
+    "NameEn": "Ultimet (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_desh_plate",
+    "NameRu": "Деш (Двойная пластина)",
+    "NameEn": "desh (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_tungsten_carbide_plate",
+    "NameRu": "Карбид вольфрама (Двойная пластина)",
+    "NameEn": "Tungsten carbide (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_trinium_plate",
+    "NameRu": "Триниум (Двойная пластина)",
+    "NameEn": "Trinium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_rhodium_plated_palladium_plate",
+    "NameRu": "Палладий с родиевым покрытием (Двойная пластина)",
+    "NameEn": "Rhodium plated palladium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_chromium_plate",
+    "NameRu": "Хром (Двойная пластина)",
+    "NameEn": "Chromium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_ostrum_iodide_plate",
+    "NameRu": "Йодид острума (Двойная пластина)",
+    "NameEn": "ostrum_iodide_dust (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_titanium_carbide_plate",
+    "NameRu": "Карбид титана (Двойная пластина)",
+    "NameEn": "Titanium carbide (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_stainless_steel_plate",
+    "NameRu": "Нержавеющая сталь (Двойная пластина)",
+    "NameEn": "Stainless steel (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_bismuth_plate",
+    "NameRu": "Висмут (Двойная пластина)",
+    "NameEn": "Bismuth (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_bronze_plate",
+    "NameRu": "Бронза (Двойная пластина)",
+    "NameEn": "Bronze (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_ruthenium_trinium_americium_neutronate_plate",
+    "NameRu": "Нейтронат рутения триния америция (Двойная пластина)",
+    "NameEn": "Ruthenium trinium americium neutronate (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_incoloy_ma_956_plate",
+    "NameRu": "Инколой MA-956 (Двойная пластина)",
+    "NameEn": "Incoloy MA-956 (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_brass_plate",
+    "NameRu": "Латунь (Двойная пластина)",
+    "NameEn": "Brass (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_rtm_alloy_plate",
+    "NameRu": "РВМ сплав (Двойная пластина)",
+    "NameEn": "RTM alloy (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_cobalt_brass_plate",
+    "NameRu": "Кобальтовая латунь (Двойная пластина)",
+    "NameEn": "Cobalt brass (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_neodymium_plate",
+    "NameRu": "Неодим (Двойная пластина)",
+    "NameEn": "Neodymium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_black_steel_plate",
+    "NameRu": "Черная сталь (Двойная пластина)",
+    "NameEn": "Black steel (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_black_bronze_plate",
+    "NameRu": "Черная бронза (Двойная пластина)",
+    "NameEn": "Black bronze (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_zeron_100_plate",
+    "NameRu": "Зерон-100 (Двойная пластина)",
+    "NameEn": "Zeron-100 (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_samarium_iron_arsenic_oxide_plate",
+    "NameRu": "Оксид самария железа мышьяка (Двойная пластина)",
+    "NameEn": "Samarium iron arsenic oxide (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_blue_steel_plate",
+    "NameRu": "Синяя сталь (Двойная пластина)",
+    "NameEn": "Blue steel (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_manganese_phosphide_plate",
+    "NameRu": "Фосфид марганца (Двойная пластина)",
+    "NameEn": "Manganese phosphide (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_stellite_100_plate",
+    "NameRu": "Стеллит (Двойная пластина)",
+    "NameEn": "Stellite (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_naquadria_plate",
+    "NameRu": "Наквадрия (Двойная пластина)",
+    "NameEn": "Naquadria (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_nichrome_plate",
+    "NameRu": "Нихром (Двойная пластина)",
+    "NameEn": "Nichrome (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_europium_plate",
+    "NameRu": "Европий (Двойная пластина)",
+    "NameEn": "Europium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_vanadium_gallium_plate",
+    "NameRu": "Ванадий-Галлий (Двойная пластина)",
+    "NameEn": "Vanadium gallium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_tungsten_plate",
+    "NameRu": "Вольфрам (Двойная пластина)",
+    "NameEn": "Tungsten (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_vanadium_steel_plate",
+    "NameRu": "Ванадиевая сталь (Двойная пластина)",
+    "NameEn": "Vanadium steel (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_tungsten_steel_plate",
+    "NameRu": "Вольфрамовая сталь (Двойная пластина)",
+    "NameEn": "Tungsten steel (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_magnalium_plate",
+    "NameRu": "Магналий (Двойная пластина)",
+    "NameEn": "Magnalium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_iridium_plate",
+    "NameRu": "Иридий (Двойная пластина)",
+    "NameEn": "Iridium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_red_steel_plate",
+    "NameRu": "Красная сталь (Двойная пластина)",
+    "NameEn": "Red steel (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_magnetic_steel_plate",
+    "NameRu": "Магнитная сталь (Двойная пластина)",
+    "NameEn": "Magnetic steel (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_indium_gallium_phosphide_plate",
+    "NameRu": "Индий галлий фосфид (Двойная пластина)",
+    "NameEn": "Indium gallium phosphide (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_osmium_plate",
+    "NameRu": "Осмий (Двойная пластина)",
+    "NameEn": "Osmium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_hastelloy_c_276_plate",
+    "NameRu": "Хастеллой-C276 (Двойная пластина)",
+    "NameEn": "Hastelloy-C276 (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_molybdenum_disilicide_plate",
+    "NameRu": "Дисилицид молибдена (Двойная пластина)",
+    "NameEn": "molybdenum disilicide (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_rose_gold_plate",
+    "NameRu": "Розовое золото (Двойная пластина)",
+    "NameEn": "Rose gold (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_electrum_plate",
+    "NameRu": "Электрум (Двойная пластина)",
+    "NameEn": "Electrum (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_tantalum_plate",
+    "NameRu": "Тантал (Двойная пластина)",
+    "NameEn": "Tantalum (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_magnesium_diboride_plate",
+    "NameRu": "Диборид магния (Двойная пластина)",
+    "NameEn": "Magnesium diboride (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_sterling_silver_plate",
+    "NameRu": "Стерлинговое серебро (Двойная пластина)",
+    "NameEn": "Sterling silver (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_wrought_iron_plate",
+    "NameRu": "Кованное железо (Двойная пластина)",
+    "NameEn": "Wrought iron (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_tantalum_carbide_plate",
+    "NameRu": "Карбид тантала (Двойная пластина)",
+    "NameEn": "Tantalum carbide (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_gallium_arsenide_plate",
+    "NameRu": "Арсенид галлия (Двойная пластина)",
+    "NameEn": "Gallium arsenide (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_kanthal_plate",
+    "NameRu": "Кантал (Двойная пластина)",
+    "NameEn": "Kanthal (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_cadmium_plate",
+    "NameRu": "Кадмий (Двойная пластина)",
+    "NameEn": "Cadmium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_gold_plate",
+    "NameRu": "Золото (Двойная пластина)",
+    "NameEn": "Gold (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_uranium_rhodium_dinaquadide_plate",
+    "NameRu": "Уран родий динаквада (Двойная пластина)",
+    "NameEn": "Uranium rhodium dinaquadide (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_yttrium_barium_cuprate_plate",
+    "NameRu": "Оксид иттрия-бария-меди (Двойная пластина)",
+    "NameEn": "Yttrium barium cuprate (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_maraging_steel_300_plate",
+    "NameRu": "Мартенситностареющая сталь 300 (Двойная пластина)",
+    "NameEn": "Maraging steel 300 (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_enriched_naquadah_trinium_europium_duranide_plate",
+    "NameRu": "Обогащенный наквада триний европий дюраний (Двойная пластина)",
+    "NameEn": "Enriched naquadah trinium europium duranide (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_palladium_plate",
+    "NameRu": "Палладий (Двойная пластина)",
+    "NameEn": "Palladium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_graphene_plate",
+    "NameRu": "Графен (Двойная пластина)",
+    "NameEn": "Graphene (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_beryllium_plate",
+    "NameRu": "Бериллий (Двойная пластина)",
+    "NameEn": "Beryllium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_blue_alloy_plate",
+    "NameRu": "Синий сплав (Двойная пластина)",
+    "NameEn": "Blue alloy (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_hsse_plate",
+    "NameRu": "HSS-E (Двойная пластина)",
+    "NameEn": "HSS-E (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_hsss_plate",
+    "NameRu": "HSS-S (Двойная пластина)",
+    "NameEn": "HSS-S (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_hssg_plate",
+    "NameRu": "HSS-G (Двойная пластина)",
+    "NameEn": "HSS-G (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_mercury_barium_calcium_cuprate_plate",
+    "NameRu": "Купрат ртути бария кальция (Двойная пластина)",
+    "NameEn": "Mercury barium calcium cuprate (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_bismuth_bronze_plate",
+    "NameRu": "Висмутовая бронза (Двойная пластина)",
+    "NameEn": "Bismuth bronze (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_copper_plate",
+    "NameRu": "Медь (Двойная пластина)",
+    "NameEn": "Copper (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_silicon_plate",
+    "NameRu": "Кремний (Двойная пластина)",
+    "NameEn": "Silicon (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_rocket_alloy_t2_plate",
+    "NameRu": "ASM 4914 титановый ракетный сплав (Двойная пластина)",
+    "NameEn": "Rocket alloy t2 (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_naquadah_alloy_plate",
+    "NameRu": "Сплав наквада (Двойная пластина)",
+    "NameEn": "Naquadah alloy (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_darmstadtium_plate",
+    "NameRu": "Дармштадтий (Двойная пластина)",
+    "NameEn": "Darmstadtium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_battery_alloy_plate",
+    "NameRu": "Аккумуляторный сплав (Двойная пластина)",
+    "NameEn": "Battery alloy (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_naquadah_plate",
+    "NameRu": "Наквада (Двойная пластина)",
+    "NameEn": "Naquadah (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_annealed_copper_plate",
+    "NameRu": "Отожженная медь (Двойная пластина)",
+    "NameEn": "Annealed copper (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_indium_tin_barium_titanium_cuprate_plate",
+    "NameRu": "Купрат индия олова бария титана (Двойная пластина)",
+    "NameEn": "Indium tin barium titanium cuprate (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_ostrum_plate",
+    "NameRu": "Острум (Двойная пластина)",
+    "NameEn": "Ostrum (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_lead_plate",
+    "NameRu": "Свинец (Двойная пластина)",
+    "NameEn": "Lead (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_tin_alloy_plate",
+    "NameRu": "Оловянный сплав (Двойная пластина)",
+    "NameEn": "Tin alloy (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_steel_plate",
+    "NameRu": "Сталь (Двойная пластина)",
+    "NameEn": "Steel (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_tritanium_plate",
+    "NameRu": "Тританий (Двойная пластина)",
+    "NameEn": "Tritanium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_potin_plate",
+    "NameRu": "Потин (Двойная пластина)",
+    "NameEn": "Potin (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_boron_carbide_plate",
+    "NameRu": "Карбид бора (Двойная пластина)",
+    "NameEn": "Boron carbide (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_inconel_718_plate",
+    "NameRu": "Инконель-718 (Двойная пластина)",
+    "NameEn": "Inconel-718 (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_mo_50_re_plate",
+    "NameRu": "Mo-50 Re (Двойная пластина)",
+    "NameEn": "Mo-50 Re (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_mo_si_b_plate",
+    "NameRu": "Mo-Si-B (Двойная пластина)",
+    "NameEn": "Mo-Si-B (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_calorite_plate",
+    "NameRu": "Калорит (Двойная пластина)",
+    "NameEn": "Calorite (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_tungsten_bismuth_oxide_composite_plate",
+    "NameRu": "Композит оксида-вольфрама-висмута (Двойная пластина)",
+    "NameEn": "Tungsten bismuth oxide composite (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_zirconium_plate",
+    "NameRu": "Цирконий (Двойная пластина)",
+    "NameEn": "Zirconium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_rene_41_plate",
+    "NameRu": "Рене-41 (Двойная пластина)",
+    "NameEn": "Rene 41 (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_zirconium_diboride_plate",
+    "NameRu": "Диборид циркония (Двойная пластина)",
+    "NameEn": "Zirconium diboride (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_etrium_plate",
+    "NameRu": "Этриум (Двойная пластина)",
+    "NameEn": "Etrium (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  },
+
+  {
+    "Id": "double_ruridit_plate",
+    "NameRu": "Руридит (Двойная пластина)",
+    "NameEn": "Ruridit (Double plate)",
+    "Type": "Двойная пластина",
+    "Tag": "forge:double_plates"
+  }
+]

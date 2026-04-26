@@ -1,0 +1,289 @@
+﻿[
+  {
+    "Id": "programmed_circuit_1",
+    "NameRu": "Интегральная схема 1",
+    "NameEn": "Programmed circuit 1",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_1.png"
+  },
+
+  {
+    "Id": "programmed_circuit_2",
+    "NameRu": "Интегральная схема 2",
+    "NameEn": "Programmed circuit 2",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_2.png"
+  },
+
+  {
+    "Id": "programmed_circuit_3",
+    "NameRu": "Интегральная схема 3",
+    "NameEn": "Programmed circuit 3",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_3.png"
+  },
+
+  {
+    "Id": "programmed_circuit_4",
+    "NameRu": "Интегральная схема 4",
+    "NameEn": "Programmed circuit 4",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_4.png"
+  },
+
+  {
+    "Id": "programmed_circuit_5",
+    "NameRu": "Интегральная схема 5",
+    "NameEn": "Programmed circuit 5",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_5.png"
+  },
+
+  {
+    "Id": "programmed_circuit_6",
+    "NameRu": "Интегральная схема 6",
+    "NameEn": "Programmed circuit 6",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_6.png"
+  },
+
+  {
+    "Id": "programmed_circuit_7",
+    "NameRu": "Интегральная схема 7",
+    "NameEn": "Programmed circuit 7",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_7.png"
+  },
+
+  {
+    "Id": "programmed_circuit_8",
+    "NameRu": "Интегральная схема 8",
+    "NameEn": "Programmed circuit 8",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_8.png"
+  },
+
+  {
+    "Id": "programmed_circuit_9",
+    "NameRu": "Интегральная схема 9",
+    "NameEn": "Programmed circuit 9",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_9.png"
+  },
+
+  {
+    "Id": "programmed_circuit_10",
+    "NameRu": "Интегральная схема 10",
+    "NameEn": "Programmed circuit 10",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_10.png"
+  },
+
+  {
+    "Id": "programmed_circuit_11",
+    "NameRu": "Интегральная схема 11",
+    "NameEn": "Programmed circuit 11",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_11.png"
+  },
+
+  {
+    "Id": "programmed_circuit_12",
+    "NameRu": "Интегральная схема 12",
+    "NameEn": "Programmed circuit 12",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_12.png"
+  },
+
+  {
+    "Id": "programmed_circuit_13",
+    "NameRu": "Интегральная схема 13",
+    "NameEn": "Programmed circuit 13",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_13.png"
+  },
+
+  {
+    "Id": "programmed_circuit_14",
+    "NameRu": "Интегральная схема 14",
+    "NameEn": "Programmed circuit 14",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_14.png"
+  },
+
+  {
+    "Id": "programmed_circuit_15",
+    "NameRu": "Интегральная схема 15",
+    "NameEn": "Programmed circuit 15",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_15.png"
+  },
+
+  {
+    "Id": "programmed_circuit_16",
+    "NameRu": "Интегральная схема 16",
+    "NameEn": "Programmed circuit 16",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_16.png"
+  },
+
+  {
+    "Id": "programmed_circuit_17",
+    "NameRu": "Интегральная схема 17",
+    "NameEn": "Programmed circuit 17",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_17.png"
+  },
+
+  {
+    "Id": "programmed_circuit_18",
+    "NameRu": "Интегральная схема 18",
+    "NameEn": "Programmed circuit 18",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_18.png"
+  },
+
+  {
+    "Id": "programmed_circuit_19",
+    "NameRu": "Интегральная схема 19",
+    "NameEn": "Programmed circuit 19",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_19.png"
+  },
+
+  {
+    "Id": "programmed_circuit_20",
+    "NameRu": "Интегральная схема 20",
+    "NameEn": "Programmed circuit 20",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_20.png"
+  },
+
+  {
+    "Id": "programmed_circuit_21",
+    "NameRu": "Интегральная схема 21",
+    "NameEn": "Programmed circuit 21",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_21.png"
+  },
+
+  {
+    "Id": "programmed_circuit_22",
+    "NameRu": "Интегральная схема 22",
+    "NameEn": "Programmed circuit 22",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_22.png"
+  },
+
+  {
+    "Id": "programmed_circuit_23",
+    "NameRu": "Интегральная схема 23",
+    "NameEn": "Programmed circuit 23",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_23.png"
+  },
+
+  {
+    "Id": "programmed_circuit_24",
+    "NameRu": "Интегральная схема 24",
+    "NameEn": "Programmed circuit 24",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_24.png"
+  },
+
+  {
+    "Id": "programmed_circuit_25",
+    "NameRu": "Интегральная схема 25",
+    "NameEn": "Programmed circuit 25",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_25.png"
+  },
+
+  {
+    "Id": "programmed_circuit_26",
+    "NameRu": "Интегральная схема 26",
+    "NameEn": "Programmed circuit 26",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_26.png"
+  },
+
+  {
+    "Id": "programmed_circuit_27",
+    "NameRu": "Интегральная схема 27",
+    "NameEn": "Programmed circuit 27",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_27.png"
+  },
+
+  {
+    "Id": "programmed_circuit_28",
+    "NameRu": "Интегральная схема 28",
+    "NameEn": "Programmed circuit 28",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_28.png"
+  },
+
+  {
+    "Id": "programmed_circuit_29",
+    "NameRu": "Интегральная схема 29",
+    "NameEn": "Programmed circuit 29",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_29.png"
+  },
+
+  {
+    "Id": "programmed_circuit_30",
+    "NameRu": "Интегральная схема 30",
+    "NameEn": "Programmed circuit 30",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_30.png"
+  },
+
+  {
+    "Id": "programmed_circuit_31",
+    "NameRu": "Интегральная схема 31",
+    "NameEn": "Programmed circuit 31",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_31.png"
+  },
+
+  {
+    "Id": "programmed_circuit_32",
+    "NameRu": "Интегральная схема 32",
+    "NameEn": "Programmed circuit 32",
+    "Type": "Интегральная схема",
+    "Tag": "gtceu:programmed_circuit",
+    "IconPath": "images/tfg-modern/items/programmed_circuit_32.png"
+  }
+]

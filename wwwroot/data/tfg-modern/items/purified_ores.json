@@ -1,0 +1,49 @@
+﻿[
+  {
+    "Id": "purified_chalcopyrite_ore",
+    "NameRu": "Халькопирит (Очищенная руда)",
+    "NameEn": "Chalcopyrite (Purified ore)",
+    "Type": "Очищенная руда",
+    "Tag": "forge:purified_ores"
+  },
+
+  {
+    "Id": "purified_bornite_ore",
+    "NameRu": "Борнит (Очищенная руда)",
+    "NameEn": "Bornite (Purified ore)",
+    "Type": "Очищенная руда",
+    "Tag": "forge:purified_ores"
+  },
+
+  {
+    "Id": "purified_chalcocite_ore",
+    "NameRu": "Халькозин (Очищенная руда)",
+    "NameEn": "Chalcocite (Purified ore)",
+    "Type": "Очищенная руда",
+    "Tag": "forge:purified_ores"
+  },
+
+  {
+    "Id": "purified_tetrahedrite_ore",
+    "NameRu": "Тетраэдрит (Очищенная руда)",
+    "NameEn": "Tetrahedrite (Purified ore)",
+    "Type": "Очищенная руда",
+    "Tag": "forge:purified_ores"
+  },
+
+  {
+    "Id": "purified_pentlandite_ore",
+    "NameRu": "Пентландит (Очищенная руда)",
+    "NameEn": "Pentlandite (Purified ore)",
+    "Type": "Очищенная руда",
+    "Tag": "forge:purified_ores"
+  },
+
+  {
+    "Id": "purified_cooperite_ore",
+    "NameRu": "Куперит (Очищенная руда)",
+    "NameEn": "Cooperite (Purified ore)",
+    "Type": "Очищенная руда",
+    "Tag": "forge:purified_ores"
+  }
+]

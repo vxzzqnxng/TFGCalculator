@@ -1,4 +1,4 @@
-using Microsoft.JSInterop;
+﻿using Microsoft.JSInterop;
 
 namespace TFGCalculator.Services;
 
@@ -45,6 +45,21 @@ public class LocalizationService
             ["RateViewOnly"]="Только рецепты",
             ["Amps"]="Ампер",["VoltageLevel"]="Ур. напряжения",
             ["Temperature"]="Температура",["Parallels"]="Параллели",
+            ["TfcCalculators"] = "Калькуляторы для TerraFirmaCraft",
+            ["AnvilCalculator"] = "Калькулятор наковальни",
+            ["AlloyCalculator"] = "Калькулятор сплавов",
+            ["BackToTfcCalc"] = "Назад к калькуляторам TFC",
+            ["TargetValue"] = "Целевое значение",
+            ["TotalSteps"] = "Всего действий",
+            ["NoSolution"] = "Решение не найдено",
+            ["Ingots"] = "Слитки",
+            ["OreUnit"] = "единица руды",
+            ["AltRecipe"] = "Альт. рецепт",
+            ["AddAltVariant"] = "Добавить альтернативный вариант",
+            ["CraftingTable"] = "Верстак",
+            ["Pcs"] = "шт",
+            ["ActualTotal"] = "Фактический итог",
+            ["AlloyInfeasible"] = "Невозможно получить сплав с текущими значениями",
         },
         ["en"] = new()
         {
@@ -72,6 +87,21 @@ public class LocalizationService
             ["RateViewOnly"]="Recipes only",
             ["Amps"]="Amps",["VoltageLevel"]="Voltage level",
             ["Temperature"]="Temperature",["Parallels"]="Parallels",
+            ["TfcCalculators"] = "TerraFirmaCraft Calculators",
+            ["AnvilCalculator"] = "Anvil Calculator",
+            ["AlloyCalculator"] = "Alloy Calculator",
+            ["BackToTfcCalc"] = "Back to TFC calculators",
+            ["TargetValue"] = "Target value",
+            ["TotalSteps"] = "Total steps",
+            ["NoSolution"] = "No solution found",
+            ["Ingots"] = "Ingots",
+            ["OreUnit"] = "ore unit",
+            ["AltRecipe"] = "Alt recipe",
+            ["AddAltVariant"] = "Add alternative variant",
+            ["CraftingTable"] = "Crafting Table",
+            ["Pcs"] = "pcs",
+            ["ActualTotal"] = "Actual total",
+            ["AlloyInfeasible"] = "Cannot produce alloy with current values",
         }
     };
 

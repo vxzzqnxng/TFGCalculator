@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <meta charset="UTF-8">
 <html lang="ru">
 <head>
@@ -16,13 +16,14 @@
             "use strict";
 
             const GRID = 20;
-            let IW = 32000, IH = 32000;
+            let IW = 4000, IH = 4000;
             let scale = 1, panning = false, psx = 0, psy = 0, ssx = 0, ssy = 0;
             let nodePos = {}, arrows = [], sideOv = {};
             let drag = { on: false, id: null, ox: 0, oy: 0 };
             let arrDrag = { on: false, key: null, end: null, nid: null };
             let blazorRef = null;
             let panZoomInitialized = false;
+            let registeredNodes = new Set();
 
             function m2i(e) {
                 const c = document.getElementById('tree-pan-container'); if (!c) return { x: 0, y: 0 };
@@ -30,22 +31,9 @@
                 return { x: (e.clientX - r.left + c.scrollLeft) / scale, y: (e.clientY - r.top + c.scrollTop) / scale };
             }
 
-            // Delayed init to ensure DOM is ready
-            window.initTreePanZoomDelayed = function (cid) {
-                setTimeout(function () { initTreePanZoomReal(cid); }, 50);
-            };
-
-            // Also keep direct init for backward compat
             window.initTreePanZoom = function (cid) {
-                initTreePanZoomReal(cid);
-            };
-
-            function initTreePanZoomReal(cid) {
                 const c = document.getElementById(cid); if (!c) return;
                 const inner = c.querySelector('.tree-inner'); if (!inner) return;
-
-                // Remove old listeners by cloning (clean slate)
-                // Not needed if we guard with panZoomInitialized
                 if (panZoomInitialized) return;
                 panZoomInitialized = true;
 
@@ -74,25 +62,48 @@
                     c.scrollLeft = ssx - (e.clientX - psx);
                     c.scrollTop = ssy - (e.clientY - psy);
                 });
-
-                // Prevent middle click default (auto-scroll icon)
-                c.addEventListener('auxclick', function (e) {
-                    if (e.button === 1) e.preventDefault();
+                // Delegated left-button drag for nodes (uses current data-nid — no stale closures)
+                c.addEventListener('mousedown', function (e) {
+                    if (e.button !== 0) return;
+                    if (e.target.closest('.interactive') ||
+                        e.target.closest('select') ||
+                        e.target.closest('input') ||
+                        e.target.closest('button') ||
+                        e.target.closest('.recipe-selector-dropdown') ||
+                        e.target.closest('.recipe-selector-scroll') ||
+                        e.target.closest('.custom-tier-options')) return;
+                    var wrapper = e.target.closest('.tree-node-wrapper');
+                    if (!wrapper) return;
+                    var nid = wrapper.dataset.nid;
+                    if (!nid) return;
+                    e.stopPropagation();
+                    e.preventDefault();
+                    var pos = m2i(e);
+                    var nx = parseFloat(wrapper.style.left) || 0;
+                    var ny = parseFloat(wrapper.style.top) || 0;
+                    drag = { on: true, id: nid, ox: pos.x - nx, oy: pos.y - ny };
+                    wrapper.style.zIndex = '50';
+                    showGrid();
                 });
+                c.addEventListener('mouseup', function (e) {
+                    if (e.button === 1 || e.button === 0) { panning = false; c.style.cursor = 'default'; }
+                });
+                c.addEventListener('mouseleave', function () { panning = false; c.style.cursor = 'default'; });
+                c.addEventListener('mousemove', function (e) {
+                    if (!panning) return;
+                    e.preventDefault();
+                    c.scrollLeft = ssx - (e.clientX - psx);
+                    c.scrollTop = ssy - (e.clientY - psy);
+                });
+                c.addEventListener('auxclick', function (e) { if (e.button === 1) e.preventDefault(); });
 
-                // Zoom only with Ctrl + wheel; allow dropdown scroll without Ctrl
                 c.addEventListener('wheel', function (e) {
                     var dd = e.target.closest('.recipe-selector-dropdown') ||
                         e.target.closest('.custom-tier-options') ||
                         e.target.closest('.dropdown-panel') ||
                         e.target.closest('.recipe-selector-scroll');
-                    if (dd) return; // let dropdown scroll normally
-
-                    if (!e.ctrlKey) {
-                        // Normal scroll without ctrl - just scroll the panel
-                        return;
-                    }
-
+                    if (dd) return;
+                    if (!e.ctrlKey) return;
                     e.preventDefault();
                     var old = scale;
                     scale = Math.min(3, Math.max(0.15, scale + (e.deltaY > 0 ? -0.08 : 0.08)));
@@ -104,12 +115,7 @@
                     c.scrollTop = cy * (scale / old) - c.clientHeight / 2;
                     redraw();
                 }, { passive: false });
-
-                setTimeout(function () {
-                    c.scrollLeft = 0;
-                    c.scrollTop = 0;
-                }, 100);
-            }
+            };
 
             function showGrid() {
                 var inner = document.getElementById('tree-inner'); if (!inner) return;
@@ -123,40 +129,111 @@
                 g.style.backgroundImage = 'radial-gradient(circle,rgba(255,255,255,0.5) 1.5px,transparent 1.5px)';
                 g.style.backgroundSize = GRID + 'px ' + GRID + 'px';
             }
-
             function hideGrid() {
                 var inner = document.getElementById('tree-inner'); if (!inner) return;
                 var g = inner.querySelector('.snap-grid-overlay'); if (g) g.style.display = 'none';
             }
 
-            window.initNodeDrag = function (nid) {
-                var el = document.getElementById('node-' + nid); if (!el) return;
-                if (nodePos[nid]) { el.style.left = nodePos[nid].x + 'px'; el.style.top = nodePos[nid].y + 'px'; }
+            function attachNodeDrag(nid) {
+                var el = document.getElementById('node-' + nid);
+                if (!el) return;
+                // Просто отмечаем элемент — обработчик делегирован на контейнер
+                registeredNodes.add(nid);
+            }
 
-                el.onmousedown = function (e) {
-                    if (e.target.closest('.interactive') || e.target.closest('select') ||
-                        e.target.closest('input') || e.target.closest('button') ||
-                        e.target.closest('.recipe-selector-dropdown') ||
-                        e.target.closest('.recipe-selector-scroll') ||
-                        e.target.closest('.custom-tier-options') ||
-                        e.button !== 0) return;
-                    e.stopPropagation(); e.preventDefault();
-                    var pos = m2i(e);
-                    var nx = parseFloat(el.style.left) || 0, ny = parseFloat(el.style.top) || 0;
-                    drag = { on: true, id: nid, ox: pos.x - nx, oy: pos.y - ny };
-                    el.style.zIndex = '50'; showGrid();
-                };
-            };
+            // ===== Unified entry point called from Blazor =====
+            window.renderTree = function (fieldW, fieldH, positionsJson, nodeIds, connections, structureChanged) {
+                // 1. Field size
+                IW = fieldW; IH = fieldH;
+                var inner = document.getElementById('tree-inner');
+                if (inner) { inner.style.width = fieldW + 'px'; inner.style.height = fieldH + 'px'; }
 
-            window.setInitialNodePosition = function (nid, x, y) {
-                var el = document.getElementById('node-' + nid); if (!el) return;
-                x = Math.round(x / GRID) * GRID; y = Math.round(y / GRID) * GRID;
-                if (nodePos[nid]) {
-                    el.style.left = nodePos[nid].x + 'px'; el.style.top = nodePos[nid].y + 'px';
-                } else {
-                    el.style.left = x + 'px'; el.style.top = y + 'px'; nodePos[nid] = { x: x, y: y };
+                // 2. Parse layout
+                var positions;
+                try { positions = JSON.parse(positionsJson); } catch (e) { positions = []; }
+                if (!Array.isArray(positions)) positions = [];
+
+                // 3. Apply positions
+                var newIdsSet = new Set(positions.map(function (p) { return p.id; }));
+
+                // Drop stored positions for nodes that no longer exist
+                Object.keys(nodePos).forEach(function (k) {
+                    if (!newIdsSet.has(k)) delete nodePos[k];
+                });
+
+                var addedAny = false;
+                positions.forEach(function (p) {
+                    if (!nodePos[p.id]) {
+                        nodePos[p.id] = { x: p.x, y: p.y };
+                        addedAny = true;
+                    }
+                });
+
+                // 4. Retry applying until DOM is ready (in case Blazor hasn't rendered new nodes yet)
+                var attempts = 0;
+                function applyToDom() {
+                    var allOk = true;
+                    (nodeIds || []).forEach(function (nid) {
+                        var el = document.getElementById('node-' + nid);
+                        if (!el) { allOk = false; return; }
+                        var p = nodePos[nid];
+                        if (p) {
+                            el.style.left = p.x + 'px';
+                            el.style.top = p.y + 'px';
+                            el.style.visibility = 'visible';
+                        }
+                        attachNodeDrag(nid);
+                    });
+
+                    // Purge drag handlers for removed nodes
+                    registeredNodes.forEach(function (nid) {
+                        if (!nodeIds || nodeIds.indexOf(nid) < 0) {
+                            registeredNodes.delete(nid);
+                        }
+                    });
+
+                    arrows = connections || [];
+
+                    if (!allOk && attempts < 10) {
+                        attempts++;
+                        setTimeout(applyToDom, 30);
+                        return;
+                    }
+
+                    // Save whenever we added new nodes or purged stale ones
+                    if ((addedAny || structureChanged) && blazorRef) {
+                        blazorRef.invokeMethodAsync('SaveNodePositions', JSON.stringify(nodePos));
+                    }
+                    // Expand field if user positions extend beyond current bounds
+                    ensureFieldFits();
+
+                    // Draw arrows after DOM positions applied (use rAF to ensure layout)
+                    requestAnimationFrame(function () {
+                        requestAnimationFrame(redraw);
+                    });
                 }
+                applyToDom();
             };
+
+            function ensureFieldFits() {
+                var needW = 2000, needH = 1500;
+                Object.keys(nodePos).forEach(function (k) {
+                    var p = nodePos[k];
+                    if (!p) return;
+                    var el = document.getElementById('node-' + k);
+                    var w = el ? el.offsetWidth : 400;
+                    var h = el ? el.offsetHeight : 300;
+                    if (p.x + w + 600 > needW) needW = p.x + w + 600;
+                    if (p.y + h + 600 > needH) needH = p.y + h + 600;
+                });
+                var newW = Math.max(IW, needW);
+                var newH = Math.max(IH, needH);
+                if (newW !== IW || newH !== IH) {
+                    IW = newW; IH = newH;
+                    var inner = document.getElementById('tree-inner');
+                    if (inner) { inner.style.width = IW + 'px'; inner.style.height = IH + 'px'; }
+                }
+            }
 
             document.addEventListener('mousemove', function (e) {
                 if (drag.on) {
@@ -164,15 +241,22 @@
                     var pos = m2i(e);
                     var x = Math.round((pos.x - drag.ox) / GRID) * GRID;
                     var y = Math.round((pos.y - drag.oy) / GRID) * GRID;
-                    x = Math.max(0, Math.min(IW - 100, x));
-                    y = Math.max(0, Math.min(IH - 100, y));
+                    x = Math.max(0, x);
+                    y = Math.max(0, y);
+
+                    // Auto-expand field when dragging near edge
+                    var inner = document.getElementById('tree-inner');
+                    var needExpand = false;
+                    if (x + el.offsetWidth + 400 > IW) { IW = x + el.offsetWidth + 1000; needExpand = true; }
+                    if (y + el.offsetHeight + 400 > IH) { IH = y + el.offsetHeight + 1000; needExpand = true; }
+                    if (needExpand && inner) { inner.style.width = IW + 'px'; inner.style.height = IH + 'px'; }
+
                     el.style.left = x + 'px'; el.style.top = y + 'px';
                     nodePos[drag.id] = { x: x, y: y }; redraw();
                 }
                 if (arrDrag.on) redraw();
             });
 
-            // Close all dropdowns on click outside
             document.addEventListener('mousedown', function (e) {
                 if (!e.target.closest('.recipe-selector') &&
                     !e.target.closest('.recipe-selector-dropdown') &&
@@ -191,21 +275,33 @@
                 if (arrDrag.on) { arrDrag.on = false; redraw(); }
             });
 
-            window.setBlazorTreeRef = function (r) { blazorRef = r; panZoomInitialized = false; };
-            window.loadNodePositions = function (j) { if (j) try { nodePos = JSON.parse(j); } catch (e) { } };
-            window.loadArrowOverrides = function (j) { if (j) try { sideOv = JSON.parse(j); } catch (e) { } };
-            window.setArrowConnections = function (c) { arrows = c || []; redraw(); };
+            window.setBlazorTreeRef = function (r) {
+                blazorRef = r;
+                panZoomInitialized = false;
+                registeredNodes.clear();
+            };
+
+            window.loadNodePositions = function (j) {
+                try { nodePos = j ? JSON.parse(j) : {}; if (typeof nodePos !== 'object' || nodePos === null) nodePos = {}; }
+                catch (e) { nodePos = {}; }
+            };
+            window.loadArrowOverrides = function (j) {
+                try { sideOv = j ? JSON.parse(j) : {}; if (typeof sideOv !== 'object' || sideOv === null) sideOv = {}; }
+                catch (e) { sideOv = {}; }
+            };
 
             function nr(nid) {
                 var el = document.getElementById('node-' + nid); if (!el) return null;
-                return { x: parseFloat(el.style.left) || 0, y: parseFloat(el.style.top) || 0, w: el.offsetWidth, h: el.offsetHeight };
+                var x = parseFloat(el.style.left), y = parseFloat(el.style.top);
+                if (isNaN(x) || isNaN(y)) return null;
+                var w = el.offsetWidth, h = el.offsetHeight;
+                if (w === 0 || h === 0) return null;
+                return { x: x, y: y, w: w, h: h };
             }
-
             function getSide(conn, end) {
                 var k = conn.fromNode + '-' + conn.toNode, ov = sideOv[k];
                 return end === 'from' ? (ov && ov.fromSide || conn.fromSide || 'top') : (ov && ov.toSide || conn.toSide || 'bottom');
             }
-
             function countOnSide(nid, side, end) {
                 var c = 0;
                 arrows.forEach(function (a) {
@@ -213,7 +309,6 @@
                     if (end === 'to' && a.toNode === nid && getSide(a, 'to') === side) c++;
                 }); return c;
             }
-
             function indexOnSide(conn, end) {
                 var nid = end === 'from' ? conn.fromNode : conn.toNode;
                 var side = getSide(conn, end);
@@ -224,7 +319,6 @@
                     if (end === 'to' && arrows[i].toNode === nid && getSide(arrows[i], 'to') === side) idx++;
                 } return idx;
             }
-
             function edgePt(nid, side, idx, total) {
                 var r = nr(nid); if (!r) return null;
                 var isH = side === 'top' || side === 'bottom';
@@ -236,7 +330,6 @@
                     case 'right': return { x: r.x + r.w, y: r.y + off };
                 } return null;
             }
-
             function edgeCtr(nid, side) {
                 var r = nr(nid); if (!r) return null;
                 switch (side) {
@@ -246,14 +339,12 @@
                     case 'right': return { x: r.x + r.w, y: r.y + r.h / 2 };
                 } return null;
             }
-
             function sDir(s) {
                 switch (s) {
                     case 'top': return { dx: 0, dy: -1 }; case 'bottom': return { dx: 0, dy: 1 };
                     case 'left': return { dx: -1, dy: 0 }; case 'right': return { dx: 1, dy: 0 };
                 } return { dx: 0, dy: -1 };
             }
-
             function buildPath(f, t, fs, ts, fromNid, toNid) {
                 var R = 12, ext = 40;
                 var fd = sDir(fs), td = sDir(ts);
@@ -275,7 +366,18 @@
                         pts.push({ x: goX, y: f2.y }, { x: goX, y: t2.y });
                     }
                 } else if (isV(fs) && isV(ts)) {
-                    var my = (f2.y + t2.y) / 2;
+                 // Horizontal crossing in the gap adjacent to the TARGET (not midpoint)
+                   // This avoids slicing through intermediate-layer nodes
+                   var my;
+                   if (fs === 'top' && ts === 'bottom') {
+                       // Child (bottom) → Parent (top): route just below parent (in gap above child's layer)
+                       my = t2.y;
+                   } else if (fs === 'bottom' && ts === 'top') {
+                        // Parent → Child: route just above child
+                        my = t2.y;
+                    } else {
+                        my = (f2.y + t2.y) / 2;
+                    }
                     pts.push({ x: f2.x, y: my }, { x: t2.x, y: my });
                 } else if (!isV(fs) && !isV(ts)) {
                     var mx = (f2.x + t2.x) / 2;
@@ -298,7 +400,6 @@
                 d += 'L' + pts[pts.length - 1].x + ' ' + pts[pts.length - 1].y;
                 return { d: d, pts: pts };
             }
-
             function pathMidpoint(pts) {
                 var totalLen = 0;
                 for (var i = 1; i < pts.length; i++) {
@@ -337,7 +438,6 @@
                     var fp = edgePt(conn.fromNode, fS, fI, fT);
                     var tp = edgePt(conn.toNode, tS, tI, tT);
                     if (!fp || !tp) return;
-
                     var result = buildPath(fp, tp, fS, tS, conn.fromNode, conn.toNode);
                     var pathD = result.d, pts = result.pts;
 
@@ -361,9 +461,17 @@
                         bg.setAttribute('stroke-width', '0.5'); bg.setAttribute('rx', '3'); svg.appendChild(bg);
                         conn.items.forEach(function (item, idx) {
                             var img = document.createElementNS('http://www.w3.org/2000/svg', 'image');
-                            img.setAttribute('href', item.iconUrl || ''); img.setAttribute('x', mid.x - 10);
+                            img.setAttribute('href', item.iconUrl || '');
+                            img.setAttribute('x', mid.x - 10);
                             img.setAttribute('y', mid.y - bh / 2 + idx * 24 + 2);
-                            img.setAttribute('width', 20); img.setAttribute('height', 20);
+                            img.setAttribute('width', 20);
+                            img.setAttribute('height', 20);
+                            img.style.pointerEvents = 'all';
+                            if (item.itemName) {
+                                var tt = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+                                tt.textContent = item.itemName;
+                                img.appendChild(tt);
+                            }
                             svg.appendChild(img);
                         });
                     }
@@ -389,7 +497,6 @@
                 });
                 svg.appendChild(c);
             }
-
             function showSnap(svg, nid) {
                 ['top', 'bottom', 'left', 'right'].forEach(function (side) {
                     var pt = edgeCtr(nid, side); if (!pt) return;
@@ -409,9 +516,49 @@
                 });
             }
 
-            window.lsSave = function (k, v) { try { localStorage.setItem(k, v); } catch (e) { } };
-            window.lsLoad = function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } };
-            window.lsRemove = function (k) { try { localStorage.removeItem(k); } catch (e) { } };
+        window.lsSave = function (k, v) { try { localStorage.setItem(k, v); } catch (e) { } };
+        window.lsLoad = function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } };
+        window.lsRemove = function (k) { try { localStorage.removeItem(k); } catch (e) { } };
+
+        // === Dev helper: clear all TFG localStorage ===
+        window.clearAllTfgData = function () {
+            try {
+                var keys = [];
+                for (var i = 0; i < localStorage.length; i++) keys.push(localStorage.key(i));
+                keys.forEach(function (k) {
+                    if (!k) return;
+                    if (k.startsWith('nodePos_') || k.startsWith('arrOv_') ||
+                        k.startsWith('trees_') || k.startsWith('recipeChoices_') ||
+                        k.startsWith('tierChoices_') || k.startsWith('coilChoices_') ||
+                        k === 'lastCalc' || k === 'anvilSelectedRecipe' ||
+                        k === 'lang' || k === 'theme') {
+                        localStorage.removeItem(k);
+                    }
+                });
+                console.log('[TFG] All cached data cleared. Reloading...');
+            } catch (e) { console.error(e); }
+            setTimeout(function () { location.replace(location.pathname); }, 100);
+        };
+
+        // URL param reset: open site with ?reset=1
+        if (window.location.search.indexOf('reset=1') >= 0) {
+            try {
+                for (var i = localStorage.length - 1; i >= 0; i--) {
+                    var k = localStorage.key(i);
+                    if (k) localStorage.removeItem(k);
+                }
+            } catch (e) { }
+            window.location.replace(window.location.pathname);
+        }
+
+        // Keyboard shortcut: Ctrl + Shift + Alt + R
+        document.addEventListener('keydown', function (e) {
+            if (e.ctrlKey && e.shiftKey && e.altKey &&
+                (e.key === 'R' || e.key === 'r' || e.code === 'KeyR')) {
+                e.preventDefault();
+                window.clearAllTfgData();
+            }
+        });
         })();
     </script>
 </body>

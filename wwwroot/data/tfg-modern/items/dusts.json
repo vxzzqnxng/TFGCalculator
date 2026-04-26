@@ -1,0 +1,3737 @@
+﻿[
+  {
+    "Id": "redstone",
+    "NameRu": "Редстоуновая пыль",
+    "NameEn": "Redstone dust",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "bone_meal",
+    "NameRu": "Костная мука",
+    "NameEn": "Bone meal",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "glowstone_dust",
+    "NameRu": "Светокаменная пыль",
+    "NameEn": "Glowstone dust",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "gunpowder",
+    "NameRu": "Порох",
+    "NameEn": "Gunpowder",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sugar",
+    "NameRu": "Сахар",
+    "NameEn": "Sugar",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "kaolinite_powder",
+    "NameRu": "Каолинитовый порошок",
+    "NameEn": "Kaolinite powder",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "yellow_garnet_dust",
+    "NameRu": "Жёлтый гранат (Пыль)",
+    "NameEn": "Yellow garnet dust",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "polycaprolactam_dust",
+    "NameRu": "Поликапролактам (Пыль)",
+    "NameEn": "Polycaprolactam (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "red_alloy_dust",
+    "NameRu": "Красный сплав (Пыль)",
+    "NameEn": "Red alloy (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "tetrahedrite_dust",
+    "NameRu": "Тетраэдрит (Пыль)",
+    "NameEn": "Tetrahedrite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "asurine_dust",
+    "NameRu": "Азурин (Пыль)",
+    "NameEn": "Asurine (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sulfur_dust",
+    "NameRu": "Сера (Пыль)",
+    "NameEn": "Sulfur (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "neutronium_dust",
+    "NameRu": "Нейтроний (Пыль)",
+    "NameEn": "Neutronium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "ash_dust",
+    "NameRu": "Зола",
+    "NameEn": "Ash",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "cobaltite_dust",
+    "NameRu": "Кобальтит (Пыль)",
+    "NameEn": "Cobaltite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "potassium_cyanide_dust",
+    "NameRu": "Цианистый калий (Пыль)",
+    "NameEn": "Potassium cyanide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "platinum_sludge_residue_dust",
+    "NameRu": "Остаток платинового шлама",
+    "NameEn": "Platinum sludge residue",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "raw_rubber_dust",
+    "NameRu": "Необработанная резина (Пыль)",
+    "NameEn": "Raw rubber (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "uranium_dust",
+    "NameRu": "Уран 238 (Пыль)",
+    "NameEn": "Uranium 238 (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "chromite_dust",
+    "NameRu": "Хромит (Пыль)",
+    "NameEn": "Chromite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "thermochemically_treated_hardwood_dust",
+    "NameRu": "Обработанная масса из твёрдого дерева",
+    "NameEn": "Thermochemically treated hardwood dust",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "bauxite_slag_dust",
+    "NameRu": "Бокситовый шлак (Пыль)",
+    "NameEn": "Bauxite slag (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "ruthenium_tetroxide_dust",
+    "NameRu": "Тетраоксид рутения (Пыль)",
+    "NameEn": "Ruthenium tetroxide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "plutonium_241_dust",
+    "NameRu": "Плутоний-241 (Пыль)",
+    "NameEn": "Plutonium-241 (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "dark_ash_dust",
+    "NameRu": "Пепел",
+    "NameEn": "Dark ash",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "wood_dust",
+    "NameRu": "Масса из мягкого дерева",
+    "NameEn": "Wood dust",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "phosphate_dust",
+    "NameRu": "Фосфат (Пыль)",
+    "NameEn": "Phosphate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "armalcolite_dust",
+    "NameRu": "Армалколит (Пыль)",
+    "NameEn": "Armalcolite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "osmium_tetroxide_dust",
+    "NameRu": "Тетраоксид осмия (Пыль)",
+    "NameEn": "Osmium tetroxide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "platinum_dust",
+    "NameRu": "Платина (Пыль)",
+    "NameEn": "Platinum (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "calcium_ferrocyanide_dust",
+    "NameRu": "Ферроцианид кальция (Пыль)",
+    "NameEn": "Calcium ferrocyanide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "enriched_naquadah_dust",
+    "NameRu": "Обогащённыя наквада (Пыль)",
+    "NameEn": "Enriched naquadah (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "uraninite_dust",
+    "NameRu": "Уранинит (Пыль)",
+    "NameEn": "Uraninite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "scheelite_dust",
+    "NameRu": "Шеелит (Пыль)",
+    "NameEn": "Scheelite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "mirabilite_dust",
+    "NameRu": "Мирабилит (Пыль)",
+    "NameEn": "Mirabilite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "aluminium_dust",
+    "NameRu": "Алюминий (Пыль)",
+    "NameEn": "Aluminium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "spodumene_dust",
+    "NameRu": "Сподумен (Пыль)",
+    "NameEn": "Spodumene (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "ruthenium_dust",
+    "NameRu": "Рутений (Пыль)",
+    "NameEn": "Ruthenium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "green_sapphire_dust",
+    "NameRu": "Зелёный сапфир (Пыль)",
+    "NameEn": "Green sapphire (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "magnetic_iron_dust",
+    "NameRu": "Магнитное железо (Пыль)",
+    "NameEn": "Magnetic iron (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "cassiterite_dust",
+    "NameRu": "Касситерит (Пыль)",
+    "NameEn": "Cassiterite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "invar_dust",
+    "NameRu": "Инвар (Пыль)",
+    "NameEn": "Invar (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "rhenium_dust",
+    "NameRu": "Рений (Пыль)",
+    "NameEn": "Rhenium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "duranium_dust",
+    "NameRu": "Дюраний (Пыль)",
+    "NameEn": "Duranium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "phosphorus_pentoxide_dust",
+    "NameRu": "Пятиокись фосфора (Пыль)",
+    "NameEn": "Phosphorus pentoxide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "nickel_dust",
+    "NameRu": "Никель (Пыль)",
+    "NameEn": "Nickel (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "zinc_dust",
+    "NameRu": "Цинк (Пыль)",
+    "NameEn": "Zinc (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "watertight_steel_dust",
+    "NameRu": "Водостойкая сталь (Пыль)",
+    "NameEn": "Watertight steel (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "quicklime_dust",
+    "NameRu": "Негашеная известь (Пыль)",
+    "NameEn": "Quicklime (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "clay_dust",
+    "NameRu": "Глина (Пыль)",
+    "NameEn": "Clay (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "thorium_232_dust",
+    "NameRu": "Торий 232 (Пыль)",
+    "NameEn": "Thorium 232 (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "iron_dust",
+    "NameRu": "Железо (Пыль)",
+    "NameEn": "Iron (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "fullers_earth_dust",
+    "NameRu": "Смектическая глина",
+    "NameEn": "Fullers earth (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "osmiridium_dust",
+    "NameRu": "Осмистый иридий (Пыль)",
+    "NameEn": "Osmiridium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "wulfenite_dust",
+    "NameRu": "Вульфенит (Пыль)",
+    "NameEn": "Wulfenite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "cobalt_dust",
+    "NameRu": "Кобальт (Пыль)",
+    "NameEn": "Cobalt (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "hsla_steel_dust",
+    "NameRu": "HSLA сталь (Пыль)",
+    "NameEn": "HSLA steel (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "calcite_dust",
+    "NameRu": "Кальцит (Пыль)",
+    "NameEn": "Calcite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "prussian_blue_dust",
+    "NameRu": "Берлинская лазурь (Пыль)",
+    "NameEn": "Prussian blue (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "titanium_tungsten_carbide_dust",
+    "NameRu": "Вольфрам-титанановый карбид (Пыль)",
+    "NameEn": "Titanium tungsten carbide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "arsenic_trioxide_dust",
+    "NameRu": "Триоксид мышьяка (Пыль)",
+    "NameEn": "Arsenic trioxide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "magnesium_dust",
+    "NameRu": "Магний (Пыль)",
+    "NameEn": "Magnesium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "salt_dust",
+    "NameRu": "Соль (Пыль)",
+    "NameEn": "Salt (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "bornite_dust",
+    "NameRu": "Борнит (Пыль)",
+    "NameEn": "Bornite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "bauxite_dust",
+    "NameRu": "Боксит (Пыль)",
+    "NameEn": "Bauxite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "polyvinyl_butyral_dust",
+    "NameRu": "Поливинилбутираль (Пыль)",
+    "NameEn": "Polyvinyl butyral (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "emerald_dust",
+    "NameRu": "Изумруд (Пыль)",
+    "NameEn": "Emerald (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "borosilicate_glass_dust",
+    "NameRu": "Боросиликатное стекло (Пыль)",
+    "NameEn": "Borosilicate glass (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "soda_ash_dust",
+    "NameRu": "Сода (Пыль)",
+    "NameEn": "Soda ash (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "manganese_dust",
+    "NameRu": "Марганец (Пыль)",
+    "NameEn": "Manganese (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "magnesite_dust",
+    "NameRu": "Магнезит (Пыль)",
+    "NameEn": "Magnesite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "potassium_dichromate_dust",
+    "NameRu": "Дихромат калия (Пыль)",
+    "NameEn": "Potassium dichromate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "niobium_titanium_dust",
+    "NameRu": "Ниобий-титан (Пыль)",
+    "NameEn": "Niobium titanium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "ferrosilite_dust",
+    "NameRu": "Ферросилит (Пыль)",
+    "NameEn": "Ferrosilite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "silver_dust",
+    "NameRu": "Серебро (Пыль)",
+    "NameEn": "Silver (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "soapstone_dust",
+    "NameRu": "Мыльный камень (Пыль)",
+    "NameEn": "Soapstone (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "diatomite_dust",
+    "NameRu": "Диатомовый пилит (Пыль)",
+    "NameEn": "Diatomite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "olivine_dust",
+    "NameRu": "Оливин (Пыль)",
+    "NameEn": "Olivine (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "rhodium_dust",
+    "NameRu": "Родий (Пыль)",
+    "NameEn": "Rhodium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "hsss_dust",
+    "NameRu": "HSS-S (Пыль)",
+    "NameEn": "HSS-S (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "molybdenum_dust",
+    "NameRu": "Молибден (Пыль)",
+    "NameEn": "molybdenum (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "quartzite_dust",
+    "NameRu": "Кварц (Пыль)",
+    "NameEn": "Quartzite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "polyphenylene_sulfide_dust",
+    "NameRu": "Полифениленсульфид (Пыль)",
+    "NameEn": "Polyphenylene sulfide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "raw_styrene_butadiene_rubber_dust",
+    "NameRu": "Стирол-бутадиеновый каучук (Пыль)",
+    "NameEn": "Raw styrene butadiene rubber (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "tin_dust",
+    "NameRu": "Олово (Пыль)",
+    "NameEn": "Tin (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "rocket_alloy_t1_dust",
+    "NameRu": "Красный алюминиево-стальной ракетный сплав (Пыль)",
+    "NameEn": "Rocket alloy t1 (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "vanadium_magnetite_dust",
+    "NameRu": "ванадий магнетит (Пыль)",
+    "NameEn": "Vanadium magnetite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "metal_mixture_dust",
+    "NameRu": "Металлическая смесь (Пыль)",
+    "NameEn": "Metal mixture (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "hastelloy_x_dust",
+    "NameRu": "Хастеллой-X (Пыль)",
+    "NameEn": "Hastelloy-X (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "niobium_nitride_dust",
+    "NameRu": "Нитрид ниобия (Пыль)",
+    "NameEn": "Niobium nitride (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "magnesia_dust",
+    "NameRu": "Магнезия (Пыль)",
+    "NameEn": "Magnesia (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "titanium_trifluoride_dust",
+    "NameRu": "Трифторид титана (Пыль)",
+    "NameEn": "Titanium trifluoride (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "zeolite_dust",
+    "NameRu": "Цеолит (Пыль)",
+    "NameEn": "Zeolite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "powellite_dust",
+    "NameRu": "Повеллит (Пыль)",
+    "NameEn": "Powellite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "pyrochlore_dust",
+    "NameRu": "Пирохлор (Пыль)",
+    "NameEn": "Pyrochlore (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "lanthanum_dust",
+    "NameRu": "Лантан (Пыль)",
+    "NameEn": "Lanthanum (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "cupronickel_dust",
+    "NameRu": "Купроникель (Пыль)",
+    "NameEn": "Cupronickel (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "trona_dust",
+    "NameRu": "Трона (Пыль)",
+    "NameEn": "Trona (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "barite_dust",
+    "NameRu": "Барит (Пыль)",
+    "NameEn": "Barite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "zirconium_dust",
+    "NameRu": "Цирконий (Пыль)",
+    "NameEn": "Zirconium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "agar_dust",
+    "NameRu": "Агар (Пыль)",
+    "NameEn": "Agar (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "titanium_dust",
+    "NameRu": "Титан (Пыль)",
+    "NameEn": "Titanium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "potassium_dust",
+    "NameRu": "Калий (Пыль)",
+    "NameEn": "Potassiumn (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "almandine_dust",
+    "NameRu": "Альмандин (Пыль)",
+    "NameEn": "Almandine (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "ice_dust",
+    "NameRu": "Колотый лёд (Пыль)",
+    "NameEn": "Ice (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "americium_dust",
+    "NameRu": "Америций 243 (Пыль)",
+    "NameEn": "Americium 243 (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "uranium_235_dust",
+    "NameRu": "Уран-245 (Пыль)",
+    "NameEn": "Uranium-235 (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "galena_dust",
+    "NameRu": "Галена (Пыль)",
+    "NameEn": "Galena (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "antimony_trifluoride_dust",
+    "NameRu": "Трифторид сурьмы (Пыль)",
+    "NameEn": "Antimony trifluoride (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "gallium_dust",
+    "NameRu": "Галлий (Пыль)",
+    "NameEn": "Gallium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "californium_252_dust",
+    "NameRu": "Калифорний 252 (Пыль)",
+    "NameEn": "Californium 252 (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "uranium_triplatinum_dust",
+    "NameRu": "Триплатина уран (Пыль)",
+    "NameEn": "Uranium triplatinum (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "ultimet_dust",
+    "NameRu": "Ультимет (Пыль)",
+    "NameEn": "Ultimet (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "naquadria_sulfate_dust",
+    "NameRu": "Сульфат наквадрии (Пыль)",
+    "NameEn": "Naquadria sulfate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "barium_dust",
+    "NameRu": "Барий (Пыль)",
+    "NameEn": "Barium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "chromium_trioxide_dust",
+    "NameRu": "Триоксид хрома (Пыль)",
+    "NameEn": "Chromium trioxide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "hssg_dust",
+    "NameRu": "HSS-G (Пыль)",
+    "NameEn": "HSS-G (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "desh_dust",
+    "NameRu": "Деш (Пыль)",
+    "NameEn": "desh (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "rad_away_dust",
+    "NameRu": "Антирадин (Пыль)",
+    "NameEn": "Rad away (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "tungsten_carbide_dust",
+    "NameRu": "Карбид вольфрама (Пыль)",
+    "NameEn": "Tungsten carbide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "platinum_group_sludge_dust",
+    "NameRu": "Шлам платиновой группы",
+    "NameEn": "Platinum group sludge",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "aluminium_sulfite_dust",
+    "NameRu": "Сульфат алюминия (Пыль)",
+    "NameEn": "Aluminium sulfite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "paper_dust",
+    "NameRu": "Целлюлоза",
+    "NameEn": "Paper (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "trinium_dust",
+    "NameRu": "Триниум (Пыль)",
+    "NameEn": "Trinium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "brick_dust",
+    "NameRu": "Кирпич (Пыль)",
+    "NameEn": "Brick (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "obsidian_dust",
+    "NameRu": "Обсидиан (Пыль)",
+    "NameEn": "Obsidian (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "neptunium_237_dust",
+    "NameRu": "Нептуний 237 (Пыль)",
+    "NameEn": "Neptunium 237 (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "molybdenite_dust",
+    "NameRu": "Молибденит (Пыль)",
+    "NameEn": "Molybdenite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "rhodium_plated_palladium_dust",
+    "NameRu": "Палладий с родиевым покрытием (Пыль)",
+    "NameEn": "Rhodium plated palladium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "chromium_dust",
+    "NameRu": "Хром (Пыль)",
+    "NameEn": "Chromium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "cerium_dust",
+    "NameRu": "Церий (Пыль)",
+    "NameEn": "Cerium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "ostrum_iodide_dust",
+    "NameRu": "Йодид острума (Пыль)",
+    "NameEn": "ostrum_iodide_dust (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "gypsum_dust",
+    "NameRu": "Гипс (Пыль)",
+    "NameEn": "Gypsum (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "concrete_dust",
+    "NameRu": "Бетон (Пыль)",
+    "NameEn": "Concrete (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "nether_star_dust",
+    "NameRu": "Звезда незера (Пыль)",
+    "NameEn": "Nether star (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "nickel_zinc_ferrite_dust",
+    "NameRu": "Никель цинк феррит (Пыль)",
+    "NameEn": "Nickel zinc ferrite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "borax_dust",
+    "NameRu": "Бура (Пыль)",
+    "NameEn": "Borax (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "lapis_dust",
+    "NameRu": "Лазуритит (Пыль)",
+    "NameEn": "Lapis (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "hardwood_dust",
+    "NameRu": "Масса из твёрдого дерева",
+    "NameEn": "Hardwood dust",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "yellow_limonite_dust",
+    "NameRu": "Лимонит (Пыль)",
+    "NameEn": "Limonite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "silicon_dioxide_dust",
+    "NameRu": "Диоксид кремния (Пыль)",
+    "NameEn": "Silicon dioxide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "apatite_dust",
+    "NameRu": "Апатит (Пыль)",
+    "NameEn": "Apatite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "asbestos_dust",
+    "NameRu": "Асбест (Пыль)",
+    "NameEn": "Asbestos (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "titanium_carbide_dust",
+    "NameRu": "Карбид титана (Пыль)",
+    "NameEn": "Titanium carbide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "bastnasite_dust",
+    "NameRu": "Бастнезит (Пыль)",
+    "NameEn": "Bastnasite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "pollucite_dust",
+    "NameRu": "Поллуцит (Пыль)",
+    "NameEn": "Pollucite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "samarium_dust",
+    "NameRu": "Самарий (Пыль)",
+    "NameEn": "Samarium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sodium_bisulfate_dust",
+    "NameRu": "Бисульфат натрия (Пыль)",
+    "NameEn": "Sodium bisulfate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "zincite_dust",
+    "NameRu": "Цинкит (Пыль)",
+    "NameEn": "Zincite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "stainless_steel_dust",
+    "NameRu": "Нержавеющая сталь (Пыль)",
+    "NameEn": "Stainless steel (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "bismuth_dust",
+    "NameRu": "Висмут (Пыль)",
+    "NameEn": "Bismuth (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "carbon_dust",
+    "NameRu": "Углерод (Пыль)",
+    "NameEn": "Carbon (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sodium_dust",
+    "NameRu": "Натрий (Пыль)",
+    "NameEn": "Sodium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "bronze_dust",
+    "NameRu": "Бронза (Пыль)",
+    "NameEn": "Bronze (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "cupric_oxide_dust",
+    "NameRu": "Оксид меди (Пыль)",
+    "NameEn": "Cupric oxide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "iridium_chloride_dust",
+    "NameRu": "Хлорид иридия (Пыль)",
+    "NameEn": "Iridium chloride (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "ruthenium_trinium_americium_neutronate_dust",
+    "NameRu": "Нейтронат рутения триния америция (Пыль)",
+    "NameEn": "Ruthenium trinium americium neutronate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "thorium_dust",
+    "NameRu": "Торианит (Пыль)",
+    "NameEn": "Thorium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "tricalcium_phosphate_dust",
+    "NameRu": "Трикальцийфосфат (Пыль)",
+    "NameEn": "Tricalcium phosphate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "incoloy_ma_956_dust",
+    "NameRu": "Инколой MA-956 (Пыль)",
+    "NameEn": "Incoloy MA-956 (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "cinnabar_dust",
+    "NameRu": "Киноварь (Пыль)",
+    "NameEn": "Cinnabar (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "brass_dust",
+    "NameRu": "Латунь (Пыль)",
+    "NameEn": "Brass (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "nether_quartz_dust",
+    "NameRu": "Незер-кварц (Пыль)",
+    "NameEn": "nether_quartz_dust (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "pyrolusite_dust",
+    "NameRu": "Пиролюзит (Пыль)",
+    "NameEn": "Pyrolusite_ (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "rtm_alloy_dust",
+    "NameRu": "РВМ сплав (Пыль)",
+    "NameEn": "RTM alloy (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "bentonite_dust",
+    "NameRu": "Бентонит (Пыль)",
+    "NameEn": "Bentonite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "redrock_dust",
+    "NameRu": "Красная скала (Пыль)",
+    "NameEn": "Redrock (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "topaz_dust",
+    "NameRu": "Топаз (Пыль)",
+    "NameEn": "Topaz (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "diethylenetriaminepentaacetic_acid_dust",
+    "NameRu": "Диэтилентриаминпентауксусная кислота (Пыль)",
+    "NameEn": "Diethylenetriaminepentaacetic acid (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "cobalt_brass_dust",
+    "NameRu": "Кобальтовая латунь (Пыль)",
+    "NameEn": "Cobalt brass (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "neodymium_dust",
+    "NameRu": "Неодим (Пыль)",
+    "NameEn": "Neodymium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "silicone_rubber_dust",
+    "NameRu": "Силиконовая резина (Пыль)",
+    "NameEn": "Silicone rubber (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "biphenyl_dust",
+    "NameRu": "Дифенил (Пыль)",
+    "NameEn": "Biphenyl (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "rubber_dust",
+    "NameRu": "Резина (Пыль)",
+    "NameEn": "Rubber (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "tungstate_dust",
+    "NameRu": "Вольфрамат (Пыль)",
+    "NameEn": "Tungstate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "black_steel_dust",
+    "NameRu": "Черная сталь (Пыль)",
+    "NameEn": "Black steel (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "rarest_metal_mixture_dust",
+    "NameRu": "Смесь редких металлов",
+    "NameEn": "Rarest metal mixture (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "black_bronze_dust",
+    "NameRu": "Черная бронза (Пыль)",
+    "NameEn": "Black bronze (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "zeron_100_dust",
+    "NameRu": "Зерон-100 (Пыль)",
+    "NameEn": "Zeron-100 (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "magnetic_samarium_dust",
+    "NameRu": "Магнитный самарий (Пыль)",
+    "NameEn": "Magnetic samarium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "samarium_iron_arsenic_oxide_dust",
+    "NameRu": "Оксид самария железа мышьяка (Пыль)",
+    "NameEn": "Samarium iron arsenic oxide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "blue_steel_dust",
+    "NameRu": "Синяя сталь (Пыль)",
+    "NameEn": "Blue steel (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "ammonium_chloride_dust",
+    "NameRu": "Хлорид аммония (Пыль)",
+    "NameEn": "Ammonium chloride (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sodium_bicarbonate_dust",
+    "NameRu": "Натрия бикарбонат (Пыль)",
+    "NameEn": "Sodium bicarbonate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "granitic_mineral_sand_dust",
+    "NameRu": "Гранитный минеральный песок (Пыль)",
+    "NameEn": "Granitic mineral sand (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "manganese_phosphide_dust",
+    "NameRu": "Фосфид марганца (Пыль)",
+    "NameEn": "Manganese phosphide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "rock_salt_dust",
+    "NameRu": "Каменная соль (Пыль)",
+    "NameEn": "Rock salt (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "stellite_100_dust",
+    "NameRu": "Стеллит (Пыль)",
+    "NameEn": "Stellite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "naquadria_dust",
+    "NameRu": "Наквадрия (Пыль)",
+    "NameEn": "Naquadria (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "indium_phosphide_dust",
+    "NameRu": "Фосфид индия (Пыль)",
+    "NameEn": "Indium phosphide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "epoxy_dust",
+    "NameRu": "Эпоксидная смола (Пыль)",
+    "NameEn": "Epoxy (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "caesium_137_dust",
+    "NameRu": "Цезий 137 (Пыль)",
+    "NameEn": "Caesium 137 (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "potassium_sulfate_dust",
+    "NameRu": "Сульфат калия (Пыль)",
+    "NameEn": "Potassium sulfate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "magnetic_neodymium_dust",
+    "NameRu": "Магнитный неодим (Пыль)",
+    "NameEn": "Magnetic neodymium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sodium_hydroxide_dust",
+    "NameRu": "Гидроксид натрия (Пыль)",
+    "NameEn": "Sodium hydroxide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "nichrome_dust",
+    "NameRu": "Нихром (Пыль)",
+    "NameEn": "Nichrome (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "pyrope_dust",
+    "NameRu": "Пироп (Пыль)",
+    "NameEn": "Pyrope (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "lepidolite_dust",
+    "NameRu": "Лепидолит (Пыль)",
+    "NameEn": "Lepidolite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "goethite_dust",
+    "NameRu": "Гётит (Пыль)",
+    "NameEn": "Goethite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "americium_dust",
+    "NameRu": "Америций 241 (Пыль)",
+    "NameEn": "Americium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "europium_dust",
+    "NameRu": "Европий (Пыль)",
+    "NameEn": "Europium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "thorium_230_dust",
+    "NameRu": "Торий 230 (Пыль)",
+    "NameEn": "Thorium 230 (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "ilmenite_slag_dust",
+    "NameRu": "Ильменитовый шлак (Пыль)",
+    "NameEn": "Ilmenite slag (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "coke_dust",
+    "NameRu": "Коксовый уголь (Пыль)",
+    "NameEn": "Coke (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "chalcocite_dust",
+    "NameRu": "Халькозин (Пыль)",
+    "NameEn": "Chalcocite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "enriched_naquadah_sulfate_dust",
+    "NameRu": "Обогащенный сульфат наквады (Пыль)",
+    "NameEn": "Enriched naquadah sulfate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "tarkianite_dust",
+    "NameRu": "Таркианит (Пыль)",
+    "NameEn": "Tarkianite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "uvarovite_dust",
+    "NameRu": "Уваровит (Пыль)",
+    "NameEn": "Uvarovite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "vanadium_gallium_dust",
+    "NameRu": "Ванадий-Галлий (Пыль)",
+    "NameEn": "Vanadium gallium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "tungsten_dust",
+    "NameRu": "Вольфрам (Пыль)",
+    "NameEn": "Tungsten (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "realgar_dust",
+    "NameRu": "Реальгар (Пыль)",
+    "NameEn": "Realgar (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "glass_dust",
+    "NameRu": "Стекло (Пыль)",
+    "NameEn": "Glass (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "ferrite_mixture_dust",
+    "NameRu": "Ферритовая смесь (Пыль)",
+    "NameEn": "Ferrite mixture (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "calcium_dust",
+    "NameRu": "Кальций (Пыль)",
+    "NameEn": "Calcium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sodium_nitrate_dust",
+    "NameRu": "Нитрат натрия (Пыль)",
+    "NameEn": "Sodium nitrate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "paracetamol_dust",
+    "NameRu": "Парацетамол (Пыль)",
+    "NameEn": "Paracetamol (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "plutonium_dust",
+    "NameRu": "Плутоний 239 (Пыль)",
+    "NameEn": "Plutonium 239 (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "styrene_butadiene_rubber_dust",
+    "NameRu": "Стирол-бутадиеновая резина (Пыль)",
+    "NameEn": "Styrene butadiene rubber (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "crimsite_dust",
+    "NameRu": "Кримит (Пыль)",
+    "NameEn": "Crimsite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "vanadium_steel_dust",
+    "NameRu": "Ванадиевая сталь (Пыль)",
+    "NameEn": "Vanadium steel (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "inert_metal_mixture_dust",
+    "NameRu": "Смесь инертных металлов",
+    "NameEn": "Inert metal mixture (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "caprolactam_dust",
+    "NameRu": "Капролактам (Пыль)",
+    "NameEn": "Caprolactam (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "pentlandite_dust",
+    "NameRu": "Пентландит (Пыль)",
+    "NameEn": "Pentlandite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "saltpeter_dust",
+    "NameRu": "Селитра (Пыль)",
+    "NameEn": "Saltpeter (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "antimony_trioxide_dust",
+    "NameRu": "Триоксид сурьмы (Пыль)",
+    "NameEn": "Antimony trioxide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "zinc_sulfide_dust",
+    "NameRu": "Сульфид цинка (Пыль)",
+    "NameEn": "zinc sulfide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "hematite_dust",
+    "NameRu": "Гематит (Пыль)",
+    "NameEn": "Hematite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "tungsten_steel_dust",
+    "NameRu": "Вольфрамовая сталь (Пыль)",
+    "NameEn": "Tungsten steel (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "monazite_dust",
+    "NameRu": "Монацит (Пыль)",
+    "NameEn": "Monazite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "alunite_dust",
+    "NameRu": "Алунит (Пыль)",
+    "NameEn": "Alunite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "magnalium_dust",
+    "NameRu": "Магналий (Пыль)",
+    "NameEn": "Magnalium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "polybenzimidazole_dust",
+    "NameRu": "Полибензимидазол (ПБИ) (Пыль)",
+    "NameEn": "Polybenzimidazole (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "iridium_dust",
+    "NameRu": "Иридий (Пыль)",
+    "NameEn": "Iridium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "palladium_raw_dust",
+    "NameRu": "Необработанный порошок палладия",
+    "NameEn": "Palladium raw dust",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "cyclohexanone_oxime_dust",
+    "NameRu": "Циклогексаноноксим (Пыль)",
+    "NameEn": "Cyclohexanone oxime (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "potassium_carbonate_dust",
+    "NameRu": "Карбонат калия (Пыль)",
+    "NameEn": "Potassium carbonate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "ilmenite_dust",
+    "NameRu": "Ильменит (Пыль)",
+    "NameEn": "Ilmenite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "iridium_metal_residue_dust",
+    "NameRu": "Металлический остаток иридия",
+    "NameEn": "Iridium metal residue (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "cassiterite_sand_dust",
+    "NameRu": "Касситеритовый песок",
+    "NameEn": "Cassiterite sand",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "red_steel_dust",
+    "NameRu": "Красная сталь (Пыль)",
+    "NameEn": "Red steel (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "polyethylene_dust",
+    "NameRu": "Полиэтилен (Пыль)",
+    "NameEn": "Polyethylene (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "magnetic_steel_dust",
+    "NameRu": "Магнитная сталь (Пыль)",
+    "NameEn": "Magnetic steel (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "indium_gallium_phosphide_dust",
+    "NameRu": "Индий галлий фосфид (Пыль)",
+    "NameEn": "Indium gallium phosphide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "treated_wood_dust",
+    "NameRu": "Кучка обработанной древесной массы",
+    "NameEn": "Treated wood (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "boron_dust",
+    "NameRu": "Бор (Пыль)",
+    "NameEn": "Boron (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "perlite_dust",
+    "NameRu": "Перлит (Пыль)",
+    "NameEn": "Perlite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "indium_dust",
+    "NameRu": "Индий (Пыль)",
+    "NameEn": "Indium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "pyrite_dust",
+    "NameRu": "Пирит (Пыль)",
+    "NameEn": "Pyrite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "barium_sulfide_dust",
+    "NameRu": "Сульфид бария (Пыль)",
+    "NameEn": "Barium sulfide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "andradite_dust",
+    "NameRu": "Андрадит (Пыль)",
+    "NameEn": "Andradite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "ruridit_dust",
+    "NameRu": "Руридит (Пыль)",
+    "NameEn": "Ruridit (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "lutetium_dust",
+    "NameRu": "Лютеций (Пыль)",
+    "NameEn": "Lutetium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "osmium_dust",
+    "NameRu": "Осмий (Пыль)",
+    "NameEn": "Osmium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "hastelloy_c_276_dust",
+    "NameRu": "Хастеллой-C276 (Пыль)",
+    "NameEn": "Hastelloy-C276 (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "massicot_dust",
+    "NameRu": "Массикот (Пыль)",
+    "NameEn": "Massicot (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "molybdenum_disilicide_dust",
+    "NameRu": "Дисилицид молибдена (Пыль)",
+    "NameEn": "molybdenum disilicide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "potash_dust",
+    "NameRu": "Оксид калия (Пыль)",
+    "NameEn": "Potash (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "potassium_feldspar_dust",
+    "NameRu": "Калиевый полевой шпат (Пыль)",
+    "NameEn": "Potassium feldspar (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "grossular_dust",
+    "NameRu": "Гроссуляр (Пыль)",
+    "NameEn": "Grossular (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "rose_gold_dust",
+    "NameRu": "Розовое золото (Пыль)",
+    "NameEn": "Rose gold (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "malachite_dust",
+    "NameRu": "Малахит (Пыль)",
+    "NameEn": "Malachite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "iodine_dust",
+    "NameRu": "Иод (Пыль)",
+    "NameEn": "Iodine (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "electrum_dust",
+    "NameRu": "Электрум (Пыль)",
+    "NameEn": "Electrum (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "collagen_dust",
+    "NameRu": "Коллаген (Пыль)",
+    "NameEn": "Collagen (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "thallium_dust",
+    "NameRu": "Таллий (Пыль)",
+    "NameEn": "Thallium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "tantalum_dust",
+    "NameRu": "Тантал (Пыль)",
+    "NameEn": "Tantalum (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "polydimethylsiloxane_dust",
+    "NameRu": "Полидиметилсилоксан (Пыль)",
+    "NameEn": "polydimethylsiloxane (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "basaltic_mineral_sand_dust",
+    "NameRu": "Базальтовый минеральный песок (Пыль)",
+    "NameEn": "Basaltic mineral sand (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "lapotron_dust",
+    "NameRu": "Лапотрон (Пыль)",
+    "NameEn": "Lapotron (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "charcoal_dust",
+    "NameRu": "Древесный уголь (Пыль)",
+    "NameEn": "Charcoal (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "flint_dust",
+    "NameRu": "Кремень (Пыль)",
+    "NameEn": "Flint (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "polyvinyl_chloride_dust",
+    "NameRu": "Поливинил хлорид (Пыль)",
+    "NameEn": "Polyvinyl chloride (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "cooperite_dust",
+    "NameRu": "Куперит (Пыль)",
+    "NameEn": "Cooperite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "magnesium_diboride_dust",
+    "NameRu": "Диборид магния (Пыль)",
+    "NameEn": "Magnesium diboride (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sterling_silver_dust",
+    "NameRu": "Стерлинговое серебро (Пыль)",
+    "NameEn": "Sterling silver (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "pitchblende_dust",
+    "NameRu": "Уранит (Пыль)",
+    "NameEn": "Pitchblende (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "calcium_chloride_dust",
+    "NameRu": "Хлорид кальция (Пыль)",
+    "NameEn": "Calcium chloride (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "trinium_sulfide_dust",
+    "NameRu": "Сульфид триния (Пыль)",
+    "NameEn": "Trinium sulfide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "wrought_iron_dust",
+    "NameRu": "Кованное железо (Пыль)",
+    "NameEn": "Wrought iron (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "magnetite_dust",
+    "NameRu": "Магнетит (Пыль)",
+    "NameEn": "Magnetite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "tantalum_carbide_dust",
+    "NameRu": "Карбид тантала (Пыль)",
+    "NameEn": "Tantalum carbide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "polytetrafluoroethylene_dust",
+    "NameRu": "Политетрафторэтилен (Пыль)",
+    "NameEn": "Polytetrafluoroethylene (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "niobium_dust",
+    "NameRu": "Ниобий (Пыль)",
+    "NameEn": "Niobium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "gallium_arsenide_dust",
+    "NameRu": "Арсенид галлия (Пыль)",
+    "NameEn": "Gallium arsenide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "kanthal_dust",
+    "NameRu": "Кантал (Пыль)",
+    "NameEn": "Kanthal (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "opal_dust",
+    "NameRu": "Опал (Пыль)",
+    "NameEn": "Opal (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "tungstic_acid_dust",
+    "NameRu": "Вольфрамовая кислота (Пыль)",
+    "NameEn": "tungstic_acid_dust (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "cadmium_dust",
+    "NameRu": "Кадмий (Пыль)",
+    "NameEn": "Cadmium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "calcium_phosphide_dust",
+    "NameRu": "Фосфид кальция (Пыль)",
+    "NameEn": "Calcium phosphide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "glauconite_sand_dust",
+    "NameRu": "Глауконитовый песок (Пыль)",
+    "NameEn": "Glauconite sand (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "activated_carbon_dust",
+    "NameRu": "Активированный уголь (Пыль)",
+    "NameEn": "Activated carbon (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "gold_dust",
+    "NameRu": "Золото (Пыль)",
+    "NameEn": "Gold (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "vanadium_dust",
+    "NameRu": "Ванадий (Пыль)",
+    "NameEn": "Vanadium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "potassium_ferrocyanide_dust",
+    "NameRu": "Ферроцианид калия (Пыль)",
+    "NameEn": "Potassium ferrocyanide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "blue_topaz_dust",
+    "NameRu": "Синий топаз (Пыль)",
+    "NameEn": "Blue topaz (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "lithium_dust",
+    "NameRu": "Литий (Пыль)",
+    "NameEn": "Lithium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "vitrified_asbestos_dust",
+    "NameRu": "Остеклованный асбест (Пыль)",
+    "NameEn": "Vitrified asbestos (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "caesium_dust",
+    "NameRu": "Цезий (Пыль)",
+    "NameEn": "Caesium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "uranium_rhodium_dinaquadide_dust",
+    "NameRu": "Уран родий динаквада (Пыль)",
+    "NameEn": "Uranium rhodium dinaquadide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "garnierite_dust",
+    "NameRu": "Гарниерит (Пыль)",
+    "NameEn": "Garnierite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "antimony_dust",
+    "NameRu": "Сурьма (Пыль)",
+    "NameEn": "Antimony (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "spessartine_dust",
+    "NameRu": "Спасерит (Пыль)",
+    "NameEn": "Spessartine (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "yttrium_barium_cuprate_dust",
+    "NameRu": "Оксид иттрия-бария-меди (Пыль)",
+    "NameEn": "Yttrium barium cuprate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "mica_dust",
+    "NameRu": "Слюда (Пыль)",
+    "NameEn": "Mica (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "stibnite_dust",
+    "NameRu": "Стибнит (Пыль)",
+    "NameEn": "Stibnite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "wax_dust",
+    "NameRu": "Воск (Пыль)",
+    "NameEn": "Wax (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "reinforced_epoxy_resin_dust",
+    "NameRu": "Укреплённая эпоксидная смола (Пыль)",
+    "NameEn": "Reinforced epoxy resin (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "maraging_steel_300_dust",
+    "NameRu": "Мартенситностареющая сталь 300 (Пыль)",
+    "NameEn": "Maraging steel 300 (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "enriched_naquadah_trinium_europium_duranide_dust",
+    "NameRu": "Обогащенный наквада триний европий дюраний (Пыль)",
+    "NameEn": "Enriched naquadah trinium europium duranide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "calcium_hydroxide_dust",
+    "NameRu": "Гидроксид кальция (Пыль)",
+    "NameEn": "Calcium hydroxide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "red_garnet_dust",
+    "NameRu": "Красный гранат (Пыль)",
+    "NameEn": "Red garnet (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "coal_dust",
+    "NameRu": "Уголь (Пыль)",
+    "NameEn": "Coal (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sodium_sulfide_dust",
+    "NameRu": "Сульфид натрия (Пыль)",
+    "NameEn": "Sodium sulfide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sodalite_dust",
+    "NameRu": "Содалит (Пыль)",
+    "NameEn": "Sodalite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "palladium_dust",
+    "NameRu": "Палладий (Пыль)",
+    "NameEn": "Palladium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "graphene_dust",
+    "NameRu": "Графен (Пыль)",
+    "NameEn": "Graphene (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "beryllium_dust",
+    "NameRu": "Бериллий (Пыль)",
+    "NameEn": "Beryllium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "kyanite_dust",
+    "NameRu": "Ционит (Пыль)",
+    "NameEn": "Kyanite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "potassium_hydroxide_dust",
+    "NameRu": "Гидроксид калия (Пыль)",
+    "NameEn": "Potassium hydroxide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "rutile_dust",
+    "NameRu": "Рутил (Пыль)",
+    "NameEn": "Rutile (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sapphire_dust",
+    "NameRu": "Сапфир (Пыль)",
+    "NameEn": "Sapphire (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "diamond_dust",
+    "NameRu": "Алмаз (Пыль)",
+    "NameEn": "Diamond (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "platinum_raw_dust",
+    "NameRu": "Необработанный платиновый порошок",
+    "NameEn": "Platinum raw dust",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "blue_alloy_dust",
+    "NameRu": "Синий сплав (Пыль)",
+    "NameEn": "Blue alloy (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "hsse_dust",
+    "NameRu": "HSS-E (Пыль)",
+    "NameEn": "HSS-E (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "calcium_carbonate_dust",
+    "NameRu": "Карбонат кальция (Пыль)",
+    "NameEn": "Calcium carbonate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "mercury_barium_calcium_cuprate_dust",
+    "NameRu": "Купрат ртути бария кальция (Пыль)",
+    "NameEn": "Mercury barium calcium cuprate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "meat_dust",
+    "NameRu": "Мясной фарш",
+    "NameEn": "Meat dust",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "oilsands_dust",
+    "NameRu": "Нефтеносный песок (Пыль)",
+    "NameEn": "Oilsand (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "chalcopyrite_dust",
+    "NameRu": "Халькопирит (Пыль)",
+    "NameEn": "Chalcopyrite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "bismuth_bronze_dust",
+    "NameRu": "Висмутовая бронза (Пыль)",
+    "NameEn": "Bismuth bronze (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "garnet_sand_dust",
+    "NameRu": "Гранатовый песок (Пыль)",
+    "NameEn": "Garnet sand (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "copper_dust",
+    "NameRu": "Медь (Пыль)",
+    "NameEn": "Copper (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "arsenic_dust",
+    "NameRu": "Мышьяк (Пыль)",
+    "NameEn": "Arsenic (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "silicon_dust",
+    "NameRu": "Кремний (Пыль)",
+    "NameEn": "Silicon (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sphalerite_dust",
+    "NameRu": "Сфалерит (Пыль)",
+    "NameEn": "Sphalerite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "rocket_alloy_t2_dust",
+    "NameRu": "ASM 4914 титановый ракетный сплав (Пыль)",
+    "NameEn": "Rocket alloy t2 (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "naquadah_alloy_dust",
+    "NameRu": "Сплав наквада (Пыль)",
+    "NameEn": "Naquadah alloy (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "darmstadtium_dust",
+    "NameRu": "Дармштадтий (Пыль)",
+    "NameEn": "Darmstadtium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "soldering_alloy_dust",
+    "NameRu": "Припой (Пыль)",
+    "NameEn": "Soldering alloy (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "magnesium_chloride_dust",
+    "NameRu": "Хлорид магния (Пыль)",
+    "NameEn": "Magnesium chloride (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "gallium_sulfide_dust",
+    "NameRu": "Сульфид галлия (Пыль)",
+    "NameEn": "Gallium sulfide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "stone_dust",
+    "NameRu": "Камень (Пыль)",
+    "NameEn": "Stone (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "battery_alloy_dust",
+    "NameRu": "Аккумуляторный сплав (Пыль)",
+    "NameEn": "Battery alloy (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "quartz_sand_dust",
+    "NameRu": "Кварцевый песок (Пыль)",
+    "NameEn": "Quartz sand (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "ochrum_dust",
+    "NameRu": "Охрум (Пыль)",
+    "NameEn": "Ochrum (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "naquadah_dust",
+    "NameRu": "Наквада (Пыль)",
+    "NameEn": "Naquadah (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "annealed_copper_dust",
+    "NameRu": "Отожженная медь (Пыль)",
+    "NameEn": "Annealed copper (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "rare_earth_dust",
+    "NameRu": "Редкоземельные элементы",
+    "NameEn": "Rare earth (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "lazurite_dust",
+    "NameRu": "Лазурит (Пыль)",
+    "NameEn": "Lazurite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "gelatin_dust",
+    "NameRu": "Желатин (Пыль)",
+    "NameEn": "Gelatin (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "talc_dust",
+    "NameRu": "Тальк (Пыль)",
+    "NameEn": "Talc (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "indium_tin_barium_titanium_cuprate_dust",
+    "NameRu": "Купрат индия олова бария титана (Пыль)",
+    "NameEn": "Indium tin barium titanium cuprate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "ruby_dust",
+    "NameRu": "Рубин (Пыль)",
+    "NameEn": "Ruby (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "amethyst_dust",
+    "NameRu": "Аметист (Пыль)",
+    "NameEn": "Amethyst (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "cobalt_oxide_dust",
+    "NameRu": "Оксид кобальта (Пыль)",
+    "NameEn": "Cobalt oxide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "ostrum_dust",
+    "NameRu": "Острум (Пыль)",
+    "NameEn": "Ostrum (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "yttrium_dust",
+    "NameRu": "Иттрий (Пыль)",
+    "NameEn": "Yttrium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "graphite_dust",
+    "NameRu": "Графит (Пыль)",
+    "NameEn": "Graphite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "cocoa_dust",
+    "NameRu": "Какао (Пыль)",
+    "NameEn": "Cocoa (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "lead_dust",
+    "NameRu": "Свинец (Пыль)",
+    "NameEn": "Lead (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "tin_alloy_dust",
+    "NameRu": "Оловянный сплав (Пыль)",
+    "NameEn": "Tin alloy (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "steel_dust",
+    "NameRu": "Сталь (Пыль)",
+    "NameEn": "Steel (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "potassium_iodide_dust",
+    "NameRu": "Йодистый калий (Пыль)",
+    "NameEn": "Potassium iodide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "biotite_dust",
+    "NameRu": "Биотит (Пыль)",
+    "NameEn": "Biotite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "tantalite_dust",
+    "NameRu": "Танталит (Пыль)",
+    "NameEn": "Tantalite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "aluminium_silicate_dust",
+    "NameRu": "Алюмосиликат (Пыль)",
+    "NameEn": "Aluminium silicate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "tritanium_dust",
+    "NameRu": "Тританий (Пыль)",
+    "NameEn": "Tritanium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "lactose_dust",
+    "NameRu": "Лактоза (Пыль)",
+    "NameEn": "Lactose (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "lithium_chloride_dust",
+    "NameRu": "Хлорид лития (Пыль)",
+    "NameEn": "Lithium chloride (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "phosphorus_dust",
+    "NameRu": "Фосфор (Пыль)",
+    "NameEn": "Phosphorus (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "potin_dust",
+    "NameRu": "Потин (Пыль)",
+    "NameEn": "Potin (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "electrotine_dust",
+    "NameRu": "Электротин (Пыль)",
+    "NameEn": "Electrotine (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "veridium_dust",
+    "NameRu": "Веридий (Пыль)",
+    "NameEn": "Veridium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sorbitol_dust",
+    "NameRu": "Сорбитол (Пыль)",
+    "NameEn": "Sorbitol (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "tungsten_oxide_dust",
+    "NameRu": "Оксид вольфрама (Пыль)",
+    "NameEn": "Tungsten oxide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "thallium_sulfate_dust",
+    "NameRu": "Сульфат таллия (Пыль)",
+    "NameEn": "Thallium sulfate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "magnesia_refractory_brick_dust",
+    "NameRu": "Склеенный смолой магнезиальный огнеупорный кирпич (Пыль)",
+    "NameEn": "Magnesia refractory brick (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "refined_nuclear_residue_dust",
+    "NameRu": "Переработанные ядерные отходы (Пыль)",
+    "NameEn": "Refined nuclear residue (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "methylene_diphenyl_diisocyanate_dust",
+    "NameRu": "Метилен дифелин-4,4'-диизоционат (Пыль)",
+    "NameEn": "Methylene diphenyl diisocyanate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "rough_silicon_carbide_dust",
+    "NameRu": "Необработанный карбид кремния (Пыль)",
+    "NameEn": "Rough silicon carbide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "lorandite_dust",
+    "NameRu": "Лорандит (Пыль)",
+    "NameEn": "Lorandite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sodium_hydride_dust",
+    "NameRu": "Гидрид натрия (Пыль)",
+    "NameEn": "Sodium hydride (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "boron_10_hydroxide_dust",
+    "NameRu": "Гидроксид бора-10 (Пыль)",
+    "NameEn": "Boron-10 hydroxide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "cassiterite_regolith_dust",
+    "NameRu": "Кассеритовый реголит (Пыль)",
+    "NameEn": "Cassiterite regolith (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "boron_carbide_dust",
+    "NameRu": "Карбид бора (Пыль)",
+    "NameEn": "Boron carbide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "weak_red_steel_dust",
+    "NameRu": "Сырая красная сталь (Пыль)",
+    "NameEn": "Weak red steel (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "oxidized_nuclear_residue_dust",
+    "NameRu": "Окисленные ядерные отходы (Пыль)",
+    "NameEn": "oxidized nuclear residue (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "igneous_intermediate_dust",
+    "NameRu": "Средняя магматическая порода (Пыль)",
+    "NameEn": "Igneous intermediate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "tin_chloride_dust",
+    "NameRu": "Двуххлористое олово (Пыль)",
+    "NameEn": "Tin chloride (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "bright_regolith_dust",
+    "NameRu": "Яркий реголит (Пыль)",
+    "NameEn": "Bright regolith (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "clean_powder_dust",
+    "NameRu": "Силикатированный очищенный рениумный порошок (Пыль)",
+    "NameEn": "Clean powder (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sodium_deuteroxide_dust",
+    "NameRu": "Дейтерооксид натрия (Пыль)",
+    "NameEn": "Sodium deuteroxide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "redstone_nitrate_dust",
+    "NameRu": "Нитрат редстоуна (Пыль)",
+    "NameEn": "Redstone nitrate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "magnesium_hydroxide_dust",
+    "NameRu": "Гидроксид магния (Пыль)",
+    "NameEn": "Magnesium hydroxide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "vitrified_pearl_dust",
+    "NameRu": "Остеклованный эндер (Пыль)",
+    "NameEn": "Vitrified pearl (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "metamorphic_dust",
+    "NameRu": "Метаморфическая порода (Пыль)",
+    "NameEn": "Metamorphic (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "mycelienzene_dust",
+    "NameRu": "Мицезоллий (Пыль)",
+    "NameEn": "Mycelienzene (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "weak_blue_steel_dust",
+    "NameRu": "Сырая синяя сталь (Пыль)",
+    "NameEn": "Weak blue steel (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "weak_mo_si_b_dust",
+    "NameRu": "Слабый Mo-Si-B (Пыль)",
+    "NameEn": "Weak Mo-Si-B (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sodium_fluoride_dust",
+    "NameRu": "Фтористый натрий (Пыль)",
+    "NameEn": "Sodium fluoride (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "aes_mix_dust",
+    "NameRu": "Щелочноземельный силикат (Пыль)",
+    "NameEn": "Aes mix (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "alumina_dust",
+    "NameRu": "Оксид алюминия (Пыль)",
+    "NameEn": "Alumina (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "bi_pb_sn_cd_in_tl_dust",
+    "NameRu": "Bi-Pb-Cn-Cd-In-Tl (Пыль)",
+    "NameEn": "Bi-Pb-Cn-Cd-In-Tl (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "boric_acid_dust",
+    "NameRu": "Борная кислота (Пыль)",
+    "NameEn": "Boric acid (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "apt_dust",
+    "NameRu": "Паравольфрамат аммония (Пыль)",
+    "NameEn": "Apt (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sodium_sulfate_dust",
+    "NameRu": "Сульфат натрия (Пыль)",
+    "NameEn": "Sodium sulfate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "silicon_carbide_dust",
+    "NameRu": "Карбид кремния (Пыль)",
+    "NameEn": "Silicon carbide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "recovered_ionic_complex_dust",
+    "NameRu": "Восстановленный ионный комплекс (Пыль)",
+    "NameEn": "Recovered ionic complex (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "aluminium_sulfate_dust",
+    "NameRu": "Сульфат алюминия (Пыль)",
+    "NameEn": "Aluminium sulfate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "inconel_718_dust",
+    "NameRu": "Инконель-718 (Пыль)",
+    "NameEn": "Inconel-718 (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "zirconium_tetrachloride_dust",
+    "NameRu": "Тетрахлорид циркония (Пыль)",
+    "NameEn": "Zirconium tetrachloride (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "polysilicon_dust",
+    "NameRu": "Поликремний (Пыль)",
+    "NameEn": "Polysilicon (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "copper_trace_catalyst_dust",
+    "NameRu": "Следовая каталитическая медь (Пыль)",
+    "NameEn": "Copper trace catalyst (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "nuclear_residue_dust",
+    "NameRu": "Ядерные отходы (Пыль)",
+    "NameEn": "Nuclear residue (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "citric_acid_dust",
+    "NameRu": "Лимонная кислота (Пыль)",
+    "NameEn": "Citric acid (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "igneous_felsic_dust",
+    "NameRu": "Кислая магматическая порода (Пыль)",
+    "NameEn": "Igneous felsic (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "bakelite_dust",
+    "NameRu": "Бакелит (Пыль)",
+    "NameEn": "Bakelite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "ammonium_tungstate_dust",
+    "NameRu": "Вольфрамат аммония (Пыль)",
+    "NameEn": "Ammonium tungstate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "ammonia_borane_dust",
+    "NameRu": "Боразан (Пыль)",
+    "NameEn": "Ammonia borane (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "mo_50_re_dust",
+    "NameRu": "Mo-50 Re (Пыль)",
+    "NameEn": "Mo-50 Re (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "inert_dust_fraction_dust",
+    "NameRu": "Инертная фракция (Пыль)",
+    "NameEn": "Inert fraction (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "weak_inconel_718_dust",
+    "NameRu": "Слабый инконель-718 (Пыль)",
+    "NameEn": "Weak inconel-718 (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "regolith_mush_dust",
+    "NameRu": "Реголитовая каша (Пыль)",
+    "NameEn": "Regolith mush (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "mo_si_b_dust",
+    "NameRu": "Mo-Si-B (Пыль)",
+    "NameEn": "Mo-Si-B (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sodium_nitrate_dust",
+    "NameRu": "Нитрат натрия (Пыль)",
+    "NameEn": "Sodium nitrate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "goethe_regolith_dust",
+    "NameRu": "Гётитовый реголит (Пыль)",
+    "NameEn": "Goethe regolith (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "cholesterol_dust",
+    "NameRu": "Холестерин (Пыль)",
+    "NameEn": "Cholesterol (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "crimsene_dust",
+    "NameRu": "Багреллий (Пыль)",
+    "NameEn": "Crimsene (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "dirty_mo_si_b_dust",
+    "NameRu": "Грязный сплав Mo-Si-B (Пыль)",
+    "NameEn": "Dirty Mo-Si-B (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "calorite_dust",
+    "NameRu": "Калорит (Пыль)",
+    "NameEn": "Calorite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "zinc_sulfate_dust",
+    "NameRu": "Сульфат цинка (Пыль)",
+    "NameEn": "Zinc sulfate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sodium_borohydride_dust",
+    "NameRu": "Боргидрит натрия (Пыль)",
+    "NameEn": "Sodium borohydride (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sodium_tungstate_dust",
+    "NameRu": "Вольфрамат натрия (Пыль)",
+    "NameEn": "Sodium tungstate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "glucose_dust",
+    "NameRu": "Глюкоза (Пыль)",
+    "NameEn": "Glucose (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "pyrogallol_dust",
+    "NameRu": "Пирогаллол (Пыль)",
+    "NameEn": "Pyrogallol (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "certus_regolith_dust",
+    "NameRu": "Кварцевый реголит (Пыль)",
+    "NameEn": "Certus regolith (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "fructose_dust",
+    "NameRu": "Фруктоза (Пыль)",
+    "NameEn": "Fructose (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "igneous_ultramafic_dust",
+    "NameRu": "Ультраосновная магматическая порода (Пыль)",
+    "NameEn": "Igneous ultramafic (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "woods_metal_dust",
+    "NameRu": "Сплав Вуда (Пыль)",
+    "NameEn": "Woods metal (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "refractory_clay_dust",
+    "NameRu": "Огнеупорная глина (Пыль)",
+    "NameEn": "Refractory clay (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "aluminium_hydroxide_dust",
+    "NameRu": "Гидроксид алюминия (Пыль)",
+    "NameEn": "Aluminium hydroxide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "tungsten_bismuth_oxide_composite_dust",
+    "NameRu": "Композит оксида-вольфрама-висмута (Пыль)",
+    "NameEn": "Tungsten bismuth oxide composite (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "warpane_dust",
+    "NameRu": "Искажеллий (Пыль)",
+    "NameEn": "Warpane (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "igneous_mafic_dust",
+    "NameRu": "Основная магматическая порода (Пыль)",
+    "NameEn": "Igneous mafic (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "catalyser_powder_dust",
+    "NameRu": "Катализаторный рениумный порошок ZSM-5 (Пыль)",
+    "NameEn": "Catalyser powder (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "organic_stabilizer_dust",
+    "NameRu": "Органический стабилизатор (Пыль)",
+    "NameEn": "Organic stabilizer (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "zircon_dust",
+    "NameRu": "Цирконий (Пыль)",
+    "NameEn": "Zircon (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "rene_41_dust",
+    "NameRu": "Рене-41 (Пыль)",
+    "NameEn": "Rene 41 (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sodium_aluminium_dust",
+    "NameRu": "Алюминат натрия (Пыль)",
+    "NameEn": "Sodium aluminium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sedimentary_carbonate_dust",
+    "NameRu": "Карбонатный осадок (Пыль)",
+    "NameEn": "Sedimentary carbonate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sedimentary_clastic_dust",
+    "NameRu": "Обломочный осадок (Пыль)",
+    "NameEn": "Sedimentary clastic (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "trace_catalyst_salt_e_dust",
+    "NameRu": "Следовая каталитическая соль E (Пыль)",
+    "NameEn": "Trace catalyst salt E (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "tetrafluoroethane_dust",
+    "NameRu": "Тетрафторэтан (Пыль)",
+    "NameEn": "Tetrafluoroethane (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "14_sorbitan_dust",
+    "NameRu": "1,4-сорбитан (Пыль)",
+    "NameEn": "1,4-sorbitan (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "galactose_dust",
+    "NameRu": "Галактоза (Пыль)",
+    "NameEn": "Galactose (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sodium_methoxide_dust",
+    "NameRu": "Метоксид натрия (Пыль)",
+    "NameEn": "Sodium methoxide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sodium_dihydrogen_citrate_dust",
+    "NameRu": "Цитрат натрия 2-замещённый (Пыль)",
+    "NameEn": "Sodium dihydrogen citrate (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "zirconium_bromide_dust",
+    "NameRu": "Четырёхбромистый цирконий (Пыль)",
+    "NameEn": "Zirconium bromide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "isosorbide_dust",
+    "NameRu": "Изосорбид (Пыль)",
+    "NameEn": "Isosorbide (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "zirconium_diboride_dust",
+    "NameRu": "Диборид циркония (Пыль)",
+    "NameEn": "Zirconium diboride (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "certus_quartz_dust",
+    "NameRu": "Пыль истинного кварца",
+    "NameEn": "Certus quartz dust",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "fluix_dust",
+    "NameRu": "Флюисовая пыль",
+    "NameEn": "Fluix dust",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "ender_dust",
+    "NameRu": "Эндер-пыль",
+    "NameEn": "Ender dust",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "rose_quartz_dust",
+    "NameRu": "Розовый кварц (Пыль)",
+    "NameEn": "Rose quartz (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "etrium_dust",
+    "NameRu": "Этриум (Пыль)",
+    "NameEn": "Etrium (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  },
+
+  {
+    "Id": "sedimentary_organic_dust",
+    "NameRu": "Органогенный осадок (Пыль)",
+    "NameEn": "Sedimentary organic (Dust)",
+    "Type": "Пыль",
+    "Tag": "#forge:dusts"
+  }
+]

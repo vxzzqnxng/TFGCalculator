@@ -1,4 +1,4 @@
-namespace TFGCalculator.Models;
+﻿namespace TFGCalculator.Models;
 
 public enum CoilMachineType
 {

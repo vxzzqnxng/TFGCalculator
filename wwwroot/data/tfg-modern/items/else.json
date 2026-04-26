@@ -1,0 +1,136 @@
+﻿[
+  {
+    "Id": "planks",
+    "NameRu": "Любые доски",
+    "NameEn": "Any planks",
+    "Type": "Дерево",
+    "Tag": "#minecraft:planks",
+    "IconPath": "images/tfg-modern/items/planks.png"
+  },
+
+  {
+    "Id": "wooden_slabs",
+    "NameRu": "Любые деревянные полублоки",
+    "NameEn": "Any wooden slabs",
+    "Type": "Дерево",
+    "Tag": "#minecraft:wooden_slabs",
+    "IconPath": "images/tfg-modern/items/wooden_slabs.png"
+  },
+
+  {
+    "Id": "wooden_stairs",
+    "NameRu": "Любые деревянные ступеньки",
+    "NameEn": "Any wooden stairs",
+    "Type": "Дерево",
+    "Tag": "#minecraft:wooden_stairs",
+    "IconPath": "images/tfg-modern/items/wooden_stairs.png"
+  },
+
+  {
+    "Id": "wooden_fences",
+    "NameRu": "Любые деревянные заборы",
+    "NameEn": "Any wooden fences",
+    "Type": "Дерево",
+    "Tag": "#minecraft:wooden_fences",
+    "IconPath": "images/tfg-modern/items/wooden_fences.png"
+  },
+
+  {
+    "Id": "wooden_fence_gates",
+    "NameRu": "Любые деревянные калитки",
+    "NameEn": "Any wooden fence gates",
+    "Type": "Дерево",
+    "Tag": "#minecraft:wooden_fence_gates",
+    "IconPath": "images/tfg-modern/items/wooden_fence_gates.png"
+  },
+
+  {
+    "Id": "wooden_doors",
+    "NameRu": "Любые деревянные двери",
+    "NameEn": "Any wooden doors",
+    "Type": "Дерево",
+    "Tag": "#minecraft:wooden_doors",
+    "IconPath": "images/tfg-modern/items/wooden_doors.png"
+  },
+
+  {
+    "Id": "wooden_trapdoors",
+    "NameRu": "Любые деревянные люки",
+    "NameEn": "Any wooden trapdoors",
+    "Type": "Дерево",
+    "Tag": "#minecraft:wooden_trapdoors",
+    "IconPath": "images/tfg-modern/items/wooden_trapdoors.png"
+  },
+
+  {
+    "Id": "wooden_pressure_plates",
+    "NameRu": "Любые деревянные нажимные пластины",
+    "NameEn": "Any wooden pressure plates",
+    "Type": "Дерево",
+    "Tag": "#minecraft:wooden_pressure_plates",
+    "IconPath": "images/tfg-modern/items/wooden_pressure_plates.png"
+  },
+
+  {
+    "Id": "wooden_buttons",
+    "NameRu": "Любые деревянные ступеньки",
+    "NameEn": "Any wooden buttons",
+    "Type": "Дерево",
+    "Tag": "#minecraft:wooden_buttons",
+    "IconPath": "images/tfg-modern/items/wooden_buttons.png"
+  },
+
+  {
+    "Id": "stone",
+    "NameRu": "Любой камень",
+    "NameEn": "Any stone",
+    "Type": "Камень",
+    "Tag": "forge:stone",
+    "IconPath": "images/tfg-modern/items/stone.png"
+  },
+
+  {
+    "Id": "cobblestone",
+    "NameRu": "Любой булыжник",
+    "NameEn": "Any cobblestone",
+    "Type": "Камень",
+    "Tag": "forge:cobblestone",
+    "IconPath": "images/tfg-modern/items/cobblestone.png"
+  },
+
+  {
+    "Id": "gravel",
+    "NameRu": "Любой гравий",
+    "NameEn": "Any gravel",
+    "Type": "Камень",
+    "Tag": "forge:gravel",
+    "IconPath": "images/tfg-modern/items/gravel.png"
+  },
+
+  {
+    "Id": "sand",
+    "NameRu": "Любой песок",
+    "NameEn": "Any sand",
+    "Type": "Песок",
+    "Tag": "forge:sand",
+    "IconPath": "images/tfg-modern/items/sand.png"
+  },
+
+  {
+    "Id": "glass",
+    "NameRu": "Любое стекло",
+    "NameEn": "Any glass",
+    "Type": "Стекло",
+    "Tag": "#forge:glass",
+    "IconPath": "images/tfg-modern/items/glass.png"
+  },
+
+  {
+    "Id": "glass_panes",
+    "NameRu": "Любые стеклянные панели",
+    "NameEn": "Any glass panes",
+    "Type": "Стекло",
+    "Tag": "#forge:glass_panes",
+    "IconPath": "images/tfg-modern/items/glass_panes.png"
+  }
+]

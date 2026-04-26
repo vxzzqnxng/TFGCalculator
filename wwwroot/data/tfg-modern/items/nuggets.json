@@ -1,0 +1,1281 @@
+﻿[
+  {
+    "Id": "iron_nugget",
+    "NameRu": "Серый чугун (Самородок)",
+    "NameEn": "Iron (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "borosilicate_glass_nugget",
+    "NameRu": "Боросиликатное стекло (Самородок)",
+    "NameEn": "Borosilicate glass (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "stone_nugget",
+    "NameRu": "Камень (Самородок)",
+    "NameEn": "Stone (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "polycaprolactam_nugget",
+    "NameRu": "Поликапролактам (Осколок)",
+    "NameEn": "Polycaprolactam (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "red_alloy_nugget",
+    "NameRu": "Красный сплав (Самородок)",
+    "NameEn": "Red alloy (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "neutronium_nugget",
+    "NameRu": "Нейтроний (Самородок)",
+    "NameEn": "Neutronium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "uranium_nugget",
+    "NameRu": "Уран 238 (Самородок)",
+    "NameEn": "Uranium 238 (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "plutonium_241_nugget",
+    "NameRu": "Плутоний-241 (Самородок)",
+    "NameEn": "Plutonium-241 (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "platinum_nugget",
+    "NameRu": "Платина (Самородок)",
+    "NameEn": "Platinum (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "enriched_naquadah_nugget",
+    "NameRu": "Обогащённыя наквада (Самородок)",
+    "NameEn": "Enriched naquadah (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "aluminium_nugget",
+    "NameRu": "Алюминий (Самородок)",
+    "NameEn": "Aluminium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "ruthenium_nugget",
+    "NameRu": "Рутений (Самородок)",
+    "NameEn": "Ruthenium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "magnetic_iron_nugget",
+    "NameRu": "Магнитное железо (Самородок)",
+    "NameEn": "Magnetic iron (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "invar_nugget",
+    "NameRu": "Инвар (Самородок)",
+    "NameEn": "Invar (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "duranium_nugget",
+    "NameRu": "Дюраний (Самородок)",
+    "NameEn": "Duranium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "nickel_nugget",
+    "NameRu": "Никель (Самородок)",
+    "NameEn": "Nickel (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "zinc_nugget",
+    "NameRu": "Цинк (Самородок)",
+    "NameEn": "Zinc (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "watertight_steel_nugget",
+    "NameRu": "Водостойкая сталь (Самородок)",
+    "NameEn": "Watertight steel (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "thorium_232_nugget",
+    "NameRu": "Торий 232 (Самородок)",
+    "NameEn": "Thorium 232 (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "osmiridium_nugget",
+    "NameRu": "Осмистый иридий (Самородок)",
+    "NameEn": "Osmiridium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "cobalt_nugget",
+    "NameRu": "Кобальт (Самородок)",
+    "NameEn": "Cobalt (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "hsla_steel_nugget",
+    "NameRu": "HSLA сталь (Самородок)",
+    "NameEn": "HSLA steel (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "titanium_tungsten_carbide_nugget",
+    "NameRu": "Вольфрам-титанановый карбид (Самородок)",
+    "NameEn": "Titanium tungsten carbide (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "polyvinyl_butyral_nugget",
+    "NameRu": "Поливинилбутираль (Осколок)",
+    "NameEn": "Polyvinyl butyral (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "manganese_nugget",
+    "NameRu": "Марганец (Самородок)",
+    "NameEn": "Manganese (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "niobium_titanium_nugget",
+    "NameRu": "Ниобий-титан (Самородок)",
+    "NameEn": "Niobium titanium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "silver_nugget",
+    "NameRu": "Серебро (Самородок)",
+    "NameEn": "Silver (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "rhodium_nugget",
+    "NameRu": "Родий (Самородок)",
+    "NameEn": "Rhodium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "hsss_nugget",
+    "NameRu": "HSS-S (Самородок)",
+    "NameEn": "HSS-S (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "molybdenum_nugget",
+    "NameRu": "Молибден (Самородок)",
+    "NameEn": "molybdenum (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "polyphenylene_sulfide_nugget",
+    "NameRu": "Полифениленсульфид (Осколок)",
+    "NameEn": "Polyphenylene sulfide (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "tin_nugget",
+    "NameRu": "Олово (Самородок)",
+    "NameEn": "Tin (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "rocket_alloy_t1_nugget",
+    "NameRu": "Красный алюминиево-стальной ракетный сплав (Самородок)",
+    "NameEn": "Rocket alloy t1 (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "hastelloy_x_nugget",
+    "NameRu": "Хастеллой-X (Самородок)",
+    "NameEn": "Hastelloy-X (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "niobium_nitride_nugget",
+    "NameRu": "Нитрид ниобия (Самородок)",
+    "NameEn": "Niobium nitride (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "cupronickel_nugget",
+    "NameRu": "Купроникель (Самородок)",
+    "NameEn": "Cupronickel (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "zirconium_nugget",
+    "NameRu": "Цирконий (Самородок)",
+    "NameEn": "Zirconium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "titanium_nugget",
+    "NameRu": "Титан (Самородок)",
+    "NameEn": "Titanium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "americium_nugget",
+    "NameRu": "Америций 243 (Самородок)",
+    "NameEn": "Americium 243 (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "uranium_235_nugget",
+    "NameRu": "Уран-235 (Самородок)",
+    "NameEn": "Uranium-235 (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "gallium_nugget",
+    "NameRu": "Галлий (Самородок)",
+    "NameEn": "Gallium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "californium_252_nugget",
+    "NameRu": "Калифорний 252 (Самородок)",
+    "NameEn": "Californium 252 (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "uranium_triplatinum_nugget",
+    "NameRu": "Триплатина уран (Самородок)",
+    "NameEn": "Uranium triplatinum (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "ultimet_nugget",
+    "NameRu": "Ультимет (Самородок)",
+    "NameEn": "Ultimet (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "hssg_nugget",
+    "NameRu": "HSS-G (Самородок)",
+    "NameEn": "HSS-G (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "desh_nugget",
+    "NameRu": "Деш (Самородок)",
+    "NameEn": "desh (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "tungsten_carbide_nugget",
+    "NameRu": "Карбид вольфрама (Самородок)",
+    "NameEn": "Tungsten carbide (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "trinium_nugget",
+    "NameRu": "Триниум (Самородок)",
+    "NameEn": "Trinium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "neptunium_237_nugget",
+    "NameRu": "Нептуний 237 (Самородок)",
+    "NameEn": "Neptunium 237 (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "rhodium_plated_palladium_nugget",
+    "NameRu": "Палладий с родиевым покрытием (Самородок)",
+    "NameEn": "Rhodium plated palladium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "chromium_nugget",
+    "NameRu": "Хром (Самородок)",
+    "NameEn": "Chromium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "ostrum_iodide_nugget",
+    "NameRu": "Йодид острума (Самородок)",
+    "NameEn": "ostrum_iodide_dust (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "nickel_zinc_ferrite_nugget",
+    "NameRu": "Никель цинк феррит (Самородок)",
+    "NameEn": "Nickel zinc ferrite (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "titanium_carbide_nugget",
+    "NameRu": "Карбид титана (Самородок)",
+    "NameEn": "Titanium carbide (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "samarium_nugget",
+    "NameRu": "Самарий (Самородок)",
+    "NameEn": "Samarium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "stainless_steel_nugget",
+    "NameRu": "Нержавеющая сталь (Самородок)",
+    "NameEn": "Stainless steel (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "bismuth_nugget",
+    "NameRu": "Висмут (Самородок)",
+    "NameEn": "Bismuth (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "bronze_nugget",
+    "NameRu": "Бронза (Самородок)",
+    "NameEn": "Bronze (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "ruthenium_trinium_americium_neutronate_nugget",
+    "NameRu": "Нейтронат рутения триния америция (Самородок)",
+    "NameEn": "Ruthenium trinium americium neutronate (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "incoloy_ma_956_nugget",
+    "NameRu": "Инколой MA-956 (Самородок)",
+    "NameEn": "Incoloy MA-956 (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "brass_nugget",
+    "NameRu": "Латунь (Самородок)",
+    "NameEn": "Brass (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "rtm_alloy_nugget",
+    "NameRu": "РВМ сплав (Самородок)",
+    "NameEn": "RTM alloy (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "cobalt_brass_nugget",
+    "NameRu": "Кобальтовая латунь (Самородок)",
+    "NameEn": "Cobalt brass (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "neodymium_nugget",
+    "NameRu": "Неодим (Самородок)",
+    "NameEn": "Neodymium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "silicone_rubber_nugget",
+    "NameRu": "Силиконовая резина (Самородок)",
+    "NameEn": "Silicone rubber (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "rubber_nugget",
+    "NameRu": "Резина (Самородок)",
+    "NameEn": "Rubber (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "black_steel_nugget",
+    "NameRu": "Черная сталь (Самородок)",
+    "NameEn": "Black steel (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "black_bronze_nugget",
+    "NameRu": "Черная бронза (Самородок)",
+    "NameEn": "Black bronze (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "zeron_100_nugget",
+    "NameRu": "Зерон-100 (Самородок)",
+    "NameEn": "Zeron-100 (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "magnetic_samarium_nugget",
+    "NameRu": "Магнитный самарий (Самородок)",
+    "NameEn": "Magnetic samarium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "samarium_iron_arsenic_oxide_nugget",
+    "NameRu": "Оксид самария железа мышьяка (Самородок)",
+    "NameEn": "Samarium iron arsenic oxide (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "blue_steel_nugget",
+    "NameRu": "Синяя сталь (Самородок)",
+    "NameEn": "Blue steel (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "manganese_phosphide_nugget",
+    "NameRu": "Фосфид марганца (Самородок)",
+    "NameEn": "Manganese phosphide (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "stellite_100_nugget",
+    "NameRu": "Стеллит (Самородок)",
+    "NameEn": "Stellite (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "naquadria_nugget",
+    "NameRu": "Наквадрия (Самородок)",
+    "NameEn": "Naquadria (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "epoxy_nugget",
+    "NameRu": "Эпоксидная смола (Самородок)",
+    "NameEn": "Epoxy (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "magnetic_neodymium_nugget",
+    "NameRu": "Магнитный неодим (Самородок)",
+    "NameEn": "Magnetic neodymium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "nichrome_nugget",
+    "NameRu": "Нихром (Самородок)",
+    "NameEn": "Nichrome (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "americium_nugget",
+    "NameRu": "Америций 241 (Самородок)",
+    "NameEn": "Americium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "europium_nugget",
+    "NameRu": "Европий (Самородок)",
+    "NameEn": "Europium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "thorium_230_nugget",
+    "NameRu": "Торий 230 (Самородок)",
+    "NameEn": "Thorium 230 (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "vanadium_gallium_nugget",
+    "NameRu": "Ванадий-Галлий (Самородок)",
+    "NameEn": "Vanadium gallium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "tungsten_nugget",
+    "NameRu": "Вольфрам (Самородок)",
+    "NameEn": "Tungsten (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "plutonium_nugget",
+    "NameRu": "Плутоний 239 (Самородок)",
+    "NameEn": "Plutonium 239 (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "styrene_butadiene_rubber_nugget",
+    "NameRu": "Стирол-бутадиеновая резина (Самородок)",
+    "NameEn": "Styrene butadiene rubber (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "vanadium_steel_nugget",
+    "NameRu": "Ванадиевая сталь (Самородок)",
+    "NameEn": "Vanadium steel (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "tungsten_steel_nugget",
+    "NameRu": "Вольфрамовая сталь (Самородок)",
+    "NameEn": "Tungsten steel (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "magnalium_nugget",
+    "NameRu": "Магналий (Самородок)",
+    "NameEn": "Magnalium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "polybenzimidazole_nugget",
+    "NameRu": "Полибензимидазол (ПБИ) (Осколок)",
+    "NameEn": "Polybenzimidazole (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "iridium_nugget",
+    "NameRu": "Иридий (Самородок)",
+    "NameEn": "Iridium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "red_steel_nugget",
+    "NameRu": "Красная сталь (Самородок)",
+    "NameEn": "Red steel (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "polyethylene_nugget",
+    "NameRu": "Полиэтилен (Осколок)",
+    "NameEn": "Polyethylene (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "magnetic_steel_nugget",
+    "NameRu": "Магнитная сталь (Самородок)",
+    "NameEn": "Magnetic steel (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "indium_gallium_phosphide_nugget",
+    "NameRu": "Индий галлий фосфид (Самородок)",
+    "NameEn": "Indium gallium phosphide (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "indium_nugget",
+    "NameRu": "Индий (Самородок)",
+    "NameEn": "Indium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "osmium_nugget",
+    "NameRu": "Осмий (Самородок)",
+    "NameEn": "Osmium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "hastelloy_c_276_nugget",
+    "NameRu": "Хастеллой-C276 (Самородок)",
+    "NameEn": "Hastelloy-C276 (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "molybdenum_disilicide_nugget",
+    "NameRu": "Дисилицид молибдена (Самородок)",
+    "NameEn": "molybdenum disilicide (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "rose_gold_nugget",
+    "NameRu": "Розовое золото (Самородок)",
+    "NameEn": "Rose gold (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "electrum_nugget",
+    "NameRu": "Электрум (Самородок)",
+    "NameEn": "Electrum (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "tantalum_nugget",
+    "NameRu": "Тантал (Самородок)",
+    "NameEn": "Tantalum (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "polyvinyl_chloride_nugget",
+    "NameRu": "Поливинил хлорид (Осколок)",
+    "NameEn": "Polyvinyl chloride (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "magnesium_diboride_nugget",
+    "NameRu": "Диборид магния (Самородок)",
+    "NameEn": "Magnesium diboride (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "sterling_silver_nugget",
+    "NameRu": "Стерлинговое серебро (Самородок)",
+    "NameEn": "Sterling silver (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "wrought_iron_nugget",
+    "NameRu": "Кованное железо (Самородок)",
+    "NameEn": "Wrought iron (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "tantalum_carbide_nugget",
+    "NameRu": "Карбид тантала (Самородок)",
+    "NameEn": "Tantalum carbide (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "polytetrafluoroethylene_nugget",
+    "NameRu": "Политетрафторэтилен (Осколок)",
+    "NameEn": "Polytetrafluoroethylene (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "niobium_nugget",
+    "NameRu": "Ниобий (Самородок)",
+    "NameEn": "Niobium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "gallium_arsenide_nugget",
+    "NameRu": "Арсенид галлия (Самородок)",
+    "NameEn": "Gallium arsenide (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "kanthal_nugget",
+    "NameRu": "Кантал (Самородок)",
+    "NameEn": "Kanthal (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "cadmium_nugget",
+    "NameRu": "Кадмий (Самородок)",
+    "NameEn": "Cadmium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "gold_nugget",
+    "NameRu": "Золото (Самородок)",
+    "NameEn": "Gold (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "vanadium_nugget",
+    "NameRu": "Ванадий (Самородок)",
+    "NameEn": "Vanadium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "uranium_rhodium_dinaquadide_nugget",
+    "NameRu": "Уран родий динаквада (Самородок)",
+    "NameEn": "Uranium rhodium dinaquadide (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "yttrium_barium_cuprate_nugget",
+    "NameRu": "Оксид иттрия-бария-меди (Самородок)",
+    "NameEn": "Yttrium barium cuprate (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "reinforced_epoxy_resin_nugget",
+    "NameRu": "Укреплённая эпоксидная смола (Осколок)",
+    "NameEn": "Reinforced epoxy resin (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "epoxy_resin_nugget",
+    "NameRu": "Эпоксидная смола (Осколок)",
+    "NameEn": "Epoxy resin (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "maraging_steel_300_nugget",
+    "NameRu": "Мартенситностареющая сталь 300 (Самородок)",
+    "NameEn": "Maraging steel 300 (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "enriched_naquadah_trinium_europium_duranide_nugget",
+    "NameRu": "Обогащенный наквада триний европий дюраний (Самородок)",
+    "NameEn": "Enriched naquadah trinium europium duranide (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "palladium_nugget",
+    "NameRu": "Палладий (Самородок)",
+    "NameEn": "Palladium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "graphene_nugget",
+    "NameRu": "Графен (Самородок)",
+    "NameEn": "Graphene (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "beryllium_nugget",
+    "NameRu": "Бериллий (Самородок)",
+    "NameEn": "Beryllium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "blue_alloy_nugget",
+    "NameRu": "Синий сплав (Самородок)",
+    "NameEn": "Blue alloy (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "hsse_nugget",
+    "NameRu": "HSS-E (Самородок)",
+    "NameEn": "HSS-E (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "mercury_barium_calcium_cuprate_nugget",
+    "NameRu": "Купрат ртути бария кальция (Самородок)",
+    "NameEn": "Mercury barium calcium cuprate (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "bismuth_bronze_nugget",
+    "NameRu": "Висмутовая бронза (Самородок)",
+    "NameEn": "Bismuth bronze (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "copper_nugget",
+    "NameRu": "Медь (Самородок)",
+    "NameEn": "Copper (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "silicon_nugget",
+    "NameRu": "Кремний (Самородок)",
+    "NameEn": "Silicon (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "rocket_alloy_t2_nugget",
+    "NameRu": "ASM 4914 титановый ракетный сплав (Самородок)",
+    "NameEn": "Rocket alloy t2 (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "naquadah_alloy_nugget",
+    "NameRu": "Сплав наквада (Самородок)",
+    "NameEn": "Naquadah alloy (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "darmstadtium_nugget",
+    "NameRu": "Дармштадтий (Самородок)",
+    "NameEn": "Darmstadtium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "soldering_alloy_nugget",
+    "NameRu": "Припой (Самородок)",
+    "NameEn": "Soldering alloy (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "battery_alloy_nugget",
+    "NameRu": "Аккумуляторный сплав (Самородок)",
+    "NameEn": "Battery alloy (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "naquadah_nugget",
+    "NameRu": "Наквада (Самородок)",
+    "NameEn": "Naquadah (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "annealed_copper_nugget",
+    "NameRu": "Отожженная медь (Самородок)",
+    "NameEn": "Annealed copper (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "indium_tin_barium_titanium_cuprate_nugget",
+    "NameRu": "Купрат индия олова бария титана (Самородок)",
+    "NameEn": "Indium tin barium titanium cuprate (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "ostrum_nugget",
+    "NameRu": "Острум (Самородок)",
+    "NameEn": "Ostrum (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "yttrium_nugget",
+    "NameRu": "Иттрий (Самородок)",
+    "NameEn": "Yttrium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "lead_nugget",
+    "NameRu": "Свинец (Самородок)",
+    "NameEn": "Lead (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "tin_alloy_nugget",
+    "NameRu": "Оловянный сплав (Самородок)",
+    "NameEn": "Tin alloy (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "steel_nugget",
+    "NameRu": "Сталь (Самородок)",
+    "NameEn": "Steel (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "aluminium_silicate_nugget",
+    "NameRu": "Алюмосиликат (Самородок)",
+    "NameEn": "Aluminium silicate (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "tritanium_nugget",
+    "NameRu": "Тританий (Самородок)",
+    "NameEn": "Tritanium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "potin_nugget",
+    "NameRu": "Потин (Самородок)",
+    "NameEn": "Potin (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "boron_carbide_nugget",
+    "NameRu": "Карбид бора (Самородок)",
+    "NameEn": "Boron carbide (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "weak_red_steel_nugget",
+    "NameRu": "Сырая красная сталь (Самородок)",
+    "NameEn": "Weak red steel (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "weak_blue_steel_nugget",
+    "NameRu": "Сырая синяя сталь (Самородок)",
+    "NameEn": "Weak blue steel (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "bi_pb_sn_cd_in_tl_nugget",
+    "NameRu": "Bi-Pb-Cn-Cd-In-Tl (Самородок)",
+    "NameEn": "Bi-Pb-Cn-Cd-In-Tl (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "inconel_718_nugget",
+    "NameRu": "Инконель-718 (Самородок)",
+    "NameEn": "Inconel-718 (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "bakelite_nugget",
+    "NameRu": "Бакелит (Самородок)",
+    "NameEn": "Bakelite (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "mo_50_re_nugget",
+    "NameRu": "Mo-50 Re (Самородок)",
+    "NameEn": "Mo-50 Re (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "mo_si_b_nugget",
+    "NameRu": "Mo-Si-B (Самородок)",
+    "NameEn": "Mo-Si-B (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "calorite_nugget",
+    "NameRu": "Калорит (Самородок)",
+    "NameEn": "Calorite (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "woods_metal_nugget",
+    "NameRu": "Сплав Вуда (Самородок)",
+    "NameEn": "Woods metal (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "tungsten_bismuth_oxide_composite_nugget",
+    "NameRu": "Композит оксида-вольфрама-висмута (Самородок)",
+    "NameEn": "Tungsten bismuth oxide composite (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "zirconium_nugget",
+    "NameRu": "Цирконий (Самородок)",
+    "NameEn": "Zirconium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "rene_41_nugget",
+    "NameRu": "Рене-41 (Самородок)",
+    "NameEn": "Rene 41 (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "zirconium_diboride_nugget",
+    "NameRu": "Диборид циркония (Самородок)",
+    "NameEn": "Zirconium diboride (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "etrium_nugget",
+    "NameRu": "Этриум (Самородок)",
+    "NameEn": "Etrium (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  },
+
+  {
+    "Id": "ruridit_nugget",
+    "NameRu": "Руридит (Самородок)",
+    "NameEn": "Ruridit (Nugget)",
+    "Type": "Самородок",
+    "Tag": "forge:nuggets"
+  }
+]

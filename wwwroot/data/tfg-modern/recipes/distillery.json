@@ -1,0 +1,67 @@
+﻿[
+  {
+    "Id": "acidic_osmium_solution_recycling_1",
+    "MachineId": "distillery",
+    "MachineNameRu": "Дистиллятор",
+    "MachineNameEn": "Distillery",
+    "Inputs": [
+      {
+        "ItemId": "acidic_osmium_solution_fluid",
+        "Amount": 0.4
+      }
+    ],
+    "Catalysts": [
+      {
+        "ItemId": "programmed_circuit_1",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "osmium_tetroxide_dust",
+        "Amount": 1
+      },
+      {
+        "ItemId": "hydrochloric_acid_fluid",
+        "Amount": 0.2
+      }
+    ],
+    "EnergyPerTick": 30,
+    "DurationTicks": 160,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 2
+  },
+
+  {
+    "Id": "acidic_osmium_solution_recycling_1",
+    "MachineId": "distillery",
+    "MachineNameRu": "Дистиллятор",
+    "MachineNameEn": "Distillery",
+    "Inputs": [
+      {
+        "ItemId": "acidic_osmium_solution_fluid",
+        "Amount": 0.4
+      }
+    ],
+    "Catalysts": [
+      {
+        "ItemId": "programmed_circuit_2",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "osmium_tetroxide_dust",
+        "Amount": 1
+      },
+      {
+        "ItemId": "water_fluid",
+        "Amount": 0.2
+      }
+    ],
+    "EnergyPerTick": 30,
+    "DurationTicks": 160,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 2
+  }
+]

@@ -1,0 +1,577 @@
+﻿[
+  {
+    "Id": "platinum_group_sludge_dust_1",
+    "MachineId": "chemical_reactor",
+    "MachineNameRu": "Химический реактор",
+    "MachineNameEn": "Chemical reactor",
+    "Inputs": [
+      {
+        "ItemId": "purified_chalcopyrite_ore",
+        "Amount": 2
+      },
+      {
+        "ItemId": "nitric_acid_fluid",
+        "Amount": 0.1
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "platinum_group_sludge_dust",
+        "Amount": 2
+      },
+      {
+        "ItemId": "sulfuric_copper_solution_fluid",
+        "Amount": 1
+      }
+    ],
+    "EnergyPerTick": 30,
+    "DurationTicks": 50,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 2
+  },
+
+  {
+    "Id": "platinum_group_sludge_dust_2",
+    "MachineId": "chemical_reactor",
+    "MachineNameRu": "Химический реактор",
+    "MachineNameEn": "Chemical reactor",
+    "Inputs": [
+      {
+        "ItemId": "purified_bornite_ore",
+        "Amount": 2
+      },
+      {
+        "ItemId": "nitric_acid_fluid",
+        "Amount": 0.1
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "platinum_group_sludge_dust",
+        "Amount": 2
+      },
+      {
+        "ItemId": "sulfuric_copper_solution_fluid",
+        "Amount": 1
+      }
+    ],
+    "EnergyPerTick": 30,
+    "DurationTicks": 50,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 2
+  },
+
+  {
+    "Id": "platinum_group_sludge_dust_3",
+    "MachineId": "chemical_reactor",
+    "MachineNameRu": "Химический реактор",
+    "MachineNameEn": "Chemical reactor",
+    "Inputs": [
+      {
+        "ItemId": "purified_chalcocite_ore",
+        "Amount": 2
+      },
+      {
+        "ItemId": "nitric_acid_fluid",
+        "Amount": 0.1
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "platinum_group_sludge_dust",
+        "Amount": 2
+      },
+      {
+        "ItemId": "sulfuric_copper_solution_fluid",
+        "Amount": 1
+      }
+    ],
+    "EnergyPerTick": 30,
+    "DurationTicks": 50,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 2
+  },
+
+  {
+    "Id": "platinum_group_sludge_dust_4",
+    "MachineId": "chemical_reactor",
+    "MachineNameRu": "Химический реактор",
+    "MachineNameEn": "Chemical reactor",
+    "Inputs": [
+      {
+        "ItemId": "purified_tetrahedrite_ore",
+        "Amount": 2
+      },
+      {
+        "ItemId": "nitric_acid_fluid",
+        "Amount": 0.1
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "platinum_group_sludge_dust",
+        "Amount": 2
+      },
+      {
+        "ItemId": "sulfuric_copper_solution_fluid",
+        "Amount": 1
+      }
+    ],
+    "EnergyPerTick": 30,
+    "DurationTicks": 50,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 2
+  },
+
+  {
+    "Id": "platinum_group_sludge_dust_5",
+    "MachineId": "chemical_reactor",
+    "MachineNameRu": "Химический реактор",
+    "MachineNameEn": "Chemical reactor",
+    "Inputs": [
+      {
+        "ItemId": "purified_pentlandite_ore",
+        "Amount": 2
+      },
+      {
+        "ItemId": "nitric_acid_fluid",
+        "Amount": 0.1
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "platinum_group_sludge_dust",
+        "Amount": 2
+      },
+      {
+        "ItemId": "sulfuric_nickel_solution_fluid",
+        "Amount": 1
+      }
+    ],
+    "EnergyPerTick": 30,
+    "DurationTicks": 50,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 2
+  },
+
+  {
+    "Id": "platinum_group_sludge_dust_6",
+    "MachineId": "chemical_reactor",
+    "MachineNameRu": "Химический реактор",
+    "MachineNameEn": "Chemical reactor",
+    "Inputs": [
+      {
+        "ItemId": "purified_cooperite_ore",
+        "Amount": 2
+      },
+      {
+        "ItemId": "nitric_acid_fluid",
+        "Amount": 0.1
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "platinum_group_sludge_dust",
+        "Amount": 4
+      },
+      {
+        "ItemId": "sulfuric_nickel_solution_fluid",
+        "Amount": 1
+      }
+    ],
+    "EnergyPerTick": 30,
+    "DurationTicks": 50,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 2
+  },
+
+  {
+    "Id": "ammonia",
+    "MachineId": "chemical_reactor",
+    "MachineNameRu": "Химический реактор",
+    "MachineNameEn": "Chemical reactor",
+    "Inputs": [
+      {
+        "ItemId": "hydrogen_fluid",
+        "Amount": 3
+      },
+      {
+        "ItemId": "nitrogen_fluid",
+        "Amount": 1
+      }
+    ],
+    "Catalysts": [
+      {
+        "ItemId": "programmed_circuit_1",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "ammonia_fluid",
+        "Amount": 1
+      }
+    ],
+    "EnergyPerTick": 384,
+    "DurationTicks": 320,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 4
+  },
+
+  {
+    "Id": "nitric_oxide",
+    "MachineId": "chemical_reactor",
+    "MachineNameRu": "Химический реактор",
+    "MachineNameEn": "Chemical reactor",
+    "Inputs": [
+      {
+        "ItemId": "oxygen_fluid",
+        "Amount": 5
+      },
+      {
+        "ItemId": "ammonia_fluid",
+        "Amount": 2
+      }
+    ],
+    "Catalysts": [
+      {
+        "ItemId": "programmed_circuit_1",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "nitric_oxide_fluid",
+        "Amount": 2
+      },
+      {
+        "ItemId": "water_fluid",
+        "Amount": 3
+      }
+    ],
+    "EnergyPerTick": 30,
+    "DurationTicks": 160,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 2
+  },
+
+  {
+    "Id": "nitrogen_dioxide",
+    "MachineId": "chemical_reactor",
+    "MachineNameRu": "Химический реактор",
+    "MachineNameEn": "Chemical reactor",
+    "Inputs": [
+      {
+        "ItemId": "oxygen_fluid",
+        "Amount": 1
+      },
+      {
+        "ItemId": "nitric_oxide_fluid",
+        "Amount": 1
+      }
+    ],
+    "Catalysts": [
+      {
+        "ItemId": "programmed_circuit_1",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "nitrogen_dioxide_fluid",
+        "Amount": 1
+      }
+    ],
+    "EnergyPerTick": 30,
+    "DurationTicks": 160,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 2
+  },
+
+  {
+    "Id": "nitric_acid",
+    "MachineId": "chemical_reactor",
+    "MachineNameRu": "Химический реактор",
+    "MachineNameEn": "Chemical reactor",
+    "Inputs": [
+      {
+        "ItemId": "nitrogen_dioxide_fluid",
+        "Amount": 3
+      },
+      {
+        "ItemId": "water_fluid",
+        "Amount": 1
+      }
+    ],
+    "Catalysts": [
+      {
+        "ItemId": "programmed_circuit_1",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "nitric_acid_fluid",
+        "Amount": 2
+      },
+      {
+        "ItemId": "nitric_oxide_fluid",
+        "Amount": 1
+      }
+    ],
+    "EnergyPerTick": 30,
+    "DurationTicks": 240,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 2
+  },
+
+  {
+    "Id": "nitric_acid_2",
+    "MachineId": "chemical_reactor",
+    "MachineNameRu": "Химический реактор",
+    "MachineNameEn": "Chemical reactor",
+    "Inputs": [
+      {
+        "ItemId": "water_fluid",
+        "Amount": 1
+      },
+      {
+        "ItemId": "oxygen_fluid",
+        "Amount": 1
+      },
+      {
+        "ItemId": "nitrogen_dioxide_fluid",
+        "Amount": 2
+      }
+    ],
+    "Catalysts": [
+      {
+        "ItemId": "programmed_circuit_3",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "nitric_acid_fluid",
+        "Amount": 2
+      }
+    ],
+    "EnergyPerTick": 30,
+    "DurationTicks": 240,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 2
+  },
+
+  {
+    "Id": "palladium_from_platinum_sludge",
+    "MachineId": "chemical_reactor",
+    "MachineNameRu": "Химический реактор",
+    "MachineNameEn": "Chemical reactor",
+    "Inputs": [
+      {
+        "ItemId": "palladium_raw_dust",
+        "Amount": 5
+      },
+      {
+        "ItemId": "hydrochloric_acid_fluid",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "palladium_dust",
+        "Amount": 1
+      },
+      {
+        "ItemId": "ammonium_chloride_dust",
+        "Amount": 2
+      }
+    ],
+    "EnergyPerTick": 120,
+    "DurationTicks": 200,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 3
+  },
+
+  {
+    "Id": "sulfuric_acid",
+    "MachineId": "chemical_reactor",
+    "MachineNameRu": "Химический реактор",
+    "MachineNameEn": "Chemical reactor",
+    "Inputs": [
+      {
+        "ItemId": "sulfur_trioxide_fluid",
+        "Amount": 1
+      },
+      {
+        "ItemId": "water_fluid",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "sulfuric_acid_fluid",
+        "Amount": 1
+      }
+    ],
+    "EnergyPerTick": 7,
+    "DurationTicks": 160,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 2
+  },
+
+  {
+    "Id": "ruthenium_tetroxide",
+    "MachineId": "chemical_reactor",
+    "MachineNameRu": "Химический реактор",
+    "MachineNameEn": "Chemical reactor",
+    "Inputs": [
+      {
+        "ItemId": "inert_metal_mixture_dust",
+        "Amount": 6
+      },
+      {
+        "ItemId": "sulfuric_acid_fluid",
+        "Amount": 1.5
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "ruthenium_tetroxide_dust",
+        "Amount": 5
+      },
+      {
+        "ItemId": "rhodium_sulfate_fluid",
+        "Amount": 0.5
+      },
+      {
+        "ItemId": "hydrogen_fluid",
+        "Amount": 3
+      }
+    ],
+    "EnergyPerTick": 1920,
+    "DurationTicks": 450,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 5
+  },
+
+  {
+    "Id": "ruthenium_dust",
+    "MachineId": "chemical_reactor",
+    "MachineNameRu": "Химический реактор",
+    "MachineNameEn": "Chemical reactor",
+    "Inputs": [
+      {
+        "ItemId": "ruthenium_tetroxide_dust",
+        "Amount": 5
+      },
+      {
+        "ItemId": "carbon_dust",
+        "Amount": 2
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "ruthenium_dust",
+        "Amount": 1
+      },
+      {
+        "ItemId": "carbon_dioxide_fluid",
+        "Amount": 2
+      }
+    ],
+    "EnergyPerTick": 120,
+    "DurationTicks": 200,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 3
+  },
+
+  {
+    "Id": "iridium_dust",
+    "MachineId": "chemical_reactor",
+    "MachineNameRu": "Химический реактор",
+    "MachineNameEn": "Chemical reactor",
+    "Inputs": [
+      {
+        "ItemId": "iridium_chloride_dust",
+        "Amount": 4
+      },
+      {
+        "ItemId": "hydrogen_fluid",
+        "Amount": 3
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "iridium_dust",
+        "Amount": 1
+      },
+      {
+        "ItemId": "hydrochloric_acid_fluid",
+        "Amount": 3
+      }
+    ],
+    "EnergyPerTick": 30,
+    "DurationTicks": 100,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 2
+  },
+
+  {
+    "Id": "osmium_dust",
+    "MachineId": "chemical_reactor",
+    "MachineNameRu": "Химический реактор",
+    "MachineNameEn": "Chemical reactor",
+    "Inputs": [
+      {
+        "ItemId": "osmium_tetroxide_dust",
+        "Amount": 5
+      },
+      {
+        "ItemId": "hydrogen_fluid",
+        "Amount": 8
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "osmium_dust",
+        "Amount": 1
+      },
+      {
+        "ItemId": "water_fluid",
+        "Amount": 4
+      }
+    ],
+    "EnergyPerTick": 30,
+    "DurationTicks": 200,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 2
+  },
+
+  {
+    "Id": "hydrochloric_acid_fluid",
+    "MachineId": "chemical_reactor",
+    "MachineNameRu": "Химический реактор",
+    "MachineNameEn": "Chemical reactor",
+    "Inputs": [
+      {
+        "ItemId": "chlorine_fluid",
+        "Amount": 1
+      },
+      {
+        "ItemId": "hydrogen_fluid",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "hydrochloric_acid_fluid",
+        "Amount": 1
+      }
+    ],
+    "EnergyPerTick": 7,
+    "DurationTicks": 60,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 2
+  }
+]

@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Components.Web;
+﻿using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using TFGCalculator;
 using TFGCalculator.Services;
@@ -9,11 +9,13 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 builder.Services.AddSingleton<ModpackService>();
-builder.Services.AddSingleton<ItemService>();
-builder.Services.AddSingleton<RecipeService>();
+builder.Services.AddScoped<ItemService>();
+builder.Services.AddScoped<RecipeService>();
 builder.Services.AddScoped<LocalizationService>();
 builder.Services.AddScoped<ThemeService>();
 builder.Services.AddScoped<CalculationService>();
 builder.Services.AddScoped<StorageService>();
+builder.Services.AddSingleton<AnvilService>();
+builder.Services.AddSingleton<AlloyService>();
 
 await builder.Build().RunAsync();

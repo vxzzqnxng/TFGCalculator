@@ -1,0 +1,179 @@
+﻿@page "/tfc-calculators/alloy"
+
+<PageTitle>@Loc.Get("AlloyCalculator")</PageTitle>
+
+<div class="modpack-page">
+    <a href="/tfc-calculators" class="back-link">@Loc.Get("BackToTfcCalc")</a>
+
+    <div class="alloy-blocks-container">
+        @for (int bi = 0; bi < _blocks.Count; bi++)
+        {
+            var blockIdx = bi;
+            var block = _blocks[blockIdx];
+            <div class="tree-config-block alloy-block">
+                @if (_blocks.Count > 1)
+                {
+                    <div class="tree-config-header-right" style="position:absolute;top:8px;right:8px">
+                        <button class="btn-danger-small interactive" @onclick="() => RemoveBlock(blockIdx)">✕</button>
+                    </div>
+                }
+
+                <div class="alloy-top-row">
+                    @if (block.SelectedAlloy == null)
+                    {
+                        <SearchDropdown Label="" Placeholder="@Loc.Get("SearchItem")"
+                                        OnSearch="SearchAlloy" @ref="block.Dropdown">
+                            <table class="dropdown-table">
+                                <thead><tr><th style="width:36px"></th><th>@Loc.Get("Name")</th></tr></thead>
+                                <tbody>
+                                    @foreach (var a in _filteredAlloys)
+                                    {
+                                        var alloy = a;
+                                        var resIt = ItemSvc.GetById(ModpackId, alloy.ResultItemId);
+                                        var iconUrl = resIt?.GetIconUrl() ?? "";
+                                        <tr class="clickable-row" @onclick="() => SelectAlloy(blockIdx, alloy)">
+                                            <td><img class="item-icon" src="@iconUrl"
+                                                     title="@alloy.GetName(Loc.CurrentLanguage)"
+                                                     onerror="this.style.background='#ccc'" /></td>
+                                            <td>@alloy.GetName(Loc.CurrentLanguage)</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </SearchDropdown>
+                    }
+                    else
+                    {
+                        var resIt = ItemSvc.GetById(ModpackId, block.SelectedAlloy.ResultItemId);
+                        var iconUrl = resIt?.GetIconUrl() ?? "";
+                        <div class="alloy-selected-display">
+                            <img class="item-icon" src="@iconUrl"
+                                 title="@block.SelectedAlloy.GetName(Loc.CurrentLanguage)"
+                                 onerror="this.style.background='#ccc'" />
+                            <span class="tree-config-name">@block.SelectedAlloy.GetName(Loc.CurrentLanguage)</span>
+                            <button class="btn-small interactive alloy-change-btn"
+                                    @onclick="() => ToggleAlloyDropdown(blockIdx)">▼</button>
+                        </div>
+                        @if (block.AlloyDropdownOpen)
+                        {
+                            <div class="alloy-change-dropdown">
+                                <div class="alloy-change-overlay" @onclick="() => ToggleAlloyDropdown(blockIdx)"></div>
+                                <div class="alloy-change-panel">
+                                    <table class="dropdown-table">
+                                        <thead><tr><th style="width:36px"></th><th>@Loc.Get("Name")</th></tr></thead>
+                                        <tbody>
+                                            @foreach (var a in _filteredAlloys)
+                                            {
+                                                var alloy = a;
+                                                var ri = ItemSvc.GetById(ModpackId, alloy.ResultItemId);
+                                                var iu = ri?.GetIconUrl() ?? "";
+                                                <tr class="clickable-row" @onclick="() => SelectAlloy(blockIdx, alloy)">
+                                                    <td><img class="item-icon" src="@iu"
+                                                             title="@alloy.GetName(Loc.CurrentLanguage)"
+                                                             onerror="this.style.background='#ccc'" /></td>
+                                                    <td>@alloy.GetName(Loc.CurrentLanguage)</td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        }
+                    }
+
+                    <div class="alloy-amount-row">
+                        <input class="rate-input interactive" type="number" min="1"
+                               value="@block.TotalAmount" @onchange="e => ChangeAmount(blockIdx, e)" />
+                        <select class="interactive" value="@((int)block.Unit)" @onchange="e => ChangeUnit(blockIdx, e)">
+                            <option value="0">mB</option>
+                            <option value="1">@Loc.Get("Ingots") (144mB)</option>
+                        </select>
+                    </div>
+                </div>
+
+                @if (block.SelectedAlloy != null)
+                {
+                    <table class="side-table" style="margin-top:12px">
+                        <thead>
+                            <tr>
+                                <th>mB/@Loc.Get("OreUnit")</th>
+                                <th>@Loc.Get("Resource")</th>
+                                <th>@Loc.Get("Quantity")</th>
+                                <th>mB</th>
+                                <th>%</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @for (int ri = 0; ri < block.Rows.Count; ri++)
+                            {
+                                var rowIdx = ri;
+                                var row = block.Rows[rowIdx];
+                                var comp = block.SelectedAlloy.Components
+                                    .FirstOrDefault(c => c.MetalItemId == row.MetalItemId);
+                                var it = ItemSvc.GetById(ModpackId, row.MetalItemId);
+                                var iconUrl = it?.GetIconUrl() ?? "";
+                                var iname = it?.GetName(Loc.CurrentLanguage) ?? row.MetalItemId;
+
+                                <tr>
+                                    <td>
+                                        <input class="rate-input interactive" type="number" min="1" style="width:70px"
+                                               value="@row.MbPerOre" @onchange="e => ChangeMbPerOre(blockIdx, rowIdx, e)" />
+                                    </td>
+                                    <td>
+                                        <div class="alloy-row-item">
+                                            <img class="item-icon" src="@iconUrl" title="@iname"
+                                                 onerror="this.style.background='#ccc'" />
+                                            <span>@iname @(comp != null ? $"({comp.MinPercent:F0}-{comp.MaxPercent:F0}%)" : "")</span>
+                                        </div>
+                                    </td>
+                                    <td>@row.ResultCount @Loc.Get("Pcs")</td>
+                                    <td>@($"{row.ResultMb:F0}")</td>
+                                    <td>@($"{row.ResultPercent:F1}%")</td>
+                                    <td><button class="btn-small interactive" @onclick="() => DuplicateRow(blockIdx, rowIdx)">+</button></td>
+                                    <td>
+                                        @if (block.Rows.Count(r => r.MetalItemId == row.MetalItemId) > 1)
+                                        {
+                                            <button class="btn-danger-small interactive" @onclick="() => RemoveRow(blockIdx, rowIdx)">✕</button>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+
+                    @if (block.Feasible)
+                    {
+                        @if (Math.Abs(block.ActualTotalMb - (block.Unit == AlloyUnit.Ingots ? block.TotalAmount * 144 : block.TotalAmount)) > 0.5)
+                        {
+                            <div class="tree-node-detail" style="margin-top:8px">
+                                @Loc.Get("ActualTotal"): <strong>@($"{block.ActualTotalMb:F0}") mB</strong>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <div class="tree-node-detail" style="color:red;margin-top:8px">
+                            @Loc.Get("AlloyInfeasible")
+                        </div>
+                    }
+                }
+            </div>
+
+            @if (bi == _blocks.Count - 1)
+            {
+                <div class="alloy-add-block">
+                    <button class="btn-main interactive" @onclick="AddBlock">+</button>
+                </div>
+            }
+        }
+    </div>
+</div>
+
+<div class="bottom-bar">
+    <a href="https://terrafirmagreg.team" target="_blank" class="btn-main">@Loc.Get("SiteTFG")</a>
+    <a href="https://github.com/TerraFirmaGreg-Team/Modpack-Modern/releases" target="_blank" class="btn-main">@Loc.Get("GitHubTFG")</a>
+    <a href="https://github.com/vxzzqnxng/TFGCalculator?tab=readme-ov-file" target="_blank" class="btn-main">@Loc.Get("GitHubProject")</a>
+    <a href="https://discordapp.com/users/505270818779955202" target="_blank" class="btn-main">@Loc.Get("ReportBug")</a>
+</div>

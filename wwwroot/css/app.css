@@ -105,9 +105,10 @@ a {
     border-top: 2px solid var(--border);
     background: var(--bg-card);
     margin-top: auto;
-    flex-wrap: wrap
+    margin-left: -40px;
+    margin-right: -40px;
+    flex-wrap: wrap;
 }
-
 .btn-icon {
     padding: 6px 12px;
     background: transparent;
@@ -1174,4 +1175,252 @@ a {
     width: 16px;
     height: 16px;
     object-fit: contain;
+}
+
+/* Catalyst display */
+.catalyst-row {
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+    margin-bottom: -2px;
+    padding-left: 0;
+}
+
+.catalyst-item {
+    display: inline-flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+    .catalyst-item .item-icon {
+        width: 20px;
+        height: 20px;
+        opacity: 0.85;
+    }
+
+.catalyst-mark {
+    color: #e00;
+    font-size: 9px;
+    font-weight: 800;
+    margin-left: 1px;
+}
+
+/* TFC calculators page */
+.tfc-calc-grid {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.tfc-calc-card {
+    width: 200px;
+    height: 200px;
+    border: 2px solid var(--border);
+    background: var(--bg-card);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    cursor: pointer;
+    transition: all .15s;
+}
+
+    .tfc-calc-card:hover {
+        background: var(--hover);
+        border-color: var(--text);
+    }
+
+.tfc-calc-icon {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.tfc-calc-label {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Anvil sequence */
+.anvil-sequence {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+    padding: 12px 0;
+}
+
+.anvil-step {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 2px;
+}
+
+    .anvil-step sub {
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+.anvil-recipe-line {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+/* Alloy blocks */
+.alloy-blocks-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.alloy-block {
+    position: relative;
+    min-width: 400px;
+    max-width: 600px;
+    flex: 1 1 400px;
+}
+
+.alloy-top-row {
+    display: flex;
+    gap: 12px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.alloy-amount-row {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.alloy-add-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 60px;
+}
+
+.alloy-selected-display {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: #fff;
+    min-width: 300px;
+}
+
+    .alloy-selected-display .item-icon {
+        width: 32px;
+        height: 32px;
+    }
+
+.alloy-change-btn {
+    margin-left: auto;
+    padding: 2px 8px;
+    font-size: 10px;
+}
+
+.alloy-change-dropdown {
+    position: relative;
+}
+
+.alloy-change-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background: transparent;
+}
+
+.alloy-change-panel {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    right: 0;
+    max-height: 400px;
+    overflow-y: auto;
+    border: 2px solid var(--border);
+    background: var(--bg-card);
+    z-index: 1001;
+    border-radius: 6px;
+}
+
+.alloy-row-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Modpack page top row */
+.modpack-page-top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+/* Hide nodes until positioned by layout (prevents (0,0) flash) */
+.tree-node-wrapper:not([style*="visibility"]) {
+    visibility: hidden;
+}
+
+.tree-node-multi-outputs {
+    display: flex;
+    gap: 2px;
+    flex-wrap: wrap;
+}
+
+    .tree-node-multi-outputs .item-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+.crafting-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 28px);
+    grid-template-rows: repeat(3, 28px);
+    gap: 2px;
+    padding: 4px;
+    background: rgba(128,128,128,0.15);
+    border: 1px solid rgba(128,128,128,0.3);
+    justify-content: center;
+}
+
+.crafting-cell {
+    width: 28px;
+    height: 28px;
+    background: var(--bg-card);
+    border: 1px solid rgba(128,128,128,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .crafting-cell .item-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+.crafting-arrow {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--muted);
+    margin: 4px 0;
+}
+
+.crafting-output {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
 }

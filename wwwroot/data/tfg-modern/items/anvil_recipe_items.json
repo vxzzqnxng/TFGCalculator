@@ -1,0 +1,1234 @@
+﻿[
+  {
+    "Id": "unfinished_helmet_bismuth_bronze",
+    "NameRu": "Недоделанный шлем из висмутовой бронзы",
+    "NameEn": "Bismuth bronze unfinished helmet",
+    "Type": "Шлем",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_helmet_bismuth_bronze.png"
+  },
+
+  {
+    "Id": "unfinished_helmet_black_bronze",
+    "NameRu": "Недоделанный шлем из черной бронзы",
+    "NameEn": "Black bronze unfinished helmet",
+    "Type": "Шлем",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_helmet_black_bronze.png"
+  },
+
+  {
+    "Id": "unfinished_helmet_bronze",
+    "NameRu": "Недоделанный шлем из бронзы",
+    "NameEn": "Bronze unfinished helmet",
+    "Type": "Шлем",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_helmet_bronze.png"
+  },
+
+  {
+    "Id": "unfinished_helmet_copper",
+    "NameRu": "Недоделанный медный шлем",
+    "NameEn": "Copper unfinished helmet",
+    "Type": "Шлем",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_helmet_copper.png"
+  },
+
+  {
+    "Id": "unfinished_helmet_wrought_iron",
+    "NameRu": "Недоделанный шлем из кованного железа",
+    "NameEn": "Wrought iron unfinished helmet",
+    "Type": "Шлем",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_helmet_wrought_iron.png"
+  },
+
+  {
+    "Id": "unfinished_helmet_steel",
+    "NameRu": "Недоделанный стальной шлем",
+    "NameEn": "Steel unfinished helmet",
+    "Type": "Шлем",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_helmet_steel.png"
+  },
+
+  {
+    "Id": "unfinished_helmet_black_steel",
+    "NameRu": "Недоделанный шлем из черной стали",
+    "NameEn": "Black steel unfinished helmet",
+    "Type": "Шлем",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_helmet_black_steel.png"
+  },
+
+  {
+    "Id": "unfinished_helmet_blue_steel",
+    "NameRu": "Недоделанный шлем из синей стали",
+    "NameEn": "Blue steel unfinished helmet",
+    "Type": "Шлем",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_helmet_blue_steel.png"
+  },
+
+  {
+    "Id": "unfinished_helmet_red_steel",
+    "NameRu": "Недоделанный шлем из красной стали",
+    "NameEn": "Red steel unfinished helmet",
+    "Type": "Шлем",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_helmet_red_steel.png"
+  },
+
+  {
+    "Id": "unfinished_chestplate_bismuth_bronze",
+    "NameRu": "Недоделанный нагрудник из висмутовой бронзы",
+    "NameEn": "Bismuth bronze unfinished chestplate",
+    "Type": "Нагрудник",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_chestplate_bismuth_bronze.png"
+  },
+
+  {
+    "Id": "unfinished_chestplate_black_bronze",
+    "NameRu": "Недоделанный нагрудник из черной бронзы",
+    "NameEn": "Black bronze unfinished chestplate",
+    "Type": "Нагрудник",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_chestplate_black_bronze.png"
+  },
+
+  {
+    "Id": "unfinished_chestplate_bronze",
+    "NameRu": "Недоделанный нагрудник из бронзы",
+    "NameEn": "Bronze unfinished chestplate",
+    "Type": "Нагрудник",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_chestplate_bronze.png"
+  },
+
+  {
+    "Id": "unfinished_chestplate_copper",
+    "NameRu": "Недоделанный медный нагрудник",
+    "NameEn": "Copper unfinished chestplate",
+    "Type": "Нагрудник",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_chestplate_copper.png"
+  },
+
+  {
+    "Id": "unfinished_chestplate_wrought_iron",
+    "NameRu": "Недоделанный нагрудник из кованного железа",
+    "NameEn": "Wrought iron unfinished chestplate",
+    "Type": "Нагрудник",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_chestplate_wrought_iron.png"
+  },
+
+  {
+    "Id": "unfinished_chestplate_steel",
+    "NameRu": "Недоделанный стальной нагрудник",
+    "NameEn": "Steel unfinished chestplate",
+    "Type": "Нагрудник",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_chestplate_steel.png"
+  },
+
+  {
+    "Id": "unfinished_chestplate_black_steel",
+    "NameRu": "Недоделанный нагрудник из черной стали",
+    "NameEn": "Black steel unfinished chestplate",
+    "Type": "Нагрудник",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_chestplate_black_steel.png"
+  },
+
+  {
+    "Id": "unfinished_chestplate_blue_steel",
+    "NameRu": "Недоделанный нагрудник из синей стали",
+    "NameEn": "Blue steel unfinished chestplate",
+    "Type": "Нагрудник",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_chestplate_blue_steel.png"
+  },
+
+  {
+    "Id": "unfinished_chestplate_red_steel",
+    "NameRu": "Недоделанный нагрудник из красной стали",
+    "NameEn": "Red steel unfinished chestplate",
+    "Type": "Нагрудник",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_chestplate_red_steel.png"
+  },
+
+  {
+    "Id": "unfinished_greaves_bismuth_bronze",
+    "NameRu": "Недоделанные поножи из висмутовой бронзы",
+    "NameEn": "Bismuth bronze unfinished greaves",
+    "Type": "Поножи",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_greaves_bismuth_bronze.png"
+  },
+
+  {
+    "Id": "unfinished_greaves_black_bronze",
+    "NameRu": "Недоделанные поножи из черной бронзы",
+    "NameEn": "Black bronze unfinished greaves",
+    "Type": "Поножи",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_greaves_black_bronze.png"
+  },
+
+  {
+    "Id": "unfinished_greaves_bronze",
+    "NameRu": "Недоделанные поножи из бронзы",
+    "NameEn": "Bronze unfinished greaves",
+    "Type": "Поножи",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_greaves_bronze.png"
+  },
+
+  {
+    "Id": "unfinished_greaves_copper",
+    "NameRu": "Недоделанные медные поножи",
+    "NameEn": "Copper unfinished greaves",
+    "Type": "Поножи",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_greaves_copper.png"
+  },
+
+  {
+    "Id": "unfinished_greaves_wrought_iron",
+    "NameRu": "Недоделанные поножи из кованного железа",
+    "NameEn": "Wrought iron unfinished greaves",
+    "Type": "Поножи",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_greaves_wrought_iron.png"
+  },
+
+  {
+    "Id": "unfinished_greaves_steel",
+    "NameRu": "Недоделанные стальные поножи",
+    "NameEn": "Steel unfinished greaves",
+    "Type": "Поножи",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_greaves_steel.png"
+  },
+
+  {
+    "Id": "unfinished_greaves_black_steel",
+    "NameRu": "Недоделанные поножи из черной стали",
+    "NameEn": "Black steel unfinished greaves",
+    "Type": "Поножи",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_greaves_black_steel.png"
+  },
+
+  {
+    "Id": "unfinished_greaves_blue_steel",
+    "NameRu": "Недоделанные поножи из синей стали",
+    "NameEn": "Blue steel unfinished greaves",
+    "Type": "Поножи",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_greaves_blue_steel.png"
+  },
+
+  {
+    "Id": "unfinished_greaves_red_steel",
+    "NameRu": "Недоделанные поножи из красной стали",
+    "NameEn": "Red steel unfinished greaves",
+    "Type": "Поножи",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_greaves_red_steel.png"
+  },
+
+  {
+    "Id": "unfinished_boots_bismuth_bronze",
+    "NameRu": "Недоделанные ботинки из висмутовой бронзы",
+    "NameEn": "Bismuth bronze unfinished boots",
+    "Type": "Ботинки",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_boots_bismuth_bronze.png"
+  },
+
+  {
+    "Id": "unfinished_boots_black_bronze",
+    "NameRu": "Недоделанные ботинки из черной бронзы",
+    "NameEn": "Black bronze unfinished boots",
+    "Type": "Ботинки",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_boots_black_bronze.png"
+  },
+
+  {
+    "Id": "unfinished_boots_bronze",
+    "NameRu": "Недоделанные ботинки из бронзы",
+    "NameEn": "Bronze unfinished boots",
+    "Type": "Ботинки",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_boots_bronze.png"
+  },
+
+  {
+    "Id": "unfinished_boots_copper",
+    "NameRu": "Недоделанные медные ботинки",
+    "NameEn": "Copper unfinished boots",
+    "Type": "Ботинки",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_boots_copper.png"
+  },
+
+  {
+    "Id": "unfinished_boots_wrought_iron",
+    "NameRu": "Недоделанные ботинки из кованного железа",
+    "NameEn": "Wrought iron unfinished boots",
+    "Type": "Ботинки",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_boots_wrought_iron.png"
+  },
+
+  {
+    "Id": "unfinished_boots_steel",
+    "NameRu": "Недоделанные стальные ботинки",
+    "NameEn": "Steel unfinished boots",
+    "Type": "Ботинки",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_boots_steel.png"
+  },
+
+  {
+    "Id": "unfinished_boots_black_steel",
+    "NameRu": "Недоделанные ботинки из черной стали",
+    "NameEn": "Black steel unfinished boots",
+    "Type": "Ботинки",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_boots_black_steel.png"
+  },
+
+  {
+    "Id": "unfinished_boots_blue_steel",
+    "NameRu": "Недоделанные ботинки из синей стали",
+    "NameEn": "Blue steel unfinished boots",
+    "Type": "Ботинки",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_boots_blue_steel.png"
+  },
+
+  {
+    "Id": "unfinished_boots_red_steel",
+    "NameRu": "Недоделанные ботинки из красной стали",
+    "NameEn": "Red steel unfinished boots",
+    "Type": "Ботинки",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_boots_red_steel.png"
+  },
+
+  {
+    "Id": "unfinished_lamp_bismuth_bronze",
+    "NameRu": "Недоделанный фонарь из висмутовой бронзы",
+    "NameEn": "Bismuth bronze unfinished lamp",
+    "Type": "Фонарь",
+    "Tag": "tfg:unfinished_lamps",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_lamp_bismuth_bronze.png"
+  },
+
+  {
+    "Id": "unfinished_lamp_black_bronze",
+    "NameRu": "Недоделанный фонарь из черной бронзы",
+    "NameEn": "Black bronze unfinished lamp",
+    "Type": "Фонарь",
+    "Tag": "tfg:unfinished_lamps",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_lamp_black_bronze.png"
+  },
+
+  {
+    "Id": "unfinished_lamp_bronze",
+    "NameRu": "Недоделанный фонарь из бронзы",
+    "NameEn": "Bronze unfinished lamp",
+    "Type": "Фонарь",
+    "Tag": "tfg:unfinished_lamps",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_lamp_bronze.png"
+  },
+
+  {
+    "Id": "unfinished_lamp_copper",
+    "NameRu": "Недоделанный медный фонарь",
+    "NameEn": "Copper unfinished lamp",
+    "Type": "Фонарь",
+    "Tag": "tfg:unfinished_lamps",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_lamp_copper.png"
+  },
+
+  {
+    "Id": "unfinished_lamp_wrought_iron",
+    "NameRu": "Недоделанный фонарь из кованного железа",
+    "NameEn": "Wrought iron unfinished lamp",
+    "Type": "Фонарь",
+    "Tag": "tfg:unfinished_lamps",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_lamp_wrought_iron.png"
+  },
+
+  {
+    "Id": "unfinished_lamp_steel",
+    "NameRu": "Недоделанный стальной фонарь",
+    "NameEn": "Steel unfinished lamp",
+    "Type": "Фонарь",
+    "Tag": "tfg:unfinished_lamps",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_lamp_steel.png"
+  },
+
+  {
+    "Id": "unfinished_lamp_black_steel",
+    "NameRu": "Недоделанный фонарь из черной стали",
+    "NameEn": "Black steel unfinished lamp",
+    "Type": "Фонарь",
+    "Tag": "tfg:unfinished_lamps",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_lamp_black_steel.png"
+  },
+
+  {
+    "Id": "unfinished_lamp_blue_steel",
+    "NameRu": "Недоделанный фонарь из синей стали",
+    "NameEn": "Blue steel unfinished lamp",
+    "Type": "Фонарь",
+    "Tag": "tfg:unfinished_lamps",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_lamp_blue_steel.png"
+  },
+
+  {
+    "Id": "unfinished_lamp_red_steel",
+    "NameRu": "Недоделанный фонарь из красной стали",
+    "NameEn": "Red steel unfinished lamp",
+    "Type": "Фонарь",
+    "Tag": "tfg:unfinished_lamps",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_lamp_red_steel.png"
+  },
+
+  {
+    "Id": "shield_bismuth_bronze",
+    "NameRu": "Щит из висмутовой бронзы",
+    "NameEn": "Bismuth bronze shield",
+    "Type": "Щит",
+    "Tag": "tfg:shields",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/shield_bismuth_bronze.png"
+  },
+
+  {
+    "Id": "shield_black_bronze",
+    "NameRu": "Щит из черной бронзы",
+    "NameEn": "Black bronze shield",
+    "Type": "Щит",
+    "Tag": "tfg:shields",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/shield_black_bronze.png"
+  },
+
+  {
+    "Id": "shield_bronze",
+    "NameRu": "Бронзовый щит",
+    "NameEn": "Bronze shield",
+    "Type": "Щит",
+    "Tag": "tfg:shields",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/shield_bronze.png"
+  },
+
+  {
+    "Id": "shield_copper",
+    "NameRu": "Медный щит",
+    "NameEn": "Copper shield",
+    "Type": "Щит",
+    "Tag": "tfg:shields",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/shield_copper.png"
+  },
+
+  {
+    "Id": "shield_wrought_iron",
+    "NameRu": "Щит из кованного железа",
+    "NameEn": "Wrought iron shield",
+    "Type": "Щит",
+    "Tag": "tfg:shields",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/shield_wrought_iron.png"
+  },
+
+  {
+    "Id": "shield_steel",
+    "NameRu": "Стальной щит",
+    "NameEn": "Steel shield",
+    "Type": "Щит",
+    "Tag": "tfg:shields",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/shield_steel.png"
+  },
+
+  {
+    "Id": "shield_black_steel",
+    "NameRu": "Щит из черной стали",
+    "NameEn": "Black steel shield",
+    "Type": "Щит",
+    "Tag": "tfg:shields",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/shield_black_steel.png"
+  },
+
+  {
+    "Id": "shield_blue_steel",
+    "NameRu": "Щит из синей стали",
+    "NameEn": "Blue steel shield",
+    "Type": "Щит",
+    "Tag": "tfg:shields",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/shield_blue_steel.png"
+  },
+
+  {
+    "Id": "shield_red_steel",
+    "NameRu": "Щит из красной стали",
+    "NameEn": "Red steel shield",
+    "Type": "Щит",
+    "Tag": "tfg:shields",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/shield_red_steel.png"
+  },
+
+  {
+    "Id": "unfinished_red_steel_flask",
+    "NameRu": "Недоделанная фляга (Красная сталь)",
+    "NameEn": "Unfinished flask (Red steel)",
+    "Type": "Фляга",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_red_steel_flask.png"
+  },
+
+  {
+    "Id": "unfinished_iron_flask",
+    "NameRu": "Недоделанная фляга (Кованное железо)",
+    "NameEn": "Unfinished flask (Wrought iron)",
+    "Type": "Фляга",
+    "Tag": "tfc:metal_item",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_iron_flask.png"
+  },
+
+  {
+    "Id": "horseshoe_steel",
+    "NameRu": "Стальная подкова",
+    "NameEn": "Steel horseshoe",
+    "Type": "Подкова",
+    "Tag": "sns:metal/horseshoe",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/horseshoe_steel.png"
+  },
+
+  {
+    "Id": "horseshoe_black_steel",
+    "NameRu": "Подкова из черной стали",
+    "NameEn": "Black steel horseshoe",
+    "Type": "Подкова",
+    "Tag": "sns:metal/horseshoe",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/horseshoe_black_steel.png"
+  },
+
+  {
+    "Id": "horseshoe_blue_steel",
+    "NameRu": "Подкова из синей стали",
+    "NameEn": "Blue steel horseshoe",
+    "Type": "Подкова",
+    "Tag": "sns:metal/horseshoe",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/horseshoe_blue_steel.png"
+  },
+
+  {
+    "Id": "horseshoe_red_steel",
+    "NameRu": "Подкова из красной стали",
+    "NameEn": "Red steel horseshoe",
+    "Type": "Подкова",
+    "Tag": "sns:metal/horseshoe",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/horseshoe_red_steel.png"
+  },
+
+  {
+    "Id": "tuyere_bismuth_bronze",
+    "NameRu": "Фурма (Висмутовая бронза)",
+    "NameEn": "Tuyere (Bismuth bronze)",
+    "Type": "Фурма",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/tuyere_bismuth_bronze.png"
+  },
+
+  {
+    "Id": "tuyere_black_bronze",
+    "NameRu": "Фурма (Черная бронза)",
+    "NameEn": "Tuyere (Black bronze)",
+    "Type": "Фурма",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/tuyere_black_bronze.png"
+  },
+
+  {
+    "Id": "tuyere_bronze",
+    "NameRu": "Фурма (Бронза)",
+    "NameEn": "Tuyere (Bronze)",
+    "Type": "Фурма",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/tuyere_bronze.png"
+  },
+
+  {
+    "Id": "tuyere_copper",
+    "NameRu": "Фурма (Медь)",
+    "NameEn": "Tuyere (Copper)",
+    "Type": "Фурма",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/tuyere_copper.png"
+  },
+
+  {
+    "Id": "tuyere_wrought_iron",
+    "NameRu": "Фурма (Кованное железо)",
+    "NameEn": "Tuyere (Wrought iron)",
+    "Type": "Фурма",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/tuyere_wrought_iron.png"
+  },
+
+  {
+    "Id": "tuyere_steel",
+    "NameRu": "Фурма (Сталь)",
+    "NameEn": "Tuyere (Steel)",
+    "Type": "Фурма",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/tuyere_steel.png"
+  },
+
+  {
+    "Id": "tuyere_black_steel",
+    "NameRu": "Фурма (Черная сталь)",
+    "NameEn": "Tuyere (Black steel)",
+    "Type": "Фурма",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/tuyere_black_steel.png"
+  },
+
+  {
+    "Id": "tuyere_blue_steel",
+    "NameRu": "Фурма (Синяя сталь)",
+    "NameEn": "Tuyere (Blue steel)",
+    "Type": "Фурма",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/tuyere_blue_steel.png"
+  },
+
+  {
+    "Id": "tuyere_red_steel",
+    "NameRu": "Фурма (Красная сталь)",
+    "NameEn": "Tuyere (Red steel)",
+    "Type": "Фурма",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/tuyere_red_steel.png"
+  },
+
+  {
+    "Id": "chain_bismuth_bronze",
+    "NameRu": "Цепь из висмутовой бронзы",
+    "NameEn": "Bismuth bronze chain",
+    "Type": "Цепь",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/chain_bismuth_bronze.png"
+  },
+
+  {
+    "Id": "chain_black_bronze",
+    "NameRu": "Цепь из черной бронзы",
+    "NameEn": "Black bronze chain",
+    "Type": "Цепь",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/chain_black_bronze.png"
+  },
+
+  {
+    "Id": "chain_bronze",
+    "NameRu": "Цепь из бронзы",
+    "NameEn": "Bronze chain",
+    "Type": "Цепь",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/chain_bronze.png"
+  },
+
+  {
+    "Id": "chain_copper",
+    "NameRu": "Медная цепь",
+    "NameEn": "Copper chain",
+    "Type": "Цепь",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/chain_copper.png"
+  },
+
+  {
+    "Id": "chain_wrought_iron",
+    "NameRu": "Цепь из кованного железа",
+    "NameEn": "Wrought iron chain",
+    "Type": "Цепь",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/chain_wrought_iron.png"
+  },
+
+  {
+    "Id": "chain_steel",
+    "NameRu": "Стальная цепь",
+    "NameEn": "Steel chain",
+    "Type": "Цепь",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/chain_steel.png"
+  },
+
+  {
+    "Id": "chain_black_steel",
+    "NameRu": "Цепь из черной стали",
+    "NameEn": "Black steel chain",
+    "Type": "Цепь",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/chain_black_steel.png"
+  },
+
+  {
+    "Id": "chain_blue_steel",
+    "NameRu": "Цепь из синей стали",
+    "NameEn": "Blue steel chain",
+    "Type": "Цепь",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/chain_blue_steel.png"
+  },
+
+  {
+    "Id": "chain_red_steel",
+    "NameRu": "Цепь из красной стали",
+    "NameEn": "Red steel chain",
+    "Type": "Цепь",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/chain_red_steel.png"
+  },
+
+  {
+    "Id": "trapdoor_bismuth_bronze",
+    "NameRu": "Люк из висмутовой бронзы",
+    "NameEn": "Bismuth bronze trapdoor",
+    "Type": "Люк",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/trapdoor_bismuth_bronze.png"
+  },
+
+  {
+    "Id": "trapdoor_black_bronze",
+    "NameRu": "Люк из черной бронзы",
+    "NameEn": "Black bronze trapdoor",
+    "Type": "Люк",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/trapdoor_black_bronze.png"
+  },
+
+  {
+    "Id": "trapdoor_bronze",
+    "NameRu": "Люк из бронзы",
+    "NameEn": "Bronze trapdoor",
+    "Type": "Люк",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/trapdoor_bronze.png"
+  },
+
+  {
+    "Id": "trapdoor_copper",
+    "NameRu": "Медный люк",
+    "NameEn": "Copper trapdoor",
+    "Type": "Люк",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/trapdoor_copper.png"
+  },
+
+  {
+    "Id": "trapdoor_wrought_iron",
+    "NameRu": "Люк из кованного железа",
+    "NameEn": "Wrought iron trapdoor",
+    "Type": "Люк",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/trapdoor_wrought_iron.png"
+  },
+
+  {
+    "Id": "trapdoor_steel",
+    "NameRu": "Стальной люк",
+    "NameEn": "Steel trapdoor",
+    "Type": "Люк",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/trapdoor_steel.png"
+  },
+
+  {
+    "Id": "trapdoor_black_steel",
+    "NameRu": "Люк из черной стали",
+    "NameEn": "Black steel trapdoor",
+    "Type": "Люк",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/trapdoor_black_steel.png"
+  },
+
+  {
+    "Id": "trapdoor_blue_steel",
+    "NameRu": "Люк из синей стали",
+    "NameEn": "Blue steel trapdoor",
+    "Type": "Люк",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/trapdoor_blue_steel.png"
+  },
+
+  {
+    "Id": "trapdoor_red_steel",
+    "NameRu": "Люк из красной стали",
+    "NameEn": "Red steel trapdoor",
+    "Type": "Люк",
+    "Tag": "tfc:metal_items",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/trapdoor_red_steel.png"
+  },
+
+  {
+    "Id": "blowpipe",
+    "NameRu": "Трубка стеклодува",
+    "NameEn": "Blowpipe",
+    "Type": "Выдувка стекла",
+    "Tag": "tfc:blowpipe",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/blowpipe.png"
+  },
+
+  {
+    "Id": "bars_bismuth_bronze",
+    "NameRu": "Прутья из висмутовой бронзы",
+    "NameEn": "Bismuth bronze bars",
+    "Type": "Прутья",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/bars_bismuth_bronze.png"
+  },
+
+  {
+    "Id": "bars_black_bronze",
+    "NameRu": "Прутья из черной бронзы",
+    "NameEn": "Black bronze bars",
+    "Type": "Прутья",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/bars_black_bronze.png"
+  },
+
+  {
+    "Id": "bars_bronze",
+    "NameRu": "Прутья из бронзы",
+    "NameEn": "Bronze bars",
+    "Type": "Прутья",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/bars_bronze.png"
+  },
+
+  {
+    "Id": "bars_copper",
+    "NameRu": "Медные прутья",
+    "NameEn": "Copper bars",
+    "Type": "Прутья",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/bars_copper.png"
+  },
+
+  {
+    "Id": "bars_wrought_iron",
+    "NameRu": "Прутья из кованного железа",
+    "NameEn": "Wrought iron bars",
+    "Type": "Прутья",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/bars_wrought_iron.png"
+  },
+
+  {
+    "Id": "bars_steel",
+    "NameRu": "Стальные прутья",
+    "NameEn": "Steel bars",
+    "Type": "Прутья",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/bars_steel.png"
+  },
+
+  {
+    "Id": "bars_black_steel",
+    "NameRu": "Прутья из черной стали",
+    "NameEn": "Black steel bars",
+    "Type": "Прутья",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/bars_black_steel.png"
+  },
+
+  {
+    "Id": "bars_blue_steel",
+    "NameRu": "Прутья из синей стали",
+    "NameEn": "Blue steel bars",
+    "Type": "Прутья",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/bars_blue_steel.png"
+  },
+
+  {
+    "Id": "bars_red_steel",
+    "NameRu": "Прутья из красной стали",
+    "NameEn": "Red steel bars",
+    "Type": "Прутья",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/bars_red_steel.png"
+  },
+
+  {
+    "Id": "andesite_bars",
+    "NameRu": "Металлические прутья",
+    "NameEn": "Metal bars",
+    "Type": "Прутья",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/andesite_bars.png"
+  },
+
+  {
+    "Id": "brass_bars",
+    "NameRu": "Латунные прутья",
+    "NameEn": "Brass bars",
+    "Type": "Прутья",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/brass_bars.png"
+  },
+
+  {
+    "Id": "copper_bars",
+    "NameRu": "Медные прутья",
+    "NameEn": "Copper bars",
+    "Type": "Прутья",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/copper_bars.png"
+  },
+
+  {
+    "Id": "andesite_bars_overlay",
+    "NameRu": "Прутья с панелью из оловянного сплава",
+    "NameEn": "Tin alloy bars overlay",
+    "Type": "Прутья",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/andesite_bars_overlay.png"
+  },
+
+  {
+    "Id": "iron_bars_overlay",
+    "NameRu": "Прутья с панелью из кованного железа",
+    "NameEn": "Wrought iron bars overlay",
+    "Type": "Прутья",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/iron_bars_overlay.png"
+  },
+
+  {
+    "Id": "steel_bars_overlay",
+    "NameRu": "Прутья с панелью из стали",
+    "NameEn": "Steel bars overlay",
+    "Type": "Прутья",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/steel_bars_overlay.png"
+  },
+
+  {
+    "Id": "industrial_andesite_bars",
+    "NameRu": "Прутья из оловянного сплава",
+    "NameEn": "Tin alloy bars",
+    "Type": "Прутья",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/industrial_andesite_bars.png"
+  },
+
+  {
+    "Id": "industrial_steel_bars",
+    "NameRu": "Прутья из стали",
+    "NameEn": "Steel bars",
+    "Type": "Прутья",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/industrial_steel_bars.png"
+  },
+
+  {
+    "Id": "createdeco_brass_bars",
+    "NameRu": "Латунная решётка",
+    "NameEn": "Brass bars",
+    "Type": "Решётка",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/createdeco_brass_bars.png"
+  },
+
+  {
+    "Id": "createdeco_copper_bars",
+    "NameRu": "Медная решётка",
+    "NameEn": "Copper bars",
+    "Type": "Решётка",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/createdeco_copper_bars.png"
+  },
+
+  {
+    "Id": "createdeco_zinc_bars",
+    "NameRu": "Цинковая решётка",
+    "NameEn": "Zinc bars",
+    "Type": "Решётка",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/createdeco_zinc_bars.png"
+  },
+
+  {
+    "Id": "createdeco_brass_bars_overlay",
+    "NameRu": "Латунная решётка с панелью",
+    "NameEn": "Brass bars overlay",
+    "Type": "Решётка",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/createdeco_brass_bars_overlay.png"
+  },
+
+  {
+    "Id": "createdeco_copper_bars_overlay",
+    "NameRu": "Медная решётка с панелью",
+    "NameEn": "Copper bars overlay",
+    "Type": "Решётка",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/createdeco_copper_bars_overlay.png"
+  },
+
+  {
+    "Id": "createdeco_zinc_bars_overlay",
+    "NameRu": "Цинковая решётка с панелью",
+    "NameEn": "Zinc bars overlay",
+    "Type": "Решётка",
+    "Tag": "tfc:metal_bars",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/createdeco_zinc_bars_overlay.png"
+  },
+
+  {
+    "Id": "iron_door",
+    "NameRu": "Железная дверь",
+    "NameEn": "Iron door",
+    "Type": "Дверь",
+    "Tag": "minecraft:doors",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/iron_door.png"
+  },
+
+  {
+    "Id": "andesite_door",
+    "NameRu": "Дверь из оловянного сплава",
+    "NameEn": "Tin alloy door",
+    "Type": "Дверь",
+    "Tag": "minecraft:doors",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/andesite_door.png"
+  },
+
+  {
+    "Id": "brass_door",
+    "NameRu": "Латунная дверь",
+    "NameEn": "Brass door",
+    "Type": "Дверь",
+    "Tag": "minecraft:doors",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/brass_door.png"
+  },
+
+  {
+    "Id": "copper_door",
+    "NameRu": "Медная дверь",
+    "NameEn": "Copper door",
+    "Type": "Дверь",
+    "Tag": "minecraft:doors",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/copper_door.png"
+  },
+
+  {
+    "Id": "steel_door",
+    "NameRu": "Стальная дверь",
+    "NameEn": "Steel door",
+    "Type": "Дверь",
+    "Tag": "minecraft:doors",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/steel_door.png"
+  },
+
+  {
+    "Id": "zinc_door",
+    "NameRu": "Цинковая дверь",
+    "NameEn": "Zinc door",
+    "Type": "Дверь",
+    "Tag": "minecraft:doors",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/zinc_door.png"
+  },
+
+  {
+    "Id": "steel_support",
+    "NameRu": "Опора из стали",
+    "NameEn": "Steel support",
+    "Type": "Подпорки",
+    "Tag": "tfc:support_beams",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/steel_support.png"
+  },
+
+  {
+    "Id": "bucket_blue_steel",
+    "NameRu": "Ведро из синей стали",
+    "NameEn": "Blue steel bucket",
+    "Type": "Ведро",
+    "Tag": "tfc:buckets",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/bucket_blue_steel.png"
+  },
+
+  {
+    "Id": "bucket_red_steel",
+    "NameRu": "Ведро из красной стали",
+    "NameEn": "Red steel bucket",
+    "Type": "Ведро",
+    "Tag": "tfc:buckets",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/bucket_red_steel.png"
+  },
+
+  {
+    "Id": "raw_iron_bloom",
+    "NameRu": "Крица",
+    "NameEn": "Raw iron bloom",
+    "Type": "Прочее",
+    "Tag": "tfc:blooms",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/raw_iron_bloom.png"
+  },
+
+  {
+    "Id": "refined_iron_bloom",
+    "NameRu": "Кричное железо",
+    "NameEn": "Refined iron bloom",
+    "Type": "Прочее",
+    "Tag": "tfc:blooms",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/refined_iron_bloom.png"
+  },
+
+  {
+    "Id": "oarlock",
+    "NameRu": "Держатель для весла",
+    "NameEn": "Oarlock",
+    "Type": "Прочее",
+    "Tag": "alekiships",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/oarlock.png"
+  },
+
+  {
+    "Id": "cleat",
+    "NameRu": "Швартовая утка",
+    "NameEn": "Cleat",
+    "Type": "Прочее",
+    "Tag": "alekiships",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/cleat.png"
+  },
+
+  {
+    "Id": "anchor",
+    "NameRu": "Якорь",
+    "NameEn": "Anchor",
+    "Type": "Прочее",
+    "Tag": "alekiships",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/anchor.png"
+  },
+
+  {
+    "Id": "buckle",
+    "NameRu": "Пряжка",
+    "NameEn": "Buckle",
+    "Type": "Прочее",
+    "Tag": "sns",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/buckle.png"
+  },
+
+  {
+    "Id": "tree_tap",
+    "NameRu": "Краник для подсочки",
+    "NameEn": "Tree tap",
+    "Type": "Прочее",
+    "Tag": "afc:tree_taps",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/tree_tap.png"
+  },
+
+  {
+    "Id": "stainless_steel_jar_lid",
+    "NameRu": "Крышка банки из нержавеющей стали",
+    "NameEn": "Stainless steel jar lid",
+    "Type": "Прочее",
+    "Tag": "firmalife",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/stainless_steel_jar_lid.png"
+  },
+
+  {
+    "Id": "pie_pan",
+    "NameRu": "Форма для выпечки пирога",
+    "NameEn": "Pie pan",
+    "Type": "Прочее",
+    "Tag": "firmalife",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/pie_pan.png"
+  },
+
+  {
+    "Id": "sprinkler",
+    "NameRu": "Ороситель",
+    "NameEn": "Sprinkler",
+    "Type": "Прочее",
+    "Tag": "firmalife",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/sprinkler.png"
+  },
+
+  {
+    "Id": "cannon_barrel",
+    "NameRu": "Пушечный ствол",
+    "NameEn": "Cannon barrel",
+    "Type": "Прочее",
+    "Tag": "firmaciv",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/cannon_barrel.png"
+  },
+
+  {
+    "Id": "unfinished_barometer",
+    "NameRu": "Незаконченный барометр",
+    "NameEn": "Unfinished barometer",
+    "Type": "Прочее",
+    "Tag": "firmaciv",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_barometer.png"
+  },
+
+  {
+    "Id": "unfinished_sextant",
+    "NameRu": "Незаконченный секстант",
+    "NameEn": "Unfinished sextant",
+    "Type": "Прочее",
+    "Tag": "firmaciv",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_sextant.png"
+  },
+
+  {
+    "Id": "unfinished_nav_clock",
+    "NameRu": "Незаконченный морской хронометр",
+    "NameEn": "Unfinished nav clock",
+    "Type": "Прочее",
+    "Tag": "firmaciv",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/unfinished_nav_clock.png"
+  },
+
+  {
+    "Id": "jar_lid",
+    "NameRu": "Крышка для банки",
+    "NameEn": "Jar lid",
+    "Type": "Прочее",
+    "Tag": "tfc",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/jar_lid.png"
+  },
+
+  {
+    "Id": "soaked_unrefined_paper",
+    "NameRu": "Пропитанная необработанная бумага",
+    "NameEn": "Soaked unrefined paper",
+    "Type": "Прочее",
+    "Tag": "tfg",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/soaked_unrefined_paper.png"
+  },
+
+  {
+    "Id": "wrought_iron_grill",
+    "NameRu": "Гриль из кованного железа",
+    "NameEn": "Wrought iron grill",
+    "Type": "Прочее",
+    "Tag": "tfc",
+    "IconPath": "images/tfg-modern/items/anvil_recipe_items/wrought_iron_grill.png"
+  }
+]

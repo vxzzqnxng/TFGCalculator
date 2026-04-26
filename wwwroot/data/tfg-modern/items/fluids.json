@@ -1,0 +1,3537 @@
+﻿[
+  {
+    "Id": "water_fluid",
+    "NameRu": "Вода",
+    "NameEn": "Water",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "lava_fluid",
+    "NameRu": "Лава",
+    "NameEn": "Lava",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "milk_fluid",
+    "NameRu": "Молоко",
+    "NameEn": "Milk",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "weak_blue_steel_fluid",
+    "NameRu": "Сырая синяя сталь",
+    "NameEn": "Weak blue steel",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "weak_red_steel_fluid",
+    "NameRu": "Сырая красная сталь",
+    "NameEn": "Weak red steel",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "lye_fluid",
+    "NameRu": "Щёлочь",
+    "NameEn": "Lye",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "white_dye_fluid",
+    "NameRu": "Белый краситель",
+    "NameEn": "White",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "orange_dye_fluid",
+    "NameRu": "Оранжевый краситель",
+    "NameEn": "Orange",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "magenta_dye_fluid",
+    "NameRu": "Пурпурный краситель",
+    "NameEn": "Magenta dye",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "light_blue_dye_fluid",
+    "NameRu": "Голубой краситель",
+    "NameEn": "Light blue dye",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "yellow_dye_fluid",
+    "NameRu": "Желтый краситель",
+    "NameEn": "Yellow dye",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "lime_dye_fluid",
+    "NameRu": "Лаймовый краситель",
+    "NameEn": "Lime dye",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "pink_dye_fluid",
+    "NameRu": "Розовый краситель",
+    "NameEn": "Pink dye",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "gray_dye_fluid",
+    "NameRu": "Серый краситель",
+    "NameEn": "Gray dye",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "light_gray_dye_fluid",
+    "NameRu": "Светло-серый краситель",
+    "NameEn": "Light gray dye",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "cyan_dye_fluid",
+    "NameRu": "Бирюзовый краситель",
+    "NameEn": "Cyan dye",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "purple_dye_fluid",
+    "NameRu": "Фиолетовый краситель",
+    "NameEn": "Purple dye",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "blue_dye_fluid",
+    "NameRu": "Синий краситель",
+    "NameEn": "Blue dye",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "brown_dye_fluid",
+    "NameRu": "Коричневый краситель",
+    "NameEn": "Brown dye",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "green_dye_fluid",
+    "NameRu": "Зеленый краситель",
+    "NameEn": "Green dye",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "red_dye_fluid",
+    "NameRu": "Красный краситель",
+    "NameEn": "Red dye",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "black_dye_fluid",
+    "NameRu": "Черный краситель",
+    "NameEn": "Black dye",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_magnesium_diboride",
+    "NameRu": "Расплав (Диборид магния)",
+    "NameEn": "Molten (Magnesium diboride)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_hsss",
+    "NameRu": "Расплав (HSS-S)",
+    "NameEn": "Molten (HSS-S)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_hsse",
+    "NameRu": "Расплав (HSS-E)",
+    "NameEn": "Molten (HSS-E)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_hssg",
+    "NameRu": "Расплав (HSS-G)",
+    "NameEn": "Molten (HSS-G)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_zeron_100",
+    "NameRu": "Расплав (Зерон-100)",
+    "NameEn": "Molten (Zeron-100)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_naquadah_alloy",
+    "NameRu": "Расплав (Сплав наквада)",
+    "NameEn": "Molten (Naquadah alloy)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_enriched_naquadah_trinium_europium_duranide",
+    "NameRu": "Расплав (Обогащенный наквада триний европий дюраний)",
+    "NameEn": "Molten (Enriched naquadah trinium europium duranide)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_ostrum_iodide",
+    "NameRu": "Расплав (йодид острума)",
+    "NameEn": "Molten (Ostrum iodide)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_stellite_100",
+    "NameRu": "Расплав (Стеллит)",
+    "NameEn": "Molten (Stellite)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_indium_tin_barium_titanium_cuprate",
+    "NameRu": "Расплав (Купрат Индия Олова Бария Титана)",
+    "NameEn": "Molten (Indium Tin Barium Titanium Cuprate)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_tantalum_carbide",
+    "NameRu": "Расплав (Карбид тантала)",
+    "NameEn": "Molten (Tantalum carbide)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_rocket_alloy_t2",
+    "NameRu": "Расплав (ASM 4914 титановый ракетный сплав)",
+    "NameEn": "Molten (Rocket alloy t2)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_ultimet",
+    "NameRu": "Расплав (Ультимет)",
+    "NameEn": "Molten (Ultimet)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_titanium_carbide",
+    "NameRu": "Расплав (Карбид титана)",
+    "NameEn": "Molten (Titanium carbide)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_mercury_barium_calcium_cuprate",
+    "NameRu": "Расплав (Купрат ртути бария кальция)",
+    "NameEn": "Molten (Mercury barium calcium cuprate)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_uranium_rhodium_dinaquadide",
+    "NameRu": "Расплав (Уран родий динаквада)",
+    "NameEn": "Molten (Uranium rhodium dinaquadide)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_niobium_titanium",
+    "NameRu": "Расплав (Ниобий-титан)",
+    "NameEn": "Molten (Niobium titanium)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_ruthenium_trinium_americium_neutronate",
+    "NameRu": "Расплав (Нейтронат рутения триния америция)",
+    "NameEn": "Molten (Ruthenium trinium americium neutronate)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_incoloy_ma_956",
+    "NameRu": "Расплав (Инколой MA-956)",
+    "NameEn": "Molten (Incoloy MA-956)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_niobium_nitride",
+    "NameRu": "Расплав (Нитрид ниобия)",
+    "NameEn": "Molten (Niobium nitride)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_rhodium_plated_palladium",
+    "NameRu": "Расплав (Палладий с родиевым покрытием)",
+    "NameEn": "Molten (Rhodium plated palladium)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_yttrium_barium_cuprate",
+    "NameRu": "Расплав (Оксид иттрия-бария-меди)",
+    "NameEn": "Molten (Yttrium Barium Cuprate)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_nichrome",
+    "NameRu": "Расплав (Нихром)",
+    "NameEn": "Molten (Nichrome)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_tungsten_carbide",
+    "NameRu": "Расплав (Карбид вольфрама)",
+    "NameEn": "Molten (Tungsten carbide)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_ruridit",
+    "NameRu": "Расплав (Руридит)",
+    "NameEn": "Molten (Ruridit)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_osmiridium",
+    "NameRu": "Расплав (Осмистый иридий)",
+    "NameEn": "Molten (Osmiridium)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_vanadium_gallium",
+    "NameRu": "Расплав (Ванадий-галлий)",
+    "NameEn": "Molten (Vanadium gallium)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_tungsten_steel",
+    "NameRu": "Расплав (Вольфрамовая сталь)",
+    "NameEn": "Molten (Tungsten steel)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_hastelloy_c_276",
+    "NameRu": "Расплав (Хастеллой-С276)",
+    "NameEn": "Molten (Hastelloy-C276)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_molybdenum_disilicide",
+    "NameRu": "Расплав (Дисилицид молибдена)",
+    "NameEn": "Molten (molybdenum disilicide)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_titanium_tungsten_carbide",
+    "NameRu": "Расплав (Вольфрам-титановый карбид)",
+    "NameEn": "Molten (Titanium tungsten carbide)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_samarium_iron_arsenic_oxide",
+    "NameRu": "Расплав (Оксид Самария Железа Мышьяка)",
+    "NameEn": "Molten (Samarium Iron Arsenic Oxide)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_uranium_triplatinum",
+    "NameRu": "Расплав (Триплатина уран)",
+    "NameEn": "Molten (Uranium triplatinum)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_rtm_alloy",
+    "NameRu": "Расплав (РВМ сплав)",
+    "NameEn": "Molten (RTM alloy)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_kanthal",
+    "NameRu": "Расплав (Кантал)",
+    "NameEn": "Molten (Kanthal)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_maraging_steel_300",
+    "NameRu": "Расплав (Мартенситностареющая сталь 300)",
+    "NameEn": "Molten (Maraging steel 300)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_watertight_steel",
+    "NameRu": "Расплав (Водостойкая сталь)",
+    "NameEn": "Molten (Watertight steel)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_hastelloy_x",
+    "NameRu": "Расплав (Хастеллой-X)",
+    "NameEn": "Molten (Hastelloy-X)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_ostrum",
+    "NameRu": "Расплав (Острум)",
+    "NameEn": "Molten (Ostrum)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_red_steel",
+    "NameRu": "Расплав (Красная сталь)",
+    "NameEn": "Molten (Red steel)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_blue_steel",
+    "NameRu": "Расплав (Синяя сталь)",
+    "NameEn": "Molten (Blue steel)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_black_steel",
+    "NameRu": "Расплав (Черная сталь)",
+    "NameEn": "Molten (Black steel)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_tungsten_bismuth_oxide_composite",
+    "NameRu": "Расплав (Композит оксида вольфрама-висмута)",
+    "NameEn": "Molten (Tungsten bismuth oxide composite)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_rene_41",
+    "NameRu": "Расплав (Рене-41)",
+    "NameEn": "Molten (Rene-41)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_aes",
+    "NameRu": "Расплавленный щелочноземельный силикат",
+    "NameEn": "Molten aes",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molten_mo_50_re",
+    "NameRu": "Расплав (Mo-50 Re)",
+    "NameEn": "Molten (Mo-50 Re)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "aqua_regia_fluid",
+    "NameRu": "Царская водка",
+    "NameEn": "Aqua regia",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "severely_hydro_cracked_light_fuel_fluid",
+    "NameRu": "Легкое топливо прошедшее тяжелый крекинг водородом",
+    "NameEn": "Severely hydro cracked light fuel",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "sulfuric_acid_fluid",
+    "NameRu": "Серная кислота",
+    "NameEn": "Sulfuric acid",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "sterilized_growth_medium_fluid",
+    "NameRu": "Стерилизованная среда роста",
+    "NameEn": "Sterilized growth medium",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "formic_acid_fluid",
+    "NameRu": "Муравьиная кислота",
+    "NameEn": "Formic acid",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "biomass_fluid",
+    "NameRu": "Биомасса",
+    "NameEn": "Biomass",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "iron_iii_chloride_fluid",
+    "NameRu": "Хлорид железа (III)",
+    "NameEn": "Iron (III) chloride",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "glue_fluid",
+    "NameRu": "Клей",
+    "NameEn": "Glue",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "liquid_carbon_dioxide_fluid",
+    "NameRu": "Сжиженный углекислый газ",
+    "NameEn": "Liquid carbon dioxide",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "fluoroantimonic_acid_fluid",
+    "NameRu": "Фторантимоновая кислота",
+    "NameEn": "Fluoroantimonic acid",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "titanium_tetrachloride_fluid",
+    "NameRu": "Тетрахлорид титана",
+    "NameEn": "Titanium tetrachloride",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "gelatin_mixture_fluid",
+    "NameRu": "Желатиновая смесь",
+    "NameEn": "Gelatin mixture",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "glycolonitrile_fluid",
+    "NameRu": "Гликолонитрил",
+    "NameEn": "Glycolonitrile",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "tetranitromethane_fluid",
+    "NameRu": "Тетранитрометан",
+    "NameEn": "Tetranitromethane",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "residual_radioactive_concoction_fluid",
+    "NameRu": "Остаточная радиоактивная смесь",
+    "NameEn": "Residual radioactive concoction",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "salt_water_fluid",
+    "NameRu": "Соленая вода",
+    "NameEn": "Salt water",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "naphthalene_fluid",
+    "NameRu": "Нафталин",
+    "NameEn": "Naphthalene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "bacterial_sludge_fluid",
+    "NameRu": "Бактериальный ил",
+    "NameEn": "Bacterial sludge",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hypochlorous_acid_fluid",
+    "NameRu": "Хлорноватистая кислота",
+    "NameEn": "Hypochlorous acid",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "naphtha_fluid",
+    "NameRu": "Нафта",
+    "NameEn": "naphtha",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "methyl_acetate_fluid",
+    "NameRu": "Метилацетат",
+    "NameEn": "Methyl acetate",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "cetane_boosted_diesel_fluid",
+    "NameRu": "Нитро-дизель",
+    "NameEn": "Cetane boosted diesel",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "diluted_sulfuric_acid_fluid",
+    "NameRu": "Разбавленная серная кислота",
+    "NameEn": "Diluted sulfuric acid",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "sulfuric_naphtha_fluid",
+    "NameRu": "Серная нафта",
+    "NameEn": "Sulfuric naphtha",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "dichlorobenzidine_fluid",
+    "NameRu": "Дихлорбензол",
+    "NameEn": "Dichlorobenzidine",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "allyl_chloride_fluid",
+    "NameRu": "Аллилхлорид",
+    "NameEn": "Allyl chloride",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "oil_medium_fluid",
+    "NameRu": "Средняя нефть",
+    "NameEn": "Oil medium",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "sodium_persulfate_fluid",
+    "NameRu": "Персульфат натрия",
+    "NameEn": "Sodium persulfate",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "toluene_fluid",
+    "NameRu": "Толуол",
+    "NameEn": "Toluene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "lubricant_fluid",
+    "NameRu": "Смазка",
+    "NameEn": "Lubricant",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "severely_steam_cracked_naphtha_fluid",
+    "NameRu": "Нафта прошедшая жесткий крекинг паром",
+    "NameEn": "Severely steam cracked naphtha",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "acetic_anhydride_fluid",
+    "NameRu": "Уксусный ангидрид",
+    "NameEn": "Acetic anhydride",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "lightly_steam_cracked_heavy_fuel_fluid",
+    "NameRu": "Тяжелое топливо прошедшее легкий крекинг паром",
+    "NameEn": "Lightly steam cracked heavy fuel",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "uranium_waste_fluid",
+    "NameRu": "Урановые отходы",
+    "NameEn": "Uranium waste",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "phosphoric_acid_fluid",
+    "NameRu": "Фосфорная кислота",
+    "NameEn": "Phosphoric acid",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "enriched_naquadah_waste_fluid",
+    "NameRu": "Обогащенные отходы наквады",
+    "NameEn": "Enriched naquadah waste",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "distilled_water_fluid",
+    "NameRu": "Дистиллированная вода",
+    "NameEn": "Distilled water",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "dimethylhydrazine_fluid",
+    "NameRu": "1,1-Диметилгидразин",
+    "NameEn": "Dimethylhydrazine",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "dichlorobenzene_fluid",
+    "NameRu": "Дихлорбензол",
+    "NameEn": "Dichlorobenzene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "benzene_fluid",
+    "NameRu": "Бензол",
+    "NameEn": "Benzene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "phenol_fluid",
+    "NameRu": "Фенол",
+    "NameEn": "Phenol",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "acidic_naquadria_solution_fluid",
+    "NameRu": "Кислота раствора наквадрии",
+    "NameEn": "Acidic naquadria solution",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "heavy_fuel_fluid",
+    "NameRu": "Тяжелое топливо",
+    "NameEn": "Heavy fuel",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "severely_steam_cracked_heavy_fuel_fluid",
+    "NameRu": "Тяжелое топливо прошедшее жесткий крекинг паром",
+    "NameEn": "Severely steam cracked heavy fuel",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "lightly_hydro_cracked_light_fuel_fluid",
+    "NameRu": "Легкое топливо прошедшее легкий крекинг водородом",
+    "NameEn": "Lightly hydro cracked light fuel",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "butyraldehyde_fluid",
+    "NameRu": "Бутиральдегид",
+    "NameEn": "Butyraldehyde",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "formamide_fluid",
+    "NameRu": "Формамид",
+    "NameEn": "Formamide",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hydrogen_peroxide_fluid",
+    "NameRu": "Перекись водорода",
+    "NameEn": "Hydrogen peroxide",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "ethyl_tertbutyl_ether_fluid",
+    "NameRu": "Трет-бутилэтиловый эфир",
+    "NameEn": "Ethyl tertbutyl ether",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "wood_vinegar_fluid",
+    "NameRu": "Древесный уксус",
+    "NameEn": "Wood vinegar",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "naquadria_solution_fluid",
+    "NameRu": "Раствор наквадрии",
+    "NameEn": "Naquadria solution",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "formaldehyde_fluid",
+    "NameRu": "Формальдегид",
+    "NameEn": "Formaldehyde",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "vinyl_acetate_fluid",
+    "NameRu": "Винилацетат",
+    "NameEn": "Vinyl acetate",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "bisphenol_a_fluid",
+    "NameRu": "Бисфенол А",
+    "NameEn": "Bisphenol A",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "uu_matter_fluid",
+    "NameRu": "UU-материя",
+    "NameEn": "UU-matter",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "seed_oil_fluid",
+    "NameRu": "Растительное масло",
+    "NameEn": "Seed oil",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "fish_oil_fluid",
+    "NameRu": "Рыбий жир",
+    "NameEn": "Fish oil",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "bauxite_slurry_fluid",
+    "NameRu": "Бокситовая суспензия",
+    "NameEn": "Bauxite slurry",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "epichlorohydrin_fluid",
+    "NameRu": "Эпихлоргидрин",
+    "NameEn": "Epichlorohydrin",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "nitration_mixture_fluid",
+    "NameRu": "Нитратная смесь",
+    "NameEn": "Nitration mixture",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "sulfuric_copper_solution_fluid",
+    "NameRu": "Водный раствор медного купороса",
+    "NameEn": "Sulfuric copper solution",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "oil_light_fluid",
+    "NameRu": "Легкая нефть",
+    "NameEn": "Oil light",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "dirty_hexafluorosilicic_acid_fluid",
+    "NameRu": "Грязная гексафторкремниевая кислота",
+    "NameEn": "Dirty hexafluorosilicic acid",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "lpg_fluid",
+    "NameRu": "Сжиженный углеводородный газ",
+    "NameEn": "LPG",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "enriched_bacterial_sludge_fluid",
+    "NameRu": "Обогащенный бактериальный ил",
+    "NameEn": "Enriched bacterial sludge",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "martian_sludge_fluid",
+    "NameRu": "Марсианская слякоть",
+    "NameEn": "Martian sludge",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "mercury_fluid",
+    "NameRu": "Ртуть",
+    "NameEn": "Mercury",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "impure_naquadria_solution_fluid",
+    "NameRu": "Загрязненный раствор наквадрии",
+    "NameEn": "Impure naquadria solution",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "polychlorinated_biphenyl_fluid",
+    "NameRu": "Полихлорированный дифенил (ПХД)",
+    "NameEn": "Polychlorinated biphenyl",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "aminophenol_fluid",
+    "NameRu": "Аминофенол",
+    "NameEn": "Aminophenol",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "chloroform_fluid",
+    "NameRu": "Хлороформ",
+    "NameEn": "Chloroform",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "dimethylbenzene_fluid",
+    "NameRu": "Ксилол",
+    "NameEn": "Dimethylbenzene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "ethenone_fluid",
+    "NameRu": "Кетен",
+    "NameEn": "Ethenone",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "ethylbenzene_fluid",
+    "NameRu": "Этилбензол",
+    "NameEn": "Ethylbenzene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "iron_ii_chloride_fluid",
+    "NameRu": "Хлорид железа (II)",
+    "NameEn": "Iron (II) chloride",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "severely_steam_cracked_light_fuel_fluid",
+    "NameRu": "Легкое топливо прошедшее жесткий крекинг паром",
+    "NameEn": "Severely steam cracked light fuel",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "severely_hydro_cracked_naphtha_fluid",
+    "NameRu": "Нафта прошедшая тяжелый крекинг водородом",
+    "NameEn": "Severely hydro cracked naphtha",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "lightly_hydro_cracked_heavy_fuel_fluid",
+    "NameRu": "Тяжелое топливо прошедшее легкий крекинг водородом",
+    "NameEn": "Lightly hydro cracked heavy fuel",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "chlorobenzene_fluid",
+    "NameRu": "Хлорбензол",
+    "NameEn": "Chlorobenzene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "oil_heavy_fluid",
+    "NameRu": "Тяжелая нефть",
+    "NameEn": "Oil heavy",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "methanol_fluid",
+    "NameRu": "Метанол",
+    "NameEn": "Methanol",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "glycerol_fluid",
+    "NameRu": "Глицерин",
+    "NameEn": "Glycerol",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "concrete_fluid",
+    "NameRu": "Бетон",
+    "NameEn": "Concrete",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "coal_tar_fluid",
+    "NameRu": "Каменноугольная смола",
+    "NameEn": "Coal tar",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "fermented_biomass_fluid",
+    "NameRu": "Ферментированная биомасса",
+    "NameEn": "Fermented biomass",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "pcb_coolant_fluid",
+    "NameRu": "Диэлектрический хладоген (ПХД)",
+    "NameEn": "PCB coolant",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "isoprene_fluid",
+    "NameRu": "Изопрен",
+    "NameEn": "Isoprene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "cracked_bauxite_slurry_fluid",
+    "NameRu": "Бокситовая суспензия прошедшая крекинг",
+    "NameEn": "Cracked bauxite slurry",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "phthalic_acid_fluid",
+    "NameRu": "Фталиевая кислота",
+    "NameEn": "Phthalic acid",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "nitrochlorobenzene_fluid",
+    "NameRu": "Нитрохлорбензол",
+    "NameEn": "Nitrochlorobenzene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "sulfuric_light_fuel_fluid",
+    "NameRu": "Серное легкое топливо",
+    "NameEn": "Sulfuric light fuel",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "rocket_fuel_fluid",
+    "NameRu": "Ракетное топливо",
+    "NameEn": "Rocket fuel",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "bromine_fluid",
+    "NameRu": "Бром",
+    "NameEn": "Bromine",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "creosote_fluid",
+    "NameRu": "Креозот",
+    "NameEn": "Creosote",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "lead_zinc_solution_fluid",
+    "NameRu": "Свинцово-цинковый раствор",
+    "NameEn": "Lead zinc solution",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "decalcified_bauxite_sludge_fluid",
+    "NameRu": "Декальцированный шлам боксита",
+    "NameEn": "Decalcified bauxite sludge",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "ethanol_fluid",
+    "NameRu": "Этанол",
+    "NameEn": "Ethanol",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "gasoline_fluid",
+    "NameRu": "Бензин",
+    "NameEn": "Gasoline",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "high_octane_gasoline_fluid",
+    "NameRu": "Высокооктановый бензин",
+    "NameEn": "High octane gasoline",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "lightly_steam_cracked_naphtha_fluid",
+    "NameRu": "Нафта прошедшая легкий крекинг паром",
+    "NameEn": "Lightly steam cracked naphtha",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "dissolved_calcium_acetate_fluid",
+    "NameRu": "Раствор ацетата кальция",
+    "NameEn": "Dissolved calcium acetate",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "raw_gasoline_fluid",
+    "NameRu": "Сырой бензин",
+    "NameEn": "Raw gasoline",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "drilling_fluid",
+    "NameRu": "Буровой раствор",
+    "NameEn": "Drilling fluid",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "indium_concentrate_fluid",
+    "NameRu": "Концетрат индия",
+    "NameEn": "Indium concentrate",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "lightly_hydro_cracked_naphtha_fluid",
+    "NameRu": "Нафта прошедшая легкий крекинг водородом",
+    "NameEn": "Lightly hydro cracked naphtha",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "sodium_potassium_fluid",
+    "NameRu": "Натрий калий",
+    "NameEn": "Sodium potassium",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "sulfuric_nickel_solution_fluid",
+    "NameRu": "Водный раствор сульфата никеля",
+    "NameEn": "Sulfuric nickel solution",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "diethylenetriamine_fluid",
+    "NameRu": "Диэтилентриамин",
+    "NameEn": "Diethylenetriamine",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "enriched_naquadah_solution_fluid",
+    "NameRu": "Обогащенный раствор наквады",
+    "NameEn": "Enriched naquadah solution",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "bio_diesel_fluid",
+    "NameRu": "Биодизель",
+    "NameEn": "Bio diesel",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "rhodium_sulfate_fluid",
+    "NameRu": "Сульфат родия",
+    "NameEn": "Rhodium sulfate",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "cyclohexane_fluid",
+    "NameRu": "Циклогексан",
+    "NameEn": "Cyclohexane",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "diesel_fluid",
+    "NameRu": "Дизель",
+    "NameEn": "Diesel",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hydrochloric_acid_fluid",
+    "NameRu": "Хлороводород",
+    "NameEn": "Hydrochloric acid",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "styrene_fluid",
+    "NameRu": "Стирол",
+    "NameEn": "Styrene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "diluted_hydrochloric_acid_fluid",
+    "NameRu": "Разбавленный хлороводород",
+    "NameEn": "Diluted hydrochloric acid",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "light_fuel_fluid",
+    "NameRu": "Легкое топливо",
+    "NameEn": "Light fuel",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "bauxite_sludge_fluid",
+    "NameRu": "Шлам боксита",
+    "NameEn": "Bauxite sludge",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "diaminobenzidine_fluid",
+    "NameRu": "Диаминобензидин",
+    "NameEn": "Diaminobenzidine",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "tritiated_water_fluid",
+    "NameRu": "Тритиевая вода",
+    "NameEn": "Tritiated water",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "diphenyl_isophthalate_fluid",
+    "NameRu": "Дифенилизофталат",
+    "NameEn": "Diphenyl isophthalate",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "sulfuric_heavy_fuel_fluid",
+    "NameRu": "Серное тяжелое топливо",
+    "NameEn": "Sulfuric heavy fuel",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "bacteria_fluid",
+    "NameRu": "Бактерии",
+    "NameEn": "Bacteria",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "oil_fluid",
+    "NameRu": "Нефть",
+    "NameEn": "Oil",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "severely_hydro_cracked_heavy_fuel_fluid",
+    "NameRu": "Тяжелое топливо прошедшее тяжелый крекинг водородом",
+    "NameEn": "Severely hydro cracked heavy fuel",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "acetone_fluid",
+    "NameRu": "Ацетон",
+    "NameEn": "Acetone",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "charcoal_byproducts_fluid",
+    "NameRu": "Продукты переработки древесного угля",
+    "NameEn": "Charcoal byproducts",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "mutagen_fluid",
+    "NameRu": "Мутаген",
+    "NameEn": "Mutagen",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "liquid_air_fluid",
+    "NameRu": "Сжиженный земной воздух",
+    "NameEn": "Liquid air",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "dichloroethane_fluid",
+    "NameRu": "Дихлорэтан",
+    "NameEn": "Dichloroethane",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "glyceryl_trinitrate_fluid",
+    "NameRu": "Нитроглицерин",
+    "NameEn": "Glyceryl trinitrate",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "acidic_enriched_naquadah_solution_fluid",
+    "NameRu": "Кислота обогащенного раствора наквады",
+    "NameEn": "Acidic enriched naquadah solution",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "dioxygen_difluoride_fluid",
+    "NameRu": "Диоксифторид",
+    "NameEn": "Dioxygen difluoride",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "wood_tar_fluid",
+    "NameRu": "Древесная смола",
+    "NameEn": "Wood tar",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "naquadria_waste_fluid",
+    "NameRu": "Наквадриевые отходы",
+    "NameEn": "Naquadria waste",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "acetic_acid_fluid",
+    "NameRu": "Уксусная кислота",
+    "NameEn": "Acetic acid",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "acidic_osmium_solution_fluid",
+    "NameRu": "Раствор осмиевой кислоты",
+    "NameEn": "Acidic osmium solution",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "raw_growth_medium_fluid",
+    "NameRu": "Сырая среда роста",
+    "NameEn": "Raw growth medium",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "lightly_steam_cracked_light_fuel_fluid",
+    "NameRu": "Легкое топливо прошедшее легкий крекинг паром",
+    "NameEn": "Lightly steam cracked light fuel",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "octane_fluid",
+    "NameRu": "Октан",
+    "NameEn": "Octane",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "impure_enriched_naquadah_solution_fluid",
+    "NameRu": "Загрязненный обогащенный раствор наквады",
+    "NameEn": "Impure enriched naquadah solution",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "nitric_acid_fluid",
+    "NameRu": "Азотная кислота",
+    "NameEn": "Nitric acid",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "diethylenetriamine_pentaacetonitrile_fluid",
+    "NameRu": "Диэтилентриамин-пента",
+    "NameEn": "Diethylenetriamine pentaacetonitrile",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "polyvinyl_acetate_fluid",
+    "NameRu": "Поливинилацетат",
+    "NameEn": "Polyvinyl acetate",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hydrofluoric_acid_fluid",
+    "NameRu": "Плавиковая кислота",
+    "NameEn": "Hydrofluoric acid",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "construction_foam_fluid",
+    "NameRu": "Строительная пена",
+    "NameEn": "Construction foam",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "potin_fluid",
+    "NameRu": "Потин (Жидкость)",
+    "NameEn": "Potin (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "soldering_alloy_fluid",
+    "NameRu": "Припой (Жидкость)",
+    "NameEn": "Soldering alloy (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "neutronium_fluid",
+    "NameRu": "Нейтроний (Жидкость)",
+    "NameEn": "Neutronium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "silver_fluid",
+    "NameRu": "Серебро (Жидкость)",
+    "NameEn": "Silver (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "sterling_silver_fluid",
+    "NameRu": "Стерлинговое серебро (Жидкость)",
+    "NameEn": "Sterling silver (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "polyphenylene_sulfide_fluid",
+    "NameRu": "Полифениленсульфид (Жидкость)",
+    "NameEn": "Polyphenylene sulfide (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "magnalium_fluid",
+    "NameRu": "Магналий (Жидкость)",
+    "NameEn": "Magnalium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "magnesium_diboride_fluid",
+    "NameRu": "Диборид магния (Жидкость)",
+    "NameEn": "Magnesium diboride (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "manganese_phosphide_fluid",
+    "NameRu": "Фосфид марганца (Жидкость)",
+    "NameEn": "Manganese phosphide (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "carbon_fluid",
+    "NameRu": "Углерод (Жидкость)",
+    "NameEn": "Carbon (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "ostrum_fluid",
+    "NameRu": "Острум (Жидкость)",
+    "NameEn": "Ostrum (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "zeron_100_fluid",
+    "NameRu": "Зерон-100 (Жидкость)",
+    "NameEn": "Zeron 100 (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "naquadah_alloy_fluid",
+    "NameRu": "Сплав наквада (Жидкость)",
+    "NameEn": "Naquadah alloy (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "bronze_fluid",
+    "NameRu": "Бронза (Жидкость)",
+    "NameEn": "Bronze (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "indium_gallium_phosphide_fluid",
+    "NameRu": "Индий Галлий Фосфид (Жидкость)",
+    "NameEn": "Indium_gallium_phosphide (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "vanadium_fluid",
+    "NameRu": "Ванадий (Жидкость)",
+    "NameEn": "Vanadium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "enriched_naquadah_trinium_europium_duranide_fluid",
+    "NameRu": "Обогащенный наквада триний европий дюраний (Жидкость)",
+    "NameEn": "Enriched naquadah trinium europium duranide (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "ostrum_iodide_fluid",
+    "NameRu": "йодид острума (Жидкость)",
+    "NameEn": "Ostrum iodide (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "stellite_100_fluid",
+    "NameRu": "Стеллит (Жидкость)",
+    "NameEn": "Stellite (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "chromium_fluid",
+    "NameRu": "Хром (Жидкость)",
+    "NameEn": "Chromium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "annealed_copper_fluid",
+    "NameRu": "Отожженная медь (Жидкость)",
+    "NameEn": "Annealed copper (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "plutonium_239_fluid",
+    "NameRu": "Плутоний 239 (Жидкость)",
+    "NameEn": "Plutonium 239 (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "potassium_fluid",
+    "NameRu": "Калий (Жидкость)",
+    "NameEn": "Potassium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "indium_tin_barium_titanium_cuprate_fluid",
+    "NameRu": "Купрат Индия Олова Бария Титана (Жидкость)",
+    "NameEn": "Indium Tin Barium Titanium Cuprate (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "liquid_helium_fluid",
+    "NameRu": "Гелий (Жидкость)",
+    "NameEn": "Helium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "tantalum_fluid",
+    "NameRu": "Тантал (Жидкость)",
+    "NameEn": "Tantalum (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "styrene_butadiene_rubber_fluid",
+    "NameRu": "Стирол-бутадиенова резина (Жидкость)",
+    "NameEn": "Styrene butadiene rubber (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "lutetium_fluid",
+    "NameRu": "Лютеций (Жидкость)",
+    "NameEn": "Lutetium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "tantalum_carbide_fluid",
+    "NameRu": "Карбид тантала (Жидкость)",
+    "NameEn": "Tantalum carbide (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "rocket_alloy_t2_fluid",
+    "NameRu": "ASM 4914 титановый ракетный сплав (Жидкость)",
+    "NameEn": "Rocket alloy t2 (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "liquid_oxygen_fluid",
+    "NameRu": "Кислород (Жидкость)",
+    "NameEn": "Oxygen (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "epoxy_fluid",
+    "NameRu": "Эпоксидная смола (Жидкость)",
+    "NameEn": "Epoxy (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "bismuth_bronze_fluid",
+    "NameRu": "Висмутовая бронза (Жидкость)",
+    "NameEn": "Bismuth bronze (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "concrete_fluid",
+    "NameRu": "Бетон (Жидкость)",
+    "NameEn": "Concrete (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "antimony_fluid",
+    "NameRu": "Сурьма (Жидкость)",
+    "NameEn": "Antimony (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "ultimet_fluid",
+    "NameRu": "Ультимет (Жидкость)",
+    "NameEn": "Ultimet (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "polycaprolactam_fluid",
+    "NameRu": "Поликапролактам (Жидкость)",
+    "NameEn": "Polycaprolactam (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "battery_alloy_fluid",
+    "NameRu": "Аккумуляторный сплав (Жидкость)",
+    "NameEn": "Battery alloy (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "redstone_fluid",
+    "NameRu": "Редстоуновая пыль (Жидкость)",
+    "NameEn": "Redstone (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "red_steel_fluid",
+    "NameRu": "Красная сталь (Жидкость)",
+    "NameEn": "Red steel (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "vanadium_steel_fluid",
+    "NameRu": "Ванадиевая сталь (Жидкость)",
+    "NameEn": "Vanadium steel (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "osmium_fluid",
+    "NameRu": "Осмий (Жидкость)",
+    "NameEn": "Osmium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "samarium_fluid",
+    "NameRu": "Самарий (Жидкость)",
+    "NameEn": "Samarium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "gallium_arsenide_fluid",
+    "NameRu": "Арсенид галлия (Жидкость)",
+    "NameEn": "Gallium arsenide (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "polytetrafluoroethylene_fluid",
+    "NameRu": "Политетрафторэтилен (Жидкость)",
+    "NameEn": "Polytetrafluoroethylene (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "borosilicate_glass_fluid",
+    "NameRu": "Боросиликатное стекло (Жидкость)",
+    "NameEn": "Borosilicate glass (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "polybenzimidazole_fluid",
+    "NameRu": "Полибензимидазол (ПБИ) (Жидкость)",
+    "NameEn": "Polybenzimidazole (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "tin_fluid",
+    "NameRu": "Олово (Жидкость)",
+    "NameEn": "Tin (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molybdenum_fluid",
+    "NameRu": "Молибден (Жидкость)",
+    "NameEn": "Molybdenum (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "gold_fluid",
+    "NameRu": "Золото (Жидкость)",
+    "NameEn": "Gold (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "neodymium_fluid",
+    "NameRu": "Неодим (Жидкость)",
+    "NameEn": "Neodymium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "cupronickel_fluid",
+    "NameRu": "Купроникель (Жидкость)",
+    "NameEn": "Cupronickel (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "glowstone_fluid",
+    "NameRu": "Светокамень (Жидкость)",
+    "NameEn": "Glowstone (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "titanium_carbide_fluid",
+    "NameRu": "Карбид титана (Жидкость)",
+    "NameEn": "Titanium carbide (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "indium_fluid",
+    "NameRu": "Индий (Жидкость)",
+    "NameEn": "Indium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "mercury_barium_calcium_cuprate_fluid",
+    "NameRu": "Купрат ртути бария кальция (Жидкость)",
+    "NameEn": "Mercury barium calcium cuprate (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "copper_fluid",
+    "NameRu": "Медь (Жидкость)",
+    "NameEn": "Copper (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "cerium_fluid",
+    "NameRu": "Церий (Жидкость)",
+    "NameEn": "Cerium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "brass_fluid",
+    "NameRu": "Латунь (Жидкость)",
+    "NameEn": "Brass (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "gallium_fluid",
+    "NameRu": "Галлий (Жидкость)",
+    "NameEn": "Gallium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "rose_gold_fluid",
+    "NameRu": "Розовое золото (Жидкость)",
+    "NameEn": "Rose gold (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "polyvinyl_butyral_fluid",
+    "NameRu": "Поливинибутираль (Жидкость)",
+    "NameEn": "Polyvinyl butyral (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "cobalt_brass_fluid",
+    "NameRu": "Кобальтовая латунь (Жидкость)",
+    "NameEn": "Cobalt brass (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "uranium_rhodium_dinaquadide_fluid",
+    "NameRu": "Уран родий динаквада (Жидкость)",
+    "NameEn": "Uranium rhodium dinaquadide (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "niobium_titanium_fluid",
+    "NameRu": "Ниобий-титан (Жидкость)",
+    "NameEn": "Niobium titanium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "niobium_fluid",
+    "NameRu": "Ниобий (Жидкость)",
+    "NameEn": "Niobium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "red_alloy_fluid",
+    "NameRu": "Красный сплав (Жидкость)",
+    "NameEn": "Red_alloy (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "iron_fluid",
+    "NameRu": "Железо (Жидкость)",
+    "NameEn": "Iron (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "ruthenium_trinium_americium_neutronate_fluid",
+    "NameRu": "Нейтронат рутения триния америция (Жидкость)",
+    "NameEn": "Ruthenium trinium americium neutronate (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "vitrified_asbestos_fluid",
+    "NameRu": "Остеклованный асбест (Жидкость)",
+    "NameEn": "Vitrified asbestos (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "yttrium_fluid",
+    "NameRu": "Иттрий (Жидкость)",
+    "NameEn": "Yttrium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "incoloy_ma_956_fluid",
+    "NameRu": "Инколой MA-956 (Жидкость)",
+    "NameEn": "Incoloy MA-956 (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "black_steel_fluid",
+    "NameRu": "Черная сталь (Жидкость)",
+    "NameEn": "Black steel (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "lead_fluid",
+    "NameRu": "Свинец (Жидкость)",
+    "NameEn": "Lead (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "iridium_fluid",
+    "NameRu": "Иридий (Жидкость)",
+    "NameEn": "Iridium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "beryllium_fluid",
+    "NameRu": "Бериллий (Жидкость)",
+    "NameEn": "Beryllium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "lithium_fluid",
+    "NameRu": "Литий (Жидкость)",
+    "NameEn": "Lithium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "plutonium_241_fluid",
+    "NameRu": "Плутоний-241 (Жидкость)",
+    "NameEn": "Plutonium-241 (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "uranium_fluid",
+    "NameRu": "Уран 238 (Жидкость)",
+    "NameEn": "Uranium 238 (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "niobium_nitride_fluid",
+    "NameRu": "Нитрид ниобия (Жидкость)",
+    "NameEn": "Niobium nitride (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "electrum_fluid",
+    "NameRu": "Электрум (Жидкость)",
+    "NameEn": "Electrum (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "duranium_fluid",
+    "NameRu": "Дюраний (Жидкость)",
+    "NameEn": "Duranium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "cobalt_fluid",
+    "NameRu": "Кобальт (Жидкость)",
+    "NameEn": "Cobalt (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "steel_fluid",
+    "NameRu": "Сталь (Жидкость)",
+    "NameEn": "Steel (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "manganese_fluid",
+    "NameRu": "Марганец (Жидкость)",
+    "NameEn": "Manganese (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "rhodium_plated_palladium_fluid",
+    "NameRu": "Палладий с родиевым покрытием (Жидкость)",
+    "NameEn": "Rhodium plated palladium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "ice_fluid",
+    "NameRu": "Ледяная слякоть (Жидкость)",
+    "NameEn": "Ice (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "americium_fluid",
+    "NameRu": "Америций 243 (Жидкость)",
+    "NameEn": "Americium 243 (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "enriched_naquadah_fluid",
+    "NameRu": "Обогащенная наквада (Жидкость)",
+    "NameEn": "Enriched naquadah (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "polyethylene_fluid",
+    "NameRu": "Полиэтилен (Жидкость)",
+    "NameEn": "Polyethylene (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "polyvinyl_chloride_fluid",
+    "NameRu": "Поливинил хлорид (Жидкость)",
+    "NameEn": "Polyvinyl chloride (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "bismuth_fluid",
+    "NameRu": "Висмут (Жидкость)",
+    "NameEn": "Bismuth (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "nickel_zinc_ferrite_fluid",
+    "NameRu": "Никель Цинк Феррит (Жидкость)",
+    "NameEn": "Nickel Zinc Ferrite (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "yttrium_barium_cuprate_fluid",
+    "NameRu": "Оксид иттрия-бария-меди (Жидкость)",
+    "NameEn": "Yttrium barium cuprate (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "aluminium_fluid",
+    "NameRu": "Алюминий (Жидкость)",
+    "NameEn": "Aluminium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "aluminium_silicate_fluid",
+    "NameRu": "Алюмосиликат (Жидкость)",
+    "NameEn": "Aluminium silicate (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "uranium_235_fluid",
+    "NameRu": "Уран-235 (Жидкость)",
+    "NameEn": "Uranium-235 (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "naquadah_fluid",
+    "NameRu": "Наквада (Жидкость)",
+    "NameEn": "Naquadah (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "glass_fluid",
+    "NameRu": "Стекло (Жидкость)",
+    "NameEn": "Glass (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "nichrome_fluid",
+    "NameRu": "Нихром (Жидкость)",
+    "NameEn": "Nichrome (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "tungsten_carbide_fluid",
+    "NameRu": "Карбид вольфрама (Жидкость)",
+    "NameEn": "Tungsten carbide (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "wrought_iron_fluid",
+    "NameRu": "Кованое железо (Жидкость)",
+    "NameEn": "Wrought iron (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "europium_fluid",
+    "NameRu": "Европий (Жидкость)",
+    "NameEn": "Europium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "tin_alloy_fluid",
+    "NameRu": "Оловянный сплав (Жидкость)",
+    "NameEn": "Tin alloy (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "lanthanum_fluid",
+    "NameRu": "Лантан (Жидкость)",
+    "NameEn": "Lanthanum (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "black_bronze_fluid",
+    "NameRu": "Черная бронза (Жидкость)",
+    "NameEn": "Black bronze (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "titanium_fluid",
+    "NameRu": "Титан (Жидкость)",
+    "NameEn": "Titanium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "silicone_rubber_fluid",
+    "NameRu": "Силиконовая резина (Жидкость)",
+    "NameEn": "Silicone rubber (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "blue_steel_fluid",
+    "NameRu": "Синяя сталь (Жидкость)",
+    "NameEn": "Blue steel (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "zinc_fluid",
+    "NameRu": "Цинк (Жидкость)",
+    "NameEn": "Zinc (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "ruridit_fluid",
+    "NameRu": "Руридит (Жидкость)",
+    "NameEn": "Ruridit (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "naquadria_fluid",
+    "NameRu": "Наквадрия (Жидкость)",
+    "NameEn": "Naquadria (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "desh_fluid",
+    "NameRu": "Деш (Жидкость)",
+    "NameEn": "desh (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "tungsten_fluid",
+    "NameRu": "Вольфрам (Жидкость)",
+    "NameEn": "Tungsten (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "tritanium_fluid",
+    "NameRu": "Тританий (Жидкость)",
+    "NameEn": "Tritanium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "osmiridium_fluid",
+    "NameRu": "Осмистый иридий (Жидкость)",
+    "NameEn": "Osmiridium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "vanadium_gallium_fluid",
+    "NameRu": "Ванадий-галлий (Жидкость)",
+    "NameEn": "Vanadium gallium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "reinforced_epoxy_resin_fluid",
+    "NameRu": "Укреплённая эпоксидна смола (Жидкость)",
+    "NameEn": "Reinforced epoxy resin (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "blue_alloy_fluid",
+    "NameRu": "Синий сплав (Жидкость)",
+    "NameEn": "Blue alloy (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "rubber_fluid",
+    "NameRu": "Резина (Жидкость)",
+    "NameEn": "Rubber (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "stainless_steel_fluid",
+    "NameRu": "Нержавеющая сталь (Жидкость)",
+    "NameEn": "Stainless steel (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "darmstadtium_fluid",
+    "NameRu": "Дармштадтий (Жидкость)",
+    "NameEn": "Darmstadtium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "invar_fluid",
+    "NameRu": "Инвар (Жидкость)",
+    "NameEn": "Invar (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "tungsten_steel_fluid",
+    "NameRu": "Вольфрамовая сталь (Жидкость)",
+    "NameEn": "Tungsten steel (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hastelloy_c_276_fluid",
+    "NameRu": "Хастеллой-C276 (Жидкость)",
+    "NameEn": "Hastelloy-C276 (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "molybdenum_disilicide_fluid",
+    "NameRu": "Дисилицид молибдена (Жидкость)",
+    "NameEn": "molybdenum disilicide (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "titanium_tungsten_carbide_fluid",
+    "NameRu": "Вольфрам-титановый карбид (Жидкость)",
+    "NameEn": "Titanium tungsten carbide (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "ruthenium_fluid",
+    "NameRu": "Рутений (Жидкость)",
+    "NameEn": "Ruthenium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "samarium_iron_arsenic_oxide_fluid",
+    "NameRu": "Оксид Самария Железа Мышьяка (Жидкость)",
+    "NameEn": "Samarium Iron Arsenic Oxide (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "magnesium_fluid",
+    "NameRu": "Магний (Жидкость)",
+    "NameEn": "Magnesium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "uranium_triplatinum_fluid",
+    "NameRu": "Триплатина уран (Жидкость)",
+    "NameEn": "Uranium triplatinum (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "rtm_alloy_fluid",
+    "NameRu": "РВМ сплав (Жидкость)",
+    "NameEn": "RTM alloy (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "kanthal_fluid",
+    "NameRu": "Кантал (Жидкость)",
+    "NameEn": "Kanthal (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "wax_fluid",
+    "NameRu": "Воск (Жидкость)",
+    "NameEn": "Wax (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "platinum_fluid",
+    "NameRu": "Платина (Жидкость)",
+    "NameEn": "Platinum (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "maraging_steel_300_fluid",
+    "NameRu": "Мартенситностареющая сталь 300 (Жидкость)",
+    "NameEn": "Maraging steel 300 (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "silicon_fluid",
+    "NameRu": "Кремний (Жидкость)",
+    "NameEn": "Silicon (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "rhodium_fluid",
+    "NameRu": "Родий (Жидкость)",
+    "NameEn": "Rhodium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "trinium_fluid",
+    "NameRu": "Триниум (Жидкость)",
+    "NameEn": "Trinium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "nickel_fluid",
+    "NameRu": "Никель (Жидкость)",
+    "NameEn": "Nickel (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "palladium_fluid",
+    "NameRu": "Палладий (Жидкость)",
+    "NameEn": "Palladium (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "watertight_steel_fluid",
+    "NameRu": "Водостойкая сталь (Жидкость)",
+    "NameEn": "Watertight steel (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hastelloy_x_fluid",
+    "NameRu": "Хастеллой-X (Жидкость)",
+    "NameEn": "Hastelloy-X (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hsla_steel_fluid",
+    "NameRu": "HSLA сталь (Жидкость)",
+    "NameEn": "HSLA steel (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hsss_fluid",
+    "NameRu": "HSS-S (Жидкость)",
+    "NameEn": "HSS-S (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hsse_fluid",
+    "NameRu": "HSS-E (Жидкость)",
+    "NameEn": "HSS-E (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hssg_fluid",
+    "NameRu": "HSS-G (Жидкость)",
+    "NameEn": "HSS-G (Liquid)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "steam_cracked_ethane_fluid",
+    "NameRu": "Этан прошедший крекинг паром",
+    "NameEn": "Steam cracked ethane",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "dimethylamine_fluid",
+    "NameRu": "Диметилэтан",
+    "NameEn": "Dimethylamine",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "xenon_fluid",
+    "NameRu": "Ксенон (газ)",
+    "NameEn": "Xenon (gas)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "ostrum_vapor_fluid",
+    "NameRu": "Пары острума",
+    "NameEn": "Ostrum vapor",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "arsenic_fluid",
+    "NameRu": "Пар (Мышьяк)",
+    "NameEn": "Steam (Arsenic)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hydro_cracked_propane_fluid",
+    "NameRu": "Пропан прошедший крекинг водородом",
+    "NameEn": "Hydro cracked propane",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "nitrogen_fluid",
+    "NameRu": "Азот (газ)",
+    "NameEn": "Nitrogen (gas)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "ammonium_formate_fluid",
+    "NameRu": "Формиат аммония",
+    "NameEn": "Ammonium formate",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hydro_cracked_propene_fluid",
+    "NameRu": "Пропен прошедший крекинг водородом",
+    "NameEn": "Hydro cracked propene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "monochloramine_fluid",
+    "NameRu": "Хлорамин",
+    "NameEn": "Monochloramine",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "irradiated_steam_fluid",
+    "NameRu": "Облученный пар",
+    "NameEn": "Irradiated steam",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "dinitrogen_tetroxide_fluid",
+    "NameRu": "Тетраоксид диазота",
+    "NameEn": "Dinitrogen tetroxide",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "propane_fluid",
+    "NameRu": "Пропан",
+    "NameEn": "Propane",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "dense_ostrum_vapor_fluid",
+    "NameRu": "Плотные пары острума",
+    "NameEn": "Dense ostrum vapor",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hydro_cracked_ethane_fluid",
+    "NameRu": "Этан прошедший крекинг водородом",
+    "NameEn": "Hydro cracked ethane",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "neon_fluid",
+    "NameRu": "Неон (газ)",
+    "NameEn": "Neon (gas)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "regolith_vapor_fluid",
+    "NameRu": "Реголитовый пар",
+    "NameEn": "Regolith vapor",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "ethylene_fluid",
+    "NameRu": "Этилен",
+    "NameEn": "Ethylene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "radon_fluid",
+    "NameRu": "Радон (газ)",
+    "NameEn": "Radon (gas)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hydrogen_sulfide_fluid",
+    "NameRu": "Сероводород",
+    "NameEn": "Hydrogen sulfide",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "air_fluid",
+    "NameRu": "Земной воздух",
+    "NameEn": "Air",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "butane_fluid",
+    "NameRu": "Бутан",
+    "NameEn": "Butane",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "methane_fluid",
+    "NameRu": "Метан (газ)",
+    "NameEn": "Methane (gas)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "lightly_hydro_cracked_gas_fluid",
+    "NameRu": "Нефтяной газ прошедший легкий крекинг водородом",
+    "NameEn": "Lightly hydro cracked gas",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "cumene_fluid",
+    "NameRu": "Кумола",
+    "NameEn": "Cumene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "sulfur_dioxide_fluid",
+    "NameRu": "Диоксид серы",
+    "NameEn": "Sulfur dioxide",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "steam_cracked_butene_fluid",
+    "NameRu": "Бутен прошедший крекинг паром",
+    "NameEn": "Steam cracked butene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "helium_fluid",
+    "NameRu": "Гелий (газ)",
+    "NameEn": "Helium (gas)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "steam_cracked_ethylene_fluid",
+    "NameRu": "Этилен прошедший крекинг паром",
+    "NameEn": "Steam cracked ethylene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "depleted_uranium_hexafluoride_fluid",
+    "NameRu": "Обедненный гексофторид урана",
+    "NameEn": "Depleted uranium hexafluoride",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "deuterium_fluid",
+    "NameRu": "Дейтерий (газ)",
+    "NameEn": "Deuterium (gas)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "tetrafluoroethylene_fluid",
+    "NameRu": "Тетрафторэтилен",
+    "NameEn": "Tetrafluoroethylene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "nitrous_oxide_fluid",
+    "NameRu": "Оксид азота",
+    "NameEn": "Nitrous oxide",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "steam_cracked_butane_fluid",
+    "NameRu": "Бутан прошедший крекинг паром",
+    "NameEn": "Steam cracked butane",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "krypton_fluid",
+    "NameRu": "Криптон",
+    "NameEn": "Krypton",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "sulfuric_gas_fluid",
+    "NameRu": "Серный газ",
+    "NameEn": "Sulfuric gas",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "nitrogen_dioxide_fluid",
+    "NameRu": "Диоксид азота",
+    "NameEn": "Nitrogen dioxide",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "argon_fluid",
+    "NameRu": "Аргон (газ)",
+    "NameEn": "Argon (gas)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hydro_cracked_butadiene_fluid",
+    "NameRu": "Бутадиен прошедший крекинг водородом",
+    "NameEn": "Hydro cracked butadiene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "steam_cracked_propane_fluid",
+    "NameRu": "Пропан прошедший крекинг паром",
+    "NameEn": "Steam cracked propane",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "radioactive_waste_fluid",
+    "NameRu": "Радиоактивные продукты",
+    "NameEn": "Radioactive waste",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "ammonia_fluid",
+    "NameRu": "Аммиак",
+    "NameEn": "Ammonia",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "propene_fluid",
+    "NameRu": "Пропен",
+    "NameEn": "Propene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "nitrobenzene_fluid",
+    "NameRu": "Нитробензол",
+    "NameEn": "Nitrobenzene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "butadiene_fluid",
+    "NameRu": "Бутадиен",
+    "NameEn": "Butadiene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "chlorine_fluid",
+    "NameRu": "Хлор (газ)",
+    "NameEn": "chlorine (gas)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "severely_hydro_cracked_gas_fluid",
+    "NameRu": "Нефтной газ прошедший тяжелый крекинг водородом",
+    "NameEn": "Severely hydro cracked gas",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hydrogen_iodide_fluid",
+    "NameRu": "Йодоводород",
+    "NameEn": "Hydrogen iodide",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hydro_cracked_ethylene_fluid",
+    "NameRu": "Этилен прошедший крекинг водородом",
+    "NameEn": "Hydro cracked ethylene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "sulfur_trioxide_fluid",
+    "NameRu": "Триоксид серы",
+    "NameEn": "Sulfur trioxide",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "steam_fluid",
+    "NameRu": "Пар",
+    "NameEn": "Steam",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "vinyl_chloride_fluid",
+    "NameRu": "Винилхлорид",
+    "NameEn": "Vinyl chloride",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "nitrosyl_chloride_fluid",
+    "NameRu": "Хлорид нитрозила",
+    "NameEn": "Nitrosyl chloride",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "severely_steam_cracked_gas_fluid",
+    "NameRu": "Нефтяной газ прошедший жесткий крекинг паром",
+    "NameEn": "Severely steam cracked gas",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "fluorine_fluid",
+    "NameRu": "Фтор (газ)",
+    "NameEn": "Fluorine (gas)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "nitric_oxide_fluid",
+    "NameRu": "Оксид азота(II)",
+    "NameEn": "Nitric oxide(II)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "radioactive_steam_fluid",
+    "NameRu": "Радиоактивный пар",
+    "NameEn": "Radioactive steam",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "lightweight_ostrum_vapor_fluid",
+    "NameRu": "Легкие пары острума",
+    "NameEn": "Lightweight ostrum vapor",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "coal_gas_fluid",
+    "NameRu": "Угольный газ",
+    "NameEn": "Coal gas",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hydrogen_cyanide_fluid",
+    "NameRu": "Синильная кислота",
+    "NameEn": "Hydrogen cyanide",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "oxygen_fluid",
+    "NameRu": "Кислород (газ)",
+    "NameEn": "Oxygen (gas)",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "helium_3_fluid",
+    "NameRu": "Гелий-3",
+    "NameEn": "Helium-3",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "lightly_steam_cracked_gas_fluid",
+    "NameRu": "Нефтяной газ прошедший легкий крекинг паром",
+    "NameEn": "Lightly steam cracked gas",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hydro_cracked_butene_fluid",
+    "NameRu": "Бутен прошедший крекинг водородом",
+    "NameEn": "Hydro cracked butene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "refinery_gas_fluid",
+    "NameRu": "Нефтяной газ",
+    "NameEn": "Refinery gas",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "steam_cracked_propene_fluid",
+    "NameRu": "Пропен прошедший крекинг паром",
+    "NameEn": "Steam cracked propene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "steam_cracked_butadiene_fluid",
+    "NameRu": "Бутадиен прошедший крекинг паром",
+    "NameEn": "Steam cracked butadiene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "chloromethane_fluid",
+    "NameRu": "Хлорметан",
+    "NameEn": "Chloromethane",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "carbon_dioxide_fluid",
+    "NameRu": "Двуокись углерода",
+    "NameEn": "Carbon dioxide",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "tritium_fluid",
+    "NameRu": "Тритий (газ)",
+    "NameEn": "Tritium",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "dimethyldichlorosilane_fluid",
+    "NameRu": "Диметилдихлорсилана",
+    "NameEn": "Dimethyldichlorosilane",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "enriched_uranium_hexafluoride_fluid",
+    "NameRu": "Обогащенный гексафторид урана",
+    "NameEn": "Enriched uranium hexafluoride",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hydrogen_fluid",
+    "NameRu": "Водород (газ)",
+    "NameEn": "Hydrogen",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "hydro_cracked_butane_fluid",
+    "NameRu": "Бутан прошедший крекинг водородом",
+    "NameEn": "Hydro cracked butane",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "uranium_hexafluoride_fluid",
+    "NameRu": "Гексафторид урана",
+    "NameEn": "Uranium hexafluoride",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "butene_fluid",
+    "NameRu": "Бутен",
+    "NameEn": "Butene",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "wood_gas_fluid",
+    "NameRu": "Древесный газ",
+    "NameEn": "Wood gas",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "dense_steam_fluid",
+    "NameRu": "ПВД",
+    "NameEn": "Dense steam",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "ethane_fluid",
+    "NameRu": "Этан",
+    "NameEn": "Ethane",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "natural_gas_fluid",
+    "NameRu": "Природный газ",
+    "NameEn": "Natural gas",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
+    "Id": "carbon_monoxide_fluid",
+    "NameRu": "Монооксид углерода",
+    "NameEn": "Zerbin monoxide",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  }
+]

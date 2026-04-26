@@ -15,8 +15,11 @@ public partial class CalculationResult : ComponentBase, IDisposable
 
     private TFGCalculator.Services.CalculationResult? _result;
     private string _modpackId = "";
+    private string _treeId = "";
+    private List<ProductionRequest> _requests = new();
     private bool _energyOpen, _machOpen, _rawOpen;
     private int _ampTierLevel = 2;
+
 
     protected override async Task OnInitializedAsync()
     {
@@ -24,6 +27,13 @@ public partial class CalculationResult : ComponentBase, IDisposable
 
         var requests = ModpackItems.PendingRequests;
         _modpackId = ModpackItems.PendingModpackId ?? "";
+        _treeId = ModpackItems.PendingTreeId ?? "";
+
+        if (!string.IsNullOrEmpty(_modpackId))
+        {
+            await ItemSvc.EnsureLoadedAsync(_modpackId);
+            await RecipeSvc.EnsureLoadedAsync(_modpackId);
+        }
 
         Dictionary<string, string>? savedChoices = null;
         Dictionary<string, int>? savedTiers = null;
@@ -31,23 +41,26 @@ public partial class CalculationResult : ComponentBase, IDisposable
 
         if (requests != null && requests.Any() && !string.IsNullOrEmpty(_modpackId))
         {
-            savedChoices = await Storage.LoadAsync<Dictionary<string, string>>($"recipeChoices_{_modpackId}");
-            savedTiers = await Storage.LoadAsync<Dictionary<string, int>>($"tierChoices_{_modpackId}");
-            savedCoils = await Storage.LoadAsync<Dictionary<string, int>>($"coilChoices_{_modpackId}");
-            _result = CalcSvc.Calculate(_modpackId, requests, savedChoices, savedTiers, savedCoils);
-            await SaveState(requests);
+            _requests = requests;
+            savedChoices = await Storage.LoadAsync<Dictionary<string, string>>(ChoiceKey("recipe"));
+            savedTiers = await Storage.LoadAsync<Dictionary<string, int>>(ChoiceKey("tier"));
+            savedCoils = await Storage.LoadAsync<Dictionary<string, int>>(ChoiceKey("coil"));
+            _result = CalcSvc.Calculate(_modpackId, _requests, savedChoices, savedTiers, savedCoils);
+            await SaveState();
             return;
         }
 
+        // Restore on reload
         var saved = await Storage.LoadAsync<SavedCalculationState>("lastCalc");
         if (saved != null && !string.IsNullOrEmpty(saved.ModpackId) && saved.Requests.Any())
         {
             _modpackId = saved.ModpackId;
-            savedChoices = saved.RecipeChoices ?? await Storage.LoadAsync<Dictionary<string, string>>($"recipeChoices_{_modpackId}");
-            savedTiers = saved.TierChoices ?? await Storage.LoadAsync<Dictionary<string, int>>($"tierChoices_{_modpackId}");
-            savedCoils = saved.CoilChoices ?? await Storage.LoadAsync<Dictionary<string, int>>($"coilChoices_{_modpackId}");
+            _treeId = saved.TreeId ?? "";
+            savedChoices = saved.RecipeChoices ?? await Storage.LoadAsync<Dictionary<string, string>>(ChoiceKey("recipe"));
+            savedTiers = saved.TierChoices ?? await Storage.LoadAsync<Dictionary<string, int>>(ChoiceKey("tier"));
+            savedCoils = saved.CoilChoices ?? await Storage.LoadAsync<Dictionary<string, int>>(ChoiceKey("coil"));
 
-            var restored = new List<ProductionRequest>();
+            _requests = new List<ProductionRequest>();
             foreach (var sr in saved.Requests)
             {
                 var item = ItemSvc.GetById(saved.ModpackId, sr.ItemId);
@@ -69,30 +82,42 @@ public partial class CalculationResult : ComponentBase, IDisposable
                         pr.AmountPerSecond = (d > 0 ? 1.0 / d : 0) * o.Amount * sr.MachineCountValue;
                     }
                 }
-                restored.Add(pr);
+                _requests.Add(pr);
             }
-            if (restored.Any())
-                _result = CalcSvc.Calculate(_modpackId, restored, savedChoices, savedTiers, savedCoils);
+            if (_requests.Any())
+                _result = CalcSvc.Calculate(_modpackId, _requests, savedChoices, savedTiers, savedCoils);
         }
     }
 
-    private async Task SaveState(List<ProductionRequest> requests)
+    private string ChoiceKey(string kind) =>
+        string.IsNullOrEmpty(_treeId)
+            ? $"{kind}Choices_{_modpackId}"
+            : $"{kind}Choices_{_modpackId}_{_treeId}";
+    private async Task SaveState()
     {
-        var state = new SavedCalculationState
+        if (_result == null) return;
+        var choices = CalculationService.CollectRecipeChoices(_result.RootNodes);
+        var tiers = CalculationService.CollectTierChoices(_result.RootNodes);
+        var coils = CalculationService.CollectCoilChoices(_result.RootNodes);
+
+        await Storage.SaveAsync(ChoiceKey("recipe"), choices);
+        await Storage.SaveAsync(ChoiceKey("tier"), tiers);
+        await Storage.SaveAsync(ChoiceKey("coil"), coils);
+
+        await Storage.SaveAsync("lastCalc", new SavedCalculationState
         {
             ModpackId = _modpackId,
-            Requests = requests.Select(r => new SavedRequestItem
+            Requests = _requests.Select(r => new SavedRequestItem
             {
                 ItemId = r.Item.Id,
                 AmountPerSecond = r.AmountPerSecond,
                 RateType = (int)r.RateType,
                 MachineCountValue = r.MachineCountValue
             }).ToList(),
-            RecipeChoices = _result != null ? CalculationService.CollectRecipeChoices(_result.RootNodes) : null,
-            TierChoices = _result != null ? CalculationService.CollectTierChoices(_result.RootNodes) : null,
-            CoilChoices = _result != null ? CalculationService.CollectCoilChoices(_result.RootNodes) : null
-        };
-        await Storage.SaveAsync("lastCalc", state);
+            RecipeChoices = choices,
+            TierChoices = tiers,
+            CoilChoices = coils
+        });
     }
 
     private double CalcAmps(double totalEUt)
@@ -101,34 +126,29 @@ public partial class CalculationResult : ComponentBase, IDisposable
         return perAmp > 0 ? totalEUt / perAmp : 0;
     }
 
+    /// <summary>Full rebuild on ANY change (recipe/tier/coil/storage)</summary>
     private async void HandleChanged()
     {
-        if (_result == null) return;
+        if (_result == null || !_requests.Any()) return;
 
-        // Full DAG recalculation
-        CalcSvc.RecalculateDAG(_result.RootNodes);
+        // Collect current choices, merge with saved
+        var currentChoices = CalculationService.CollectRecipeChoices(_result.RootNodes);
+        var savedChoices = await Storage.LoadAsync<Dictionary<string, string>>(ChoiceKey("recipe")) ?? new();
+        foreach (var kv in currentChoices) savedChoices[kv.Key] = kv.Value;
+
+        var currentTiers = CalculationService.CollectTierChoices(_result.RootNodes);
+        var savedTiers = await Storage.LoadAsync<Dictionary<string, int>>(ChoiceKey("tier")) ?? new();
+        foreach (var kv in currentTiers) savedTiers[kv.Key] = kv.Value;
+
+        var currentCoils = CalculationService.CollectCoilChoices(_result.RootNodes);
+        var savedCoils = await Storage.LoadAsync<Dictionary<string, int>>(ChoiceKey("coil")) ?? new();
+        foreach (var kv in currentCoils) savedCoils[kv.Key] = kv.Value;
+
+        // Full rebuild with merged choices
+        _result = CalcSvc.Calculate(_modpackId, _requests, savedChoices, savedTiers, savedCoils);
         CalcSvc.RefreshAllNames(_modpackId, _result.RootNodes);
-        var (m, r2, e) = CalcSvc.RebuildSummaries(_result.RootNodes);
-        _result.Machines = m;
-        _result.RawResources = r2;
-        _result.EnergySummaries = e;
         StateHasChanged();
-
-        var choices = CalculationService.CollectRecipeChoices(_result.RootNodes);
-        await Storage.SaveAsync($"recipeChoices_{_modpackId}", choices);
-        var tiers = CalculationService.CollectTierChoices(_result.RootNodes);
-        await Storage.SaveAsync($"tierChoices_{_modpackId}", tiers);
-        var coils = CalculationService.CollectCoilChoices(_result.RootNodes);
-        await Storage.SaveAsync($"coilChoices_{_modpackId}", coils);
-
-        var saved = await Storage.LoadAsync<SavedCalculationState>("lastCalc");
-        if (saved != null)
-        {
-            saved.RecipeChoices = choices;
-            saved.TierChoices = tiers;
-            saved.CoilChoices = coils;
-            await Storage.SaveAsync("lastCalc", saved);
-        }
+        await SaveState();
     }
 
     private void OnLangChanged()
@@ -143,4 +163,28 @@ public partial class CalculationResult : ComponentBase, IDisposable
     }
 
     public void Dispose() => Loc.OnLanguageChanged -= OnLangChanged;
+
+    private async Task HandleAddAlternative(string itemId)
+    {
+        if (string.IsNullOrEmpty(_modpackId)) return;
+        var item = ItemSvc.GetById(_modpackId, itemId);
+        if (item == null) return;
+
+        _requests.Add(new ProductionRequest
+        {
+            Item = item,
+            AmountPerSecond = 0,          // пользователь сам настроит спрос/только просмотр
+            RateType = RateType.ViewOnly
+        });
+
+        // Полный rebuild — вариантная логика (VariantSuffix) уже в CalculationService
+        var savedChoices = await Storage.LoadAsync<Dictionary<string, string>>(ChoiceKey("recipe")) ?? new();
+        var savedTiers = await Storage.LoadAsync<Dictionary<string, int>>(ChoiceKey("tier")) ?? new();
+        var savedCoils = await Storage.LoadAsync<Dictionary<string, int>>(ChoiceKey("coil")) ?? new();
+
+        _result = CalcSvc.Calculate(_modpackId, _requests, savedChoices, savedTiers, savedCoils);
+        CalcSvc.RefreshAllNames(_modpackId, _result.RootNodes);
+        StateHasChanged();
+        await SaveState();
+    }
 }

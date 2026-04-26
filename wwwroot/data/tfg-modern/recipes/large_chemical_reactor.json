@@ -1,0 +1,79 @@
+﻿[
+  {
+    "Id": "iridium_metal_residue_dust",
+    "MachineId": "large_chemical_reactor",
+    "MachineNameRu": "Большой химический реактор",
+    "MachineNameEn": "Large chemical reactor",
+    "Inputs": [
+      {
+        "ItemId": "rarest_metal_mixture_dust",
+        "Amount": 7
+      },
+      {
+        "ItemId": "hydrochloric_acid_fluid",
+        "Amount": 4
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "iridium_metal_residue_dust",
+        "Amount": 5
+      },
+      {
+        "ItemId": "acidic_osmium_solution_fluid",
+        "Amount": 2
+      },
+      {
+        "ItemId": "hydrogen_fluid",
+        "Amount": 3
+      }
+    ],
+    "EnergyPerTick": 7680,
+    "DurationTicks": 400,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 6,
+    "SingleIconForAllTiers": true
+  },
+
+  {
+    "Id": "nitric_acid_3",
+    "MachineId": "large_chemical_reactor",
+    "MachineNameRu": "Большой химический реактор",
+    "MachineNameEn": "Large chemical reactor",
+    "Inputs": [
+      {
+        "ItemId": "nitrogen_fluid",
+        "Amount": 1
+      },
+      {
+        "ItemId": "hydrogen_fluid",
+        "Amount": 3
+      },
+      {
+        "ItemId": "oxygen_fluid",
+        "Amount": 4
+      }
+    ],
+    "Catalysts": [
+      {
+        "ItemId": "programmed_circuit_24",
+        "Amount": 1
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "nitric_acid_fluid",
+        "Amount": 1
+      },
+      {
+        "ItemId": "water_fluid",
+        "Amount": 1
+      }
+    ],
+    "EnergyPerTick": 480,
+    "DurationTicks": 320,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 4,
+    "SingleIconForAllTiers": true
+  }
+]

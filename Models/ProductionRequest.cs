@@ -1,4 +1,4 @@
-namespace TFGCalculator.Models;
+﻿namespace TFGCalculator.Models;
 
 public enum RateType
 {
@@ -31,6 +31,7 @@ public class SavedTreeData
 public class SavedCalculationState
 {
     public string ModpackId { get; set; } = "";
+    public string TreeId { get; set; } = "";
     public List<SavedRequestItem> Requests { get; set; } = new();
     public Dictionary<string, string>? RecipeChoices { get; set; }
     public Dictionary<string, int>? TierChoices { get; set; }

@@ -3,7 +3,10 @@
 <PageTitle>TFG Calculator</PageTitle>
 
 <div class="modpack-page">
-    <a href="/" class="back-link">@Loc.Get("BackToModpacks")</a>
+    <div class="modpack-page-top-row">
+        <a href="/" class="back-link">@Loc.Get("BackToModpacks")</a>
+        <a href="/tfc-calculators" class="btn-main">@Loc.Get("TfcCalculators")</a>
+    </div>
 
     <div class="tree-configs">
         @for (int ti = 0; ti < _trees.Count; ti++)
@@ -110,6 +113,6 @@
 <div class="bottom-bar">
     <a href="https://terrafirmagreg.team" target="_blank" class="btn-main">@Loc.Get("SiteTFG")</a>
     <a href="https://github.com/TerraFirmaGreg-Team/Modpack-Modern/releases" target="_blank" class="btn-main">@Loc.Get("GitHubTFG")</a>
-    <a href="https://github.com/vxzzqnxng/TFGCalculator?tab=readme-ov-file" target="_blank" class="btn-main">@Loc.Get("GitHubProject")</a>
+    <a href="https://github.com/vxzzqnxng/TFGCalculator" target="_blank" class="btn-main">@Loc.Get("GitHubProject")</a>
     <a href="https://discordapp.com/users/505270818779955202" target="_blank" class="btn-main">@Loc.Get("ReportBug")</a>
 </div>

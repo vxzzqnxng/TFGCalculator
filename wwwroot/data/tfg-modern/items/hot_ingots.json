@@ -1,0 +1,561 @@
+﻿[
+  {
+    "Id": "hot_worked_mo_si_b_ingot",
+    "NameRu": "Обработанный сплав Mo-Si_b (Горячий слиток)",
+    "NameEn": "Worked Mo-Si_b (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_weak_mo_si_b_ingot",
+    "NameRu": "Сплав Mo-Si_b (Горячий слиток)",
+    "NameEn": "Weak Mo-Si_b (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_homogenized_mo_si_b_ingot",
+    "NameRu": "Гомогенизированный сплав Mo-Si-B (Горячий слиток)",
+    "NameEn": "Homogenized Mo-Si-B (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_enriched_naquadah_ingot",
+    "NameRu": "Обогащённыя наквада (Горячий слиток)",
+    "NameEn": "Enriched naquadah (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_ruthenium_ingot",
+    "NameRu": "Рутений (Горячий слиток)",
+    "NameEn": "Ruthenium (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_watertight_steel_ingot",
+    "NameRu": "Водостойкая сталь (Горячий слиток)",
+    "NameEn": "Watertight steel (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_osmiridium_ingot",
+    "NameRu": "Осмистый иридий (Горячий слиток)",
+    "NameEn": "Osmiridium (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_titanium_tungsten_carbide_ingot",
+    "NameRu": "Вольфрам-титанановый карбид (Горячий слиток)",
+    "NameEn": "Titanium tungsten carbide (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_niobium_titanium_ingot",
+    "NameRu": "Ниобий-титан (Горячий слиток)",
+    "NameEn": "Niobium titanium (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_rhodium_ingot",
+    "NameRu": "Родий (Горячий слиток)",
+    "NameEn": "Rhodium (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_hsss_ingot",
+    "NameRu": "HSS-S (Горячий слиток)",
+    "NameEn": "HSS-S (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_rocket_alloy_t1_ingot",
+    "NameRu": "Красный алюминиево-стальной ракетный сплав (Горячий слиток)",
+    "NameEn": "Rocket alloy t1 (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_hastelloy_x_ingot",
+    "NameRu": "Хастеллой-X (Горячий слиток)",
+    "NameEn": "Hastelloy-X (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_niobium_nitride_ingot",
+    "NameRu": "Нитрид ниобия (Горячий слиток)",
+    "NameEn": "Niobium nitride (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_zirconium_ingot",
+    "NameRu": "Цирконий (Горячий слиток)",
+    "NameEn": "Zirconium (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_titanium_ingot",
+    "NameRu": "Титан (Горячий слиток)",
+    "NameEn": "Titanium (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_uranium_triplatinum_ingot",
+    "NameRu": "Триплатина уран (Горячий слиток)",
+    "NameEn": "Uranium triplatinum (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_ultimet_ingot",
+    "NameRu": "Ультимет (Горячий слиток)",
+    "NameEn": "Ultimet (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_hssg_ingot",
+    "NameRu": "HSS-G (Горячий слиток)",
+    "NameEn": "HSS-G (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_desh_ingot",
+    "NameRu": "Деш (Горячий слиток)",
+    "NameEn": "desh (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_tungsten_carbide_ingot",
+    "NameRu": "Карбид вольфрама (Горячий слиток)",
+    "NameEn": "Tungsten carbide (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_trinium_ingot",
+    "NameRu": "Триниум (Горячий слиток)",
+    "NameEn": "Trinium (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_rhodium_plated_palladium_ingot",
+    "NameRu": "Палладий с родиевым покрытием (Горячий слиток)",
+    "NameEn": "Rhodium plated palladium (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_ostrum_iodide_ingot",
+    "NameRu": "Йодид острума (Горячий слиток)",
+    "NameEn": "ostrum_iodide_dust (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_titanium_carbide_ingot",
+    "NameRu": "Карбид титана (Горячий слиток)",
+    "NameEn": "Titanium carbide (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_samarium_ingot",
+    "NameRu": "Самарий (Горячий слиток)",
+    "NameEn": "Samarium (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_ruthenium_trinium_americium_neutronate_ingot",
+    "NameRu": "Нейтронат рутения триния америция (Горячий слиток)",
+    "NameEn": "Ruthenium trinium americium neutronate (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_incoloy_ma_956_ingot",
+    "NameRu": "Инколой MA-956 (Горячий слиток)",
+    "NameEn": "Incoloy MA-956 (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_rtm_alloy_ingot",
+    "NameRu": "РВМ сплав (Горячий слиток)",
+    "NameEn": "RTM alloy (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_zeron_100_ingot",
+    "NameRu": "Зерон-100 (Горячий слиток)",
+    "NameEn": "Zeron-100 (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_samarium_iron_arsenic_oxide_ingot",
+    "NameRu": "Оксид самария железа мышьяка (Горячий слиток)",
+    "NameEn": "Samarium iron arsenic oxide (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_stellite_100_ingot",
+    "NameRu": "Стеллит (Горячий слиток)",
+    "NameEn": "Stellite (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_naquadria_ingot",
+    "NameRu": "Наквадрия (Горячий слиток)",
+    "NameEn": "Naquadria (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_nichrome_ingot",
+    "NameRu": "Нихром (Горячий слиток)",
+    "NameEn": "Nichrome (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_europium_ingot",
+    "NameRu": "Европий (Горячий слиток)",
+    "NameEn": "Europium (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_vanadium_gallium_ingot",
+    "NameRu": "Ванадий-Галлий (Горячий слиток)",
+    "NameEn": "Vanadium gallium (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_tungsten_ingot",
+    "NameRu": "Вольфрам (Горячий слиток)",
+    "NameEn": "Tungsten (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_tungsten_steel_ingot",
+    "NameRu": "Вольфрамовая сталь (Горячий слиток)",
+    "NameEn": "Tungsten steel (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_iridium_ingot",
+    "NameRu": "Иридий (Горячий слиток)",
+    "NameEn": "Iridium (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_osmium_ingot",
+    "NameRu": "Осмий (Горячий слиток)",
+    "NameEn": "Osmium (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_hastelloy_c_276_ingot",
+    "NameRu": "Хастеллой-C276 (Горячий слиток)",
+    "NameEn": "Hastelloy-C276 (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_molybdenum_disilicide_ingot",
+    "NameRu": "Дисилицид молибдена (Горячий слиток)",
+    "NameEn": "molybdenum disilicide (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_magnesium_diboride_ingot",
+    "NameRu": "Диборид магния (Горячий слиток)",
+    "NameEn": "Magnesium diboride (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_tantalum_carbide_ingot",
+    "NameRu": "Карбид тантала (Горячий слиток)",
+    "NameEn": "Tantalum carbide (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_niobium_ingot",
+    "NameRu": "Ниобий (Горячий слиток)",
+    "NameEn": "Niobium (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_kanthal_ingot",
+    "NameRu": "Кантал (Горячий слиток)",
+    "NameEn": "Kanthal (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_vanadium_ingot",
+    "NameRu": "Ванадий (Горячий слиток)",
+    "NameEn": "Vanadium (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_uranium_rhodium_dinaquadide_ingot",
+    "NameRu": "Уран родий динаквада (Горячий слиток)",
+    "NameEn": "Uranium rhodium dinaquadide (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_yttrium_barium_cuprate_ingot",
+    "NameRu": "Оксид иттрия-бария-меди (Горячий слиток)",
+    "NameEn": "Yttrium barium cuprate (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_maraging_steel_300_ingot",
+    "NameRu": "Мартенситностареющая сталь 300 (Горячий слиток)",
+    "NameEn": "Maraging steel 300 (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_enriched_naquadah_trinium_europium_duranide_ingot",
+    "NameRu": "Обогащенный наквада триний европий дюраний (Горячий слиток)",
+    "NameEn": "Enriched naquadah trinium europium duranide (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_palladium_ingot",
+    "NameRu": "Палладий (Горячий слиток)",
+    "NameEn": "Palladium (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_hsse_ingot",
+    "NameRu": "HSS-E (Горячий слиток)",
+    "NameEn": "HSS-E (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_mercury_barium_calcium_cuprate_ingot",
+    "NameRu": "Купрат ртути бария кальция (Горячий слиток)",
+    "NameEn": "Mercury barium calcium cuprate (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_silicon_ingot",
+    "NameRu": "Кремний (Горячий слиток)",
+    "NameEn": "Silicon (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_rocket_alloy_t2_ingot",
+    "NameRu": "ASM 4914 титановый ракетный сплав (Горячий слиток)",
+    "NameEn": "Rocket alloy t2 (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_naquadah_alloy_ingot",
+    "NameRu": "Сплав наквада (Горячий слиток)",
+    "NameEn": "Naquadah alloy (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_naquadah_ingot",
+    "NameRu": "Наквада (Горячий слиток)",
+    "NameEn": "Naquadah (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_indium_tin_barium_titanium_cuprate_ingot",
+    "NameRu": "Купрат индия олова бария титана (Горячий слиток)",
+    "NameEn": "Indium tin barium titanium cuprate (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_ostrum_ingot",
+    "NameRu": "Острум (Горячий слиток)",
+    "NameEn": "Ostrum (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_yttrium_ingot",
+    "NameRu": "Иттрий (Горячий слиток)",
+    "NameEn": "Yttrium (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_rough_silicon_carbide_ingot",
+    "NameRu": "Необработанный карбид кремния (Горячий слиток)",
+    "NameEn": "Rough silicon carbide (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_boron_carbide_ingot",
+    "NameRu": "Карбид бора (Горячий слиток)",
+    "NameEn": "Boron carbide (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_inconel_718_ingot",
+    "NameRu": "Инконель-718 (Горячий слиток)",
+    "NameEn": "Inconel-718 (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_mo_si_b_ingot",
+    "NameRu": "Mo-Si-B (Горячий слиток)",
+    "NameEn": "Mo-Si-B (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_tungsten_bismuth_oxide_composite_ingot",
+    "NameRu": "Композит оксида-вольфрама-висмута (Горячий слиток)",
+    "NameEn": "Tungsten bismuth oxide composite (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_zirconium_ingot",
+    "NameRu": "Цирконий (Горячий слиток)",
+    "NameEn": "Zirconium (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_rene_41_ingot",
+    "NameRu": "Рене-41 (Горячий слиток)",
+    "NameEn": "Rene 41 (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_zirconium_diboride_ingot",
+    "NameRu": "Диборид циркония (Горячий слиток)",
+    "NameEn": "Zirconium diboride (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  },
+
+  {
+    "Id": "hot_ruridit_ingot",
+    "NameRu": "Руридит (Горячий слиток)",
+    "NameEn": "Ruridit (Hot ingot)",
+    "Type": "Горячий слиток",
+    "Tag": "forge:hot_ingots"
+  }
+]

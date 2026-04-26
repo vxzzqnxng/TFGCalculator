@@ -17,6 +17,12 @@ public partial class RecipeTreeNode : ComponentBase
     [Parameter] public EventCallback OnStorageSelected { get; set; }
     [Parameter] public string? OpenDropdownNodeId { get; set; }
     [Parameter] public EventCallback<string> OnRequestOpenDropdown { get; set; }
+    [Parameter] public EventCallback<string> OnAddAlternative { get; set; }
+
+    private async Task AddAlternative()
+    {
+        await OnAddAlternative.InvokeAsync(Node.ItemId);
+    }
 
     private bool _showTierDrop;
     private bool _showCoilDrop;
@@ -25,29 +31,18 @@ public partial class RecipeTreeNode : ComponentBase
     {
         _showTierDrop = false;
         _showCoilDrop = false;
-        if (OpenDropdownNodeId != null)
-            OnRequestOpenDropdown.InvokeAsync("");
+        if (OpenDropdownNodeId != null) OnRequestOpenDropdown.InvokeAsync("");
     }
 
     private void ToggleDrop()
     {
         _showTierDrop = false;
         _showCoilDrop = false;
-        OnRequestOpenDropdown.InvokeAsync(
-            OpenDropdownNodeId == Node.NodeId ? "" : Node.NodeId);
+        OnRequestOpenDropdown.InvokeAsync(OpenDropdownNodeId == Node.NodeId ? "" : Node.NodeId);
     }
 
-    private void ToggleTierDrop()
-    {
-        _showTierDrop = !_showTierDrop;
-        _showCoilDrop = false;
-    }
-
-    private void ToggleCoilDrop()
-    {
-        _showCoilDrop = !_showCoilDrop;
-        _showTierDrop = false;
-    }
+    private void ToggleTierDrop() { _showTierDrop = !_showTierDrop; _showCoilDrop = false; }
+    private void ToggleCoilDrop() { _showCoilDrop = !_showCoilDrop; _showTierDrop = false; }
 
     private async Task SelectTier(int level)
     {
@@ -63,17 +58,32 @@ public partial class RecipeTreeNode : ComponentBase
         await OnTierChangedCallback.InvokeAsync();
     }
 
+    /// <summary>Mark recipe choice, then full rebuild via HandleChanged</summary>
     private async Task DoRecipe(Recipe r)
     {
-        CalcSvc.ApplyRecipe(ModpackId, Node, r);
+        Node.Recipe = r;
+        Node.NeedsRecipeSelection = false;
+        Node.IsStorage = false;
         await OnRecipeSelected.InvokeAsync();
     }
 
     private async Task DoStorage()
     {
-        var recipes = Node.AvailableRecipes.ToList();
-        CalcSvc.SetAsStorage(Node);
-        Node.AvailableRecipes = recipes;
+        Node.IsStorage = true;
+        Node.Recipe = null;
+        Node.NeedsRecipeSelection = false;
         await OnStorageSelected.InvokeAsync();
+    }
+
+    private string GetTieredMachineIcon()
+    {
+        if (Node.Recipe == null) return "";
+        return Node.Recipe.GetTieredMachineIconUrl(Node.CurrentTierLevel);
+    }
+
+    private string GetFallbackMachineIcon()
+    {
+        if (Node.Recipe == null) return "";
+        return Node.Recipe.GetMachineIconUrl();
     }
 }

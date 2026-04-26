@@ -1,4 +1,4 @@
-namespace TFGCalculator.Services;
+﻿namespace TFGCalculator.Services;
 
 using TFGCalculator.Models;
 
@@ -6,7 +6,7 @@ public class ModpackService
 {
     private readonly List<Modpack> _modpacks = new()
     {
-        new Modpack { Id = "tfg-0.12.3", Name = "TerraFirmaGreg-Modern ver0.12.3" },
+        new Modpack { Id = "tfg-modern", Name = "TerraFirmaGreg-Modern ver0.12.3" },
         // Добавьте новые модпаки здесь:
         // new Modpack { Id = "", Name = "" },
     };

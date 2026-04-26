@@ -1,0 +1,177 @@
+﻿[
+  {
+    "Id": "small_iron_gear",
+    "NameRu": "Серый чугун (Маленькая шестерня)",
+    "NameEn": "Iron (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_aluminium_gear",
+    "NameRu": "Алюминий (Маленькая шестерня)",
+    "NameEn": "Aluminium (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_osmiridium_gear",
+    "NameRu": "Осмистый иридий (Маленькая шестерня)",
+    "NameEn": "Osmiridium (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_hsss_gear",
+    "NameRu": "HSS-S (Маленькая шестерня)",
+    "NameEn": "HSS-S (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_titanium_gear",
+    "NameRu": "Титан (Маленькая шестерня)",
+    "NameEn": "Titanium (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_hssg_gear",
+    "NameRu": "HSS-G (Маленькая шестерня)",
+    "NameEn": "HSS-G (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_tungsten_carbide_gear",
+    "NameRu": "Карбид вольфрама (Маленькая шестерня)",
+    "NameEn": "Tungsten carbide (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_stainless_steel_gear",
+    "NameRu": "Нержавеющая сталь (Маленькая шестерня)",
+    "NameEn": "Stainless steel (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_bronze_gear",
+    "NameRu": "Бронза (Маленькая шестерня)",
+    "NameEn": "Bronze (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_black_bronze_gear",
+    "NameRu": "Черная бронза (Маленькая шестерня)",
+    "NameEn": "Black bronze (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_blue_steel_gear",
+    "NameRu": "Синяя сталь (Маленькая шестерня)",
+    "NameEn": "Blue steel (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_tungsten_steel_gear",
+    "NameRu": "Вольфрамовая сталь (Маленькая шестерня)",
+    "NameEn": "Tungsten steel (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_wrought_iron_gear",
+    "NameRu": "Кованное железо (Маленькая шестерня)",
+    "NameEn": "Wrought iron (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_naquadah_alloy_gear",
+    "NameRu": "Сплав наквада (Маленькая шестерня)",
+    "NameEn": "Naquadah alloy (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_steel_gear",
+    "NameRu": "Сталь (Маленькая шестерня)",
+    "NameEn": "Steel (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_tritanium_gear",
+    "NameRu": "Тританий (Маленькая шестерня)",
+    "NameEn": "Tritanium (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_wood_gear",
+    "NameRu": "Дерево (Маленькая шестерня)",
+    "NameEn": "Wood (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_red_alloy_gear",
+    "NameRu": "Красный сплав (Маленькая шестерня)",
+    "NameEn": "Red alloy (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_brass_gear",
+    "NameRu": "Латунь (Маленькая шестерня)",
+    "NameEn": "Brass (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_bismuth_bronze_gear",
+    "NameRu": "Висмутовая бронза (Маленькая шестерня)",
+    "NameEn": "Bismuth bronze (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_rhodium_plated_palladium_gear",
+    "NameRu": "Палладий с родиевым покрытием (Маленькая шестерня)",
+    "NameEn": "Rhodium plated palladium (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  },
+
+  {
+    "Id": "small_darmstadtium_gear",
+    "NameRu": "Дармштадтий (Маленькая шестерня)",
+    "NameEn": "Darmstadtium (Small gear)",
+    "Type": "Маленькая шестерня",
+    "Tag": "forge:small_gears"
+  }
+]

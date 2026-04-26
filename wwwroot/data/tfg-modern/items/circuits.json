@@ -1,0 +1,91 @@
+﻿[
+  {
+    "Id": "ulv_universal_circuit",
+    "NameRu": "Универсальная схема ULV",
+    "NameEn": "Universal circuit ULV",
+    "Type": "Микросхема",
+    "Tag": "gtceu:circuits",
+    "IconPath": "images/tiers/ulv.gif"
+  },
+
+  {
+    "Id": "lv_universal_circuit",
+    "NameRu": "Универсальная схема LV",
+    "NameEn": "Universal circuit LV",
+    "Type": "Микросхема",
+    "Tag": "gtceu:circuits",
+    "IconPath": "images/tiers/lv.gif"
+  },
+
+  {
+    "Id": "mv_universal_circuit",
+    "NameRu": "Универсальная схема MV",
+    "NameEn": "Universal circuit MV",
+    "Type": "Микросхема",
+    "Tag": "gtceu:circuits",
+    "IconPath": "images/tiers/mv.gif"
+  },
+
+  {
+    "Id": "hv_universal_circuit",
+    "NameRu": "Универсальная схема HV",
+    "NameEn": "Universal circuit HV",
+    "Type": "Микросхема",
+    "Tag": "gtceu:circuits",
+    "IconPath": "images/tiers/hv.gif"
+  },
+
+  {
+    "Id": "ev_universal_circuit",
+    "NameRu": "Универсальная схема EV",
+    "NameEn": "Universal circuit EV",
+    "Type": "Микросхема",
+    "Tag": "gtceu:circuits",
+    "IconPath": "images/tiers/ev.gif"
+  },
+
+  {
+    "Id": "iv_universal_circuit",
+    "NameRu": "Универсальная схема IV",
+    "NameEn": "Universal circuit IV",
+    "Type": "Микросхема",
+    "Tag": "gtceu:circuits",
+    "IconPath": "images/tiers/iv.gif"
+  },
+
+  {
+    "Id": "luv_universal_circuit",
+    "NameRu": "Универсальная схема LuV",
+    "NameEn": "Universal circuit LuV",
+    "Type": "Микросхема",
+    "Tag": "gtceu:circuits",
+    "IconPath": "images/tiers/luv.gif"
+  },
+
+  {
+    "Id": "zpm_universal_circuit",
+    "NameRu": "Универсальная схема ZPM",
+    "NameEn": "Universal circuit ZPM",
+    "Type": "Микросхема",
+    "Tag": "gtceu:circuits",
+    "IconPath": "images/tiers/zpm.gif"
+  },
+
+  {
+    "Id": "uv_universal_circuit",
+    "NameRu": "Универсальная схема UV",
+    "NameEn": "Universal circuit UV",
+    "Type": "Микросхема",
+    "Tag": "gtceu:circuits",
+    "IconPath": "images/tiers/uv.gif"
+  },
+
+  {
+    "Id": "uhv_universal_circuit",
+    "NameRu": "Универсальная схема UHV",
+    "NameEn": "Universal circuit UHV",
+    "Type": "Микросхема",
+    "Tag": "gtceu:circuits",
+    "IconPath": "images/tiers/uhv.gif"
+  }
+]

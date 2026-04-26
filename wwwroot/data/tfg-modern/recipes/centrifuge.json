@@ -1,0 +1,98 @@
+﻿[
+  {
+    "Id": "platinum_sludge_to_rare_metals",
+    "MachineId": "centrifuge",
+    "MachineNameRu": "Центрифуга",
+    "MachineNameEn": "Centrifuge",
+    "Inputs": [
+      {
+        "ItemId": "platinum_group_sludge_dust",
+        "Amount": 6
+      },
+      {
+        "ItemId": "aqua_regia_fluid",
+        "Amount": 1.2
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "platinum_raw_dust",
+        "Amount": 3
+      },
+      {
+        "ItemId": "palladium_raw_dust",
+        "Amount": 3
+      },
+      {
+        "ItemId": "inert_metal_mixture_dust",
+        "Amount": 2
+      },
+      {
+        "ItemId": "rarest_metal_mixture_dust",
+        "Amount": 1
+      },
+      {
+        "ItemId": "platinum_sludge_residue_dust",
+        "Amount": 2
+      }
+    ],
+    "EnergyPerTick": 480,
+    "DurationTicks": 500,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 4
+  },
+
+  {
+    "Id": "iridium_chloride_dust",
+    "MachineId": "centrifuge",
+    "MachineNameRu": "Центрифуга",
+    "MachineNameEn": "Centrifuge",
+    "Inputs": [
+      {
+        "ItemId": "iridium_metal_residue_dust",
+        "Amount": 5
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "iridium_chloride_dust",
+        "Amount": 4
+      },
+      {
+        "ItemId": "platinum_sludge_residue_dust",
+        "Amount": 1
+      }
+    ],
+    "EnergyPerTick": 120,
+    "DurationTicks": 200,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 3
+  },
+
+  {
+    "Id": "platinum_sludge_residue_recycling",
+    "MachineId": "centrifuge",
+    "MachineNameRu": "Центрифуга",
+    "MachineNameEn": "Centrifuge",
+    "Inputs": [
+      {
+        "ItemId": "platinum_sludge_residue_dust",
+        "Amount": 5
+      }
+    ],
+    "Outputs": [
+      {
+        "ItemId": "silicon_dioxide_dust",
+        "Amount": 2
+      },
+      {
+        "ItemId": "gold_dust",
+        "Amount": 3
+      }
+    ],
+    "EnergyPerTick": 30,
+    "DurationTicks": 938,
+    "PrimaryEnergyType": 1,
+    "MinTierLevel": 2
+  }
+]
