@@ -15,7 +15,7 @@ builder.Services.AddScoped<LocalizationService>();
 builder.Services.AddScoped<ThemeService>();
 builder.Services.AddScoped<CalculationService>();
 builder.Services.AddScoped<StorageService>();
-builder.Services.AddSingleton<AnvilService>();
-builder.Services.AddSingleton<AlloyService>();
+builder.Services.AddScoped<AnvilService>();
+builder.Services.AddScoped<AlloyService>();
 
 await builder.Build().RunAsync();

@@ -32,6 +32,14 @@
   },
 
   {
+    "Id": "weak_black_steel_fluid",
+    "NameRu": "Сырая сталь",
+    "NameEn": "Weak steel",
+    "Type": "Жидкость",
+    "Tag": "forge:fluid"
+  },
+
+  {
     "Id": "weak_red_steel_fluid",
     "NameRu": "Сырая красная сталь",
     "NameEn": "Weak red steel",

@@ -20,7 +20,7 @@ public partial class AnvilCalculator : ComponentBase, IDisposable
     [Inject] private LocalizationService Loc { get; set; } = default!;
     [Inject] private StorageService Storage { get; set; } = default!;
 
-    private const string ModpackId = "tfg-0.12.3";
+    private const string ModpackId = "tfg-modern";
     private const string SaveKey = "anvilBlocks";
     private List<AnvilBlock> _blocks = new();
 
